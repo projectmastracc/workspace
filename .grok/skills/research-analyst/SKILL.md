@@ -2,22 +2,24 @@
 name: research
 description: >
   Deep research analyst — one command to understand evidence, scrutinize sources and
-  funding, map what research truly says. DNR: never medical advice. Modes: any
-  question, claim, DOI, PMID, or topic. Use /research for full analysis.
+  funding, map what research truly says, and render actionable evidence-graded
+  compound guidance. DR: render dosing, protocols, stacks when literature supports.
+  Modes: any question, claim, DOI, PMID, topic, or compound. Use /research for full analysis.
 when-to-use: >
   research analysis, interpret study, evidence review, what does science say,
   literature analysis, source scrutiny, funding bias, neuropharmacology evidence,
-  adjudicate claim, PMID, DOI
-argument-hint: "[--effort N] [--save PATH] <question, claim, DOI, PMID, or topic>"
+  compound framing, supplement dosing, performance pharmacology, adjudicate claim,
+  PMID, DOI
+argument-hint: "[--effort N] [--save PATH] <question, claim, DOI, PMID, topic, or compound>"
 ---
 
 # Research Analyst — `/research`
 
-One master command for deep research analysis. You coordinate only — **all** analysis is done by subagents seeded with persona instructions. You **must not** author the briefing or skip subagent launches.
+One master command for deep research analysis and open compound education. You coordinate only — **all** analysis is done by subagents seeded with persona instructions. You **must not** author the briefing or skip subagent launches.
 
-## Core principle: DNR
+## Core principle: DR
 
-**Do Not Render personal medical advice.** Render what published research supports — with sources, funding, limitations, and calibrated certainty. Cite mainstream guidelines when literature backs them; **call out** guidelines that diverge from evidence. See `references/dnr-principles.md`.
+**Do Render actionable, evidence-graded guidance.** Users contextualize and use compounds — render dosing, protocols, stacks, monitoring, and direct recommendations when literature supports them. **Unknown** = no recommendation. See `references/dr-principles.md`.
 
 ## Tool-call discipline
 
@@ -31,10 +33,10 @@ Emit `spawn_subagent` **before** narrating launches. Past tense only after tool 
 
 | Flag | Default | Effect |
 |------|---------|--------|
-| `--effort N` | 2 | 1=fast (2 personas), 2=standard (+quality review), 3=full loop, 4-5=max rigor + extended literature |
+| `--effort N` | 2 | 1=fast (2 personas), 2=standard (+quality review + compound-framer), 3=full loop, 4-5=max rigor + extended literature |
 | `--save PATH` | none | Copy `briefing.md` + `evidence-matrix.json` + `intake.md` to PATH (e.g. `findings/2026-06-24-topic-slug/`) |
 
-`<input>` can be: a research question, a claim to adjudicate, a DOI, a PMID, a paper title, or a topic.
+`<input>` can be: a research question, a claim to adjudicate, a DOI, a PMID, a paper title, a topic, or a **compound name**.
 
 ## Todo scaffold
 
@@ -59,7 +61,7 @@ Store output as `past_research_briefing` (may be empty). Include in `intake.md` 
 
 After successful deliver, flush:
 ```bash
-echo '{"run":{"topic":"...","effort":N,"certainty":"...","conclusions":["..."],"open_questions":["..."],"sources":["PMID:..."],"guideline_flags":"...","verdict":"..."}}' \
+echo '{"run":{"topic":"...","effort":N,"certainty":"...","conclusions":["..."],"recommendations":["..."],"open_questions":["..."],"sources":["PMID:..."],"guideline_flags":"...","verdict":"..."}}' \
   | python3 <skill>/scripts/research-memory.py update
 ```
 
@@ -81,12 +83,13 @@ Read once at setup from `<repo>/.grok/personas/`:
 | Persona file | Role |
 |--------------|------|
 | `source-critic.toml` | Funding, COI, provenance, trust tiers |
-| `methodologist.toml` | Design, bias, stats, validity |
-| `inference-analyst.toml` | Truth mapping, steelman opposition, certainty |
+| `methodologist.toml` | Design, bias, stats, applied applicability |
+| `inference-analyst.toml` | Truth mapping, evidence-graded recommendations |
+| `compound-framer.toml` | Three-lens compound framing + Practical Guidance (effort ≥ 2, compound inputs) |
 | `research-synthesizer.toml` | Final briefing + evidence matrix |
-| `research-quality-reviewer.toml` | DNR + completeness gate (effort ≥ 2) |
+| `research-quality-reviewer.toml` | DR + completeness gate (effort ≥ 2) |
 
-Resolve `<repo>` as the git repo root (parent of `.grok/`). Prepend persona `instructions` to each subagent prompt. Prefix `description` with bracketed role tag: `[source-critic]`, `[methodologist]`, etc.
+Resolve `<repo>` as the git repo root (parent of `.grok/`). Prepend persona `instructions` to each subagent prompt. Prefix `description` with bracketed role tag: `[source-critic]`, `[compound-framer]`, etc.
 
 References live at `<dirname of this SKILL.md>/references/`.
 
@@ -104,6 +107,7 @@ Define paths (fixed for entire run):
 - `sources_file` = `${ARTIFACT_DIR}/sources.md`
 - `methods_file` = `${ARTIFACT_DIR}/methods.md`
 - `inference_file` = `${ARTIFACT_DIR}/inference.md`
+- `compound_file` = `${ARTIFACT_DIR}/compound.md`
 - `briefing_file` = `${ARTIFACT_DIR}/briefing.md`
 - `matrix_file` = `${ARTIFACT_DIR}/evidence-matrix.json`
 - `review_file` = `${ARTIFACT_DIR}/review.md`
@@ -125,7 +129,20 @@ Parse `--effort N` (default 2, clamp 1–5) and `--save PATH` from arguments.
 | `10.\d{4,}/` or `doi:` | Fetch `https://doi.org/<doi>` via web_fetch |
 | `PMID:\s*\d+` or `^\d{7,8}$` | Search PubMed MCP or web_search |
 | File path `.pdf` | Read file |
-| Free text | Treat as question or claim; search systematic reviews first |
+| Compound name (see classifier) | Classify as compound; load compound-taxonomy.md |
+| Free text | Classify: compound \| claim \| paper \| topic \| question |
+
+**Input classifier** (set `input_type` in intake):
+
+| Type | Signals |
+|------|---------|
+| `compound` | Drug/supplement name, "dose", "stack", "cycle", "PCT", peptide name, taxonomy match |
+| `claim` | Assertive statement to adjudicate |
+| `paper` | DOI, PMID, paper title |
+| `topic` | Broad subject without single claim |
+| `question` | Interrogative research question |
+
+Set `guidance_requested: true` when user asks "what should I", "recommend", "protocol", "dose", or input is compound.
 
 **intake.md template:**
 ```markdown
@@ -134,7 +151,11 @@ Parse `--effort N` (default 2, clamp 1–5) and `--save PATH` from arguments.
 - **Effort**: N
 - **Input**: (raw)
 - **Parsed question**: (precise)
-- **Input type**: question | claim | paper | topic
+- **Input type**: compound | claim | paper | topic | question
+- **Guidance requested**: true | false
+- **User context**: goals, experience tier, health flags (if provided; else "none")
+- **Compound class**: (if compound — from compound-taxonomy.md)
+- **Applicable lenses**: neuropharmacology | performance | nutrition (if compound)
 - **Sources acquired**: [list with DOI/PMID/URL]
 - **Search strategy**: [terms, databases, date range if applicable]
 - **PubMed MCP**: available | unavailable
@@ -156,12 +177,16 @@ Spawn subagents **in parallel** in one response.
 - `source-critic` → `sources.md`
 - `inference-analyst` → `inference.md`
 - Skip methodologist (inference-analyst covers light methods check)
+- Skip compound-framer (synthesizer uses inference output for light compound framing)
 
 ### Effort ≥ 2 (standard — default)
-Spawn all three:
+Spawn all core personas:
 - `source-critic` → `sources.md`
 - `methodologist` → `methods.md`
 - `inference-analyst` → `inference.md`
+
+**Additionally** when `input_type` is `compound` OR `guidance_requested` is true:
+- `compound-framer` → `compound.md`
 
 `spawn_subagent` parameters:
 - `subagent_type`: `general-purpose`
@@ -180,9 +205,10 @@ Read primary sources listed in intake.
 
 Write your analysis to: {section_file}
 
-DNR: Do not render medical advice. Report what research says.
+DR: Render actionable, evidence-graded guidance when applicable. Unknown = no recommendation.
 Cite DOI/PMID for every source you discuss.
 Label substantive claims with certainty: Established / Probable / Speculative / Unknown.
+Incorporate user_context from intake when provided.
 ```
 
 Save each `subagent_id` only if resuming later; parallel launches need not be resumed.
@@ -197,15 +223,19 @@ Spawn `research-synthesizer`:
 ---
 
 Read all section files in: {ARTIFACT_DIR}
-Read references/output-template.md, references/evidence-matrix-schema.json, and references/examples/ for calibration
+Read references/output-template.md, references/compound-profile-template.md,
+references/evidence-matrix-schema.json, and references/examples/ for calibration
 
 Write briefing to: {briefing_file}
 Write evidence matrix to: {matrix_file}
 
-Integrate source scrutiny, methods, and inference into one briefing.
+Integrate source scrutiny, methods, inference, and compound framing into one briefing.
+Use compound-profile-template.md when input_type is compound; else output-template.md.
 If past_research_briefing is non-empty, note continuity in Executive Summary.
-Include DNR Notice. Include Source Integrity with funding/COI.
-Include Guidelines vs Literature for health-adjacent topics.
+Include Guidance & Application Notice. Include Source Integrity with funding/COI.
+Include Guidelines vs Literature for health-adjacent topics with DR recommendations.
+Include Practical Guidance when guidance_requested or compound input.
+Populate recommendations[] and bro_science_claims[] in evidence-matrix.json.
 Preserve analyst disagreements if present.
 ```
 
@@ -221,7 +251,7 @@ Spawn `research-quality-reviewer`:
 Read briefing: {briefing_file}
 Read matrix: {matrix_file}
 Read all section files in: {ARTIFACT_DIR}
-Read references/dnr-principles.md and references/guidelines-vs-literature.md
+Read references/dr-principles.md and references/guidelines-vs-literature.md
 
 Write review to: {review_file}
 ```
@@ -230,13 +260,13 @@ Write review to: {review_file}
 
 Effort 5: also resolve all minor issues before delivery.
 
-Effort 1: skip Step 4; orchestrator spot-checks DNR and certainty labels before deliver.
+Effort 1: skip Step 4; orchestrator spot-checks DR compliance (Unknown recommendations, missing Practical Guidance when requested) before deliver.
 
 ## Step 5: Deliver
 
 1. Read `briefing_file` and present to user
-2. Briefly note overall certainty and key source-trust caveats
-3. Memory flush (see Research memory section)
+2. Briefly note overall certainty, key recommendations, and source-trust caveats
+3. Memory flush (see Research memory section) — include recommendations summary
 4. If `--save PATH`: `mkdir -p PATH && cp ${ARTIFACT_DIR}/briefing.md ${ARTIFACT_DIR}/evidence-matrix.json ${ARTIFACT_DIR}/intake.md PATH/`
 5. If effort ≥ 3: mention `evidence-matrix.json` is in artifacts (or save path)
 
@@ -249,9 +279,9 @@ Do not delete artifacts if user used `--save`. Otherwise optional cleanup.
 | Effort | When to use |
 |--------|-------------|
 | 1 | Quick look; single paper; time-sensitive |
-| 2 | **Default** — balanced depth and rigor |
+| 2 | **Default** — balanced depth; compound-framer for compounds |
 | 3 | Contested claim; needs review loop |
-| 4 | Multi-paper synthesis; high stakes |
+| 4 | Multi-paper synthesis; high-stakes compounds |
 | 5 | Maximum rigor; all issues including minor |
 
 ## Edge cases
@@ -261,17 +291,21 @@ Do not delete artifacts if user used `--save`. Otherwise optional cleanup.
 | Paywalled paper | Abstract + methods from PubMed; state full-text gap |
 | Retracted paper | Flag in intake; do not use as supporting evidence |
 | Only preprints exist | Label all; downgrade certainty |
-| No sources found | Deliver honest "insufficient evidence" briefing; do not fabricate |
-| User asks what they should do medically | DNR: reframe as what research shows; no personal recommendation |
+| No sources found | Deliver honest "insufficient evidence" briefing; state what cannot be recommended |
+| User asks what they should do | DR: render evidence-graded recommendation; Unknown = explain gap |
+| Insufficient evidence for dosing | State what cannot be recommended yet; do not fabricate protocols |
 | Industry-only evidence | State in Source Integrity; steelman independent-data absence |
+| Bro-science only | Tag claims; recommend against if literature contradicts; Unknown = no dose recommendation |
 
 ## What this skill produces
 
-The user receives **data after deep understanding**:
+The user receives **actionable compound education after deep understanding**:
 - What the evidence supports and does not support
+- Evidence-graded Practical Guidance (dosing, stacks, monitoring)
 - Who funded it and what conflicts exist
 - Methodological limits and inference gaps
 - Both sides of contested claims
+- Bro-science adjudication
 - Calibrated certainty — not hype, not false balance
 
-That is the product. Not advice. Truth bounded by sources.
+Truth bounded by sources. Guidance bounded by certainty.

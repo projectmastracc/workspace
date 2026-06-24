@@ -1,6 +1,6 @@
 # Research Analyst
 
-Deep research analysis for Grok — one command (`/research`), multi-perspective rigor, DNR (no personal medical advice), guidelines audited against literature.
+Deep research analysis and open compound education for Grok — one command (`/research`), multi-perspective rigor, **DR** (actionable evidence-graded guidance), guidelines audited against literature.
 
 **Plan:** [`.grok/plans/research-analyst.md`](.grok/plans/research-analyst.md)
 
@@ -10,17 +10,21 @@ Deep research analysis for Grok — one command (`/research`), multi-perspective
 2. Run analysis:
 
 ```
-/research What does human evidence say about ketamine's mechanism in depression?
+/research creatine
 ```
 
 ```
-/research --effort 3 --save findings/ketamine-mechanism SSRIs and adolescent suicide risk
+/research --effort 4 --save findings/trenbolone trenbolone
+```
+
+```
+/research --effort 3 --save findings/ketamine-mechanism What does human evidence say about ketamine's mechanism in depression?
 ```
 
 ## Command
 
 ```
-/research [--effort N] [--save PATH] <question | claim | DOI | PMID | topic>
+/research [--effort N] [--save PATH] <question | claim | DOI | PMID | topic | compound>
 ```
 
 | Flag | Default | Purpose |
@@ -33,13 +37,14 @@ Deep research analysis for Grok — one command (`/research`), multi-perspective
 Parallel specialist analysis → integrated briefing + `evidence-matrix.json`:
 
 - Source critic (funding, COI, trust)
-- Methodologist (design, bias, stats)
-- Inference analyst (truth mapping, guidelines vs literature)
+- Methodologist (design, bias, stats, applied applicability)
+- Inference analyst (truth mapping, evidence-graded recommendations)
+- Compound framer (effort ≥ 2, compound inputs — three-lens framing + Practical Guidance)
 - Quality reviewer (effort ≥ 2)
 
-## DNR
+## DR — Do Render
 
-Reports what research says — not personal medical advice. Guidelines credited when literature-backed; mismatches called out.
+Actionable, evidence-graded guidance across neuropharmacology, performance pharmacology, and nutrition/supplements. Guidelines credited when literature-backed; mismatches called out with recommendations against bunk guidance. **Unknown** = no recommendation.
 
 ## Project layout
 
@@ -47,11 +52,15 @@ Reports what research says — not personal medical advice. Guidelines credited 
 .grok/
   agents/research-analyst.md
   config.toml                    # PubMed MCP
-  personas/                      # 5 specialists
+  personas/                      # 6 specialists (+ compound-framer)
   skills/research-analyst/
     SKILL.md
     scripts/research-memory.py   # cross-session threads
     references/
+      dr-principles.md
+      compound-lenses.md
+      compound-profile-template.md
+      ...
   plans/research-analyst.md
 findings/                        # saved reports (gitignored)
 AGENTS.md

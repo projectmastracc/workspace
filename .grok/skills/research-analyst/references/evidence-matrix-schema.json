@@ -5,6 +5,22 @@
   "properties": {
     "analysis_id": { "type": "string" },
     "question": { "type": "string" },
+    "input_type": {
+      "enum": ["compound", "claim", "paper", "topic", "question"]
+    },
+    "compound": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "class": { "type": "string" },
+        "lenses": {
+          "type": "array",
+          "items": {
+            "enum": ["neuropharmacology", "performance", "nutrition"]
+          }
+        }
+      }
+    },
     "overall_certainty": {
       "enum": ["Established", "Probable", "Speculative", "Unknown"]
     },
@@ -34,6 +50,42 @@
         }
       }
     },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "statement", "certainty"],
+        "properties": {
+          "id": { "type": "string" },
+          "statement": { "type": "string" },
+          "certainty": {
+            "enum": ["Established", "Probable", "Speculative", "Unknown"]
+          },
+          "category": {
+            "enum": ["dosing", "timing", "stack", "monitoring", "harm_reduction", "contraindication", "general"]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "inference_note": { "type": "string" }
+        }
+      }
+    },
+    "bro_science_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "verdict"],
+        "properties": {
+          "claim": { "type": "string" },
+          "verdict": {
+            "enum": ["supported", "contradicted", "unknown", "speculative"]
+          },
+          "literature_note": { "type": "string" }
+        }
+      }
+    },
     "sources": {
       "type": "array",
       "items": {
@@ -53,8 +105,7 @@
           }
         }
       }
-    },
-    "dnr_compliant": { "type": "boolean" }
+    }
   },
   "definitions": {
     "evidence": {
