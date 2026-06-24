@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["analysis_id", "question", "claims", "sources"],
+  "properties": {
+    "analysis_id": { "type": "string" },
+    "question": { "type": "string" },
+    "overall_certainty": {
+      "enum": ["Established", "Probable", "Speculative", "Unknown"]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "statement", "certainty", "supporting", "contradicting"],
+        "properties": {
+          "id": { "type": "string" },
+          "statement": { "type": "string" },
+          "certainty": {
+            "enum": ["Established", "Probable", "Speculative", "Unknown"]
+          },
+          "grade": {
+            "enum": ["High", "Moderate", "Low", "Very Low"]
+          },
+          "supporting": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/evidence" }
+          },
+          "contradicting": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/evidence" }
+          },
+          "funding_notes": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "citation", "trust_tier"],
+        "properties": {
+          "id": { "type": "string" },
+          "citation": { "type": "string" },
+          "doi": { "type": "string" },
+          "pmid": { "type": "string" },
+          "design": { "type": "string" },
+          "funding": { "type": "string" },
+          "coi": { "type": "string" },
+          "peer_reviewed": { "type": "boolean" },
+          "trust_tier": {
+            "enum": ["High", "Moderate", "Low", "Unreliable"]
+          }
+        }
+      }
+    },
+    "dnr_compliant": { "type": "boolean" }
+  },
+  "definitions": {
+    "evidence": {
+      "type": "object",
+      "required": ["source_id", "strength", "notes"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "strength": {
+          "enum": ["strong", "moderate", "weak", "indirect"]
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

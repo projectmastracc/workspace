@@ -1,0 +1,5 @@
+[mcp_servers.pubmed]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-pubmed"]
+enabled = true
+startup_timeout_sec = 30
