@@ -1,128 +1,35 @@
-# Style Guide — Research Briefings
+# Style Guide
 
-Writing standards for wiki-grade monographs and interaction analyses aimed at **nootropic users**, **gym/performance users**, and anyone researching **supplementation**.
+## One document
 
----
+The user receives one briefing. Dense sections and tables. No multi-file dump.
 
-## Voice and tone
+## Voice
 
-- Precise, calm, educational.
-- Avoid academic stiffness and forum casualness.
-- Prefer active voice and concrete numbers (“3–5 g/day”, “g ≈ 0.4”, “n = 120”).
-- Short paragraphs: 3–5 sentences.
-- Do not use “may / might / could” to disguise an **Unknown**.
+Precise, mechanism-first, practical. Gym/nootropic research tool. Active voice. Concrete numbers when available.
 
----
+## Structure habits
 
-## Executive Card
+- Executive Card first.  
+- Pathway tables early.  
+- For sides: mechanism prose **then** counter table.  
+- Protection queries: per-side sections are the meat; stack assembly after.  
+- Certainty badges inline: **Established** / **Probable** / **Speculative** / **Unknown**.  
 
-Every briefing opens with a compact Executive Card (table or tight definition list):
+## Fail vs pass
 
-- Compound/class **or** interaction hypothesis  
-- Overall certainty  
-- One-sentence verdict  
-- Key practical note  
-- Top caveats / risks  
+| Fail | Pass |
+|------|------|
+| “Tren ruins sleep. Avoid. Probable harm.” | Full sleep cascade + counters per node (thermal, AR arousal, GABA, hypothesized wake-drive, etc.) |
+| “Take melatonin and GABA” | Why each node; what hits orexin vs temp vs GABA_A; evidence tier |
+| 8 files of persona notes as answer | One briefing.md |
+| Disclaimer longer than protocol | One short boundary at end or card |
 
-The card must be usable alone for a quick decision about whether to read further.
+## Hypothesized pathways
 
----
+State them clearly: “**Hypothesized (Speculative):** …”  
+Still propose counters to that node if the hypothesis is live in literature or serious forum mechanistic talk.
 
-## Certainty labels
+## Length
 
-Use inline badges consistently on every substantive claim and every practical recommendation:
-
-**Established** · **Probable** · **Speculative** · **Unknown**
-
-| Label | Practical rule |
-|-------|----------------|
-| Established | Full practical guidance with monitoring |
-| Probable | Guidance with limitations noted |
-| Speculative | Cautious notes only; experimental/inferential framing |
-| Unknown | **No firm recommendation** — state the gap |
-
----
-
-## Subjective / anecdotal writing
-
-When discussing forum or user-report patterns:
-
-1. Describe the pattern (what, consistency, context).  
-2. State what controlled literature says (including silence).  
-3. Give an explicit **weighing sentence**.  
-4. Assign a **concordance rating**: strong | partial | weak | contradictory | literature-silent.
-
-**Required posture when literature is silent and anecdotes are consistent:**
-
-> Controlled literature does not confirm X. Consistent multi-source reports describe Y (**Speculative**; concordance: literature-silent). Note with caution; do not treat as proven.
-
-**Forbidden:** adamant claims that an effect “does not exist” solely because papers are absent.
-
-Anecdote alone never produces Established or Probable guidance.
-
----
-
-## Interaction / pathway writing
-
-- Map mechanisms for both compounds before judging the stack.  
-- Use tables for interaction points.  
-- Separate literature-supported, mechanistically plausible, and purely anecdotal layers.  
-- Literature silence is not disproof of a plausible protective effect — label Speculative/Unknown and analyze pathways.
-
-## Mechanism-first writing (all monographs and interactions)
-
-**Default structure for adverse effects and protectives:**
-
-1. **What happens** (phenotype)  
-2. **Why** (molecular action → downstream cascade)  
-3. **What could act on that node** (tools matched to pathway)  
-4. **Certainty** on each link  
-
-**Fail:** “Tren ruins sleep — take GABA and melatonin.”  
-**Pass:** “Tren is linked to night sweats and fragmented sleep (**Probable** pattern). Plausible drivers include raised metabolic rate/thermogenesis, CNS arousal under high AR load, non-aromatizing low-E2 context, and possible GABAergic/progestogenic modulation (**Speculative**–**Probable** by node). Tools: dose cut and cooling hit load/thermogenesis (**Probable** logic); OTC GABAergics hit a hypothesized sleep node only (**Speculative**).”
-
-Reject practical sections that list agents without naming the pathway node they target.
-
----
-
-## Practical Guidance section
-
-- Lead with what *can* be recommended, then what cannot.  
-- Tables for dosing when multiple parameters exist.  
-- Prefer **phenotype | mechanism node | tool | certainty** tables.  
-- Harm reduction and monitoring for non-trivial risk classes (AAS, SARMs, peptides, high-dose neuro).  
-- Stacks: beneficial and risky both listed — each mapped to a pathway.  
-- Never invent protocols to fill empty evidence.
-
----
-
-## Headings and structure
-
-- Clean ATX headings matching the active template (`compound-profile-template.md` or `interaction-profile-template.md`).  
-- Prefer tables for comparisons, dosing, concordance, and pathway points.  
-- FAQ / common claims as short adjudicated rows with certainty labels.
-
----
-
-## What to avoid
-
-| Avoid | Prefer |
-|-------|--------|
-| “This may help some people” (vague) | Effect size + certainty + protocol when evidence exists |
-| “Talk to your doctor” as the only content | Evidence-graded options + monitoring + when to seek care |
-| Dismissing all forum consensus | Report + weigh + Speculative ceiling |
-| Literature-purist refusal on stacks | Pathway analysis + labeled uncertainty |
-| Flat “take X for Y” without mechanism | Phenotype → cascade → matched tool |
-| Wall-of-text paragraphs | Short paragraphs + tables |
-
----
-
-## Calibration
-
-Match tone and structure of golden examples under `references/examples/`, especially:
-
-- `example-compound-creatine.md` — high-evidence performance/nutrition  
-- `example-nootropic-mixed-evidence.md` — mixed nootropic + anecdotes  
-- `example-literature-silent-anecdote.md` — literature-silent forum pattern  
-- `example-interaction-protective.md` — multi-compound pathway analysis  
-- `example-performance-aas-harm-reduction.md` — harm-reduction depth  
+Long is fine if dense. Cut repeated disclaimers and empty “more research needed” without naming what study would matter.

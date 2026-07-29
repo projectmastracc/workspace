@@ -1,132 +1,65 @@
 # Research Analyst
 
-Deep research analysis and open compound education for Grok — one command (`/research`), multi-perspective rigor, and **evidence-graded practical guidance**.
+Maximum-depth compound and **protection-stack** research for Grok — one command, **one document**.
 
-Built as a research tool for:
+Built for:
 
-- **Nootropic users** (racetams, botanicals, peptides, neuromodulators, stacks)
-- **Gym / performance users** (ergogenics, AAS/SARMs, PCT, protectives, monitoring)
-- **Anyone interested in supplementation** (vitamins, minerals, amino acids, adaptogens, and beyond)
+- **Nootropic users**
+- **Gym / performance users** (including AAS/SARM/peptide contexts)
+- **Anyone researching supplementation**
 
-**Plan:** [`.grok/plans/research-analyst.md`](.grok/plans/research-analyst.md)  
-**Depth roadmap (Phase 5):** [`docs/improvement-plan-sciwiki-depth.md`](docs/improvement-plan-sciwiki-depth.md)
+## What you get
+
+A single comprehensive `briefing.md` that includes:
+
+1. **Full pathway map** — known **and** hypothesized  
+2. **Clinical evidence** — evaluated across study tiers  
+3. **Forum / anecdotal evidence** — patterns weighed against clinical  
+4. **Sides with real mechanisms** — not just a list  
+5. **Counters per pathway node** — e.g. if a compound wrecks sleep via thermal + arousal + inhibitory-tone (+ hypothesized wake-drive) pathways, each node gets specific countermeasures  
+6. **Assembled stack** when you ask for protection / mitigation  
+
+No effort levels. Always full depth. Intermediate persona files stay internal — you see one document.
 
 ## Quick start
 
-1. Select **research-analyst** agent: `/config-agents`
-2. Run analysis:
-
 ```
-/research creatine
+/research trenbolone
 ```
 
 ```
-/research --effort 3 --wiki bacopa monnieri
+/research full neuroprotective stack against trenbolone sides — every pathway and counter
 ```
 
 ```
-/research --effort 3 --save findings/cerebrolysin-skin "cerebrolysin skin quality and anti-ageing appearance claims"
-```
-
-```
-/research --effort 3 "evaluation of cerebrolysin as a preventative measure against the negative effects of trenbolone"
-```
-
-```
-/research --effort 4 --save findings/telmisartan-testosterone does telmisartan meaningfully mitigate blood-pressure and lipid effects of high-dose testosterone?
+/research --save findings/bacopa bacopa monnieri
 ```
 
 ## Command
 
 ```
-/research [--effort N] [--wiki|--monograph] [--save PATH] <question | claim | DOI | PMID | topic | compound | stack/interaction>
+/research [--save PATH] <compound | protection stack | claim | pathway question>
 ```
 
-| Flag | Default | Purpose |
-|------|---------|---------|
-| `--effort` | 2 | Depth 1–5 (1=fast, 2=standard, 3=full monograph/interaction, 4–5=max rigor) |
-| `--wiki` / `--monograph` | off | Force full structure + accessible prose; floors effort to 3 |
-| `--save` | — | Save briefing + matrix + intake (e.g. `findings/<date>-<slug>/`) |
+## Design principles
 
-## What you get
+| Principle | Meaning |
+|-----------|---------|
+| Mechanism first | Phenotype → pathways → counters |
+| Both evidence worlds | Clinical + forums |
+| Stack engineering | Per-side counters, not “avoid only” |
+| One file | `briefing.md` is the product |
+| Isolation | Each findings package is standalone |
 
-Parallel specialist analysis → integrated briefing + `evidence-matrix.json`:
-
-- **Executive Card** — verdict, certainty, practical note, caveats at a glance
-- Source critic (funding, COI, trust — including forum source labeling)
-- Methodologist (design, bias, stats, applied applicability)
-- Inference analyst (truth mapping, subjective concordance, pathway overlap)
-- Compound framer (effort ≥ 2 — full monograph or multi-compound pathway analysis)
-- Quality reviewer (effort ≥ 2 — structure, certainty, anecdotal weighing, interaction depth)
-
-### Analysis modes
-
-| Mode | When | Output shape |
-|------|------|--------------|
-| **Compound monograph** | Single compound / dosing / profile | Up to 15 Sci-Wiki-style sections including Subjective Profile |
-| **Interaction / pathway** | Stack, mitigate, protect, A vs B effects | Dual pathway maps, interaction points, weighing, monitoring |
-| **General research** | Claim, paper, topic, question | Executive Card + structured research briefing |
-
-### Evidence rules (short)
-
-- Certainty labels on every substantive claim and recommendation: **Established** / **Probable** / **Speculative** / **Unknown**
-- **Unknown = no recommendation**
-- Consistent multi-source anecdotal patterns are **reported and weighed** (Speculative ceiling only)
-- Literature silence ≠ “effect does not exist”
-- Interaction queries get pathway analysis, not blanket refusal
-
-## Project layout
+## Layout
 
 ```
-.grok/
-  agents/research-analyst.md
-  config.toml                    # PubMed MCP
-  personas/                      # specialists
-  skills/research-analyst/
-    SKILL.md
-    scripts/research-memory.py
-    references/                  # templates, principles, golden examples
-  plans/research-analyst.md
-docs/                            # improvement plan and design notes
-knowledge/                       # persistent compound/interaction profiles
-  compounds/
-  interactions/
-findings/                        # saved reports (often gitignored)
+.grok/skills/research-analyst/   # skill + templates
+.grok/personas/                  # internal specialists
+findings/<slug>/briefing.md      # saved outputs (one doc)
+knowledge/                       # optional same-slug cache
 AGENTS.md
-LICENSE
 ```
-
-## Knowledge layer
-
-High-effort runs can write or update:
-
-```
-knowledge/compounds/<slug>/profile.md
-knowledge/compounds/<slug>/matrix.json
-knowledge/compounds/<slug>/meta.json
-```
-
-Subsequent runs load prior profiles for differential updates. See [`knowledge/README.md`](knowledge/README.md).
-
-## Cross-session memory
-
-Prior `/research` runs on the same topic are loaded automatically via `research-memory.py` (`~/.grok/research-memory/`).
-
-## PubMed MCP
-
-Configured in `.grok/config.toml`. Falls back to web search if unavailable.
-
-## Golden examples
-
-Calibration targets under `.grok/skills/research-analyst/references/examples/`:
-
-- Creatine — high-evidence performance/nutrition
-- Bacopa-style mixed nootropic — anecdotal weighing
-- Literature-silent + strong anecdote (cerebrolysin skin-style)
-- Interaction/protective (cerebrolysin vs trenbolone-style)
-- AAS harm-reduction depth
-
-Structural evaluation: `references/evaluation-checklist.md`.
 
 ## License
 

@@ -1,427 +1,217 @@
 ---
 name: research
 description: >
-  Deep research analyst for nootropics, performance pharmacology, and any
-  supplementation — multi-perspective evidence review, source/funding scrutiny,
-  anecdotal weighing, and evidence-graded practical guidance (dosing, stacks,
-  protectives, monitoring). Modes: compound monographs, multi-compound pathway
-  analyses, claims, papers, topics. Use /research for full analysis.
+  Full-depth compound and stack research for nootropics, performance pharmacology,
+  and any supplementation. Maps every known and hypothesized pathway, evaluates all
+  clinical plus forum evidence, and builds mechanism-matched protection/counter stacks
+  for reported sides. One comprehensive document per query. Use /research.
 when-to-use: >
-  research analysis, interpret study, evidence review, what does science say,
-  literature analysis, source scrutiny, funding bias, neuropharmacology evidence,
-  compound framing, supplement dosing, nootropic, performance pharmacology,
-  stack, mitigate, protective, PCT, peptide, AAS, SARM, adjudicate claim, PMID, DOI
-argument-hint: "[--effort N] [--wiki|--monograph] [--save PATH] <question, claim, DOI, PMID, topic, compound, or stack/interaction>"
+  research analysis, compound profile, pathway map, protection stack, mitigate sides,
+  neuroprotection, nootropic, AAS, SARM, peptide, supplement protocol, forum vs literature,
+  what counters, mechanism of side effect, stack design
+argument-hint: "[--save PATH] <compound | protection stack question | claim | pathway question>"
 ---
 
 # Research Analyst — `/research`
 
-One master command for deep research analysis and open compound education aimed at **nootropic users**, **gym/performance users**, and anyone researching **supplementation of any kind**.
+**Product:** One maximum-depth research document for nootropic and gym/performance users.
 
-You coordinate only — **all** analysis is done by subagents seeded with persona instructions. You **must not** author the briefing or skip subagent launches.
+**Not:** Effort tiers. Medical-refusal essays. A dozen artifact files as the user deliverable. “Don’t do it / Unknown = no protocol.”
 
-## Core principle: evidence-graded practical guidance
+## What every run must produce
 
-When evidence supports practical use, **render** dosing, protocols, stacks, monitoring, and direct recommendations with certainty labels. When it does not, say so clearly.
+A **single** markdown document (`briefing.md`) that is usable alone.
 
-- **Unknown = no recommendation**
-- Consistent multi-source anecdotal/forum patterns are **first-class inputs**: report and weigh them; they support **Speculative** notes only — never Established/Probable alone
-- Literature silence ≠ “effect does not exist”
-- Multi-compound / protective queries get **pathway-level analysis**, not literature-refusal summaries
-- **Mechanism-first:** for major effects and sides, chain molecular action → downstream physiology → phenotype; match protectives/stacks to **named pathway nodes**, not generic “support” lists
-- **Protocol construction:** when user asks for full protocol / full neuroprotection / complete cover — **build** the multi-pathway protocol with certainty on every line; do not lead with medical-style “no recommendation”
+| Query type | Document job |
+|------------|----------------|
+| **Compound profile** | Full map of chemistry, PK, **every known + hypothesized pathway**, clinical evidence (all tiers), forum/anecdotal evidence, effect/side catalog with mechanism depth, interactions, practical use, monitoring, sources |
+| **Protection / counter stack** | For the problem agent: full pathway inventory. For **each commonly reported side**: mechanism → pathways → **what compounds/actions counteract that node** (why, evidence clinical + anecdotal, practical notes). Assemble into a coherent stack. |
+| **Claim / paper / topic** | Same depth of evidence + pathway reasoning; still **one** document |
 
-See `references/dr-principles.md`, `references/style-guide.md`, and `references/evidence-grading.md`.
+**Always max depth.** No effort 1–5. No “fast mode.” If something is thin in the literature, say so and still complete the pathway and counter analysis from mechanism + anecdote.
 
-## Run isolation (hard rules — non-negotiable)
+## Core rules
 
-Each `/research` command produces a **standalone** findings package. Other packages are **not** sources.
+### 1. Mechanism first, always
 
-1. **Never read other `findings/*` folders** as evidence, ceilings, continuity, or analysis input. Do not `ls`, `read_file`, cite, paraphrase, or “load mitigator ceilings from” prior packages (e.g. `findings/NAC`, `findings/cerebrolysin`).
-2. **Co-mentioned compounds are researched in this run.** If the query involves stacks, protectives, or B/C agents (e.g. cerebrolysin for trenbolone neuroprotection, NAC, telmisartan), acquire literature and forum sources **for those agents in this intake**. Do not import prior monographs.
-3. **Memory is same-topic only.** After `research-memory.py read`, use the thread **only if it matches this exact topic/question**. Cross-topic memory (e.g. NAC thread while researching trenbolone) → treat as **none**. Never use other compounds’ memory as certainty ceilings.
-4. **Knowledge load is exact-slug only.** Load `knowledge/compounds/<slug>/` or `knowledge/interactions/<a>_vs_<b>/` only when the slug is **this run’s primary subject** (or exact interaction pair being re-run). Do **not** load sibling compounds’ knowledge when analyzing a different primary (e.g. do not load cerebrolysin knowledge for a trenbolone-primary interaction run unless the user is re-running that exact interaction slug).
-5. **Forbidden briefing language:** “prior workspace findings,” “prior monographs,” “ceilings from findings/X,” “skim findings/…,” “continuity with [unrelated package].”
-6. **Anti-pattern:** Opening other findings to fill mitigator sections. **Correct:** Search PubMed/web/forums for each agent and the combination in *this* run; adjudicate from those sources.
-7. Golden examples under `references/examples/` are **calibration only**, not evidence and not prior findings packages.
+For every major effect or side effect:
 
-Quality reviewer **auto-flags critical/major** for cross-package findings use (see persona).
+1. What the user experiences (phenotype)  
+2. Molecular / receptor actions (known)  
+3. Downstream cascades (known + **hypothesized** — label which)  
+4. What can act on those nodes (counters, co-agonists, lifestyle)  
+5. Clinical evidence for that chain  
+6. Forum/anecdotal evidence for that chain  
 
-## Tool-call discipline
+**Fail:** “Tren ruins sleep — avoid / take GABA.”  
+**Pass:** “Tren sleep break: thermal (PR/thermogenesis) + arousal (AR) + inhibitory tone (GABA_A models) + [hypothesized orexin/wake drive if supported] → then for each node, named counters with mechanism and evidence.”
 
-Emit `spawn_subagent` **before** narrating launches. Past tense only after tool results. Never end a turn claiming subagents ran without paired tool calls.
+### 2. Known + hypothesized pathways
+
+- Map **all material pathways** the compound hits or is hypothesized to hit.  
+- Tag each link: **Established** / **Probable** / **Speculative** (hypothesized).  
+- Do not drop a pathway because human RCTs are missing — include it as Speculative and hunt counters.
+
+### 3. Clinical + anecdotal, both full
+
+- Clinical: systematic reviews, RCTs, observational, case series, preclinical (labeled).  
+- Anecdotal: multi-source forum patterns (Reddit, Meso, Longecity, steroid forums, etc.) — consistency, dose context, what users stack against sides.  
+- Weigh both. Silence in literature ≠ “side does not exist.” Anecdote alone ≠ Established efficacy of a counter.
+
+### 4. Protection stacks = per-side engineering
+
+When the user asks for neuroprotection, side mitigation, cover stacks, or “what counters X”:
+
+1. List **all commonly reported sides** for the problem compound.  
+2. For **each side**, full mechanism + pathway breakdown.  
+3. For **each pathway node**, candidates that counteract or buffer it (drugs, supplements, peptides, behavioral) — **why** they hit that node.  
+4. Build an integrated stack (what to combine, conflicts, timing).  
+5. Certainty per line. Joint “fully protected” can stay Speculative as a guarantee — **still build the stack.**  
+
+**Forbidden lead:** “No full protocol / don’t use the compound / Unknown = no recommendation.”  
+**Required lead:** pathway map + per-side counters + assembled protocol.
+
+### 5. One document deliverable
+
+- User-facing output: **only** `briefing.md` (present that; optional `--save` copies that one file, or folder with just briefing + optional matrix).  
+- Do **not** dump sources.md, methods.md, review.md, compound.md, inference.md on the user.  
+- Internally you may still use personas/artifacts under `/tmp` — they are **not** the product.
+
+### 6. Package isolation
+
+- Never import other `findings/*` packages as evidence.  
+- Research co-mentioned compounds in **this** run.  
+- Same-topic memory only; never cross-compound ceilings.
+
+### 7. Tone
+
+Research tool for people who use compounds. Precise, dense, practical. Certainty labels on claims. Short disclaimer once — not a wall of “talk to your doctor” instead of answers.
+
+## Certainty labels
+
+**Established** · **Probable** · **Speculative** · **Unknown**
+
+| Label | Use |
+|-------|-----|
+| Established | Replicated high-quality human data or clear molecular fact |
+| Probable | Consistent evidence with limitations |
+| Speculative | Mechanism hypothesis, animal-only, thin human, strong forum pattern without trials |
+| Unknown | Genuinely no handle — still note the gap; for protocols, leave node open or research-only |
+
+In protection stacks, **Speculative counters are allowed and expected** when mechanism supports them — mark them Speculative, do not omit them.
 
 ## Invocation
 
 ```
-/research [--effort N] [--wiki|--monograph] [--save PATH] <input>
+/research [--save PATH] <input>
 ```
 
-| Flag | Default | Effect |
-|------|---------|--------|
-| `--effort N` | 2 | Depth 1–5 (see Effort guide). Soft-upgrade rules below. |
-| `--wiki` / `--monograph` | off | Force full monograph/interaction structure + accessible prose; **floor effort to 3** if lower |
-| `--save PATH` | none | Copy briefing + matrix + intake to PATH (e.g. `findings/2026-06-24-topic-slug/`). Also updates `knowledge/` when effort ≥ 3 (see Knowledge layer). |
+| Flag | Effect |
+|------|--------|
+| `--save PATH` | Write the single `briefing.md` (and optional `evidence-matrix.json` if useful) to PATH |
 
-`<input>` can be: research question, claim, DOI, PMID, paper title, topic, **compound**, or **multi-compound interaction** (stack / mitigate / protect / pathway).
+No `--effort`. Depth is always maximum.
 
-## Todo scaffold
+## Orchestration (you coordinate; analysis via subagents)
 
-Open with `todo_write` (merge: false):
-
-- `setup` — ID, paths, persona load, intake, knowledge load
-- `analyze` — parallel persona subagents
-- `synthesize` — research-synthesizer
-- `review-round-N` — quality reviewer (effort ≥ 2)
-- `revise-round-N` — synthesizer revision (if issues)
-- `memory-read` — load prior research threads
-- `knowledge-write` — update knowledge store when applicable
-- `deliver` — present briefing, memory flush, optional --save
-
-## Research memory
-
-Script: `<dirname of this SKILL.md>/scripts/research-memory.py`
-
-At setup (after `mkdir`):
-
-```bash
-python3 <skill>/scripts/research-memory.py read
-```
-
-Store as `past_research_briefing` **only if the returned thread is the same topic as this query**. Otherwise set **none** (cross-topic memory is not analytical input). Include in `intake.md` under **Past research briefing**.
-
-After successful deliver, flush **this topic only**:
-
-```bash
-echo '{"run":{"topic":"...","effort":N,"certainty":"...","conclusions":["..."],"recommendations":["..."],"open_questions":["..."],"sources":["PMID:..."],"guideline_flags":"...","verdict":"..."}}' \
-  | python3 <skill>/scripts/research-memory.py update
-```
-
-## Knowledge layer (persistent monographs)
-
-Repo-local store for **same-slug re-runs only** — not a library of free ceilings for other topics:
-
-```
-knowledge/compounds/<slug>/profile.md
-knowledge/compounds/<slug>/matrix.json
-knowledge/compounds/<slug>/meta.json
-knowledge/interactions/<slug-a>_vs_<slug-b>/...
-```
-
-Slug: lowercase, hyphenated common name (e.g. `creatine-monohydrate`, `cerebrolysin`).
-
-**At setup** (exact match only):
-
-1. If **this run’s** primary slug matches `knowledge/compounds/<slug>/`, optionally load for differential update of *that same compound re-run*.
-2. For interaction re-runs: load only `knowledge/interactions/<exact-a>_vs_<exact-b>/` when re-running **that pair**.
-3. **Do not** load knowledge for co-mentioned mitigators that are not the primary slug of this run. Research them from primary sources in this intake.
-
-**At deliver** (effort ≥ 3, or `--save` under `knowledge/`):
-
-1. Write/update `profile.md` from **this run’s** final briefing only.
-2. Copy `evidence-matrix.json` → `matrix.json`.
-3. Write `meta.json`: `{ "slug", "updated", "effort", "overall_certainty", "open_questions", "input_type" }`.
-
-Helper script (optional): see `scripts/knowledge-store.py` and `knowledge/README.md`.
-
-## PubMed MCP
-
-At setup, check whether `pubmed` MCP is available. Set `pubmed_available` true/false in `intake.md`.
-
-| pubmed_available | PMID / paper search |
-|------------------|---------------------|
-| true | Prefer PubMed MCP tools |
-| false | `web_search` + `web_fetch`; never abort |
-
-See `references/literature-search.md` for full playbook (includes anecdotal sampling and interaction dual-search).
-
-## Persona injection
-
-Read once at setup from `<repo>/.grok/personas/`:
-
-| Persona file | Role |
-|--------------|------|
-| `source-critic.toml` | Funding, COI, provenance, trust tiers; dual-compound when interaction |
-| `methodologist.toml` | Design, bias, stats, applied applicability |
-| `inference-analyst.toml` | Truth mapping, subjective concordance, pathway overlap, evidence-graded recommendations |
-| `compound-framer.toml` | Full monograph or interaction outline + Practical Guidance (effort ≥ 2 when compound/interaction/guidance) |
-| `research-synthesizer.toml` | Final briefing + evidence matrix |
-| `research-quality-reviewer.toml` | Completeness + epistemic + anecdotal + interaction gate (effort ≥ 2) |
-
-Resolve `<repo>` as the git repo root (parent of `.grok/`). Prepend persona `instructions` to each subagent prompt. Prefix `description` with bracketed role tag: `[source-critic]`, `[compound-framer]`, etc.
-
-References live at `<dirname of this SKILL.md>/references/`.
-
-## Setup
-
-Generate ID:
+### Setup
 
 ```bash
 python3 -c "import uuid; print(uuid.uuid4().hex[:8])"
 ```
 
-Define paths (fixed for entire run):
-
-- `RESEARCH_ID` = output
-- `ARTIFACT_DIR` = `/tmp/grok-research-${RESEARCH_ID}/`
-- `intake_file` = `${ARTIFACT_DIR}/intake.md`
-- `sources_file` = `${ARTIFACT_DIR}/sources.md`
-- `methods_file` = `${ARTIFACT_DIR}/methods.md`
-- `inference_file` = `${ARTIFACT_DIR}/inference.md`
-- `compound_file` = `${ARTIFACT_DIR}/compound.md`
-- `briefing_file` = `${ARTIFACT_DIR}/briefing.md`
-- `matrix_file` = `${ARTIFACT_DIR}/evidence-matrix.json`
-- `review_file` = `${ARTIFACT_DIR}/review.md`
+- `ARTIFACT_DIR=/tmp/grok-research-${RESEARCH_ID}/`
+- `mkdir -p` artifact dir  
+- Memory: same-topic only or none  
+- Knowledge: exact-slug only or none  
+- PubMed MCP if available; else web_search + web_fetch  
 
-```bash
-mkdir -p "${ARTIFACT_DIR}"
-```
+### Intake + sources (orchestrator)
 
-Parse flags:
+Write `intake.md` with question, type (`compound` | `protection_stack` | `claim` | `paper` | `topic`), search strategy, sources list (clinical + forum).
 
-- `--effort N` (default 2, clamp 1–5)
-- `--wiki` / `--monograph` → set `wiki_mode=true`; if effort < 3, set effort = 3
-- `--save PATH`
+**Acquire aggressively:**
 
-Soft-upgrade: if `input_type` will be `interaction` and effort is 1, set effort = 2 (minimum); prefer 3+ for serious protective hypotheses.
+- Systematic reviews, RCTs, observational, key preclinical mechanism papers  
+- Negative/null results  
+- High-signal forum threads on effects, sides, and **what people use to counter each side**  
+- For protection queries: search each side + each candidate counter + combination terms  
 
-## Step 1: Intake and source acquisition
+### Analysis
 
-**You** (orchestrator) write `intake.md` after acquiring sources.
+Spawn in parallel (read-only subagents), inject personas from `.grok/personas/`:
 
-**Input detection:**
+| Persona | Focus for this product |
+|---------|------------------------|
+| `source-critic` | Trust tiers, funding, clinical vs forum provenance |
+| `methodologist` | Design quality of clinical evidence; limits of anecdote |
+| `inference-analyst` | Full pathway inventory (known+hypothesized); side→node→counter map; claims |
+| `compound-framer` | Own the **single document outline** (profile or protection-stack template) |
 
-| Pattern | Action |
-|---------|--------|
-| `10.\d{4,}/` or `doi:` | Fetch `https://doi.org/<doi>` via web_fetch |
-| `PMID:\s*\d+` or `^\d{7,8}$` | Search PubMed MCP or web_search |
-| File path `.pdf` | Read file |
-| Multi-compound / mitigate language (see classifier) | `interaction` |
-| Compound name (taxonomy) | `compound`; load compound-taxonomy.md |
-| Free text | Classify: compound \| interaction \| claim \| paper \| topic \| question |
+Prompt every subagent:
 
-**Input classifier** (set `input_type` in intake):
+- Max depth; no effort shortcuts  
+- Mechanism → phenotype → counter  
+- Isolation: no other findings/*  
+- Protection stacks: never lead with refuse-to-protocol  
 
-| Type | Signals |
-|------|---------|
-| `interaction` | “against the effects of”, mitigate, protect, preventative, stack with, combination, A + B, pathway overlap, synergy, antagonism, “as a cover for” |
-| `compound` | Drug/supplement name, “dose”, “cycle”, “PCT”, peptide name, taxonomy match (single primary agent) |
-| `claim` | Assertive statement to adjudicate |
-| `paper` | DOI, PMID, paper title |
-| `topic` | Broad subject without single claim |
-| `question` | Interrogative research question |
+### Synthesis
 
-If both compound and interaction signals: prefer **`interaction`**.
+One `research-synthesizer` run:
 
-Set `guidance_requested: true` when user asks “what should I”, “recommend”, “protocol”, “dose”, or input is compound/interaction.
+- Read all internal section files  
+- Write **only** `briefing.md` using the correct template  
+- Optionally `evidence-matrix.json` for machine use — not required for user presentation  
+- Templates: `references/compound-profile-template.md` or `references/protection-stack-template.md`  
+- Style: `references/style-guide.md`, principles: `references/dr-principles.md`  
 
-For interaction, set:
+### Quality review
 
-- `compound_a` / role (problem | primary | co_stack)
-- `compound_b` / role (mitigator | protective | co_stack)
-- `interaction_hypothesis` (one sentence)
+`research-quality-reviewer` checks:
 
-**intake.md template:**
+- Single-doc completeness for query type  
+- Every major side has mechanism + counters (for protection queries)  
+- Known + hypothesized pathways present  
+- Clinical and anecdotal both treated  
+- No medical-refusal lead when protocol was requested  
+- No cross-package findings use  
+- Certainty labels present  
 
-```markdown
-# Intake
-- **RESEARCH_ID**: ...
-- **Effort**: N
-- **Wiki mode**: true | false
-- **Input**: (raw)
-- **Parsed question**: (precise)
-- **Input type**: compound | interaction | claim | paper | topic | question
-- **Guidance requested**: true | false
-- **User context**: goals, experience tier, health flags (if provided; else "none")
-- **Compound class**: (if compound — from compound-taxonomy.md)
-- **Interaction**: A=... (role); B=... (role); hypothesis=...
-- **Applicable lenses**: neuropharmacology | performance | nutrition
-- **Sources acquired**: [list with DOI/PMID/URL]
-- **Search strategy**: [terms, databases, date range]
-- **Anecdotal sampling**: none | [forums/topics sampled]
-- **PubMed MCP**: available | unavailable
-- **Past research briefing**: [same-topic memory only, else "none"]
-- **Prior knowledge profile**: [exact-slug knowledge only, else "none"]
-- **Package isolation**: enforced — no other findings/ packages read
-```
+Revise until critical/major clear.
 
-Follow `references/literature-search.md`. Source counts:
+### Deliver
 
-- Effort 1: 2–4 pivotal sources
-- Effort 2: 4–8 sources including at least one review if exists; contradictory set if contested; anecdotal sample if discourse-heavy
-- Effort 3+: 8–15 sources; systematic reviews + primary + contradictory; interaction dual-compound + combo terms
+1. Present **briefing.md** to the user (the whole product)  
+2. Memory flush (this topic)  
+3. If `--save PATH`: copy `briefing.md` (optional matrix) only  
+4. Knowledge write at save/high-stakes: single `profile.md` per slug from that briefing  
 
-If full text unavailable, state limitation in intake — never invent methods or results.
+Default save: `findings/<slug>/briefing.md` (one file; folder may exist for git hygiene only).
 
-## Step 2: Parallel analysis
+## Templates
 
-Spawn subagents **in parallel** in one response.
-
-### Effort 1 (fast)
-
-- `source-critic` → `sources.md`
-- `inference-analyst` → `inference.md`
-- Skip methodologist (inference-analyst covers light methods check)
-- Skip compound-framer (synthesizer uses light compound framing from inference)
-
-### Effort ≥ 2 (standard — default)
-
-Spawn all core personas:
-
-- `source-critic` → `sources.md`
-- `methodologist` → `methods.md`
-- `inference-analyst` → `inference.md`
-
-**Additionally** when `input_type` is `compound` OR `interaction` OR `guidance_requested` is true:
-
-- `compound-framer` → `compound.md`
-
-For `interaction`, tell framer to use `interaction-profile-template.md` and inference-analyst to produce pathway overlap + protective-hypothesis certainty.
-
-`spawn_subagent` parameters:
-
-- `subagent_type`: `general-purpose`
-- `capability_mode`: `read-only`
-
-**Subagent prompt template:**
-
-```
-{persona_instructions}
-
----
-
-## Task
-Read intake: {intake_file}
-Read references: {relevant reference paths under skill references/}
-Read primary sources listed in intake (and only those — acquire more via web_search/web_fetch if needed).
-
-**Isolation:** Do NOT read any other findings/* package. Do NOT use prior monographs as evidence. Co-mentioned compounds must be sourced in this run’s intake/search, not imported.
-
-If intake lists exact-slug prior knowledge for a same-subject re-run only, you may differential-update that subject — never sibling compounds.
-
-Write your analysis to: {section_file}
-
-Evidence-graded practical guidance: render when applicable. Unknown = no recommendation.
-Cite DOI/PMID for every literature source you discuss; label forum sources as non-peer-reviewed.
-Label substantive claims with certainty: Established / Probable / Speculative / Unknown.
-When literature is silent and consistent anecdotes exist: state both; never adamant denial of existence from silence alone.
-For interaction mode: pathway-level analysis required; no literature-refusal substitute.
-Discover community protectives (e.g. peptides used against AAS sides) via this run’s search, not prior packages.
-Incorporate user_context from intake when provided.
-```
-
-Save each `subagent_id` only if resuming later; parallel launches need not be resumed.
-
-## Step 3: Synthesis
-
-Spawn `research-synthesizer`:
-
-```
-{research_synthesizer_persona_instructions}
-
----
-
-Read all section files in: {ARTIFACT_DIR}
-Read references/output-template.md, references/compound-profile-template.md,
-references/interaction-profile-template.md, references/style-guide.md,
-references/evidence-matrix-schema.json, and references/examples/ for calibration
-
-Write briefing to: {briefing_file}
-Write evidence matrix to: {matrix_file}
-
-Routing:
-- input_type compound → compound-profile-template.md (respect effort floors)
-- input_type interaction → interaction-profile-template.md
-- else → output-template.md general path
-
-Always open with Executive Card.
-Integrate source scrutiny, methods, inference, and compound framing into one briefing.
-Continuity note in Overview **only** if same-topic memory is non-empty for this exact re-run — never cross-package continuity.
-Never cite other findings/* packages. Never import prior monograph ceilings.
-Include Guidance & Application Notice. Include Source Integrity with funding/COI.
-Include Guidelines vs Literature for health-adjacent topics with evidence-graded recommendations.
-Include Subjective / Experiential Profile with weighing + concordance when anecdotes material.
-Include Practical Guidance when guidance_requested or compound/interaction input.
-Populate recommendations[], anecdotal_patterns[], executive_verdict; for interaction also pathway_overlap and protective_hypothesis.
-Preserve analyst disagreements if present.
-```
-
-## Step 4: Quality review (effort ≥ 2)
-
-Spawn `research-quality-reviewer`:
-
-```
-{research_quality_reviewer_persona_instructions}
-
----
-
-Read briefing: {briefing_file}
-Read matrix: {matrix_file}
-Read all section files in: {ARTIFACT_DIR}
-Read references/dr-principles.md, references/guidelines-vs-literature.md,
-references/compound-profile-template.md, references/interaction-profile-template.md,
-references/evaluation-checklist.md
-
-Write review to: {review_file}
-```
-
-**If open critical or major issues:** resume research-synthesizer with review issues → re-review → loop until 0 open critical/major.
-
-Effort 5: also resolve all minor issues before delivery.
-
-Effort 1: skip Step 4; orchestrator spot-checks (Unknown recommendations, missing Practical Guidance when requested, adamant literature-silent denial) before deliver.
-
-## Step 5: Deliver
-
-1. Read `briefing_file` and present to user
-2. Briefly note overall certainty, key recommendations, and source-trust caveats
-3. Memory flush (see Research memory)
-4. Knowledge write when effort ≥ 3 or save path under `knowledge/`
-5. If `--save PATH`: `mkdir -p PATH && cp ${ARTIFACT_DIR}/briefing.md ${ARTIFACT_DIR}/evidence-matrix.json ${ARTIFACT_DIR}/intake.md PATH/`
-6. If effort ≥ 3: mention `evidence-matrix.json` is in artifacts (or save path)
-
-Default save suggestion: `findings/<YYYY-MM-DD>-<slug>/`
-
-Do not delete artifacts if user used `--save`. Otherwise optional cleanup.
-
-## Effort guide
-
-| Effort | Target depth | Minimum content | Typical use |
-|--------|--------------|-----------------|-------------|
-| **1** | Fast focused answer | Executive Card + Overview + Practical Guidance + Safety + Key Sources | Simple factual or dosing queries |
-| **2** (default) | Standard multi-perspective | Core sections + matrix + quality gate + anecdotal weighing | Most everyday questions |
-| **3** | Full monograph or full interaction analysis | All required sections, comparative or pathway analysis, explicit anecdotal weighing | Important, contested, multi-compound, or `--wiki` |
-| **4–5** | Maximum rigor | Full structure + extra sources + multiple alternatives or detailed mechanism maps | High-stakes or complex protective hypotheses |
+| Type | File |
+|------|------|
+| Compound profile | `references/compound-profile-template.md` |
+| Protection / counter stack | `references/protection-stack-template.md` |
+| Style | `references/style-guide.md` |
+| Principles | `references/dr-principles.md` |
 
 ## Edge cases
 
 | Situation | Behavior |
 |-----------|----------|
-| Paywalled paper | Abstract + methods from PubMed; state full-text gap |
-| Retracted paper | Flag in intake; do not use as supporting evidence |
-| Only preprints exist | Label all; downgrade certainty |
-| No sources found | Honest “insufficient evidence” briefing; state what cannot be recommended |
-| User asks what they should do | Evidence-graded recommendation; Unknown = explain gap |
-| Insufficient evidence for dosing | State what cannot be recommended; do not fabricate protocols |
-| Industry-only evidence | State in Source Integrity; steelman independent-data absence |
-| Forum-only for an effect | Report pattern; Speculative ceiling; concordance literature-silent if applicable |
-| Literature silent + consistent anecdotes | State both; never adamant “does not exist” |
-| Interaction query | Pathway analysis required; soft-upgrade effort; use interaction template |
-| Bro-science contradicted by literature | Tag claims; recommend against; do not present as Established |
-| Other findings/* exist on co-mentioned compounds | Ignore as inputs; research those compounds fresh in this run |
-| Memory returns unrelated prior topics | Treat as none — do not import ceilings |
+| Sparse human data | Still full pathway + forum + Speculative counters |
+| User wants protection stack | Per-side engineering document, not “avoid the drug” essay |
+| Hypothesized pathway (e.g. orexin) | Include if mechanistically argued; label Speculative; propose counters to that node |
+| Paywalled paper | Abstract + methods available; state gap |
+| PubMed down | Web search; never abort |
 
-## What this skill produces
+## Product promise
 
-The user receives **actionable compound education after deep understanding**:
+The user walks away with **one document** that answers:
 
-- What the evidence supports and does not support
-- Evidence-graded Practical Guidance (dosing, stacks, monitoring) when warranted
-- Subjective/forum patterns weighed against controlled evidence
-- Pathway-level interaction / protective analyses for multi-compound questions
-- Who funded key work and what conflicts exist
-- Methodological limits and inference gaps
-- Both sides of contested claims
-- Calibrated certainty — not hype, not false balance, not literature-purist erasure of real-world patterns
-
-Truth bounded by sources. Guidance bounded by certainty. Anecdote labeled and capped. Interactions analyzed at the pathway level.
+- What does this compound do, at every relevant pathway (known + hypothesized)?  
+- What does clinical evidence say? What do forums say?  
+- For each major side: **why**, and **what specifically can counteract that pathway**?  
+- How do those counters assemble into a usable stack?

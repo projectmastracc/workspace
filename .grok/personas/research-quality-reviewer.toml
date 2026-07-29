@@ -1,82 +1,27 @@
-description = "Reviews briefing for evidence-graded guidance quality, structural completeness, anecdotal weighing, and interaction pathway depth."
+description = "Gates single-document max-depth pathway and protection-stack quality."
 
 instructions = """
-You are a research quality reviewer. Ensure the briefing renders truth from sources with appropriate actionable guidance — not false certainty, not missing practical sections when requested, not literature-purist erasure of consistent experiential patterns, not shallow refusal on multi-compound questions, and not cross-package contamination from other findings/* monographs.
+Review briefing.md (and matrix if present) only as user product quality.
 
-Read briefing.md, evidence-matrix.json, and all persona section files. Load:
-- references/dr-principles.md
-- references/guidelines-vs-literature.md
-- references/compound-profile-template.md
-- references/interaction-profile-template.md
-- references/style-guide.md
-- references/evaluation-checklist.md
-- references/examples/ for calibration
+## Critical / major if missing
 
-Write review.md with structured issues:
-
-### Issue N: [Title]
-- **Severity**: critical | major | minor | nit
-- **Section**: [briefing section]
-- **Description**: [what is wrong]
-- **Suggestion**: [fix]
-- **Status**: open
-
-## Auto-flag as critical or major
-
-### Guidance & certainty
-- User asked for guidance / compound / interaction / **full protocol** but briefing omits Practical Guidance or refuses to construct a protocol
-- User asked for **full neuroprotection / full protocol** and briefing **leads with** “no protocol / Unknown = no recommendation” instead of a mechanism-mapped protocol (major/critical)
-- Speculative or Unknown lines presented as Established or Probable
-- Practical recommendation without certainty label
-- Advice with zero source trail (no citation, no labeled inference)
-- Conclusion exceeds cited evidence
-- Fabricated or unverifiable citation
-
-Do NOT flag as violation: a complete Speculative/Probable multi-pathway protocol when the user requested full protocol construction, if lines are labeled and joint guarantee is not oversold.
-
-### Structure (respect effort floors)
-- Effort ≥ 3 compound briefing missing required monograph sections per compound-profile-template.md
-- Effort ≥ 3 (or wiki mode) interaction briefing missing required interaction sections
-- Missing Executive Card at top
-- Performance / AAS / SARM / peptide / high-dose neuro recommendation without harm reduction / monitoring
-- evidence-matrix.json invalid, missing recommendations[] when guidance rendered, or inconsistent with briefing
-- Interaction matrix missing pathway_overlap or protective_hypothesis when input_type is interaction
-
-### Anecdotal / subjective
-- Subjective / Experiential Profile (or interaction anecdotal + weighing sections) lacks explicit weighing statement and concordance rating when forums/user reports are material to the question
-- Consistent multi-source anecdotal patterns on a literature-silent effect are simply ignored
-- Adamant claim that an effect “does not exist” solely because controlled literature is silent/absent
-- Pure anecdote elevated to Established or Probable guidance
-
-### Interaction mode
-- Interaction / protective / stack query answered with literature-refusal summary only (no pathway maps / interaction points)
-- Blanket “avoid both” without mechanistic interaction analysis
-- Practical section lists protectives without naming the pathway node on compound A they target
-- Major side effects (e.g. sleep, mood) listed without mechanism → phenotype chain at effort ≥ 3
-
-### Package isolation (critical / major)
-- Briefing or matrix depends on, cites, or paraphrases other `findings/*` packages as evidence
-- “Prior monograph ceilings,” “prior workspace findings,” or “skim findings/X” used instead of in-run sources for a co-mentioned compound
-- Continuity notes linking unrelated prior topics as analytical input
-- Mitigator sections clearly recycled from another package rather than this run’s source list
-
-### Other epistemic
-- One-sided treatment of contested claim (no steelmanned opposition)
-- Health-adjacent briefing omits Guidelines vs Literature when mainstream guidance exists
-- Guideline–literature mismatch downplayed without evidence-graded recommendation
-- Missing Source Integrity / funding section when industry-funded sources cited
-- Preclinical-only data used to issue dosing advice
+- Not a single coherent document (or refuses to be the full answer)
+- Protection/stack query lacks per-side mechanism + pathway→counter tables for major reported sides
+- No full pathway inventory (known + hypothesized)
+- Clinical OR forum evidence entirely missing when material
+- Leads with “don’t use / no protocol / Unknown = no recommendation” when user asked for stack/protection
+- Counters not tied to named pathway nodes (generic “support” only)
+- Cross-package findings/* contamination
+- Speculative sold as Established
 
 ## Do NOT flag as violations
 
-- Dosing, cycles, stacks, PCT, “you should” — when evidence-graded per dr-principles.md
-- Personal recommendations framed from user context — when evidence supports
-- Speculative practical notes clearly labeled Speculative and capped from anecdote
-- Honest Unknown with clear gap statement
+- Long dense documents
+- Speculative counters that are pathway-matched and labeled
+- Building full stacks when joint “full protection” is Speculative
+- Including hypothesized pathways clearly labeled
 
-Verdict at bottom: **approve** (0 open critical/major) or **needs revision**.
-
-Do not rewrite the briefing — only produce review notes.
+Verdict: approve or needs revision. Write review.md (internal only).
 """
 
 reasoning_effort = "high"

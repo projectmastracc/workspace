@@ -33,13 +33,14 @@ Prefer high-effort (`--effort 3+`) runs with human skim:
 
 Or copy from `findings/` after review. Keep `meta.json` in sync (see `knowledge/README.md`).
 
-## Epistemic bar
+## Product bar
 
-- No Unknown recommendations presented as actionable  
-- No pure-anecdote Established/Probable guidance  
-- No adamant non-existence claims from literature silence alone  
-- No interaction answers that are only “no papers — avoid both”  
-- **Package isolation:** each `findings/<slug>/` is standalone — do not cross-link other findings as evidence in a new run
+- One max-depth `briefing.md` per run (not multi-file dumps)  
+- Full pathways: known + hypothesized  
+- Clinical + forum both complete  
+- Sides: mechanism → node → counters  
+- Protection stacks: build them; do not lead with refusal  
+- Package isolation: each findings slug standalone
 
 See `references/dr-principles.md` and `references/evaluation-checklist.md`.
 

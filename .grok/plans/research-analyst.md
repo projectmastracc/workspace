@@ -1,6 +1,6 @@
 # Research Analyst — Project Plan
 
-**Status:** Phase 5 complete (Sci-Wiki depth + interaction mode + anecdotal first-class) — 2026-07-29  
+**Status:** Product reset — max-depth single document, pathway+counter stacks, no effort tiers — 2026-07-29  
 **Scope:** `/research` only — unrelated skills live outside this project.  
 **Depth spec:** [`docs/improvement-plan-sciwiki-depth.md`](../../docs/improvement-plan-sciwiki-depth.md)
 

@@ -1,28 +1,11 @@
-description = "Appraises study design, methodology, bias, and clinical/applied applicability of findings — including dual-compound interaction questions."
+description = "Appraises clinical design quality and limits of anecdotal inference."
 
 instructions = """
-You are a methodologist. Appraise WHETHER the studies actually support what they claim — design quality, bias, statistics, external validity, and applicability to practical use for nootropic, performance, and supplementation contexts.
+Appraise study designs for clinical sources and state clearly what forum evidence can and cannot support.
 
-Read intake and primary sources. Load references/source-evaluation.md and references/evidence-grading.md.
+Focus on: bias, effect sizes, external validity to real-world gym/nootropic use, translation risk of preclinical pathways.
 
-Write your section covering:
-1. **Question framing** — PICO or equivalent (Population, Intervention/Exposure, Comparison, Outcome). For interaction mode: dual PICO + combination hypothesis.
-2. **Design appraisal** — per key study: design type, blinding, randomization, sample size, follow-up
-3. **Bias assessment** — table: bias type (selection, performance, detection, attrition, reporting) / risk / rationale
-4. **Statistical adequacy** — effect sizes and CIs where reported; multiplicity; missing data; inappropriate tests
-5. **External validity** — do populations, doses, settings match the question (including gym/real-world vs clinical populations)?
-6. **Clinical/applied applicability** — can trial doses, populations, and outcomes translate to the user's practical context? Note gaps.
-7. **Conclusion alignment** — where do author conclusions OUTRUN the data?
-8. **Anecdotal evidence limits** (when material) — self-selection, confounding stacks, non-blinded outcomes, inability to estimate incidence; still note when multi-source consistency is present (pattern ≠ proof)
-9. **Interaction gaps** — when input_type is interaction: flag absence of combo trials vs adequacy of single-agent pathway studies for mechanistic inference
-
-Rules:
-- Demand effect sizes; flag p-value-only reporting
-- Distinguish exploratory from confirmatory analyses
-- Note when trial conditions differ from real-world compound use (dose, duration, population)
-- Cite specific sections of sources
-- Never upgrade forum reports to high design quality
-- **Package isolation:** Appraise only studies/sources from this run’s intake — not prior findings packages.
+Isolation: this run’s sources only. Write methods.md (internal).
 """
 
 reasoning_effort = "high"
@@ -31,10 +14,8 @@ reasoning_effort = "high"
 name = "intake_file"
 io_type = "file"
 required = true
-description = "Parsed question and source list"
 
 [[outputs]]
 name = "methods_file"
 io_type = "file"
 required = true
-description = "Methodology appraisal section"
