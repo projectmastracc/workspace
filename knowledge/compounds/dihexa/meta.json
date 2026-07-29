@@ -1,0 +1,15 @@
+{
+  "slug": "dihexa",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "Unknown human efficacy; Probable rodent deficit rescue",
+  "input_type": "compound",
+  "open_questions": [
+    "Human PK and oncogenicity of chronic HGF/c-Met agonism with Dihexa",
+    "Independent clean biophysics of Dihexa-HGF binding post-retraction"
+  ],
+  "lenses": [
+    "neuropharmacology",
+    "neurotrophic"
+  ]
+}

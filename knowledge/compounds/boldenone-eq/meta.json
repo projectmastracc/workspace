@@ -1,0 +1,18 @@
+{
+  "slug": "boldenone-eq",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "Probable for core use patterns; sparse human RCTs",
+  "input_type": "compound",
+  "open_questions": [
+    "Human multi-dose PK and head-to-head aromatization vs testosterone",
+    "Prospective Hct curves EQ vs test at matched AAS exposure"
+  ],
+  "lenses": [
+    "AAS",
+    "performance",
+    "hematology",
+    "endocrine",
+    "CV"
+  ]
+}

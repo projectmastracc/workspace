@@ -1,0 +1,306 @@
+{
+  "research_id": "5b7456c4",
+  "compound": "oxymetholone",
+  "brand": "Anadrol",
+  "date": "2026-07-29",
+  "certainty_scale": ["Established", "Probable", "Speculative", "Unknown"],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "17α-alkylated oral DHT-derivative AAS; non-aromatizable; already 5α-reduced",
+      "domain": "chemistry",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA label structure/class", "Bond 2022 structure note"],
+      "forum_support": "N/A",
+      "notes": "5ARI low utility against parent"
+    },
+    {
+      "id": "C02",
+      "claim": "AR RBA too low to determine (Saartok 1984) yet strong clinical AR phenotype (affinity paradox)",
+      "domain": "mechanism",
+      "certainty": "Established (assay); Speculative–Probable (resolution)",
+      "clinical_anchors": ["Saartok 1984 PMID 6539197", "NCI EVS secondary phrasing"],
+      "forum_support": "N/A",
+      "notes": "Do not infer zero AR activity"
+    },
+    {
+      "id": "C03",
+      "claim": "SHBG affinity very low (<5% T, <1% DHT)",
+      "domain": "mechanism",
+      "certainty": "Established",
+      "clinical_anchors": ["Saartok 1984"],
+      "forum_support": "N/A",
+      "notes": "May raise free fraction"
+    },
+    {
+      "id": "C04",
+      "claim": "Mestanolone (17α-methyl-DHT) forms via 2-COOH decarboxylation pathway",
+      "domain": "metabolism",
+      "certainty": "Established–Probable formation; Speculative effect share",
+      "clinical_anchors": ["Bi 1992 PMID 1567786"],
+      "forum_support": "Secondary monographs",
+      "notes": "Not proven prodrug-only narrative"
+    },
+    {
+      "id": "C05",
+      "claim": "Human elimination half-life scientifically unknown; community 8–9 h is folklore",
+      "domain": "PK",
+      "certainty": "Unknown (science); Speculative (community number)",
+      "clinical_anchors": ["FDA label sparse PK", "Pavlatos 2001 no modern t½", "Wikipedia unknown"],
+      "forum_support": "Widespread 8–9 h claim",
+      "notes": "BID split not PK-validated"
+    },
+    {
+      "id": "C06",
+      "claim": "Medical dose 1–5 mg/kg/day (usual 1–2); indication anemias deficient RBC production",
+      "domain": "clinical_use",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA Anadrol-50 label 2004"],
+      "forum_support": "N/A",
+      "notes": "Not gym template"
+    },
+    {
+      "id": "C07",
+      "claim": "Weight +3.0–3.5 kg vs ~+1 kg PBO; BCM gains at 100–150 mg × 16 wk HIV wasting",
+      "domain": "efficacy",
+      "certainty": "Established (wasting); gym hypertrophy Speculative–Probable direction",
+      "clinical_anchors": ["Hengge 2003 AIDS PMID 12646793"],
+      "forum_support": "Rapid scale weight lore",
+      "notes": "Unimed sponsored; BIA composition"
+    },
+    {
+      "id": "C08",
+      "claim": "ALT >5× ~27% BID (100 mg) / ~35% TID (150 mg) over 16 wk (trial-specific)",
+      "domain": "hepatotoxicity",
+      "certainty": "Established (trial); gym absolute rates Unknown",
+      "clinical_anchors": ["Hengge 2003"],
+      "forum_support": "Expected LFT rise",
+      "notes": "HIV/hepatitis background — not gym incidence"
+    },
+    {
+      "id": "C09",
+      "claim": "Hepatotoxicity spectrum: enzymes, bland cholestasis ~1% class, rare peliosis/tumors",
+      "domain": "hepatotoxicity",
+      "certainty": "Established phenotype",
+      "clinical_anchors": ["FDA label", "LiverTox ~2020", "Hengge 2003", "NTP TR-485"],
+      "forum_support": "Universal concern",
+      "notes": "Keep P6 sub-nodes separate"
+    },
+    {
+      "id": "C10",
+      "claim": "NTP female rat clear hepatocellular neoplasm evidence; RoC reasonably anticipated human carcinogen",
+      "domain": "carcinogenicity",
+      "certainty": "Established (animal); gym short-cycle incidence Unknown",
+      "clinical_anchors": ["NTP TR-485 1999", "RoC profile"],
+      "forum_support": "Under-discussed short-cycle",
+      "notes": "Long-duration risk frame"
+    },
+    {
+      "id": "C11",
+      "claim": "Edema / Na-electrolyte retention / extreme water phenotype",
+      "domain": "sides",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA label edema/electrolytes"],
+      "forum_support": "Signature side multi-source",
+      "notes": "Primary fluid driver Probable mineralocorticoid-like"
+    },
+    {
+      "id": "C12",
+      "claim": "BP elevation / headache common on Anadrol",
+      "domain": "sides",
+      "certainty": "Probable",
+      "clinical_anchors": ["Label CHF risk predisposed", "class AAS BP"],
+      "forum_support": "High multi-source",
+      "notes": "Telmisartan/nebivolol Established tools"
+    },
+    {
+      "id": "C13",
+      "claim": "Dyslipidemia ↓HDL ↑LDL (oral 17α-alkyl class)",
+      "domain": "sides",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA label black-box lipids", "Bond 2022"],
+      "forum_support": "Bloodwork culture",
+      "notes": "Time-box primary counter"
+    },
+    {
+      "id": "C14",
+      "claim": "HPTA/HPG suppression at effective doses",
+      "domain": "sides",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA label"],
+      "forum_support": "Test base near-universal",
+      "notes": "Short course not non-suppressive"
+    },
+    {
+      "id": "C15",
+      "claim": "EPO/erythropoiesis stimulation; HCT rise risk",
+      "domain": "efficacy_sides",
+      "certainty": "Established (medical); Probable (gym HCT)",
+      "clinical_anchors": ["FDA label indication + EPO language", "iron deficiency on therapy"],
+      "forum_support": "Moderate HCT discussion",
+      "notes": "Iron only if deficient"
+    },
+    {
+      "id": "C16",
+      "claim": "Clotting factors II/V/VII/X ↓; warfarin potentiation",
+      "domain": "interactions",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA label"],
+      "forum_support": "Low awareness",
+      "notes": "Avoid unsupervised anticoagulation"
+    },
+    {
+      "id": "C17",
+      "claim": "Glucose intolerance",
+      "domain": "sides",
+      "certainty": "Probable",
+      "clinical_anchors": ["FDA label", "class AAS"],
+      "forum_support": "Variable",
+      "notes": "Monitor FBG/A1c if risk"
+    },
+    {
+      "id": "C18",
+      "claim": "Gyno possible despite non-aromatizing structure",
+      "domain": "sides",
+      "certainty": "Probable phenotype; Speculative ER mechanism",
+      "clinical_anchors": ["FDA label lists gynecomastia"],
+      "forum_support": "Rarer than Dbol; reported",
+      "notes": "SERM > blind AI for pure oxy; test-base E2 confound"
+    },
+    {
+      "id": "C19",
+      "claim": "Direct ER agonism explains non-aromatizing estrogenicity",
+      "domain": "mechanism",
+      "certainty": "Speculative",
+      "clinical_anchors": ["No robust ER binding package in intake set"],
+      "forum_support": "Llewellyn/community hypothesis",
+      "notes": "P8 fluid may explain most bloat"
+    },
+    {
+      "id": "C20",
+      "claim": "AI is reliable anti-bloat for pure Anadrol water",
+      "domain": "counters",
+      "certainty": "Speculative / often wrong target",
+      "clinical_anchors": ["Non-aromatizable chemistry"],
+      "forum_support": "Mixed results; common misuse",
+      "notes": "AI only if test-base E2 elevated"
+    },
+    {
+      "id": "C21",
+      "claim": "5ARI blocks oxymetholone-driven hair loss",
+      "domain": "counters",
+      "certainty": "Speculative / low utility",
+      "clinical_anchors": ["Already 5α-reduced structure", "mestanolone is 17α-methyl-DHT"],
+      "forum_support": "Often tried",
+      "notes": "May only affect test-base DHT"
+    },
+    {
+      "id": "C22",
+      "claim": "TUDCA/NAC prevent AAS cholestasis/peliosis/tumors",
+      "domain": "counters",
+      "certainty": "Speculative protection",
+      "clinical_anchors": ["No oxymetholone prevention RCTs"],
+      "forum_support": "Near-universal stack",
+      "notes": "False security vs stop on jaundice"
+    },
+    {
+      "id": "C23",
+      "claim": "Gym 50 mg/day common sweet spot; 100 mg more sides; oral 2–6 weeks",
+      "domain": "practice",
+      "certainty": "Probable (practice epidemiology); Speculative as protocol",
+      "clinical_anchors": ["Hengge dose-tox direction supports 50 < 100 < 150 sides"],
+      "forum_support": "Very high multi-source",
+      "notes": "Not safety theorem"
+    },
+    {
+      "id": "C24",
+      "claim": "Rapid gym strength/fullness at 50–100 mg",
+      "domain": "efficacy",
+      "certainty": "Probable",
+      "clinical_anchors": ["Class oral AAS; Hengge mass capacity"],
+      "forum_support": "Very high",
+      "notes": "No athlete RCT; water confounds scale"
+    },
+    {
+      "id": "C25",
+      "claim": "Female virilization risk high; pediatric epiphyseal closure",
+      "domain": "sides",
+      "certainty": "Established",
+      "clinical_anchors": ["FDA label"],
+      "forum_support": "Women largely avoid",
+      "notes": "Practical exclusion for performance"
+    },
+    {
+      "id": "C26",
+      "claim": "Animal A:A ratios ~1:2–1:9 transfer to human selectivity",
+      "domain": "mechanism",
+      "certainty": "Speculative / Unknown for humans",
+      "clinical_anchors": ["Historical Hershberger-type via secondaries"],
+      "forum_support": "Llewellyn tables",
+      "notes": "Classification only"
+    }
+  ],
+  "major_sides_pathway_counters": [
+    {
+      "side": "Hepatotoxicity",
+      "pathways": ["P6a", "P6b", "P6c", "P6d"],
+      "first_line": ["dose/duration limit", "single oral", "alcohol zero", "serial LFTs", "stop on jaundice"],
+      "adjuncts_speculative": ["TUDCA", "NAC"],
+      "certainty_phenotype": "Established"
+    },
+    {
+      "side": "Water/BP",
+      "pathways": ["P8", "P15"],
+      "first_line": ["Na awareness", "dose cut", "ARB/BB/CCB", "BP log"],
+      "wrong_target_flag": "Blind AI for pure Anadrol water",
+      "certainty_phenotype": "Established–Probable"
+    },
+    {
+      "side": "Dyslipidemia",
+      "pathways": ["P7"],
+      "first_line": ["short exposure", "lifestyle", "ApoB therapy if indicated"],
+      "certainty_phenotype": "Established"
+    },
+    {
+      "side": "HPTA suppression",
+      "pathways": ["P5"],
+      "first_line": ["test base", "SERM/hCG PCT", "sperm bank"],
+      "certainty_phenotype": "Established"
+    },
+    {
+      "side": "Erythrocytosis",
+      "pathways": ["P4", "P16"],
+      "first_line": ["CBC", "phlebotomy if high", "iron only if deficient"],
+      "certainty_phenotype": "Probable (gym)"
+    },
+    {
+      "side": "Acne/MPB",
+      "pathways": ["P14", "P10"],
+      "first_line": ["derm standard", "dose/time", "5ARI low utility for parent"],
+      "certainty_phenotype": "Established class"
+    },
+    {
+      "side": "Estrogenic phenotype/gyno",
+      "pathways": ["P9", "P8"],
+      "first_line": ["diagnose water vs gland", "SERM if gyno", "AI only if E2 high from test"],
+      "certainty_phenotype": "Probable uncommon; ER Speculative"
+    },
+    {
+      "side": "Warfarin interaction",
+      "pathways": ["P12"],
+      "first_line": ["avoid or intensive INR"],
+      "certainty_phenotype": "Established"
+    }
+  ],
+  "key_numbers": {
+    "fda_dose_mg_per_kg": "1–5 (usual 1–2)",
+    "hengge_weight_kg": "+3.0–3.5 active vs ~+1 PBO",
+    "hengge_alt_gt5x": "~27% BID 100mg / ~35% TID 150mg (trial-specific)",
+    "hengge_duration_weeks": 16,
+    "livertox_bland_cholestasis_class_pct": "~1%",
+    "gym_common_dose_mg": 50,
+    "gym_common_duration_weeks": "2–6",
+    "half_life_hours": "Unknown (community 8–9 folklore)"
+  },
+  "isolation": "No findings/* packages used"
+}

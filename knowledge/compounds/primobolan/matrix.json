@@ -1,0 +1,347 @@
+{
+  "compound": "Primobolan / metenolone / methenolone",
+  "research_id": "9838b0f6",
+  "date": "2026-07-29",
+  "certainty_scale": ["Established", "Probable", "Speculative", "Unknown"],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Metenolone is an AR agonist AAS (primary MOA)",
+      "certainty": "Established",
+      "evidence_types": ["structure", "RBA_assay", "clinical_androgen_use", "class_pharmacology"],
+      "sources": ["Saartok 1984 PMID 6539197", "Kicman 2008 PMID 18500378"]
+    },
+    {
+      "id": "C2",
+      "claim": "Non-aromatizing: no estradiol from parent",
+      "certainty": "Established",
+      "evidence_types": ["structure", "class_chemistry"],
+      "sources": ["DHT-scaffold chemistry", "Kicman 2008"]
+    },
+    {
+      "id": "C3",
+      "claim": "Not 17α-alkylated; lacks classical alkyl hepatotoxicity pattern",
+      "certainty": "Established",
+      "evidence_types": ["structure", "class_epidemiology"],
+      "sources": ["Kicman 2008", "class AAS reviews"]
+    },
+    {
+      "id": "C4",
+      "claim": "Primary metabolite path includes 3α-reduction (3α-hydroxy-1-methylen-5α-androstan-17-one)",
+      "certainty": "Established",
+      "evidence_types": ["analytical_metabolism"],
+      "sources": ["Goudreault/Massé 1990", "He 2016 Steroids"]
+    },
+    {
+      "id": "C5",
+      "claim": "Schering complete 3α-HSD resistance claim is false/overstated",
+      "certainty": "Established",
+      "evidence_types": ["metabolite_contradiction", "secondary_synthesis"],
+      "sources": ["Goudreault/Massé 1990", "Bond 2020", "Langecker 1962 refuted"]
+    },
+    {
+      "id": "C6",
+      "claim": "SHBG affinity very low vs T/DHT (~16% of T, ~3% of DHT)",
+      "certainty": "Established",
+      "evidence_types": ["binding_assay"],
+      "sources": ["Saartok 1984 PMID 6539197"]
+    },
+    {
+      "id": "C7",
+      "claim": "Historical efficacy in aplastic/refractory anemia (androgen adjunct)",
+      "certainty": "Probable",
+      "evidence_types": ["open_series", "small_RCT", "narrative_review"],
+      "sources": ["Lockner 1979 PMID 367090", "Kaltwasser 1988 PMID 3278927", "Nassani 2023"]
+    },
+    {
+      "id": "C8",
+      "claim": "Stimulates erythropoiesis / can raise HCT",
+      "certainty": "Probable",
+      "evidence_types": ["clinical_anemia", "class_AAS", "forum_labs"],
+      "sources": ["Kaltwasser 1988", "Nassani 2023", "HAARLEM class HCT"]
+    },
+    {
+      "id": "C9",
+      "claim": "Oral acetate 20 mg/day × 16 wk does not improve performance/body measures in young men",
+      "certainty": "Established",
+      "evidence_types": ["RCT"],
+      "sources": ["Fowler 1965 J Appl Physiol"]
+    },
+    {
+      "id": "C10",
+      "claim": "Injectable ME can increase strength/CSA in clinical rehab (low dose, confounded)",
+      "certainty": "Probable",
+      "evidence_types": ["unblinded_clinical"],
+      "sources": ["Shimodozono 2010"]
+    },
+    {
+      "id": "C11",
+      "claim": "Gym-dose injectable 300–800+ mg/wk builds lean tissue with training (with test base typical)",
+      "certainty": "Probable",
+      "evidence_types": ["forum_phenotype", "class_AR_extrapolation"],
+      "sources": ["r/steroids compounds threads", "class AAS hypertrophy literature"]
+    },
+    {
+      "id": "C12",
+      "claim": "Weak as sole agent vs test/EQ/nandrolone for mass at popular doses",
+      "certainty": "Probable",
+      "evidence_types": ["forum_phenotype", "Bond_hypothesis"],
+      "sources": ["forum multi-year", "Bond 2020"]
+    },
+    {
+      "id": "C13",
+      "claim": "Lean/dry look; low water retention from parent",
+      "certainty": "Probable",
+      "evidence_types": ["structure", "forum_phenotype"],
+      "sources": ["non-aromatizing structure", "forum"]
+    },
+    {
+      "id": "C14",
+      "claim": "Phenotypic E2 reduction when stacked with testosterone (soft AI)",
+      "certainty": "Probable",
+      "evidence_types": ["forum_bloodwork", "symptom_reports"],
+      "sources": ["r/PEDs", "r/Testosterone TRT+primo"]
+    },
+    {
+      "id": "C14b",
+      "claim": "Metenolone is a classical potent aromatase inhibitor",
+      "certainty": "Speculative",
+      "evidence_types": ["hypothesis", "no_strong_IC50_in_pack"],
+      "sources": ["forum inference only"]
+    },
+    {
+      "id": "C15",
+      "claim": "Aggressive primo:test can crash E2 (joints/mood/libido)",
+      "certainty": "Probable",
+      "evidence_types": ["forum", "endocrine_logic"],
+      "sources": ["r/PEDs E2 crash threads"]
+    },
+    {
+      "id": "C16",
+      "claim": "HPTA suppression at working doses",
+      "certainty": "Established",
+      "evidence_types": ["class_AAS", "structure"],
+      "sources": ["Kicman 2008"]
+    },
+    {
+      "id": "C17",
+      "claim": "Lipid deterioration (HDL↓ LDL↑) at systemic/high doses",
+      "certainty": "Probable",
+      "evidence_types": ["clinical_observation", "class_AAS", "forum"],
+      "sources": ["Garbrecht 1981", "HAARLEM lipids", "forum"]
+    },
+    {
+      "id": "C18",
+      "claim": "Hair loss acceleration if MPH-predisposed",
+      "certainty": "Probable",
+      "evidence_types": ["androgen_biology", "forum"],
+      "sources": ["DHT-class structure", "forum hair reports"]
+    },
+    {
+      "id": "C19",
+      "claim": "Prostate symptoms possible at high dose",
+      "certainty": "Probable",
+      "evidence_types": ["class_AR", "forum"],
+      "sources": ["class AAS", "forum"]
+    },
+    {
+      "id": "C20",
+      "claim": "Acne / sebum increase",
+      "certainty": "Probable",
+      "evidence_types": ["class_AR", "forum"],
+      "sources": ["class AAS"]
+    },
+    {
+      "id": "C21",
+      "claim": "BP elevation milder than many AAS but non-zero",
+      "certainty": "Probable",
+      "evidence_types": ["class_AAS", "forum"],
+      "sources": ["HAARLEM class BP", "forum"]
+    },
+    {
+      "id": "C22",
+      "claim": "Women: virilization risk despite mild brand",
+      "certainty": "Established",
+      "evidence_types": ["class_androgen", "oncology_history", "forum"],
+      "sources": ["Kennedy 1968", "class AAS women", "forum"]
+    },
+    {
+      "id": "C23",
+      "claim": "Enanthate IM t½ ~10.5 d; weekly–E3.5d practical; oral acetate multi-dose/day",
+      "certainty": "Probable",
+      "evidence_types": ["secondary_PK_tables", "community_practice"],
+      "sources": ["Wikipedia/Ruiz-Strain PK tables"]
+    },
+    {
+      "id": "C24",
+      "claim": "UGL/counterfeit risk extreme for Primo (price incentive)",
+      "certainty": "Probable",
+      "evidence_types": ["product_assay_cohort", "forum"],
+      "sources": ["HAARLEM Smit 2020 ~13% sole correct", "forum cost/fake threads"]
+    },
+    {
+      "id": "C25",
+      "claim": "Tissue 3α-HSD inactivation in muscle causes mild anabolism (Bond hypothesis)",
+      "certainty": "Speculative",
+      "evidence_types": ["metabolite_anchor", "mechanistic_hypothesis"],
+      "sources": ["Bond 2020", "Goudreault/Massé 1990"]
+    },
+    {
+      "id": "C26",
+      "claim": "Hershberger A:A ratios predict human side:benefit",
+      "certainty": "Speculative",
+      "evidence_types": ["weak_animal_assay"],
+      "sources": ["historical Hershberger"]
+    },
+    {
+      "id": "C27",
+      "claim": "5ARI fully blocks Primo scalp effects",
+      "certainty": "Speculative",
+      "evidence_types": ["mechanistic_doubt", "mixed_forum"],
+      "sources": ["structure already 5α-reduced"]
+    },
+    {
+      "id": "C28",
+      "claim": "Epiphyseal closure risk if open growth plates",
+      "certainty": "Probable",
+      "evidence_types": ["preclinical", "class"],
+      "sources": ["Özdemir 2019", "class androgens"]
+    },
+    {
+      "id": "C29",
+      "claim": "Optimal universal test:primo ratio for E2 control",
+      "certainty": "Unknown",
+      "evidence_types": ["forum_scatter_only"],
+      "sources": ["forum ratio claims"]
+    },
+    {
+      "id": "C30",
+      "claim": "Quantitative ED50 hypertrophy in trained men",
+      "certainty": "Unknown",
+      "evidence_types": ["no_proper_trial"],
+      "sources": []
+    }
+  ],
+  "counters": [
+    {
+      "side": "HPTA_suppression",
+      "pathway": "P8",
+      "agents": [
+        {"agent": "testosterone_base", "node": "androgen_floor", "certainty": "Established"},
+        {"agent": "SERM_PCT", "node": "LH_FSH_rebound", "certainty": "Probable"},
+        {"agent": "hCG", "node": "Leydig_stimulation", "certainty": "Probable"},
+        {"agent": "sperm_bank_fertility_plan", "node": "spermatogenesis_protection", "certainty": "Established"},
+        {"agent": "lower_dose_shorter_duration", "node": "feedback_intensity", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "E2_crash",
+      "pathway": "P5_P6",
+      "agents": [
+        {"agent": "raise_test_or_lower_primo", "node": "aromatizable_substrate_ratio", "certainty": "Probable"},
+        {"agent": "stop_pharma_AI", "node": "dual_E2_sink", "certainty": "Probable"},
+        {"agent": "LC_MS_E2_confirmation", "node": "assay_artifact_vs_true_low", "certainty": "Probable"},
+        {"agent": "physician_E2_addback", "node": "absolute_ER_tone", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "side": "lipids",
+      "pathway": "P10",
+      "agents": [
+        {"agent": "prefer_injectable_over_oral", "node": "first_pass_hepatic", "certainty": "Probable"},
+        {"agent": "dose_minimize", "node": "hepatic_AR_load", "certainty": "Probable"},
+        {"agent": "aerobic_diet", "node": "lifestyle_lipid_enzymes", "certainty": "Established"},
+        {"agent": "EPA_DHA", "node": "TG_VLDL", "certainty": "Probable"},
+        {"agent": "citrus_bergamot", "node": "lipid_adjunct", "certainty": "Speculative"},
+        {"agent": "statin_if_indicated", "node": "HMG_CoA", "certainty": "Established"},
+        {"agent": "fix_low_E2", "node": "estrogen_lipid_tone", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "hair_loss",
+      "pathway": "P3",
+      "agents": [
+        {"agent": "dose_reduction_or_avoid", "node": "scalp_AR_ligand", "certainty": "Probable"},
+        {"agent": "minoxidil", "node": "anagen_prolongation", "certainty": "Established"},
+        {"agent": "ketoconazole_shampoo", "node": "scalp_milieu", "certainty": "Probable"},
+        {"agent": "finasteride_dutasteride", "node": "test_derived_DHT_only", "certainty": "Probable"},
+        {"agent": "RU58841_research", "node": "local_AR_block", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "side": "prostate",
+      "pathway": "P2",
+      "agents": [
+        {"agent": "dose_reduction", "node": "prostatic_AR", "certainty": "Probable"},
+        {"agent": "tadalafil_low_dose", "node": "LUTS_smooth_muscle", "certainty": "Probable"},
+        {"agent": "PSA_monitoring", "node": "detection", "certainty": "Established"},
+        {"agent": "5ARI_partial", "node": "concurrent_T_DHT", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "BP_CV",
+      "pathway": "P11",
+      "agents": [
+        {"agent": "telmisartan_ARB", "node": "AT1", "certainty": "Established"},
+        {"agent": "cardio_sodium_sleep_weight", "node": "lifestyle_HTN", "certainty": "Established"},
+        {"agent": "dose_reduction", "node": "class_pressor", "certainty": "Probable"},
+        {"agent": "manage_HCT", "node": "viscosity", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "HCT_elevation",
+      "pathway": "P9",
+      "agents": [
+        {"agent": "dose_reduction", "node": "EPO_drive", "certainty": "Probable"},
+        {"agent": "phlebotomy_donation", "node": "RBC_mass", "certainty": "Probable"},
+        {"agent": "hydration", "node": "hemoconcentration", "certainty": "Probable"},
+        {"agent": "CBC_monitoring", "node": "detection", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "acne",
+      "pathway": "P3",
+      "agents": [
+        {"agent": "dose_reduction", "node": "sebum_AR", "certainty": "Probable"},
+        {"agent": "benzoyl_peroxide_retinoids", "node": "local_acne", "certainty": "Established"},
+        {"agent": "systemic_derm_Rx", "node": "inflammatory_acne", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "virilization_women",
+      "pathway": "P18",
+      "agents": [
+        {"agent": "lowest_dose_shortest_time", "node": "AR_exposure_integral", "certainty": "Probable"},
+        {"agent": "immediate_stop_on_voice_change", "node": "laryngeal_AR", "certainty": "Established"},
+        {"agent": "no_reliable_pharma_counter_voice", "node": "irreversible_remodeling", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "joint_dryness",
+      "pathway": "P16",
+      "agents": [
+        {"agent": "fix_test_primo_ratio_E2", "node": "ER_connective_tone", "certainty": "Probable"},
+        {"agent": "deload_training", "node": "mechanical_load", "certainty": "Probable"},
+        {"agent": "collagen_vitC", "node": "collagen_substrate", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "side": "product_fraud",
+      "pathway": "N/A",
+      "agents": [
+        {"agent": "analytical_verify_HPLC", "node": "identity", "certainty": "Probable"},
+        {"agent": "assume_UGL_error_bars", "node": "dose_uncertainty", "certainty": "Probable"}
+      ]
+    }
+  ],
+  "protocol_ceilings": [
+    {"line": "Prefer injectable enanthate over oral for lipids/hepatic load", "certainty": "Probable"},
+    {"line": "Start with test base; avoid primo-only in men seeking mass", "certainty": "Probable"},
+    {"line": "If low-E2 symptoms: lower primo or raise test before adding AI", "certainty": "Probable"},
+    {"line": "Primo as sole lipid-neutral recomp agent", "certainty": "Speculative"},
+    {"line": "Fixed 2:1 test:primo universal", "certainty": "Speculative"},
+    {"line": "PCT as for other suppressive AAS", "certainty": "Probable"},
+    {"line": "Men injectable working 300-600 mg/wk common; 400-800+ for notice", "certainty": "Probable"},
+    {"line": "Women 50-100 mg/wk inject still virilizes many", "certainty": "Probable"}
+  ]
+}

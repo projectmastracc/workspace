@@ -1,0 +1,12 @@
+{
+  "slug": "masteron",
+  "updated": "2026-07-29",
+  "input_type": "compound",
+  "compound": "drostanolone",
+  "overall_certainty": "mixed: Established chemistry/medical history; Speculative performance protocol; Probable androgenic+class CV sides",
+  "open_questions": [
+    "Modern enanthate PK",
+    "Controlled hardness study",
+    "Masteron SHBG RBA vs mesterolone"
+  ]
+}

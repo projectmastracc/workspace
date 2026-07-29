@@ -1,0 +1,16 @@
+{
+  "slug": "oxandrolone",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "Established anabolism/lipids/HPTA; performance nuances Probable",
+  "input_type": "compound",
+  "open_questions": [
+    "Dose-response lipids vs LBM in trained adults",
+    "UGL content epidemiology"
+  ],
+  "lenses": [
+    "performance",
+    "aas",
+    "oral"
+  ]
+}

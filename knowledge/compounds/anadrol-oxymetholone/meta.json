@@ -1,0 +1,13 @@
+{
+  "slug": "anadrol-oxymetholone",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "Established medical anabolism/hepatic-lipid-edema warnings; Probable gym mass; Unknown half-life",
+  "input_type": "compound",
+  "open_questions": [
+    "Human PK half-life; ER binding assays; athlete RCT 50 vs 100 mg; TUDCA prevention RCT"
+  ],
+  "lenses": [
+    "performance"
+  ]
+}

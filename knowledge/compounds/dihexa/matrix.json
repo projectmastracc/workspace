@@ -1,0 +1,968 @@
+{
+  "analysis_id": "4e2097d8",
+  "question": "Full compound analysis of Dihexa",
+  "input_type": "compound",
+  "compound": {
+    "name": "Dihexa",
+    "class": "Metabolically stabilized angiotensin IV analog; oligopeptide peptidomimetic; proposed HGF positive modulator / c-Met pathway activator",
+    "lenses": ["neuropharmacology"]
+  },
+  "overall_certainty": "Speculative",
+  "executive_verdict": {
+    "summary": "Dihexa has zero human trials. Foundational WSU mechanism papers are integrity-compromised (Benoist 2014 and Kawas 2012 retracted 2025; McCoy 2013 under Expression of Concern). Independent rodent deficit-model rescue (Sun 2021 APP/PS1; Martino 2025 rmTBI) partially re-supports behavioral phenotype. Related HGF/MET clinical candidate fosgonimeton failed Phase 2/3 AD endpoints. Human efficacy Unknown; cancer risk Speculative but mechanism-plausible; forum dosing is folklore from compromised rodent PK.",
+    "certainty": "Speculative",
+    "practical_note": "If used at all: time-boxed N-of-1 in deficit context only, cancer-history exclusion, identity-confirmed supply, morning sparse dosing (EOD–weekly not daily), training load during window, hard stop rules. Not a daily baseline nootropic or BDNF replacement."
+  },
+  "subjective_concordance": "partial",
+  "anecdotal_patterns": [
+    {
+      "theme": "Memory encoding / learning speed",
+      "consistency": "moderate",
+      "sources_note": "Longecity multi-year logs; Reddit r/Nootropics and r/NooTopics; polarized hero logs vs nulls",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Post-TBI / fog use interest",
+      "consistency": "moderate",
+      "sources_note": "Motivated subsample Longecity/Reddit; aligns thematically with Martino mTBI WM rescue",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Insomnia / overstimulation / energy",
+      "consistency": "moderate",
+      "sources_note": "Multi-thread Longecity + Reddit; evening dosing worse; residual multi-day stimulation reported",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Headache",
+      "consistency": "moderate",
+      "sources_note": "Longecity + Reddit multi-source; sometimes choline-framed without proof",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Anxiety / overstimulation",
+      "consistency": "moderate",
+      "sources_note": "r/NooTopics overactivation narratives; dose-related in some logs",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Null / weak response in healthy users",
+      "consistency": "high",
+      "sources_note": "Many null reports across platforms; purity confounds",
+      "concordance": "strong",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "DMSO topical skin irritation",
+      "consistency": "high",
+      "sources_note": "High among topical users; vehicle-driven",
+      "concordance": "strong",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Weekly dosing due to long half-life",
+      "consistency": "moderate",
+      "sources_note": "Informed Longecity users following McCoy rodent t½ folklore",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Plasticity window regret (did not train)",
+      "consistency": "low",
+      "sources_note": "r/NooTopics-type posts",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Cancer fear without documented attributions",
+      "consistency": "high",
+      "sources_note": "Frequently discussed; zero documented user cancer case series",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Research-chemical quality variance",
+      "consistency": "moderate",
+      "sources_note": "Vendor skepticism; null batches; identity anxiety",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    }
+  ],
+  "comparative_alternatives": [
+    {
+      "name": "Fosgonimeton (ATH-1017 / NDX-1017)",
+      "efficacy_note": "Phase 2/3 AD failed primary GST and key secondaries; not Dihexa",
+      "safety_note": "Short–medium SC generally tolerated; injection-site reactions drove discontinuations; malignancy history excluded",
+      "evidence_quality": "Human Phase 1–2/3 pathway class; molecule distinct from Dihexa",
+      "practical_note": "Warning light for pathway efficacy in AD; not a Dihexa dosing template"
+    },
+    {
+      "name": "Cerebrolysin",
+      "efficacy_note": "Multiple clinical studies mixed quality/regions; more human data than Dihexa",
+      "safety_note": "Injection; batch variation theoretical",
+      "evidence_quality": "Higher clinical volume than Dihexa",
+      "practical_note": "Less clean single-target map"
+    },
+    {
+      "name": "Noopept",
+      "efficacy_note": "Thin controlled human data; large anecdotal base",
+      "safety_note": "Generally milder acute forum sides",
+      "evidence_quality": "Weak human RCTs",
+      "practical_note": "Easier access; weaker synaptogenic-drug narrative"
+    },
+    {
+      "name": "Lifestyle BDNF support (exercise, sleep)",
+      "efficacy_note": "Established multi-benefit for cognition and health",
+      "safety_note": "Low risk",
+      "evidence_quality": "High for lifestyle interventions",
+      "practical_note": "Dominates Dihexa marketing claim of superiority to BDNF"
+    },
+    {
+      "name": "Standard AD AChEIs",
+      "efficacy_note": "Established modest symptomatic benefit",
+      "safety_note": "GI, bradycardia class effects",
+      "evidence_quality": "Established clinical use",
+      "practical_note": "May antagonize HGF/MET modulator benefit per fosgonimeton post-hoc"
+    }
+  ],
+  "pathway_overlap": [
+    {
+      "point": "HGF positive modulation → c-Met activation",
+      "system": "neurotrophic / RTK",
+      "direction": "synergize",
+      "certainty": "Probable",
+      "notes": "Primary proposed MoA; foundational Dihexa biophysics figures compromised; independent Hinge block + scatter re-support"
+    },
+    {
+      "point": "PI3K/AKT anti-inflammatory / survival arm",
+      "system": "neuroprotection",
+      "direction": "synergize",
+      "certainty": "Probable",
+      "notes": "Sun 2021 APP/PS1 oral Dihexa; wortmannin reversal"
+    },
+    {
+      "point": "Spinogenesis / synaptic machinery",
+      "system": "structural plasticity",
+      "direction": "synergize",
+      "certainty": "Probable",
+      "notes": "McCoy culture ~3× spines under EoC; Sun SYP/neuronal markers independent"
+    },
+    {
+      "point": "Injury/deficit-gated efficacy",
+      "system": "cognitive phenotype",
+      "direction": "unclear",
+      "certainty": "Probable",
+      "notes": "ADDF: no normal-cognition boost in rats; favors deficit over healthy enhancement"
+    },
+    {
+      "point": "Systemic c-Met oncogenic program",
+      "system": "cancer / growth",
+      "direction": "antagonize",
+      "certainty": "Speculative",
+      "notes": "Theoretical long-term hazard; no Dihexa oncogenicity study; Athira malignancy exclusions"
+    },
+    {
+      "point": "AChEI × HGF/MET antagonism",
+      "system": "drug interaction",
+      "direction": "antagonize",
+      "certainty": "Speculative",
+      "notes": "Fosgonimeton company/post-hoc claim; Speculative for Dihexa"
+    },
+    {
+      "point": "Arousal / sleep disruption",
+      "system": "sleep-wake",
+      "direction": "antagonize",
+      "certainty": "Speculative",
+      "notes": "Forum multi-source stim/insomnia pattern; no PSG data"
+    },
+    {
+      "point": "DMSO vehicle irritation",
+      "system": "dermal / formulation",
+      "direction": "antagonize",
+      "certainty": "Probable",
+      "notes": "Established DMSO irritation class; high topical forum concordance"
+    }
+  ],
+  "protective_hypothesis": {
+    "statement": "Risk from Dihexa self-experiment is best managed by host selection (cancer/epilepsy/cardiac/hepatic exclusions), identity-confirmed supply, time-boxed sparse dosing respecting multi-day disposition, concurrent deliberate learning, sleep/arousal control, and active cancer surveillance — not by nutraceutical neutralization of HGF/c-Met.",
+    "certainty": "Speculative",
+    "literature_summary": "No Dihexa protection RCTs. Athira HGF/MET trials encode malignancy/epilepsy/cardiac/hepatic exclusions. Fosgonimeton shows short-term SC pathway tolerability without AD efficacy. ADDF flags theoretical tumorigenesis and long half-life.",
+    "mechanism_summary": "P1–P7 drive wanted plasticity and theoretical oncogenic spillover (P16–P17); P15 multi-day t½ drives accumulation; P19 drives stim/sleep sides; counters hit exposure, host selection, and symptom nodes rather than abolishing MET biology.",
+    "anecdote_summary": "Forums discuss weekly dosing, AM timing, dose cuts for sleep, DMSO irritation management, and cancer fear; no validated protection stack; false security from curcumin/EGCG common."
+  },
+  "monitoring_protocol": {
+    "labs": [
+      "Optional baseline CBC, CMP/LFTs if clinician-supervised long oral run",
+      "No validated Dihexa-specific biomarker panel (no pMET consumer assay)"
+    ],
+    "symptoms": [
+      "Daily sleep diary (latency, awakenings, total sleep)",
+      "Headache score",
+      "Mood/anxiety scale",
+      "Target cognitive/functional metric diary",
+      "Skin irritation score if topical",
+      "Cancer red flags: new mass, unexplained bleeding, night sweats, weight loss, persistent pain",
+      "Neurologic red flags: seizure, aura, focal deficit, thunderclap headache"
+    ],
+    "stop_criteria": [
+      "New seizure, focal neuro deficit, severe red-flag headache",
+      "Allergic reaction / anaphylaxis",
+      "Injection-site infection signs if SC",
+      "Cancer red-flag symptoms",
+      "Severe psychiatric decompensation",
+      "Persistent insomnia/anxiety not fixed by dose cut and AM-only timing",
+      "Escalating headaches",
+      "No meaningful target benefit after pre-specified short trial",
+      "Pregnancy discovered",
+      "Confirmed product identity failure"
+    ],
+    "certainty": "Speculative"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "Dihexa rescues cognition in rodent deficit models (scopolamine, aged, APP/PS1, repeated mild TBI)",
+      "certainty": "Probable",
+      "grade": "Moderate",
+      "supporting": [
+        {
+          "source_id": "S_SUN2021",
+          "strength": "moderate",
+          "notes": "Independent APP/PS1 oral 1.44–2.88 mg/kg; MWM rescue n=12; multi-endpoint molecular coherence"
+        },
+        {
+          "source_id": "S_MARTINO2025",
+          "strength": "moderate",
+          "notes": "Independent blinded rmTBI T-maze; 1 nmol ICV rescue ~67%→81.5%; Hinge block"
+        },
+        {
+          "source_id": "S_MCCOY2013",
+          "strength": "weak",
+          "notes": "Multi-route scopolamine/aged MWM rescue; under Expression of Concern"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "McCoy WSU origin; Sun independent China; Martino independent Rowan"
+    },
+    {
+      "id": "C2",
+      "statement": "Dihexa enhances cognition in healthy (non-deficit) brains",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S_FORUM",
+          "strength": "weak",
+          "notes": "Polarized self-reports of encoding/fluency; selection bias"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_ADDF2021",
+          "strength": "moderate",
+          "notes": "Did not improve cognitive functions in rats with normal cognition"
+        },
+        {
+          "source_id": "S_LIFTAD",
+          "strength": "indirect",
+          "notes": "Related pathway molecule failed AD clinical endpoints — lowers class therapeutic prior"
+        }
+      ],
+      "funding_notes": null
+    },
+    {
+      "id": "C3",
+      "statement": "Dihexa is synaptogenic (spines, PSD-95/VGLUT1/synapsin, AMPA mEPSCs) in preclinical systems",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S_MCCOY2013",
+          "strength": "weak",
+          "notes": "~3× spine density culture claims under EoC; functional markers reported"
+        },
+        {
+          "source_id": "S_SUN2021",
+          "strength": "moderate",
+          "notes": "Independent ↑ SYP and neuronal markers in APP/PS1"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_BENOIST2014_RETRACTED",
+          "strength": "strong",
+          "notes": "Mechanism figures retracted; cannot support synaptogenic dependence claims from that paper"
+        }
+      ],
+      "funding_notes": "Early WSU figures integrity-compromised"
+    },
+    {
+      "id": "C4",
+      "statement": "Dihexa is orally active and BBB-penetrant in rodents",
+      "certainty": "Probable",
+      "grade": "Moderate",
+      "supporting": [
+        {
+          "source_id": "S_MCCOY2013",
+          "strength": "moderate",
+          "notes": "Oral 2 mg/kg behavioral rescue; [3H]dihexa brain penetration — EoC caveat"
+        },
+        {
+          "source_id": "S_SUN2021",
+          "strength": "moderate",
+          "notes": "Oral gavage 3 months APP/PS1 positive"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": null
+    },
+    {
+      "id": "C5",
+      "statement": "Dihexa has multi-day elimination half-life in rats (enabling infrequent dosing logic)",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S_MCCOY2013",
+          "strength": "moderate",
+          "notes": "t½ 12.68 d IV; 8.83 d IP — single-lab EoC source; human t½ Unknown"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Human PK Unknown; do not treat as human fact"
+    },
+    {
+      "id": "C6",
+      "statement": "Dihexa is ~10 million times more potent than BDNF",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S_PRESS_BDNF",
+          "strength": "weak",
+          "notes": "ScienceDaily/WSU 2012 press language only"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_ADDF2021",
+          "strength": "strong",
+          "notes": "BDNF and Dihexa not directly compared in McCoy 2013 publication methods"
+        }
+      ],
+      "funding_notes": "Marketing residue; treat as discredited slogan"
+    },
+    {
+      "id": "C7",
+      "statement": "Dihexa works primarily via HGF/c-Met positive modulation (not primarily IRAP)",
+      "certainty": "Probable",
+      "grade": "Moderate",
+      "supporting": [
+        {
+          "source_id": "S_MARTINO2025",
+          "strength": "moderate",
+          "notes": "Hinge (MET antagonist peptide) blocks Dihexa WM rescue; MDCK scatter supports MET facilitation"
+        },
+        {
+          "source_id": "S_FOSGO_CLASS",
+          "strength": "indirect",
+          "notes": "Athira advanced related HGF/MET positive modulators clinically"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_BENOIST2014_RETRACTED",
+          "strength": "strong",
+          "notes": "Foundational Dihexa HGF dependence paper retracted 2025 — cannot be primary evidence"
+        }
+      ],
+      "funding_notes": "IRAP historical; residual IRAP contribution Speculative"
+    },
+    {
+      "id": "C8",
+      "statement": "HGF/MET positive modulation is clinically effective for mild–moderate AD cognition/function",
+      "certainty": "Unknown",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S_HUA2022",
+          "strength": "weak",
+          "notes": "Phase 1 exploratory P300/qEEG PD signals only; tiny AD n"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_LIFTAD",
+          "strength": "strong",
+          "notes": "Failed GST primary p≈0.70; ADAS-Cog11 and ADCS-ADL23 not significant"
+        },
+        {
+          "source_id": "S_ACTAD",
+          "strength": "moderate",
+          "notes": "Failed ERP P300 primary"
+        },
+        {
+          "source_id": "S_SHAPE",
+          "strength": "weak",
+          "notes": "Failed primary; underpowered early stop"
+        }
+      ],
+      "funding_notes": "Fosgonimeton not Dihexa; Established failure for that program"
+    },
+    {
+      "id": "C9",
+      "statement": "Dihexa is safe short-term in humans",
+      "certainty": "Unknown",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S_HUA2022",
+          "strength": "indirect",
+          "notes": "Related SC HGF/MET modulator short-term tolerability Probable — different molecule/route"
+        },
+        {
+          "source_id": "S_FORUM",
+          "strength": "weak",
+          "notes": "Many short logs without serious events; selection bias"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_ADDF2021",
+          "strength": "moderate",
+          "notes": "No human Dihexa safety database; theoretical tumorigenesis; long half-life"
+        }
+      ],
+      "funding_notes": "Zero Dihexa human trials Established fact"
+    },
+    {
+      "id": "C10",
+      "statement": "Chronic Dihexa use promotes cancer via HGF/c-Met",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S_ADDF2021",
+          "strength": "indirect",
+          "notes": "Theoretical tumorigenesis/metastasis via HGF/c-Met; no long-term Dihexa safety studies"
+        },
+        {
+          "source_id": "S_LIFTAD",
+          "strength": "indirect",
+          "notes": "Related program excluded malignancy history — class risk prior"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S_FORUM",
+          "strength": "weak",
+          "notes": "No documented user cancer attributions — worthless for rare delayed outcomes"
+        }
+      ],
+      "funding_notes": "Mechanism-plausible residual risk; magnitude Unknown; cannot rule out by anecdote absence"
+    },
+    {
+      "id": "C11",
+      "statement": "Dihexa causes headache in users",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S_FORUM",
+          "strength": "weak",
+          "notes": "Multi-source Longecity + Reddit pattern; confounds severe"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": null
+    },
+    {
+      "id": "C12",
+      "statement": "Dihexa causes insomnia / overstimulation",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S_FORUM",
+          "strength": "weak",
+          "notes": "Multi-thread pattern; residual multi-day stim consistent with long t½ hypothesis"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": null
+    },
+    {
+      "id": "C_INTEGRITY",
+      "statement": "Foundational Dihexa HGF/c-Met mechanism literature is integrity-compromised",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S_BENOIST2014_RETRACTED",
+          "strength": "strong",
+          "notes": "Retracted 2025 after WSU image-manipulation findings involving Kawas"
+        },
+        {
+          "source_id": "S_KAWAS2012_RETRACTED",
+          "strength": "strong",
+          "notes": "Retracted 2025"
+        },
+        {
+          "source_id": "S_MCCOY2013",
+          "strength": "strong",
+          "notes": "Expression of Concern 2021 cluster; not fully retracted as of 2026"
+        },
+        {
+          "source_id": "S_RW2021",
+          "strength": "strong",
+          "notes": "Retraction Watch / Athira special committee documentation"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Must weight early MOA downward; independent replications do not rehabilitate retracted figures"
+    },
+    {
+      "id": "C_ZERO_HUMAN",
+      "statement": "There are zero peer-reviewed human clinical trials of Dihexa",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S_ADDF2021",
+          "strength": "strong",
+          "notes": "Explicit no human data as of Aug 2021"
+        },
+        {
+          "source_id": "S_INTAKE2026",
+          "strength": "strong",
+          "notes": "2026 reconfirmation: 0 RCTs, 0 observational, 0 PK, 0 ClinicalTrials.gov Dihexa programs"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": null
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "statement": "Do not treat Benoist 2014 or Kawas 2012 as supporting evidence without Retracted label; always flag McCoy 2013 with Expression of Concern",
+      "certainty": "Established",
+      "category": "general",
+      "source_ids": ["S_BENOIST2014_RETRACTED", "S_KAWAS2012_RETRACTED", "S_MCCOY2013", "S_RW2021"],
+      "inference_note": "Integrity hygiene is non-optional for this compound"
+    },
+    {
+      "id": "R2",
+      "statement": "State clearly that Dihexa has zero human trials; human efficacy, PK, and long-term safety are Unknown",
+      "certainty": "Established",
+      "category": "general",
+      "source_ids": ["S_ADDF2021", "S_INTAKE2026"],
+      "inference_note": "Front-and-center, not buried"
+    },
+    {
+      "id": "R3",
+      "statement": "Use fosgonimeton only as pathway-class human proxy; never as Dihexa dose or efficacy equivalence",
+      "certainty": "Established",
+      "category": "general",
+      "source_ids": ["S_HUA2022", "S_LIFTAD", "S_ALZFORUM_FOSGO"],
+      "inference_note": "LIFT-AD failed GST; different molecule/route"
+    },
+    {
+      "id": "R4",
+      "statement": "Absolute exclusion if personal malignancy history; strong caution with strong family cancer history",
+      "certainty": "Probable",
+      "category": "contraindication",
+      "source_ids": ["S_ADDF2021", "S_LIFTAD"],
+      "inference_note": "Athira class exclusion logic; Speculative Dihexa attributable risk magnitude"
+    },
+    {
+      "id": "R5",
+      "statement": "Exclude epilepsy / uncontrolled seizure disorder; unstable cardiac disease; significant hepatic impairment; pregnancy",
+      "certainty": "Probable",
+      "category": "contraindication",
+      "source_ids": ["S_LIFTAD", "S_ALZFORUM_FOSGO"],
+      "inference_note": "Related-trial exclusion template as risk prior"
+    },
+    {
+      "id": "R6",
+      "statement": "Confirm supply identity with third-party HPLC/MS COA before any use",
+      "certainty": "Probable",
+      "category": "harm_reduction",
+      "source_ids": ["S_FORUM"],
+      "inference_note": "Research-chem purity variance is Probable class risk"
+    },
+    {
+      "id": "R7",
+      "statement": "If dosing at all: single morning low test dose; observe ≥5–7 days before second dose; default EOD–weekly not daily",
+      "certainty": "Speculative",
+      "category": "dosing",
+      "source_ids": ["S_MCCOY2013", "S_FORUM"],
+      "inference_note": "Respects multi-day rodent t½ as caution; human t½ Unknown; forum schedule is folklore"
+    },
+    {
+      "id": "R8",
+      "statement": "Time-box cycles with multi-half-life washouts; avoid years-long continuous MET exposure",
+      "certainty": "Speculative",
+      "category": "harm_reduction",
+      "source_ids": ["S_ADDF2021", "S_MCCOY2013"],
+      "inference_note": "Caps cumulative P15×P17 integral; quantitative limits unvalidated"
+    },
+    {
+      "id": "R9",
+      "statement": "Pair any exposure with deliberate learning/training; highest prior in deficit contexts not elite healthy optimization",
+      "certainty": "Speculative",
+      "category": "stack",
+      "source_ids": ["S_ADDF2021", "S_FORUM", "S_MARTINO2025"],
+      "inference_note": "P20 injury-gating + plasticity principle"
+    },
+    {
+      "id": "R10",
+      "statement": "For insomnia/overstimulation: morning-only, extend interval, cut dose, remove stimulant stacks, sleep hygiene before add-ons",
+      "certainty": "Speculative",
+      "category": "protective",
+      "source_ids": ["S_FORUM"],
+      "inference_note": "Pathway-matched to P15/P19; multi-source forum pattern"
+    },
+    {
+      "id": "R11",
+      "statement": "Do not use curcumin/EGCG/antioxidants as primary cancer counters; they create false security",
+      "certainty": "Probable",
+      "category": "protective",
+      "source_ids": ["S_ADDF2021"],
+      "inference_note": "Orthogonal to MET oncokinase drive; never Established-safe"
+    },
+    {
+      "id": "R12",
+      "statement": "Avoid stacking AChEIs if goal is HGF/MET pathway engagement; do not stop prescribed AChEIs without clinician",
+      "certainty": "Speculative",
+      "category": "interaction",
+      "source_ids": ["S_ACTAD", "S_LIFTAD"],
+      "inference_note": "Fosgonimeton post-hoc/company claim; Speculative for Dihexa"
+    },
+    {
+      "id": "R13",
+      "statement": "Avoid high-% DMSO topical if possible; if used, pharmaceutical-grade only, patch test, switch route if dermatitis",
+      "certainty": "Probable",
+      "category": "harm_reduction",
+      "source_ids": ["S_FORUM", "S_MCCOY2013"],
+      "inference_note": "DMSO irritation Established class"
+    },
+    {
+      "id": "R14",
+      "statement": "Reject '7 orders of magnitude vs BDNF' as dosing or efficacy rationale",
+      "certainty": "Established",
+      "category": "general",
+      "source_ids": ["S_ADDF2021", "S_PRESS_BDNF"],
+      "inference_note": "Press hyperbole; not head-to-head in McCoy methods"
+    },
+    {
+      "id": "R15",
+      "statement": "Predefine stop if no functional metric moves in one multi-t½ cycle; do not extend indefinitely hoping for delayed benefit",
+      "certainty": "Probable",
+      "category": "monitoring",
+      "source_ids": ["S_ADDF2021", "S_FORUM"],
+      "inference_note": "Limits sunk cost and chronic MET exposure under Speculative efficacy"
+    }
+  ],
+  "bro_science_claims": [
+    {
+      "claim": "Dihexa is 10,000,000× more potent than BDNF for human cognition",
+      "verdict": "contradicted",
+      "literature_note": "Press/PR origin; ADDF notes no direct BDNF vs Dihexa comparison in McCoy 2013 methods; zero human trials; related pathway failed Phase 2/3"
+    },
+    {
+      "claim": "Load 4 days then weekly because human t½ is 9–12 days",
+      "verdict": "speculative",
+      "literature_note": "Rat IV/IP t½ from McCoy (EoC); human t½ Unknown; accumulation logic is hypothesis not validated PK"
+    },
+    {
+      "claim": "15–30 mg oral is the standard therapeutic dose",
+      "verdict": "speculative",
+      "literature_note": "Longecity/forum convention only; ADDF: dose not established; product identity often unverified"
+    },
+    {
+      "claim": "Dihexa was proven in Phase 2 via Athira/fosgonimeton",
+      "verdict": "contradicted",
+      "literature_note": "Fosgonimeton is not Dihexa; ACT-AD and LIFT-AD failed primaries"
+    },
+    {
+      "claim": "Safe because no forum users report cancer",
+      "verdict": "contradicted",
+      "literature_note": "Latency, underreporting, short use, young base, no denominators; mechanism risk remains Speculative non-zero"
+    },
+    {
+      "claim": "Curcumin/EGCG neutralize HGF/c-Met cancer risk on Dihexa",
+      "verdict": "speculative",
+      "literature_note": "Orthogonal pathways; not MET-inhibitor substitutes; create false security"
+    },
+    {
+      "claim": "Dihexa boosts healthy high-functioning cognition like a universal smart drug",
+      "verdict": "unknown",
+      "literature_note": "ADDF: no normal-cognition boost in rats; human Unknown; base rate favors null"
+    }
+  ],
+  "counters": [
+    {
+      "side_id": "S1",
+      "side": "Theoretical tumorigenesis / cancer progression",
+      "pathway_nodes": ["P1", "P2", "P3", "P4", "P5", "P7", "P15", "P16", "P17"],
+      "items": [
+        {"node": "Pre-existing malignancy", "counter": "Absolute exclusion personal cancer history", "certainty": "Probable"},
+        {"node": "Occult disease", "counter": "Age-appropriate cancer screening pre multi-week use", "certainty": "Established"},
+        {"node": "Exposure duration", "counter": "Hard cycle limits + multi-t½ washout", "certainty": "Speculative"},
+        {"node": "Dose intensity", "counter": "Minimum effective sparse dosing (EOD/weekly not daily)", "certainty": "Probable"},
+        {"node": "Additive mitogens", "counter": "Avoid GH/IGF-1/uncontrolled mitogen co-chronic use", "certainty": "Speculative"},
+        {"node": "False security supplements", "counter": "Do not use curcumin/EGCG as primary MET counter", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side_id": "S2",
+      "side": "Headache",
+      "pathway_nodes": ["P9", "P10", "P16", "P19", "P23"],
+      "items": [
+        {"node": "Dose/exposure", "counter": "Dose reduction; EOD/weekly; stop if progressive", "certainty": "Probable"},
+        {"node": "Hydration", "counter": "Water + electrolytes", "certainty": "Probable"},
+        {"node": "Sleep loss", "counter": "Fix insomnia first", "certainty": "Probable"},
+        {"node": "Glutamatergic/tension", "counter": "Magnesium glycinate/threonate", "certainty": "Speculative"},
+        {"node": "Choline-demand hypothesis", "counter": "α-GPC/CDP-choline if racetam-like headache", "certainty": "Speculative"},
+        {"node": "Red flags", "counter": "Urgent care for thunderclap/neuro deficit", "certainty": "Established"}
+      ]
+    },
+    {
+      "side_id": "S3",
+      "side": "Insomnia / overstimulation",
+      "pathway_nodes": ["P8", "P9", "P10", "P15", "P19"],
+      "items": [
+        {"node": "Circadian timing", "counter": "Morning-only dosing", "certainty": "Probable"},
+        {"node": "Accumulation", "counter": "EOD/weekly not daily", "certainty": "Probable"},
+        {"node": "Additive stims", "counter": "Avoid caffeine megadoses/amphetamines/modafinil during titration", "certainty": "Probable"},
+        {"node": "Sleep architecture", "counter": "Sleep hygiene (CBT-I elements)", "certainty": "Established"},
+        {"node": "Hyperarousal symptom", "counter": "Mg / glycine / theanine / low-dose melatonin", "certainty": "Speculative"},
+        {"node": "Persistent insomnia", "counter": "Hard stop + multi-t½ washout", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side_id": "S4",
+      "side": "Anxiety / irritability / hypomanic edge",
+      "pathway_nodes": ["P8", "P10", "P19"],
+      "items": [
+        {"node": "Exposure", "counter": "Dose cut / EOD / stop", "certainty": "Probable"},
+        {"node": "Sleep loss", "counter": "Treat S3 aggressively", "certainty": "Probable"},
+        {"node": "Mood instability history", "counter": "Exclusion bipolar/psychosis or specialist supervision", "certainty": "Probable"},
+        {"node": "Behavioral magnification", "counter": "Avoid stims/all-nighters; channel into structured learning", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "side_id": "S6",
+      "side": "DMSO topical irritation",
+      "pathway_nodes": ["P23"],
+      "items": [
+        {"node": "High-% DMSO", "counter": "Lower %; pharma-grade only; patch test", "certainty": "Established"},
+        {"node": "Persistent dermatitis", "counter": "Discontinue topical; switch route", "certainty": "Established"}
+      ]
+    },
+    {
+      "side_id": "S8",
+      "side": "Supply purity / identity",
+      "pathway_nodes": ["C17", "P15"],
+      "items": [
+        {"node": "Unknown identity", "counter": "Third-party HPLC/MS COA lot-matched", "certainty": "Probable"},
+        {"node": "Vendor risk", "counter": "Prefer clinician compounding vs anonymous RC powder", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side_id": "S9",
+      "side": "Accumulation from long t½",
+      "pathway_nodes": ["P15", "P1", "P16"],
+      "items": [
+        {"node": "Multi-day t½", "counter": "≤1 dose per several days; wait ≥1 week after first dose before second", "certainty": "Probable"},
+        {"node": "Daily dosing culture", "counter": "Reject daily supplement framing", "certainty": "Probable"}
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S_MCCOY2013",
+      "citation": "McCoy AT et al. J Pharmacol Exp Ther. 2013;344:141-154. Metabolically stabilized Ang IV analogs; Dihexa PK, scopolamine/aged MWM, culture spinogenesis.",
+      "pmid": "23055539",
+      "design": "Preclinical multi-route pharmacology + culture + PK (rats)",
+      "funding": "WSU Harding/Wright lab origin",
+      "coi": "Foundational discovery lab; Expression of Concern 2021",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Low"
+    },
+    {
+      "id": "S_BENOIST2014_RETRACTED",
+      "citation": "Benoist CC et al. J Pharmacol Exp Ther. 2014;351:390-402. Procognitive/synaptogenic effects dependent on HGF/c-Met. RETRACTED 2025 (notice PMID 40312093).",
+      "pmid": "25187433",
+      "design": "Preclinical mechanism (Hinge block, scatter, binding)",
+      "funding": "WSU; Kawas co-authorship lineage",
+      "coi": "Image manipulation findings; retracted",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Unreliable"
+    },
+    {
+      "id": "S_KAWAS2012_RETRACTED",
+      "citation": "Kawas et al. J Pharmacol Exp Ther. 2012. HGF dimerization / Met modifier framing. RETRACTED 2025 (notice PMID 40312092).",
+      "pmid": "22129598",
+      "design": "Preclinical HGF/MET chemistry-biology",
+      "funding": "WSU",
+      "coi": "Image manipulation; retracted",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Unreliable"
+    },
+    {
+      "id": "S_SUN2021",
+      "citation": "Sun X et al. Brain Sci. 2021;11(11):1487. Oral Dihexa in APP/PS1 mice: MWM, SYP, inflammation, PI3K/AKT.",
+      "pmid": "34827486",
+      "doi": "PMC8615599",
+      "design": "Preclinical chronic oral AD transgenic mouse; n=12 MWM",
+      "funding": "China Pharmaceutical University / Nanjing First Hospital — independent of WSU",
+      "coi": "None known re Athira/Kawas",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_MARTINO2025",
+      "citation": "Martino KA, Nakhre A, Demarest RM, Devilbiss DM. bioRxiv 2025.09.25.678537. Dihexa rescues working memory after repeated mild TBI; Hinge block; MDCK scatter.",
+      "doi": "10.1101/2025.09.25.678537",
+      "design": "Preclinical blinded behavior; ICV Dihexa ± Hinge; both sexes; MS lot check",
+      "funding": "Rowan University TBI program — independent of WSU",
+      "coi": "None known re Athira discovery chain",
+      "peer_reviewed": false,
+      "source_class": "preprint",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_HO2018",
+      "citation": "Ho JK, Nation DA. Neurosci Biobehav Rev. 2018. Systematic review Ang IV / Ang-(1-7) cognitive preclinical literature.",
+      "pmid": "29733881",
+      "design": "Systematic review of preclinical Ang IV class",
+      "funding": "USC affiliations — independent of WSU Harding lab",
+      "coi": "Pre-retraction; imports WSU Dihexa claims",
+      "peer_reviewed": true,
+      "source_class": "systematic_review",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_ADDF2021",
+      "citation": "ADDF Cognitive Vitality Report — Dihexa. Updated 13 Aug 2021. No human data; no normal-cognition boost; theoretical cancer; PK summary; BDNF press caveat.",
+      "design": "Secondary synthesis",
+      "funding": "ADDF funded early Athira/Harding Dihexa work (disclosed)",
+      "coi": "Historical funding of origin program",
+      "peer_reviewed": false,
+      "source_class": "secondary",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_HUA2022",
+      "citation": "Hua et al. J Alzheimers Dis. 2022. Fosgonimeton Phase 1 SC SAD/MAD safety, qEEG gamma, P300 exploratory.",
+      "pmid": "35180125",
+      "design": "Phase 1 RCT DBPC SC; n≈88",
+      "funding": "Athira Pharma",
+      "coi": "Company-sponsored related molecule",
+      "peer_reviewed": true,
+      "source_class": "rct",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_LIFTAD",
+      "citation": "LIFT-AD Phase 2/3 fosgonimeton NCT04488419. Primary GST ADAS-Cog11+ADCS-ADL23 failed (p≈0.70); 40 mg SC daily 26 weeks; non-AChEI primary analysis N=287.",
+      "design": "Phase 2/3 multicenter RCT",
+      "funding": "Athira Pharma",
+      "coi": "Company-sponsored; post-Kawas leadership",
+      "peer_reviewed": true,
+      "source_class": "rct",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S_ACTAD",
+      "citation": "ACT-AD Phase 2 fosgonimeton. ERP P300 primary failed; post-hoc non-AChEI signals low trust.",
+      "design": "Phase 2 RCT",
+      "funding": "Athira Pharma",
+      "coi": "Company-sponsored",
+      "peer_reviewed": true,
+      "source_class": "rct",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_SHAPE",
+      "citation": "SHAPE Phase 2 fosgonimeton in PDD/DLB. Failed primary; stopped early n=28.",
+      "design": "Phase 2 RCT underpowered early stop",
+      "funding": "Athira Pharma",
+      "coi": "Company-sponsored",
+      "peer_reviewed": true,
+      "source_class": "rct",
+      "trust_tier": "Low"
+    },
+    {
+      "id": "S_ALZFORUM_FOSGO",
+      "citation": "Alzforum Fosgonimeton therapeutic page — ACT-AD, LIFT-AD, SHAPE, AChEI post-hoc, program discontinuation AD/DLB/PDD, Dihexa relationship hedge.",
+      "design": "Secondary clinical tracking",
+      "funding": null,
+      "coi": null,
+      "peer_reviewed": false,
+      "source_class": "secondary",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S_FOSGO_CLASS",
+      "citation": "Athira HGF/MET positive modulator clinical program (ATH-1017/NDX-1017/fosgonimeton) as pathway class — not Dihexa chemical identity.",
+      "design": "Program-level synthesis",
+      "funding": "Athira",
+      "coi": "Commercial pathway interest",
+      "peer_reviewed": true,
+      "source_class": "other",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S_RW2021",
+      "citation": "Retraction Watch 24 Sep 2021 — four Athira-CEO papers Expressions of Concern; Athira special committee Kawas image alteration findings Oct 2021.",
+      "design": "Integrity journalism / institutional investigation",
+      "funding": null,
+      "coi": null,
+      "peer_reviewed": false,
+      "source_class": "other",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S_PRESS_BDNF",
+      "citation": "WSU / ScienceDaily press coverage Oct 2012 — 'seven orders of magnitude more powerful than BDNF'.",
+      "design": "Press release / popular science",
+      "funding": "WSU PR",
+      "coi": "Discovery lab promotion",
+      "peer_reviewed": false,
+      "source_class": "other",
+      "trust_tier": "Unreliable"
+    },
+    {
+      "id": "S_FORUM",
+      "citation": "Longecity Dihexa self-admin logs and science threads; Reddit r/Nootropics and r/NooTopics dose/side/plasticity discussions.",
+      "design": "Uncontrolled self-experiment anecdote corpus",
+      "funding": null,
+      "coi": "Selection bias, purity unknown, stack confounds",
+      "peer_reviewed": false,
+      "source_class": "forum_anecdotal",
+      "trust_tier": "Low"
+    },
+    {
+      "id": "S_INTAKE2026",
+      "citation": "Research run 4e2097d8 intake inventory 2026-07-29: zero Dihexa human trials/PK/ClinicalTrials.gov programs reconfirmed.",
+      "design": "Orchestrator source inventory",
+      "funding": null,
+      "coi": null,
+      "peer_reviewed": false,
+      "source_class": "other",
+      "trust_tier": "Moderate"
+    }
+  ]
+}

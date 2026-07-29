@@ -1,0 +1,17 @@
+{
+  "slug": "primobolan",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "AR/non-aromatizing/non-alkyl Established; gym hypertrophy Probable forum; soft-AI phenotype Probable MOA Speculative; lipids Probable; HAARLEM fakes",
+  "input_type": "compound",
+  "open_questions": [
+    "Modern RCT ME 400-600 mg/wk vs test-only DXA E2 lipids",
+    "In vitro aromatase Ki metenolone",
+    "Human muscle 3a-HSD rate ME (Bond mildness)"
+  ],
+  "lenses": [
+    "aas",
+    "dht-derivative",
+    "non-aromatizing"
+  ]
+}
