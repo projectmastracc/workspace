@@ -25,12 +25,14 @@ knowledge/
 - Prefer generic names: `creatine-monohydrate`, `bacopa-monnieri`, `cerebrolysin`, `trenbolone`
 - Interaction: `cerebrolysin_vs_trenbolone` (alphabetize only if roles are symmetric; otherwise **problem_vs_mitigator** or keep A_vs_B as analyzed)
 
-## When the skill reads
+## When the skill reads (exact-slug only)
 
-On setup for `compound` or `interaction` inputs, if a matching folder exists:
+Knowledge is for **re-running the same compound or exact interaction pair** — not a free library of ceilings for other topics.
 
-1. Load `profile.md` + `meta.json` into intake as **Prior knowledge profile**
-2. Prefer differential update: refresh claims, open questions, and matrix fields rather than rewriting from zero when evidence is unchanged
+1. Load `profile.md` + `meta.json` only when the slug **exactly matches** this run’s primary subject (or exact `a_vs_b` interaction being re-run).
+2. Prefer differential update for that same subject only.
+3. **Never** load sibling compounds (e.g. do not load `knowledge/compounds/cerebrolysin` while researching a trenbolone-primary interaction unless the user is re-running that cerebrolysin profile or an exact cerebrolysin_vs_trenbolone interaction slug).
+4. **Never** treat `findings/*` packages as knowledge inputs for a different query.
 
 ## When the skill writes
 

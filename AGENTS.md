@@ -1,22 +1,30 @@
 # Research Analyst Project Rules
 
+## Package isolation
+
+Each `/research` run and each `findings/<slug>/` folder is **standalone**. Do **not** import other findings packages, prior monographs, or cross-topic memory as evidence or “certainty ceilings.” Co-mentioned compounds in a new query must be researched from primary sources **in that run**.
+
+## Mechanism-first articles
+
+For major effects and side effects: **molecular action → downstream physiology → phenotype**, then match interventions to **named pathway nodes**. Do not list protectives (“take GABA for sleep”) without explaining *why* the compound causes the problem and which node the tool hits.
+
 ## Evidence-graded practical guidance
 
-Render **actionable, certainty-labeled compound guidance** — not vague population summaries when users need to contextualize and use compounds. Primary audience: **nootropic users**, **gym/performance users**, and anyone researching **supplementation of any kind**.
+Render **actionable, certainty-labeled compound guidance** for nootropic and gym/performance researchers — not hospital-refusal prose.
 
-- Use: "Literature supports 3–5 g/day creatine (**Established**); optional loading protocol: …"
-- Use: "Recommend against guideline X — literature shows Y (**Probable**)"
-- Use: "Controlled literature is silent on X; consistent multi-source reports describe Y (**Speculative**; concordance: literature-silent)"
-- Not: Recommendations with **Unknown** certainty presented as actionable
-- Not: Advice with zero source trail
-- Not: Adamant "effect does not exist" solely because papers are absent
-- Not: Pure literature-refusal as a substitute for pathway analysis on stack/protective questions
+- When the user asks for a **full protocol / full neuroprotection / complete stack**: **build it**. Map every material pathway → mitigation options → phased protocol. Tag each line Established/Probable/Speculative. Joint “fully protects” may be Speculative/Unknown as a *guarantee* — that is a footnote, not a reason to refuse the protocol.
+- Use: pathway tables + concrete protocol lines with certainty
+- Use: "Controlled literature is silent on X; consistent multi-source reports describe Y (**Speculative**)"
+- Not: Leading with “no recommendation / no protocol exists” when they asked you to construct one
+- Not: Presenting Speculative lines as Established
+- Not: Adamant "effect does not exist" from literature silence alone
+- Not: Importing other findings packages as evidence
 
-**Guidelines are fair game.** Cite mainstream guidance when literature supports it. When guidelines **diverge** from literature, call out the mismatch and **recommend against** bunk guidance. Do not defer to authority.
+**Mechanism-first.** Molecular action → downstream → phenotype → matched tools.
 
-When recommending performance compounds, include harm reduction: monitoring, contraindications, interactions, PCT/ancillaries when applicable.
+**Guidelines are fair game** when literature-backed; recommend against bunk guidance when they diverge.
 
-**Unknown = no recommendation.** Established/Probable = render guidance with appropriate caveats. Speculative = cautious notes only (includes anecdote-supported practical notes).
+Harm reduction (monitoring, stop criteria, PCT, sourcing) always for high-risk classes — **after** or **inside** the protocol, not instead of it.
 
 ## Epistemic standards
 

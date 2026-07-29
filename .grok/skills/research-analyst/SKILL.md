@@ -28,8 +28,24 @@ When evidence supports practical use, **render** dosing, protocols, stacks, moni
 - Consistent multi-source anecdotal/forum patterns are **first-class inputs**: report and weigh them; they support **Speculative** notes only — never Established/Probable alone
 - Literature silence ≠ “effect does not exist”
 - Multi-compound / protective queries get **pathway-level analysis**, not literature-refusal summaries
+- **Mechanism-first:** for major effects and sides, chain molecular action → downstream physiology → phenotype; match protectives/stacks to **named pathway nodes**, not generic “support” lists
+- **Protocol construction:** when user asks for full protocol / full neuroprotection / complete cover — **build** the multi-pathway protocol with certainty on every line; do not lead with medical-style “no recommendation”
 
 See `references/dr-principles.md`, `references/style-guide.md`, and `references/evidence-grading.md`.
+
+## Run isolation (hard rules — non-negotiable)
+
+Each `/research` command produces a **standalone** findings package. Other packages are **not** sources.
+
+1. **Never read other `findings/*` folders** as evidence, ceilings, continuity, or analysis input. Do not `ls`, `read_file`, cite, paraphrase, or “load mitigator ceilings from” prior packages (e.g. `findings/NAC`, `findings/cerebrolysin`).
+2. **Co-mentioned compounds are researched in this run.** If the query involves stacks, protectives, or B/C agents (e.g. cerebrolysin for trenbolone neuroprotection, NAC, telmisartan), acquire literature and forum sources **for those agents in this intake**. Do not import prior monographs.
+3. **Memory is same-topic only.** After `research-memory.py read`, use the thread **only if it matches this exact topic/question**. Cross-topic memory (e.g. NAC thread while researching trenbolone) → treat as **none**. Never use other compounds’ memory as certainty ceilings.
+4. **Knowledge load is exact-slug only.** Load `knowledge/compounds/<slug>/` or `knowledge/interactions/<a>_vs_<b>/` only when the slug is **this run’s primary subject** (or exact interaction pair being re-run). Do **not** load sibling compounds’ knowledge when analyzing a different primary (e.g. do not load cerebrolysin knowledge for a trenbolone-primary interaction run unless the user is re-running that exact interaction slug).
+5. **Forbidden briefing language:** “prior workspace findings,” “prior monographs,” “ceilings from findings/X,” “skim findings/…,” “continuity with [unrelated package].”
+6. **Anti-pattern:** Opening other findings to fill mitigator sections. **Correct:** Search PubMed/web/forums for each agent and the combination in *this* run; adjudicate from those sources.
+7. Golden examples under `references/examples/` are **calibration only**, not evidence and not prior findings packages.
+
+Quality reviewer **auto-flags critical/major** for cross-package findings use (see persona).
 
 ## Tool-call discipline
 
@@ -72,9 +88,9 @@ At setup (after `mkdir`):
 python3 <skill>/scripts/research-memory.py read
 ```
 
-Store output as `past_research_briefing` (may be empty). Include in `intake.md` under **Past research briefing**.
+Store as `past_research_briefing` **only if the returned thread is the same topic as this query**. Otherwise set **none** (cross-topic memory is not analytical input). Include in `intake.md` under **Past research briefing**.
 
-After successful deliver, flush:
+After successful deliver, flush **this topic only**:
 
 ```bash
 echo '{"run":{"topic":"...","effort":N,"certainty":"...","conclusions":["..."],"recommendations":["..."],"open_questions":["..."],"sources":["PMID:..."],"guideline_flags":"...","verdict":"..."}}' \
@@ -83,7 +99,7 @@ echo '{"run":{"topic":"...","effort":N,"certainty":"...","conclusions":["..."],"
 
 ## Knowledge layer (persistent monographs)
 
-Repo-local store (shareable, differential updates):
+Repo-local store for **same-slug re-runs only** — not a library of free ceilings for other topics:
 
 ```
 knowledge/compounds/<slug>/profile.md
@@ -94,29 +110,19 @@ knowledge/interactions/<slug-a>_vs_<slug-b>/...
 
 Slug: lowercase, hyphenated common name (e.g. `creatine-monohydrate`, `cerebrolysin`).
 
-**At setup** (compound or interaction):
+**At setup** (exact match only):
 
-1. If `knowledge/compounds/<slug>/` exists, read `profile.md` + `meta.json` into intake as **Prior knowledge profile**.
-2. For interaction, also check `knowledge/interactions/<a>_vs_<b>/` and each compound folder.
-3. Note open questions from prior meta for differential focus.
+1. If **this run’s** primary slug matches `knowledge/compounds/<slug>/`, optionally load for differential update of *that same compound re-run*.
+2. For interaction re-runs: load only `knowledge/interactions/<exact-a>_vs_<exact-b>/` when re-running **that pair**.
+3. **Do not** load knowledge for co-mentioned mitigators that are not the primary slug of this run. Research them from primary sources in this intake.
 
 **At deliver** (effort ≥ 3, or `--save` under `knowledge/`):
 
-1. Write/update `profile.md` from final briefing (or Executive Card + full analysis).
+1. Write/update `profile.md` from **this run’s** final briefing only.
 2. Copy `evidence-matrix.json` → `matrix.json`.
 3. Write `meta.json`: `{ "slug", "updated", "effort", "overall_certainty", "open_questions", "input_type" }`.
 
-Helper script (optional):
-
-```bash
-python3 <skill>/scripts/knowledge-store.py slug "Creatine Monohydrate"
-python3 <skill>/scripts/knowledge-store.py read compound creatine-monohydrate
-python3 <skill>/scripts/knowledge-store.py write compound --name creatine-monohydrate \
-  --profile "${ARTIFACT_DIR}/briefing.md" --matrix "${ARTIFACT_DIR}/evidence-matrix.json" \
-  --effort 3 --certainty Established --lenses nutrition performance
-```
-
-See `knowledge/README.md`. Cross-session memory (`research-memory.py`) remains separate (workspace-hashed under `~/.grok/`).
+Helper script (optional): see `scripts/knowledge-store.py` and `knowledge/README.md`.
 
 ## PubMed MCP
 
@@ -234,8 +240,9 @@ For interaction, set:
 - **Search strategy**: [terms, databases, date range]
 - **Anecdotal sampling**: none | [forums/topics sampled]
 - **PubMed MCP**: available | unavailable
-- **Past research briefing**: [from memory or "none"]
-- **Prior knowledge profile**: [from knowledge/ or "none"]
+- **Past research briefing**: [same-topic memory only, else "none"]
+- **Prior knowledge profile**: [exact-slug knowledge only, else "none"]
+- **Package isolation**: enforced — no other findings/ packages read
 ```
 
 Follow `references/literature-search.md`. Source counts:
@@ -286,8 +293,11 @@ For `interaction`, tell framer to use `interaction-profile-template.md` and infe
 ## Task
 Read intake: {intake_file}
 Read references: {relevant reference paths under skill references/}
-Read primary sources listed in intake.
-If prior knowledge profile is non-empty, differential-update against it.
+Read primary sources listed in intake (and only those — acquire more via web_search/web_fetch if needed).
+
+**Isolation:** Do NOT read any other findings/* package. Do NOT use prior monographs as evidence. Co-mentioned compounds must be sourced in this run’s intake/search, not imported.
+
+If intake lists exact-slug prior knowledge for a same-subject re-run only, you may differential-update that subject — never sibling compounds.
 
 Write your analysis to: {section_file}
 
@@ -296,6 +306,7 @@ Cite DOI/PMID for every literature source you discuss; label forum sources as no
 Label substantive claims with certainty: Established / Probable / Speculative / Unknown.
 When literature is silent and consistent anecdotes exist: state both; never adamant denial of existence from silence alone.
 For interaction mode: pathway-level analysis required; no literature-refusal substitute.
+Discover community protectives (e.g. peptides used against AAS sides) via this run’s search, not prior packages.
 Incorporate user_context from intake when provided.
 ```
 
@@ -325,7 +336,8 @@ Routing:
 
 Always open with Executive Card.
 Integrate source scrutiny, methods, inference, and compound framing into one briefing.
-If past_research_briefing or prior knowledge is non-empty, note continuity in Overview.
+Continuity note in Overview **only** if same-topic memory is non-empty for this exact re-run — never cross-package continuity.
+Never cite other findings/* packages. Never import prior monograph ceilings.
 Include Guidance & Application Notice. Include Source Integrity with funding/COI.
 Include Guidelines vs Literature for health-adjacent topics with evidence-graded recommendations.
 Include Subjective / Experiential Profile with weighing + concordance when anecdotes material.
@@ -396,6 +408,8 @@ Do not delete artifacts if user used `--save`. Otherwise optional cleanup.
 | Literature silent + consistent anecdotes | State both; never adamant “does not exist” |
 | Interaction query | Pathway analysis required; soft-upgrade effort; use interaction template |
 | Bro-science contradicted by literature | Tag claims; recommend against; do not present as Established |
+| Other findings/* exist on co-mentioned compounds | Ignore as inputs; research those compounds fresh in this run |
+| Memory returns unrelated prior topics | Treat as none — do not import ceilings |
 
 ## What this skill produces
 

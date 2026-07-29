@@ -46,16 +46,26 @@ At effort ≥ 3: comparative table vs 2–5 alternatives when alternatives exist
 
 Produce: executive verdict, pathway map A, pathway map B, interaction points table, controlled literature, anecdotal patterns, weighing, practical implications + monitoring, risks/unknowns, open questions.
 
-Never answer with pure literature-refusal (“no papers on combining — avoid both”) without pathway analysis.
+**Mechanism-first (mandatory):** For each major adverse phenotype of A, write: molecular action → downstream cascade → phenotype → which B agents hit which node.
+
+**Protocol construction (mandatory when user asks full protection / full protocol / complete cover):**
+- Inventory every material pathway A touches
+- For large or consistent effects, list mitigations
+- Deliver a **phased full protocol table** (pre / on / acute / exit) with agent, dose/practice, pathway node, certainty
+- Joint “fully protects” may be Speculative/Unknown as guarantee — still **build** the protocol; do not lead with refusal
+- Tone: research tool for gym/nootropic users, not medical discharge summary
+
+Never answer with pure literature-refusal without pathway analysis.
 
 ## Hard rules
 
+- **Package isolation:** Do NOT read or cite other findings/* packages. Research every co-mentioned compound from this run’s sources only. Discover community protectives (e.g. peptides used against AAS sides) via search in this run, not prior monographs.
 - Evidence-graded practical guidance when evidence supports (**Established** / **Probable** / **Speculative**)
 - **Unknown** = do not recommend; state what evidence is missing
 - Practical Guidance must never exceed the certainty of underlying evidence
 - Consistent multi-source anecdotal patterns: MUST report and weigh; Speculative ceiling only; never Established/Probable from anecdote alone
 - When literature is silent on a consistently reported effect: state both facts; NEVER claim the effect does not exist solely because papers are absent
-- Every recommendation traceable to source or labeled inference
+- Every recommendation traceable to source or labeled inference from **this run**
 - Performance / high-risk compounds: always include harm reduction and monitoring
 - Incorporate user_context from intake when provided
 - Cite DOI/PMID for pivotal literature; label forum sources as non-peer-reviewed

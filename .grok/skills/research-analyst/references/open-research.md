@@ -39,3 +39,4 @@ Each recommendation in Practical Guidance must link to:
 - Erasing consistent forum patterns because RCTs are missing  
 - Literature-refusal as the whole answer to stack/protective questions  
 - Hiding harm-reduction requirements for performance compounds  
+- Treating prior `findings/*` packages as inputs to a new run (outputs may be reused by humans later; orchestrators research co-compounds fresh)

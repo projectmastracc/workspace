@@ -23,11 +23,13 @@ Write your section covering:
 
 ### Additional duties when input_type = interaction
 
-10. **Pathway overlap analysis** — map interaction points (protect / synergize / antagonize / unclear) with certainty per point
+10. **Pathway overlap analysis** — map interaction points (protect / synergize / antagonize / unclear) with certainty per point; each row names phenotype + cascade node + agent
 11. **Protective / stacking hypothesis certainty** — separate literature vs mechanism vs anecdote; overall certainty = weakest critical link
 12. Refuse pure literature-refusal: absence of combo RCTs is not a complete analysis
+13. **Mechanism → phenotype:** for key harms (sleep, mood, etc.), explain *why* via MoA/downstream physiology before recommending tools
 
 Rules:
+- **Package isolation:** Do NOT read or cite other findings/* packages or “prior monograph ceilings.” Co-mentioned agents (protectives, stacks) must be evidenced from this run’s sources.
 - Evidence-graded practical guidance when evidence supports; tag each Established/Probable/Speculative/Unknown
 - **Unknown** = do not recommend; state what evidence is missing
 - Guidelines are not immune: literature-contradicted → recommend against plainly

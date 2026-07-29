@@ -46,9 +46,17 @@ Compact block at the top of every briefing:
 
 Class, key structural features if relevant, solubility/stability notes, close analogs. Regulatory status where known.
 
-### 3. Mechanism of Action
+### 3. Mechanism of Action (mechanism → phenotype)
 
-Receptor / enzyme / pathway detail. Distinguish **established** molecular actions from **downstream hypotheses**. Connect molecular action to claimed physiological or subjective effects where possible.
+Receptor / enzyme / pathway detail. Distinguish **established** molecular actions from **downstream hypotheses**.
+
+**Required chain for major effects and side effects:**
+
+| Claimed effect / side effect | Molecular action | Downstream cascade | Clinical/subjective phenotype | Certainty |
+|------------------------------|------------------|--------------------|-------------------------------|-----------|
+| … | … | … | … | … |
+
+Do **not** list sides without “why.” Connect MoA → physiology → what the user feels or measures.
 
 ### 4. Pharmacokinetics
 
@@ -83,7 +91,7 @@ Example weighing sentence:
 
 > Controlled literature is largely silent on X. Consistent multi-source forum reports describe Y at doses Z (**Speculative**; concordance: literature-silent). Worth noting with caution; not a basis for firm protocol advice.
 
-### 8. Practical Guidance (evidence-graded)
+### 8. Practical Guidance (evidence-graded, mechanism-mapped)
 
 Dosing, titration, timing, duration, stacks, monitoring — only where certainty supports it.
 
@@ -91,15 +99,15 @@ Dosing, titration, timing, duration, stacks, monitoring — only where certainty
 - Each bullet tagged **Established** / **Probable** / **Speculative** / **Unknown**.
 - Harm-reduction framing mandatory for AAS, SARMs, peptides, high-dose neuro, and other non-trivial risk classes.
 - Never let Practical Guidance exceed the certainty of the underlying evidence.
+- **Mechanism map required:** for stacks, protectives, and side-effect management, state which MoA/downstream node is being targeted (e.g. “targets thermogenesis-driven night sweats,” not just “for sleep”).
 
-Suggested sub-bullets:
+Suggested structure:
 
-- Dosing  
-- Timing  
-- Duration / cycling  
-- Stacks (beneficial and risky)  
-- Monitoring  
-- Not recommended when  
+| Goal / problem | Pathway node targeted | Protocol element | Certainty |
+|----------------|----------------------|------------------|-----------|
+| … | … | … | … |
+
+Also: Dosing · Timing · Duration/cycling · Stacks · Monitoring · Not recommended when
 
 ### 9. Safety, Side Effects, Contraindications & Monitoring
 

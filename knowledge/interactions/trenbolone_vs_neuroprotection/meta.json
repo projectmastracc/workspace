@@ -2,11 +2,11 @@
   "slug": "trenbolone_vs_neuroprotection",
   "updated": "2026-07-29",
   "effort": 5,
-  "overall_certainty": "Unknown",
+  "overall_certainty": "Speculative",
   "input_type": "interaction",
   "open_questions": [
-    "Human RCT of sleep-first intervention during controlled androgen exposure",
-    "Trenbolone-specific neuroimaging cohorts",
-    "NAC or peptide co-admin in AAS-exposed models with validated CNS endpoints"
+    "Tren-specific PSG thermal physiology",
+    "NAC co-admin in vivo with tren-like androgens",
+    "Prospective cerebrolysin AAS cognitive study"
   ]
 }

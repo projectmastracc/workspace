@@ -46,6 +46,24 @@ Executive verdict, Pathway A, Pathway B, Interaction points, Controlled literatu
 - “literature does not support combining — avoid both” as the only analysis  
 - “may/might/could” as the sole substitute for an Unknown label  
 - “Established” attached to pure forum consensus  
+- “prior workspace findings,” “prior monographs,” “ceilings from findings/,” “skim findings/”  
+- Citations of other `findings/*` paths as analytical sources  
+
+### Package isolation
+
+| # | Check | Pass criteria |
+|---|--------|---------------|
+| I1 | No other findings packages | Briefing/matrix do not depend on other `findings/*` |
+| I2 | Co-compounds in-run | Mitigators/stacks evidenced from this run’s sources/forums |
+| I3 | Same-topic continuity only | No cross-topic memory used as ceilings |
+
+### Mechanism-first
+
+| # | Check | Pass criteria |
+|---|--------|---------------|
+| M1 | Sides explained | Major phenotypes have MoA → downstream → phenotype chain |
+| M2 | Tools matched to nodes | Practical protectives name the cascade node they target |
+| M3 | No orphan stack lists | No “take X for Y” without pathway linkage at effort ≥ 3 |
 
 ---
 

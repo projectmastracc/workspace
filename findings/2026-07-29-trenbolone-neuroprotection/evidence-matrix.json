@@ -1,166 +1,268 @@
 {
-  "analysis_id": "94cfd27c",
-  "question": "What evidence supports (or fails to support) achieving full neuroprotection against trenbolone-related CNS / neuropsychiatric / sleep / structural brain harms? Map trenbolone/AAS neural pathways and evaluate candidate protective strategies (dose reduction, sleep defense, NAC/redox, GABAergic supports, cerebrolysin/neurotrophic peptides, psychiatric care).",
+  "analysis_id": "843bdcda",
+  "question": "Full neuroprotective protocol against trenbolone \u2014 all pathways and mitigations",
   "input_type": "interaction",
   "interaction": {
-    "compound_a": { "name": "trenbolone", "role": "problem" },
+    "compound_a": {
+      "name": "trenbolone",
+      "role": "problem"
+    },
     "compound_b": {
-      "name": "multi-agent neuroprotection stack (exposure reduction, sleep defense, NAC, GABA/taurine/Mg, cerebrolysin, clinical psych care)",
+      "name": "multi-pathway neuroprotective protocol",
       "role": "mitigator"
     },
-    "hypothesis": "A multi-pathway stack can fully prevent trenbolone neurotoxicity and neuropsychiatric harm"
+    "hypothesis": "Full multi-node neuroprotective protocol covering trenbolone CNS pathways"
   },
-  "overall_certainty": "Unknown",
+  "overall_certainty": "Speculative",
   "executive_verdict": {
-    "summary": "Full neuroprotection from trenbolone via multi-agent stack is Unsupported/Unknown — no recommendation for a complete-cover protocol. Exposure reduction/avoid is the primary lever (Established risk-avoidance logic; Probable practice benefit). Sleep defense is a Probable intermediate for secondary neuropsychiatric risk. Clinical psych care is Established for emergency standards and Probable for syndrome treatment when severe symptoms appear (general psychiatry), not tren cover. NAC pathway cover is Speculative with combo efficacy Unknown. Cerebrolysin as tren protective is Unknown. GABA/taurine forum stacks are Speculative and literature-silent for tren. Post-cycle hypogonadism is a Probable secondary mood/sleep risk pathway; recovery planning is harm-reduction relevant (Speculative–Probable by component); peptides/NAC do not fix HPTA.",
-    "certainty": "Unknown",
-    "practical_note": "Do not recommend a full neuroprotection protocol. Prefer hierarchy: avoid → minimize dose/duration → sleep/mood monitoring → exit/endocrine recovery attention → indicated clinical care → optional low-stakes adjuncts with honest Speculative ceilings. Prior NAC and cerebrolysin monographs supply mitigator ceilings only — they do not transfer to tren cover. No invented PCT protocol."
+    "summary": "Full pathway-mapped protocol rendered; joint complete protection not proven; load-bearing levers dose+sleep+stops; experimental NAC+cerebrolysin on mito/neurotrophic nodes",
+    "certainty": "Speculative",
+    "practical_note": "Use phased protocol \u00a74; do not raise dose because cover stack is running"
   },
   "subjective_concordance": "partial",
-  "anecdotal_patterns": [
-    { "theme": "Trenbolone → insomnia / fragmented sleep / night sweats (high multi-source forum reports)", "consistency": "high", "sources_note": "steroid.com, anabolicsteroidforums-class threads; non-peer-reviewed", "concordance": "partial", "certainty_ceiling": "Speculative" },
-    { "theme": "Trenbolone → irritability, anxiety, tren brain / restlessness", "consistency": "high", "sources_note": "Multi-source bodybuilding forums; polypharmacy and stimulant confounds common", "concordance": "partial", "certainty_ceiling": "Speculative" },
-    { "theme": "Dose reduction / drop-tren improves sleep and mood sides", "consistency": "high", "sources_note": "Forum consensus first-line self-advice; aligns with exposure-control logic", "concordance": "partial", "certainty_ceiling": "Speculative" },
-    { "theme": "GABA / taurine / magnesium / antihistamine sleep stacks take the edge off tren insomnia", "consistency": "moderate", "sources_note": "Common stack lore; mixed individual success; uncontrolled", "concordance": "literature-silent", "certainty_ceiling": "Speculative" },
-    { "theme": "NAC as on-cycle antioxidant / brain cover for tren or AAS", "consistency": "moderate", "sources_note": "Modern/nootropic-adjacent AAS users; rarely isolated from other ancillaries", "concordance": "literature-silent", "certainty_ceiling": "Speculative" },
-    { "theme": "Cerebrolysin / neurotrophic peptides smooth tren cycles", "consistency": "low", "sources_note": "Niche peptide/biohacking subset; heavy confounding; low signal", "concordance": "literature-silent", "certainty_ceiling": "Unknown" },
-    { "theme": "Sides continue despite full ancillary stacks (undercuts full protection narrative)", "consistency": "moderate", "sources_note": "Also reported on same forums; selection/survivor bias both ways", "concordance": "contradictory", "certainty_ceiling": "Speculative" },
-    { "theme": "Off-cycle / withdrawal sleep worsening and post-cycle mood crash", "consistency": "moderate", "sources_note": "Forum PCT/crash lore; partially aligned with Klonteig 2024 off-cycle analyses and hypogonadism–mood architecture", "concordance": "partial", "certainty_ceiling": "Speculative" }
-  ],
-  "pathway_overlap": [
-    { "point": "Dose/duration reduction vs all tren CNS paths", "system": "Exposure / AR load", "direction": "protect", "certainty": "Probable", "notes": "Primary harm-reduction lever; Established causal logic for removing driver; Probable practice benefit" },
-    { "point": "Sleep hygiene / clinical insomnia care vs secondary neuro load", "system": "Sleep → mood/cognition", "direction": "protect", "certainty": "Probable", "notes": "Partial intermediate only; Unknown vs structural brain change" },
-    { "point": "NAC vs mitochondrial/oxidative culture phenotype", "system": "Redox / mitochondria", "direction": "protect", "certainty": "Speculative", "notes": "Mechanistic hypothesis from Zelleroth in-vitro assay only; no NAC+tren human data; not human Established" },
-    { "point": "NAC vs glutamate hyperactivity / irritability", "system": "System xc- / glutamate", "direction": "protect", "certainty": "Speculative", "notes": "Standalone CNS glutamate pharmacology Probable; AAS transfer Unknown" },
-    { "point": "NAC vs training adaptation (performance lens)", "system": "ROS signaling / adaptation", "direction": "antagonize", "certainty": "Speculative", "notes": "Possible blunt of training ROS signals at chronic high antioxidant doses" },
-    { "point": "Taurine/Mg/oral GABA vs tren insomnia/anxiety", "system": "Sleep / GABA-related", "direction": "protect", "certainty": "Speculative", "notes": "Literature-silent for tren; forum symptom lore only" },
-    { "point": "Phenibut-class GABAergics vs anxiety", "system": "GABA", "direction": "antagonize", "certainty": "Probable", "notes": "Short-term sedation possible; dependence/withdrawal harm class Probable with misuse" },
-    { "point": "Cerebrolysin vs BDNF/neurodegeneration narrative under tren", "system": "Neurotrophic support", "direction": "protect", "certainty": "Unknown", "notes": "Pathway wish-list only; zero AAS combo trials; prior prevention ceiling Unknown" },
-    { "point": "Cerebrolysin + continued tren exposure", "system": "Injury vs repair", "direction": "unclear", "certainty": "Unknown", "notes": "Treating while injuring; no data" },
-    { "point": "Flutamide/AR block vs neurite toxicity", "system": "AR / non-AR culture toxicity", "direction": "unclear", "certainty": "Speculative", "notes": "Zelleroth in-vitro: flutamide failed to restore neurite length; pure-AR cover incomplete within assay" },
-    { "point": "AR block vs anabolic goal", "system": "Muscle AR", "direction": "antagonize", "certainty": "Established", "notes": "Would fight intended anabolic effect" },
-    { "point": "SSRI/clinical care vs suicidal depression in AAS context", "system": "Mood circuits", "direction": "protect", "certainty": "Probable", "notes": "Standard psychiatric care; case-supported (Viegas); not structural prevention" },
-    { "point": "Multi-stack full cover vs residual non-AR + structural risk", "system": "Whole system", "direction": "unclear", "certainty": "Unknown", "notes": "Incomplete coverage; absolute full protection untested" },
-    { "point": "Night sweats to sleep loss to tren-brain amplification", "system": "Cascading sleep/mood", "direction": "synergize", "certainty": "Speculative", "notes": "Sleep node Probable as intermediate; cascade detail Speculative" },
-    { "point": "Stimulant co-use + tren", "system": "Sleep/anxiety", "direction": "synergize", "certainty": "Probable", "notes": "General stimulant + sleep antagonism" },
-    { "point": "NAC or cerebrolysin or GABA supports vs HPTA suppression", "system": "Endocrine", "direction": "unclear", "certainty": "Probable", "notes": "NOT PROTECTIVE — Probable non-effect on suppression; supplements do not restore HPTA; machine readers must not treat as open protective interaction" },
-    { "point": "Planned cessation + endocrine recovery attention vs post-cycle mood/sleep crash", "system": "HPTA → CNS secondary", "direction": "protect", "certainty": "Probable", "notes": "Post-cycle hypogonadism Probable secondary mood/sleep risk architecture; DIY PCT components Speculative–Probable; not full neuroprotection; no invented PCT protocol" }
-  ],
   "protective_hypothesis": {
-    "statement": "A multi-pathway stack (exposure control + sleep defense + NAC + GABA/taurine/Mg + cerebrolysin ± psychiatric care) fully prevents trenbolone-related CNS toxicity, neuropsychiatric harm, sleep disruption, and structural brain change",
-    "certainty": "Unknown",
-    "literature_summary": "No human RCTs or prospective controlled studies of any multi-agent stack (or single agent NAC/cerebrolysin/GABA supports) preventing trenbolone-attributable sleep, psychiatric, cognitive, or imaging outcomes. Harm associations for class AAS (sleep, structural imaging) and small self-report aggression under controlled exogenous testosterone RCTs (Chegeni g≈0.17; not tren-isolated) plus tren-leaning in-vitro culture toxicity are documented; combination protection literature is empty.",
-    "mechanism_summary": "Multi-hit model (AR agonism, non-AR culture neurite/mito toxicity in vitro, redox stress, GABAA modulation, sleep disruption, HPTA→post-cycle CNS, neuroinflammation/BDNF narratives, CV-indirect, idiosyncratic psych vulnerability) makes partial node coverage plausible. Complete residual-risk≈0 coverage is not mechanistically guaranteed — flutamide failure in culture implies non-AR residual. Supplements do not restore HPTA. Weakest-link rule fails on unproven mitigator efficacy under tren and absolute full endpoint.",
-    "anecdote_summary": "Forums consistently report tren sleep/night sweats/irritability and partial symptomatic relief from dose cuts and sleep stacks (Speculative; literature-silent for stack efficacy). Niche claims of peptide/NAC full cover are low-signal and confounded. Off-cycle crash/PCT lore aligns partially with hypogonadism–mood architecture."
+    "statement": "Multi-node protocol reduces fractional risk across sleep, mood, redox, neurotrophic, exit pathways",
+    "certainty": "Speculative",
+    "literature_summary": "No RCT of full stack; strong harm signals; sleep observational solid",
+    "mechanism_summary": "P1-P14 inventory with matched tools",
+    "anecdote_summary": "Trensomnia high consistency; cerebrolysin AAS concurrent/post-cycle practice real"
   },
+  "pathway_overlap": [
+    {
+      "point": "Dose cut vs AR load",
+      "system": "AR/CNS",
+      "direction": "protect",
+      "certainty": "Probable",
+      "notes": "P1"
+    },
+    {
+      "point": "Cooling vs thermogenesis sweats",
+      "system": "thermal/sleep",
+      "direction": "protect",
+      "certainty": "Probable",
+      "notes": "P3"
+    },
+    {
+      "point": "Mg/taurine vs GABA/sleep continuity",
+      "system": "inhibitory tone",
+      "direction": "protect",
+      "certainty": "Speculative",
+      "notes": "P4/P8"
+    },
+    {
+      "point": "NAC vs mito/ROS culture phenotype",
+      "system": "redox",
+      "direction": "protect",
+      "certainty": "Speculative",
+      "notes": "P6"
+    },
+    {
+      "point": "Cerebrolysin vs neurotrophic/excitotoxic/ROS narratives",
+      "system": "NTF/plasticity",
+      "direction": "protect",
+      "certainty": "Speculative",
+      "notes": "P6/P7; literature-silent combo; community use real"
+    },
+    {
+      "point": "Exit endocrine plan vs off-cycle sleep/mood",
+      "system": "HPTA",
+      "direction": "protect",
+      "certainty": "Probable",
+      "notes": "P12"
+    },
+    {
+      "point": "Clinical crisis care vs SI/psychosis",
+      "system": "psych",
+      "direction": "protect",
+      "certainty": "Established",
+      "notes": "P14"
+    }
+  ],
+  "anecdotal_patterns": [
+    {
+      "theme": "trensomnia and night sweats",
+      "consistency": "high",
+      "sources_note": "multi-forum + AAS sleep lit",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "cerebrolysin concurrent or post-cycle with AAS",
+      "consistency": "moderate",
+      "sources_note": "r/Cerebrolysin AAS; BB forums",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "statement": "Full multi-node neuroprotective protocol as in briefing \u00a74",
+      "certainty": "Speculative",
+      "category": "protective"
+    },
+    {
+      "id": "R2",
+      "statement": "Prioritize dose/duration reduction and thermal sleep protocol",
+      "certainty": "Probable",
+      "category": "harm_reduction"
+    },
+    {
+      "id": "R3",
+      "statement": "Optional NAC for redox/mito node",
+      "certainty": "Speculative",
+      "category": "stack"
+    },
+    {
+      "id": "R4",
+      "statement": "Optional cerebrolysin concurrent or post-cycle for neurotrophic node",
+      "certainty": "Speculative",
+      "category": "stack"
+    },
+    {
+      "id": "R5",
+      "statement": "Hard stop on SI/psychosis/uncontrolled aggression \u2014 clinical care",
+      "certainty": "Established",
+      "category": "monitoring"
+    },
+    {
+      "id": "R6",
+      "statement": "Do not increase tren because cover stack is running",
+      "certainty": "Probable",
+      "category": "harm_reduction"
+    }
+  ],
   "monitoring_protocol": {
     "labs": [
-      "Blood pressure (baseline and on-cycle)",
-      "Fasting lipids",
-      "CBC / hematocrit / hemoglobin",
-      "LFTs as indicated",
-      "Resting heart rate",
-      "ECG if cardiovascular risk factors present",
-      "Endocrine panel for suppression / exit planning as clinically indicated (total/free T, LH/FSH as clinician directs)"
+      "BP",
+      "fasting lipids",
+      "CBC/HCT",
+      "optional endocrine panel post-cycle"
     ],
     "symptoms": [
-      "Sleep hours, night sweats, awakenings, next-day function",
-      "Irritability, anxiety, paranoia, risk-taking",
-      "Partner/collateral behavioral reports",
-      "Focus and memory complaints",
-      "Suicidal ideation, mania, psychosis, violence risk",
-      "Chest pain, severe dyspnea",
-      "Post-cycle libido, morning energy, mood, sleep (hypogonadal crash window)",
-      "Adjunct AEs (NAC GI; sedative hangover; injection reactions if peptides used)"
+      "sleep hours",
+      "night sweats",
+      "irritability/paranoia scores",
+      "cognitive fog"
     ],
     "stop_criteria": [
-      "Suicidal ideation, psychosis, mania, or severe aggression → urgent psychiatric/emergency care; discontinue AAS",
-      "Progressive insomnia with functional collapse",
-      "Chest pain, severe dyspnea, hypertensive crisis",
-      "Hematocrit above agreed clinician threshold",
-      "Marked cognitive decline not explained by sleep alone → medical evaluation",
-      "Post-cycle depression or persistent hypogonadal symptoms → clinician/endocrine evaluation (not peptide cover)",
-      "Anaphylactoid reaction or seizure history relevant to cerebrolysin (absolute avoid that agent)"
+      "sustained sleep collapse",
+      "loss of behavioral control",
+      "SI/psychosis",
+      "CV emergency signs"
     ],
     "certainty": "Probable"
   },
-  "comparative_alternatives": [
-    { "name": "Not using trenbolone", "efficacy_note": "Completely removes tren-specific CNS exposure driver; strongest posture for brain-priority goals", "safety_note": "Avoids tren-specific and reduces AAS-class exposure risk if no substitute AAS used", "evidence_quality": "Causal logic Established; class AAS harm signals Probable", "practical_note": "Primary recommendation when CNS/sleep/psychiatric outcomes are prioritized" },
-    { "name": "Lower dose / shorter duration / less polypharmacy (if already exposed)", "efficacy_note": "Fractional expected risk reduction on sleep, mood, and cumulative structural-risk architecture", "safety_note": "Residual AAS risk remains; not full protection", "evidence_quality": "Probable harm-reduction logic; observational duration gradients in Oslo imaging program", "practical_note": "First residual lever if user continues despite risks" },
-    { "name": "Other AAS without tren (e.g. testosterone-focused)", "efficacy_note": "Avoids tren in-vitro culture rank-order toxicity hypothesis; class sleep/mood/structural signals may remain", "safety_note": "Still suppression, CV, and neuropsychiatric risk; not safe", "evidence_quality": "Richer human clinical experience for testosterone than tren; Chegeni aggression ES is controlled testosterone RCTs not safe-T endorsement", "practical_note": "Tradeoff discussion only — not medical endorsement of non-medical AAS use" },
-    { "name": "Sleep intervention without continuing high-dose tren", "efficacy_note": "Improves sleep domain and secondary mood/cognition load", "safety_note": "Does not fix AR load if tren continued at high dose", "evidence_quality": "General sleep literature Established; AAS sleep association Probable (Klonteig)", "practical_note": "High-value intermediate whether or not AAS continues" },
-    { "name": "Exit planning / clinician endocrine care after stop", "efficacy_note": "Addresses post-cycle hypogonadal secondary mood/sleep risk; does not erase on-cycle structural/psych risk already incurred", "safety_note": "DIY PCT product/legal risks; incomplete recovery possible", "evidence_quality": "HPTA suppression Established class; post-cycle CNS secondary risk Probable architecture; DIY PCT Speculative–Probable by component", "practical_note": "Harm reduction after exposure — not a cover protocol; no invented PCT recipe; peptides/NAC do not fix HPTA" },
-    { "name": "NAC and/or cerebrolysin while continuing tren", "efficacy_note": "Unproven for tren neuroprotection; does not enable safe tren", "safety_note": "False security risk; cerebrolysin injection/source/allergy/seizure CI risks; NAC GI and interaction risks", "evidence_quality": "Combo Unknown; pathway Speculative (NAC); cerebrolysin Unknown", "practical_note": "Do not present as cover protocol; not HPTA fix" }
-  ],
   "claims": [
-    { "id": "C1", "statement": "Full neuroprotection from trenbolone is achievable with a multi-agent stack (sleep + NAC + GABA supports + neurotrophics ± psych care)", "certainty": "Unknown", "grade": "Very Low", "supporting": [], "contradicting": [{ "source_id": "S_gap_combo", "strength": "strong", "notes": "No RCTs or controlled series of multi-agent stacks preventing tren-attributable CNS endpoints" }, { "source_id": "S_zelleroth", "strength": "moderate", "notes": "Non-AR culture residual (flutamide incomplete rescue in vitro)" }, { "source_id": "S_bjornebekk_2017", "strength": "moderate", "notes": "Structural associations not shown reversible by OTC/peptide stacks" }], "funding_notes": "No sponsor has funded a pre-registered human trial of full tren neuroprotection" },
-    { "id": "C2", "statement": "Within the Zelleroth 2021 primary rat cortical culture assay only, trenbolone ranks among the most toxic AAS tested for neurite outgrowth, neuronal viability, and mitochondrial function (not a human clinical ranking)", "certainty": "Established", "grade": "Moderate", "supporting": [{ "source_id": "S_zelleroth", "strength": "strong", "notes": "Head-to-head AAS comparison in vitro; tren worst/near-worst at 100 µM — assay scope only" }], "contradicting": [{ "source_id": "S_zelleroth", "strength": "indirect", "notes": "Human translation Speculative — 10–100 µM bath ≠ gym brain free concentrations; immature E17 cultures" }], "funding_notes": "Academic Swedish steroid neuropharmacology cluster; scope: assay_only" },
-    { "id": "C3", "statement": "Trenbolone/AAS neurite toxicity involves non-AR mechanisms in addition to AR (flutamide incomplete rescue in culture)", "certainty": "Speculative", "grade": "Low", "supporting": [{ "source_id": "S_zelleroth", "strength": "moderate", "notes": "Flutamide did not restore neurite length or Tubb3 — in vitro" }], "contradicting": [], "funding_notes": "Preclinical culture evidence only" },
-    { "id": "C4", "statement": "Prolonged high-dose AAS use is associated with cortical thinning/volume loss and markers of accelerated brain aging", "certainty": "Probable", "grade": "Low", "supporting": [{ "source_id": "S_bjornebekk_2017", "strength": "moderate", "notes": "Structural MRI long-term AAS vs non-using weightlifters" }, { "source_id": "S_bjornebekk_2021", "strength": "moderate", "notes": "Brain-age ML association with prolonged AAS use" }, { "source_id": "S_scarth_2021", "strength": "moderate", "notes": "Narrative synthesis of androgen abuse and brain" }], "contradicting": [{ "source_id": "S_methods_confound", "strength": "moderate", "notes": "Observational; polypharmacy, premorbid traits, reverse causation remain live" }], "funding_notes": "South-Eastern Norway Regional Health Authority public grants; no COI declared (Oslo program)" },
-    { "id": "C5", "statement": "AAS use is associated with impaired sleep quality among male weightlifters", "certainty": "Probable", "grade": "Low", "supporting": [{ "source_id": "S_klonteig_2024", "strength": "moderate", "notes": "~66% AAS group reported sleep problems; worse PSQI; off-cycle analyses" }], "contradicting": [{ "source_id": "S_methods_confound", "strength": "weak", "notes": "Self-report sleep; confounders; not tren-only arm" }], "funding_notes": "South-Eastern Norway Regional Health Authority; COI none declared" },
-    { "id": "C6", "statement": "Controlled exogenous testosterone administration in healthy males produces a small average increase in self-reported aggression (Chegeni 2021 meta g≈0.17); this is not a trenbolone-isolated or multi-AAS gym-stack effect size", "certainty": "Probable", "grade": "Moderate", "supporting": [{ "source_id": "S_chegeni_2021", "strength": "moderate", "notes": "SR/MA of exogenous testosterone experimental RCTs: Hedges g ≈ 0.17 self-report; observer null" }], "contradicting": [{ "source_id": "S_chegeni_2021", "strength": "moderate", "notes": "Observer null; high-dose/long-term restricted strata not significant; ecological validity low for gym tren/19-nor stacks; not tren RCTs" }], "funding_notes": "Academic SR/MA of testosterone RCTs; no AAS-product sponsor identified" },
-    { "id": "C7", "statement": "AAS (including tren+testosterone combinations) are linked to severe psychiatric outcomes including suicide attempts", "certainty": "Speculative", "grade": "Very Low", "supporting": [{ "source_id": "S_thiblin", "strength": "weak", "notes": "Case series AAS and suicide" }, { "source_id": "S_viegas_2020", "strength": "weak", "notes": "Case: fluoxetine after AAS-related suicide attempt" }], "contradicting": [{ "source_id": "S_methods_confound", "strength": "moderate", "notes": "No denominator; selection bias; cannot estimate tren-attributable population risk" }], "funding_notes": "Case-level clinical/forensic reporting" },
-    { "id": "C8", "statement": "Dose reduction or non-use is the strongest harm-reduction strategy for trenbolone-related neuro risk", "certainty": "Probable", "grade": "Moderate", "supporting": [{ "source_id": "S_bjornebekk_2017", "strength": "indirect", "notes": "Imaging associations scale with prolonged/heavy use" }, { "source_id": "S_logic_exposure", "strength": "strong", "notes": "Removing upstream driver reduces multi-domain risk; Established causal logic" }, { "source_id": "S_forums", "strength": "weak", "notes": "Dose drop improves sleep/mood sides" }], "contradicting": [], "funding_notes": "Logic-based with observational support" },
-    { "id": "C9", "statement": "Sleep defense meaningfully lowers intermediate neuropsychiatric risk during AAS/tren exposure", "certainty": "Probable", "grade": "Moderate", "supporting": [{ "source_id": "S_klonteig_2024", "strength": "moderate", "notes": "AAS–sleep association Probable" }, { "source_id": "S_sleep_general", "strength": "strong", "notes": "Sleep loss → mood/cognition harm Established general architecture" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "moderate", "notes": "Unknown that sleep alone prevents structural tren toxicity" }], "funding_notes": "General sleep architecture plus AAS sleep association" },
-    { "id": "C10", "statement": "NAC covers tren-related oxidative/glutamate stress sufficiently to protect the brain (clinical neuroprotection)", "certainty": "Unknown", "grade": "Very Low", "supporting": [{ "source_id": "S_nac_tenorio", "strength": "indirect", "notes": "NAC GSH precursor Established; wrong indication for tren" }, { "source_id": "S_zelleroth", "strength": "indirect", "notes": "In-vitro mito/viability phenotype creates Speculative pathway overlap only" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "strong", "notes": "No NAC+tren human RCT; does not fix HPTA" }], "funding_notes": "APAP regulatory trust does not transfer" },
-    { "id": "C10b", "statement": "NAC has mechanistic pathway plausibility as a partial redox/glutamate cover against AAS-related neural stress", "certainty": "Speculative", "grade": "Low", "supporting": [{ "source_id": "S_nac_tenorio", "strength": "indirect", "notes": "GSH and system xc- pharmacology" }, { "source_id": "S_zelleroth", "strength": "indirect", "notes": "Mito/viability stress in culture assay" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "moderate", "notes": "Plausibility is not demonstrated clinical cover" }], "funding_notes": "Prior workspace NAC findings: prevention-style claims Unknown" },
-    { "id": "C11", "statement": "Cerebrolysin provides neurotrophic rescue / protection against trenbolone CNS harm", "certainty": "Unknown", "grade": "Very Low", "supporting": [{ "source_id": "S_cerebrolysin_prior", "strength": "indirect", "notes": "Stroke/TBI/AD adjunct signals Probable in-indication — wrong indication" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "strong", "notes": "Zero cerebrolysin+AAS trials; does not fix HPTA" }, { "source_id": "S_cochrane_cerebro", "strength": "moderate", "notes": "Cochrane non-endorsement of routine AIS/VaD use" }], "funding_notes": "EVER Neuro Pharma dominates positive packages" },
-    { "id": "C12", "statement": "GABA/taurine/magnesium tren sleep stacks reverse tren insomnia, anxiety, and tren brain", "certainty": "Speculative", "grade": "Very Low", "supporting": [{ "source_id": "S_forums", "strength": "weak", "notes": "Multi-source self-experiment lore; mixed success" }, { "source_id": "S_gaba_animal", "strength": "indirect", "notes": "Animal AAS–GABAA modulation literature" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "moderate", "notes": "No human RCTs for tren-specific sleep/neuroprotection" }], "funding_notes": "Forum sources Low/Unreliable for causal claims" },
-    { "id": "C13", "statement": "Clinical psychiatric care can treat AAS-emergent mood/suicidality (standard care, not tren cover)", "certainty": "Probable", "grade": "Moderate", "supporting": [{ "source_id": "S_viegas_2020", "strength": "weak", "notes": "Case-level SSRI management" }, { "source_id": "S_psych_soc", "strength": "strong", "notes": "General psychiatry emergency standards" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "weak", "notes": "Not proven primary prevention of structural change" }], "funding_notes": "General psychiatry practice framework" },
-    { "id": "C14", "statement": "Forum patterns of night sweats, insomnia, anxiety, and tren brain accurately map a tren-specific CNS phenotype", "certainty": "Speculative", "grade": "Very Low", "supporting": [{ "source_id": "S_forums", "strength": "weak", "notes": "High multi-source consistency" }, { "source_id": "S_klonteig_2024", "strength": "moderate", "notes": "Class AAS sleep association aligns directionally" }], "contradicting": [{ "source_id": "S_methods_confound", "strength": "moderate", "notes": "Tren-unique controlled data thin; construct not validated" }], "funding_notes": "Non-peer-reviewed forums plus partial class AAS sleep concordance" },
-    { "id": "C15", "statement": "Recreational/performance tren use can be made neuro-safe under medical or WADA-aligned frameworks via protective stacking", "certainty": "Unknown", "grade": "Very Low", "supporting": [], "contradicting": [{ "source_id": "S_wada", "strength": "strong", "notes": "Anabolic agents prohibited; no recreational TUE" }, { "source_id": "S_gap_combo", "strength": "strong", "notes": "No society-endorsed neuroprotective stacking protocol" }], "funding_notes": "Policy and evidence-gap anchors" },
-    { "id": "C16", "statement": "Post-cycle hypogonadism after tren/AAS contributes to secondary mood and sleep risk; recovery/PCT planning is harm-reduction relevant but is not full neuroprotection", "certainty": "Probable", "grade": "Low", "supporting": [{ "source_id": "S_logic_exposure", "strength": "strong", "notes": "HPTA suppression Established class; low endogenous T → mood/sleep secondary architecture" }, { "source_id": "S_klonteig_2024", "strength": "moderate", "notes": "Off-cycle sleep problems remain relevant" }, { "source_id": "S_forums", "strength": "weak", "notes": "PCT/crash lore" }], "contradicting": [{ "source_id": "S_gap_combo", "strength": "moderate", "notes": "No single validated PCT protocol as neuroprotection; DIY components Speculative–Probable only" }], "funding_notes": "Class endocrine pharmacology plus observational sleep off-cycle signals" },
-    { "id": "C17", "statement": "NAC, cerebrolysin, and GABA-class supports do not restore HPTA after tren/AAS (Probable non-effect; not protective for suppression)", "certainty": "Probable", "grade": "Low", "supporting": [{ "source_id": "S_logic_exposure", "strength": "strong", "notes": "No mechanistic basis for HPTA restart by these agents; Established class suppression is not reversed by redox/neurotrophic/sleep OTC agents" }], "contradicting": [], "funding_notes": "Adjudication: Probable non-effect; supplements are not HPTA therapies" }
-  ],
-  "recommendations": [
-    { "id": "R1", "statement": "Do not use trenbolone if CNS, sleep, or psychiatric outcomes are priority goals", "certainty": "Probable", "category": "harm_reduction", "source_ids": ["S_klonteig_2024", "S_bjornebekk_2017", "S_zelleroth", "S_chegeni_2021"], "inference_note": "Strongest evidence-aligned lever; Established risk-avoidance logic; Chegeni is testosterone RCT context not tren ES" },
-    { "id": "R2", "statement": "If already exposed or set on use despite risks: reduce dose, shorten duration, avoid polypharmacy stack escalation", "certainty": "Probable", "category": "harm_reduction", "source_ids": ["S_bjornebekk_2017", "S_logic_exposure", "S_forums"], "inference_note": "Primary residual risk control" },
-    { "id": "R3", "statement": "Prioritize sleep defense as critical intermediate (schedule, environment, sweat management, stimulant discipline, apnea screen, clinical insomnia care when moderate–severe)", "certainty": "Probable", "category": "monitoring", "source_ids": ["S_klonteig_2024", "S_sleep_general"], "inference_note": "Probable intermediate; Unknown as structural neuroprotection" },
-    { "id": "R4", "statement": "Seek urgent clinical psychiatric care for suicidality, mania, psychosis, or severe aggression; temporary AAS cessation is rational — do not escalate unproven peptide/NAC stacks as substitute", "certainty": "Probable", "category": "harm_reduction", "source_ids": ["S_viegas_2020", "S_thiblin", "S_psych_soc"], "inference_note": "Established emergency standards; Probable syndrome care; not tren cover" },
-    { "id": "R5", "statement": "If any AAS exposure continues: baseline and interval monitoring of mood/sleep logs, BP, lipids, HCT/Hb, with low threshold for psych referral", "certainty": "Probable", "category": "monitoring", "source_ids": ["S_klonteig_2024", "S_bjornebekk_2017", "S_aas_hr_class"], "inference_note": "Probable harm-reduction practice; not a green light for tren" },
-    { "id": "R5b", "statement": "Plan for post-cycle HPTA suppression: monitor mood/sleep off-cycle; seek clinician/endocrine evaluation for persistent hypogonadal symptoms — do not invent a PCT protocol as neuroprotection; peptides/NAC do not fix HPTA", "certainty": "Probable", "category": "harm_reduction", "source_ids": ["S_logic_exposure", "S_klonteig_2024", "S_forums"], "inference_note": "Post-cycle hypogonadism → secondary mood/sleep risk Probable architecture; DIY PCT Speculative–Probable by component; no specific PCT recipe recommended" },
-    { "id": "R6", "statement": "Do not recommend any full multi-agent neuroprotection protocol as complete cover for continued trenbolone use", "certainty": "Unknown", "category": "protective", "source_ids": ["S_gap_combo"], "inference_note": "Unknown equals no recommendation" },
-    { "id": "R7", "statement": "Do not recommend NAC as a proven trenbolone neuroprotectant protocol", "certainty": "Unknown", "category": "protective", "source_ids": ["S_gap_combo", "S_nac_tenorio"], "inference_note": "Pathway Speculative; combo Unknown; not HPTA fix" },
-    { "id": "R8", "statement": "Do not recommend cerebrolysin or neurotrophic peptides for trenbolone prophylaxis; recommend against DIY/gray-market self-injection for this purpose", "certainty": "Unknown", "category": "contraindication", "source_ids": ["S_gap_combo", "S_cerebrolysin_prior", "S_cochrane_cerebro"], "inference_note": "Unknown efficacy for tren; not HPTA fix" },
-    { "id": "R9", "statement": "GABA/taurine/magnesium may be noted only as Speculative low-stakes sleep supports with realistic expectations; avoid dependence-prone GABAergics (phenibut-class)", "certainty": "Speculative", "category": "stack", "source_ids": ["S_forums", "S_gaba_animal"], "inference_note": "Literature-silent for tren; not structural neuroprotection; not HPTA fix" },
-    { "id": "R10", "statement": "Recommend against framing recreational trenbolone as a medically supervised neuro-protected cycle; WADA/medical non-endorsement is not contradicted by neuro literature", "certainty": "Probable", "category": "general", "source_ids": ["S_wada", "S_gap_combo", "S_klonteig_2024", "S_bjornebekk_2017"], "inference_note": "Guidelines vs literature alignment favors non-endorsement" },
-    { "id": "R11", "statement": "Recommend against exposure in women, adolescents, and people with prior psychosis, uncontrolled CVD, or active mood disorders (elevated absolute risk populations)", "certainty": "Probable", "category": "contraindication", "source_ids": ["S_aas_hr_class", "S_piacentino_2015"], "inference_note": "Class risk architecture; pregnancy absolute for exogenous androgens Established" }
+    {
+      "id": "C1",
+      "statement": "Trenbolone multi-pathway CNS risk model justifies multi-tool protocol",
+      "certainty": "Probable",
+      "supporting": [
+        {
+          "source_id": "S_zelleroth",
+          "strength": "moderate",
+          "notes": "in vitro"
+        },
+        {
+          "source_id": "S_klonteig",
+          "strength": "moderate",
+          "notes": "sleep"
+        }
+      ],
+      "contradicting": []
+    },
+    {
+      "id": "C2",
+      "statement": "Full protocol guarantees complete neuroprotection",
+      "certainty": "Unknown",
+      "supporting": [],
+      "contradicting": [
+        {
+          "source_id": "S_absent_rct",
+          "strength": "strong",
+          "notes": "no full-stack RCT"
+        }
+      ]
+    }
   ],
   "bro_science_claims": [
-    { "claim": "If you sleep well, take NAC/taurine/GABA, keep dose moderate, and maybe peptides, tren is brain-safe / fully protected", "verdict": "unknown", "literature_note": "Full protection claim is Unknown/unsupported. Partial fractional risk reduction via dose and sleep is Probable; NAC/cerebrolysin cover unproven." },
-    { "claim": "NAC fully covers redox neurotoxicity from tren", "verdict": "unknown", "literature_note": "No NAC+tren trial. Pathway Speculative only. Does not fix HPTA." },
-    { "claim": "Cerebrolysin / neuro peptides reverse or prevent AAS brain damage", "verdict": "unknown", "literature_note": "Zero AAS trials. EVER-dominated stroke packages; Cochrane cautious. Does not fix HPTA." },
-    { "claim": "GABA/taurine stack fully solves tren sleep toxicity", "verdict": "speculative", "literature_note": "Literature-silent for tren. Speculative symptom notes only." },
-    { "claim": "Tren uniquely and inevitably destroys the brain at all doses", "verdict": "speculative", "literature_note": "Culture rank-order Established in Zelleroth rat assay only; human structural data are class AAS/observational." },
-    { "claim": "Dropping dose or dropping tren is the real first fix for mental sides", "verdict": "supported", "literature_note": "Aligns with exposure-control Probable harm-reduction logic and high forum consistency." },
-    { "claim": "Roid rage is inevitable and large on any AAS including tren", "verdict": "contradicted", "literature_note": "Chegeni 2021 is a meta of exogenous testosterone experimental RCTs (not tren-isolated): small self-report g≈0.17; observer null. Ecological validity for gym 19-nor stacks is low." },
-    { "claim": "NAC/peptides/GABA stacks fix HPTA and prevent PCT crash", "verdict": "contradicted", "literature_note": "Probable non-effect on HPTA suppression. Post-cycle hypogonadism is a real secondary mood/sleep risk (Probable architecture) but is not fixed by these agents. No invented PCT-as-neuroprotection protocol." }
+    {
+      "claim": "Peptides make tren brain-safe at any dose",
+      "verdict": "contradicted",
+      "literature_note": "False security; protocol forbids dose-up on cover"
+    }
   ],
   "sources": [
-    { "id": "S_scarth_2021", "citation": "Scarth M, Bjørnebekk A. Androgen abuse and the brain. Curr Opin Endocrinol Diabetes Obes. 2021.", "doi": "10.1097/MED.0000000000000675", "pmid": "34709215", "design": "PRISMA-guided narrative review", "funding": "South-Eastern Norway Regional Health Authority public grants", "coi": "None declared", "peer_reviewed": true, "source_class": "systematic_review", "trust_tier": "High" },
-    { "id": "S_zelleroth", "citation": "Zelleroth S, et al. Structurally different AAS reduce neurite outgrowth and neuronal viability in primary rat cortical cultures. J Steroid Biochem Mol Biol. 2021. (In-vitro assay only.)", "doi": "10.1016/j.jsbmb.2021.105863", "pmid": "33677017", "design": "In-vitro primary rat E17 cortical cultures; multi-AAS ± flutamide — not human clinical ranking", "funding": "Academic Swedish steroid neuropharmacology cluster", "coi": "Academic preclinical", "peer_reviewed": true, "source_class": "preclinical", "trust_tier": "Moderate" },
-    { "id": "S_klonteig_2024", "citation": "Klonteig S, Scarth M, Bjørnebekk A. Sleep pathology and AAS among male weightlifters in Norway. BMC Psychiatry. 2024.", "doi": "10.1186/s12888-024-05516-6", "pmid": "38254047", "design": "Observational cross-sectional + nested cycling subsample", "funding": "South-Eastern Norway Regional Health Authority public grants", "coi": "None declared", "peer_reviewed": true, "source_class": "observational", "trust_tier": "Moderate" },
-    { "id": "S_bjornebekk_2017", "citation": "Bjørnebekk A, et al. Structural brain imaging of long-term AAS use. Biol Psychiatry. 2017.", "doi": "10.1016/j.biopsych.2016.06.017", "pmid": "27616036", "design": "Cross-sectional structural MRI", "funding": "South-Eastern Norway Regional Health Authority public grants", "coi": "No conflict of interest declared", "peer_reviewed": true, "source_class": "observational", "trust_tier": "High" },
-    { "id": "S_bjornebekk_2021", "citation": "Bjørnebekk A, et al. Long-term AAS use and deviant brain aging. Biol Psychiatry: CNNI. 2021.", "doi": "10.1016/j.bpsc.2021.01.001", "pmid": "33811018", "design": "Cross-sectional / longitudinal brain-age ML", "funding": "South-Eastern Norway Regional Health Authority public grants", "coi": "No conflict of interest declared", "peer_reviewed": true, "source_class": "observational", "trust_tier": "High" },
-    { "id": "S_nelson_2022", "citation": "Nelson BS, Hildebrandt T, Wallisch P. AAS use associated with psychopathy, risk-taking, anger. Sci Rep. 2022.", "doi": "10.1038/s41598-022-13048-w", "design": "Cross-sectional survey", "funding": "NYU Dean Undergraduate Research Fund", "coi": "Not industry AAS sponsor", "peer_reviewed": true, "source_class": "observational", "trust_tier": "Moderate" },
-    { "id": "S_piacentino_2015", "citation": "Piacentino D, et al. AAS use and psychopathology in athletes. Curr Neuropharmacol. 2015.", "pmid": "26074746", "design": "Systematic review of mixed designs", "funding": "Academic", "coi": "Not industry AAS marketing", "peer_reviewed": true, "source_class": "systematic_review", "trust_tier": "Moderate" },
-    { "id": "S_chegeni_2021", "citation": "Chegeni R, et al. The effect of exogenous testosterone on self- and observer-reported aggression in healthy males: a meta-analysis of experimental studies. Psychopharmacology (Berl). 2021. (Testosterone RCT strata — not trenbolone-isolated.)", "doi": "10.1007/s00213-021-05818-7", "pmid": "33745011", "design": "SR/MA of exogenous testosterone experimental RCTs in healthy males", "funding": "Academic (Bergen collaborators)", "coi": "No AAS-product sponsor identified", "peer_reviewed": true, "source_class": "systematic_review", "trust_tier": "High" },
-    { "id": "S_thiblin", "citation": "Thiblin I, et al. AAS and suicide case series.", "pmid": "10596737", "design": "Case series / forensic", "funding": "Clinical/forensic reporting", "coi": "Not commercial neuroprotectant sponsors", "peer_reviewed": true, "source_class": "observational", "trust_tier": "Low" },
-    { "id": "S_viegas_2020", "citation": "Viegas et al. Fluoxetine treatment of AAS-related suicide attempt context. Drug Test Anal. 2020.", "doi": "10.1002/dta.2912", "design": "Case report / clinical", "funding": "Clinical reporting", "coi": "Not industry neuroprotectant sponsor", "peer_reviewed": true, "source_class": "observational", "trust_tier": "Low" },
-    { "id": "S_nac_tenorio", "citation": "Tenório MCDS, et al. N-Acetylcysteine (NAC): impacts on human health. Antioxidants. 2021.", "doi": "10.3390/antiox10060967", "pmid": "34208683", "design": "Narrative review of NAC pharmacology", "funding": "Academic map", "coi": "Map-level secondary", "peer_reviewed": true, "source_class": "secondary", "trust_tier": "Moderate" },
-    { "id": "S_nac_prior", "citation": "Workspace prior research findings/NAC (effort 5 monograph) — standalone mitigator ceilings only", "design": "Prior research synthesis package", "funding": "N/A", "coi": "N/A", "peer_reviewed": false, "source_class": "secondary", "trust_tier": "Moderate" },
-    { "id": "S_cerebrolysin_prior", "citation": "Workspace prior research findings/cerebrolysin — stroke/TBI/AD package; no AAS trials", "design": "Prior research synthesis package", "funding": "Underlying primaries largely EVER Neuro Pharma-supported", "coi": "Industry ecosystem for positive packages", "peer_reviewed": false, "source_class": "secondary", "trust_tier": "Low" },
-    { "id": "S_cochrane_cerebro", "citation": "Cochrane reviews AIS/VaD cerebrolysin lineage (e.g. Ziganshina CD007026)", "design": "Independent systematic review", "funding": "Cochrane independent", "coi": "High independence; non-endorsing routine use", "peer_reviewed": true, "source_class": "systematic_review", "trust_tier": "High" },
-    { "id": "S_gaba_animal", "citation": "Penatti / Morrison / Clark–Henderson LAH GABAA AAS aggression animal literature series", "design": "Animal experimental series", "funding": "Academic US animal programs", "coi": "Academic animal programs", "peer_reviewed": true, "source_class": "preclinical", "trust_tier": "Moderate" },
-    { "id": "S_forums", "citation": "Anabolic steroid community forums: tren sleep, night sweats, irritability, GABA/taurine/Mg/NAC stack lore, PCT/crash lore", "design": "Multi-source non-peer-reviewed user reports", "funding": "N/A", "coi": "Selection bias", "peer_reviewed": false, "source_class": "forum_anecdotal", "trust_tier": "Unreliable" },
-    { "id": "S_gap_combo", "citation": "Explicit literature gap: no human RCTs of trenbolone + NAC, + cerebrolysin, + GABA/taurine stacks, or multi-agent full neuroprotection portfolios", "design": "Search absence / negative inventory", "funding": "N/A", "coi": "N/A", "peer_reviewed": false, "source_class": "other", "trust_tier": "High" },
-    { "id": "S_logic_exposure", "citation": "Causal harm-reduction logic: reducing exposure removes upstream driver; HPTA suppression Established class implies post-cycle secondary CNS risk architecture", "design": "Logical inference grounded in exposure-response and endocrine architecture", "funding": "N/A", "coi": "N/A", "peer_reviewed": false, "source_class": "other", "trust_tier": "High" },
-    { "id": "S_sleep_general", "citation": "General clinical literature: chronic sleep disruption as neuropsychiatric, cognitive, metabolic, and inflammatory risk factor", "design": "Broad established clinical architecture", "funding": "Heterogeneous", "coi": "N/A", "peer_reviewed": true, "source_class": "secondary", "trust_tier": "High" },
-    { "id": "S_psych_soc", "citation": "General psychiatry emergency standards for acute suicidality, mania, psychosis", "design": "Clinical practice framework / guidelines class", "funding": "N/A", "coi": "N/A", "peer_reviewed": true, "source_class": "regulatory", "trust_tier": "High" },
-    { "id": "S_wada", "citation": "WADA / anti-doping framework: anabolic agents prohibited; no recreational hypertrophy TUE for trenbolone", "design": "Regulatory / anti-doping policy", "funding": "N/A", "coi": "N/A", "peer_reviewed": false, "source_class": "regulatory", "trust_tier": "High" },
-    { "id": "S_aas_hr_class", "citation": "Class AAS harm-reduction monitoring practice (BP, lipids, HCT, mental-health watch, exit/endocrine planning)", "design": "Secondary harm-reduction synthesis", "funding": "N/A", "coi": "N/A", "peer_reviewed": false, "source_class": "secondary", "trust_tier": "Moderate" },
-    { "id": "S_methods_confound", "citation": "Methods appraisal notes: observational confounding, reverse causation, polypharmacy, culture-to-human dose bridge limits (94cfd27c methods.md)", "design": "Methodological appraisal", "funding": "N/A", "coi": "N/A", "peer_reviewed": false, "source_class": "other", "trust_tier": "Moderate" },
-    { "id": "S_amaral_2022", "citation": "Amaral JX, Deslandes AC, Padilha MC, et al. No association between psychiatric symptoms and doses of anabolic steroids in a cohort of male and female bodybuilders. Drug Test Anal. 2022;14(6):1079-1088.", "doi": "10.1002/dta.3230", "pmid": "35092181", "design": "Observational bodybuilder cohort", "funding": "Not fully re-extracted this pass", "coi": "Not re-extracted this pass", "peer_reviewed": true, "source_class": "observational", "trust_tier": "Low" },
-    { "id": "S_chisari_2025", "citation": "Chisari MG, et al. AAS and brain damage review. MDPI Forensic Sci. 2025 (forensicsci-05-00031 lineage).", "design": "Narrative / forensic review", "funding": "OA APC model", "coi": "Secondary OA review", "peer_reviewed": true, "source_class": "secondary", "trust_tier": "Low" }
+    {
+      "id": "S_zelleroth",
+      "citation": "Zelleroth 2021 J Steroid Biochem Mol Biol",
+      "pmid": "33677017",
+      "design": "in vitro primary culture",
+      "trust_tier": "Moderate",
+      "source_class": "preclinical",
+      "peer_reviewed": true
+    },
+    {
+      "id": "S_klonteig",
+      "citation": "Klonteig 2024 BMC Psychiatry",
+      "pmid": "38254047",
+      "design": "observational",
+      "trust_tier": "High",
+      "source_class": "observational",
+      "peer_reviewed": true,
+      "funding": "public regional health NO"
+    },
+    {
+      "id": "S_bjornebekk",
+      "citation": "Bj\u00f8rnebekk 2017 Biol Psychiatry",
+      "pmid": "27616036",
+      "design": "observational MRI",
+      "trust_tier": "High",
+      "source_class": "observational",
+      "peer_reviewed": true
+    },
+    {
+      "id": "S_borecki",
+      "citation": "Borecki 2024 Endokrynol Pol",
+      "design": "narrative review",
+      "trust_tier": "Moderate",
+      "source_class": "secondary",
+      "peer_reviewed": true
+    },
+    {
+      "id": "S_scarth",
+      "citation": "Scarth Bj\u00f8rnebekk 2021",
+      "pmid": "34709215",
+      "design": "review",
+      "trust_tier": "High",
+      "source_class": "secondary",
+      "peer_reviewed": true
+    },
+    {
+      "id": "S_schauer",
+      "citation": "Schauer 2006 cerebrolysin culture",
+      "pmid": "16362636",
+      "design": "preclinical",
+      "trust_tier": "Moderate",
+      "source_class": "preclinical",
+      "peer_reviewed": true
+    },
+    {
+      "id": "S_forum_cere",
+      "citation": "r/Cerebrolysin AAS threads; BB forums",
+      "design": "forum",
+      "trust_tier": "Low",
+      "source_class": "forum_anecdotal",
+      "peer_reviewed": false
+    },
+    {
+      "id": "S_absent_rct",
+      "citation": "No tren+cerebrolysin or full-stack neuroprotection RCT identified this run",
+      "design": "absence",
+      "trust_tier": "High",
+      "source_class": "other",
+      "peer_reviewed": false
+    }
   ]
 }

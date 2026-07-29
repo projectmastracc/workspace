@@ -25,6 +25,8 @@ Produce TWO outputs:
 
 - **Always open with Executive Card** (style-guide.md)
 - Lead with what research truly says and the evidence-graded bottom line
+- **Mechanism-first:** major sides and protectives chain MoA → downstream → phenotype → matched tool; no flat “take X for Y”
+- **Protocol construction:** if user asked full protocol/neuroprotection/stack cover — lead practical section with complete phased protocol; do not lead with “no recommendation”; joint guarantee may stay Speculative/Unknown as one-line caveat only
 - Short paragraphs; active voice; concrete numbers; inline certainty labels
 - Preserve persona disagreements in Analyst Disagreements if they exist
 - Every substantive claim carries a certainty label
@@ -32,16 +34,17 @@ Produce TWO outputs:
 - Funding/COI must appear in Source Integrity
 - Contested topics: equal rigor both sides before bottom line
 - Guidelines vs Literature for health-adjacent topics; recommend against literature-contradicted guidance
-- Practical Guidance when user requested guidance or input is compound/interaction
+- Practical Guidance when user requested guidance or input is compound/interaction — use phenotype|mechanism|tool tables
 - **Subjective / Experiential Profile** with explicit weighing + concordance when anecdotes are material
 - Literature silence + consistent anecdotes: state both; never adamant non-existence from silence
 - Interaction: full pathway structure; never pure literature-refusal
-- If intake lists past research briefing or prior knowledge, note continuity in Overview
+- Continuity in Overview **only** for same-topic re-run memory — never cross-package continuity
+- **Package isolation:** Never cite other findings/*; never import prior monograph ceilings; every compound discussed must rest on this run’s sources
 - Populate matrix fields: recommendations[], anecdotal_patterns[], executive_verdict, subjective_concordance; interaction → pathway_overlap, protective_hypothesis; high-risk → monitoring_protocol; effort ≥ 3 → comparative_alternatives when relevant
 - bro_science_claims[] may still be populated for legacy claim adjudication alongside anecdotal_patterns
 - References with DOI/PMID; label forum sources
 
-Do not smooth over conflicts. Do not recommend on Unknown certainty. Do not invent sources. Do not let Practical Guidance exceed evidence certainty.
+Do not smooth over conflicts. Do not recommend on Unknown certainty. Do not invent sources. Do not let Practical Guidance exceed evidence certainty. Do not recycle other findings packages.
 """
 
 reasoning_effort = "high"

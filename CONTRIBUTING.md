@@ -39,6 +39,7 @@ Or copy from `findings/` after review. Keep `meta.json` in sync (see `knowledge/
 - No pure-anecdote Established/Probable guidance  
 - No adamant non-existence claims from literature silence alone  
 - No interaction answers that are only “no papers — avoid both”  
+- **Package isolation:** each `findings/<slug>/` is standalone — do not cross-link other findings as evidence in a new run
 
 See `references/dr-principles.md` and `references/evaluation-checklist.md`.
 

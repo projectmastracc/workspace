@@ -1,12 +1,10 @@
-# Interaction Profile: Trenbolone CNS Harms × Multi-Pathway Neuroprotective Strategies
+# Interaction Profile: Multi-Pathway Neuroprotection Against Trenbolone
 
-**Research ID:** 94cfd27c  
+**Research ID:** 843bdcda  
 **Input type:** interaction  
-**Effort:** 5 · **Wiki mode:** true  
-**Lenses:** Performance (AAS harm reduction) · Neuropharmacology  
-**Guidance requested:** true  
-
-**Hypothesis under analysis:** A multi-pathway portfolio can achieve *full* neuroprotection against trenbolone-related CNS, neuropsychiatric, sleep, and structural-brain harms.
+**Effort:** 5 (wiki-grade)  
+**Lenses:** performance / bodybuilding pharmacology · neuropharmacology  
+**Package isolation:** Enforced — all evidence from this run’s intake + independent search only. No prior monographs or `findings/*` packages used as sources.
 
 ---
 
@@ -14,12 +12,18 @@
 
 | Field | Content |
 |-------|---------|
-| **Hypothesis** | Full neuroprotection from trenbolone via multi-pathway strategies |
-| **Compounds** | **A (problem):** trenbolone (and related esters) — potent AAS · **B (mitigator set):** (1) exposure reduction/avoid · (2) sleep defense · (3) NAC/redox · (4) GABA/taurine/magnesium-class supports · (5) neurotrophic peptides (e.g. cerebrolysin) · (6) clinical psychiatric care when indicated |
-| **Overall certainty on “FULL neuroprotection”** | **Unknown** (not achievable as a validated claim); components range **Established**–**Speculative** |
-| **Verdict** | No controlled evidence supports *complete* prevention of trenbolone CNS/neuropsychiatric/structural harms. Dose/duration reduction and clinical psych care are the only layers with **Probable**–**Established** harm-reduction logic; NAC, sleep hygiene, GABAergic supports, and cerebrolysin remain pathway-plausible or anecdote-supported at best (**Speculative** / **Unknown** for this indication). |
-| **Key practical note** | **Do not recommend** a “full neuroprotection protocol.” Prefer a **harm-reduction hierarchy**: avoid → minimize exposure → sleep/mood monitoring → indicated clinical care → optional low-stakes adjuncts with honest ceilings. Trenbolone remains high-risk AAS. |
-| **Top risks / unknowns** | • False security from unproven peptide/antioxidant “cover” · • Persistent structural/aging signals in long-term AAS users despite lifestyle · • Legal status of non-prescribed AAS; CV/endocrine harms outside pure CNS framing · • Zero RCTs of any B-agent as tren-specific neuroprotectant |
+| **Hypothesis** | Full multi-domain neuroprotection from trenbolone (CNS / neuropsychiatric / sleep / structural harms) is achievable via a multi-pathway portfolio |
+| **Compounds** | **A (problem):** trenbolone (17β-hydroxyestra-4,9,11-trien-3-one; potent non-aromatizing AAS) · **B (portfolio):** (1) avoid/minimize exposure · (2) sleep defense · (3) cerebrolysin / neurotrophic peptides · (4) NAC / redox support · (5) GABA / taurine / Mg supports · (6) clinical psychiatric care |
+| **Overall certainty** | **Speculative** for partial risk attenuation on selected pathways; **Unknown** (functionally unsupported) for *full* neuroprotection as a protocol outcome |
+| **Verdict** | Controlled literature does **not** support complete neuroprotection from trenbolone by any stack. Harm pathways are multi-system and partly AR-independent. Exposure reduction is the only strategy with Probable/Established harm-reduction logic. Community use of cerebrolysin as AAS/tren cognitive repair or concurrent “cover” is a real pattern; combination RCTs are absent — concordance **literature-silent**. Do not claim full protection. |
+| **Key practical note** | Prefer not using trenbolone, or lower dose / shorter duration / fewer cycles, over unproven peptide or supplement “cover.” If exposure occurs: monitor sleep, mood, cognition, BP/lipids/HCT; plan exit; treat psychiatric risk seriously. No evidence-graded protocol achieves *full* neuroprotection. |
+| **Top risks / unknowns** | • False security from multi-agent stacks while continuing high-dose tren · Trenbolone CV / endocrine / neuropsychiatric risks remain primary · Injectable peptide sourcing/sterility and regulatory status · No human RCTs of any B agent *as* trenbolone neuroprotectant |
+
+---
+
+### Guidance & Application Notice (read first)
+
+This is an evidence-graded synthesis for nootropic and gym/performance researchers — **not** medical advice, not a green light for controlled-substance use, and not a “how to run tren safely” protocol. Multi-compound protective strategies for high-risk AAS almost always sit at **Speculative** or **Unknown**. **Unknown = no recommendation.** User assumes legal and medical responsibility. Consult qualified clinicians for individual decisions, especially regarding AAS, injectable peptides, and psychiatric risk.
 
 ---
 
@@ -27,130 +31,101 @@
 
 | Layer | Summary | Certainty |
 |-------|---------|-----------|
-| **Claim: “full neuroprotection”** | Not demonstrated; multi-pathway cover does not equal complete prevention of sleep, mood, aggression, cognitive, or structural-brain harms | **Unknown** — **no recommendation** for a full-protection protocol |
-| Controlled literature on A+B combos | Essentially **absent** for trenbolone + NAC, + cerebrolysin, + GABA/taurine stacks, or multi-agent portfolios on CNS endpoints | **Unknown** (combo efficacy) |
-| Trenbolone / AAS CNS harm signals | In-vitro neuronal toxicity (tren among worst AAS in culture); observational structural brain imaging in long-term AAS users; sleep pathology; aggression/mood psychopathology literature | **Probable**–**Established** by endpoint (see §2) |
-| Exposure reduction / avoid | Only strategy that removes the causal driver; dose/duration reduction is primary harm-reduction logic | **Established** (logic) / **Probable** (practice) |
-| Sleep defense | Sleep is a major tren side-effect domain; sleep hygiene and treating insomnia reduce *secondary* cognitive/mood load but do not block AR-driven CNS effects | **Probable** for general sleep benefit; **Unknown** as tren-specific neuroprotection |
-| NAC / redox | Plausible vs oxidative/mitochondrial stress in models; human AAS-neuroprotection trials absent | **Speculative** for tren CNS cover; GSH/redox role **Probable** mechanistically in general |
-| GABA / taurine / Mg-class | Overlap with AAS–GABAergic animal literature and forum sleep lore; no controlled tren mitigation trials | **Speculative** |
-| Cerebrolysin / neurotrophic peptides | Stroke/TBI/dementia literature exists separately; **no** AAS-protective RCTs | **Speculative** (pathway sketch); **Unknown** efficacy for this use |
-| Clinical psychiatric care | Indicated for mood, aggression, suicidality, psychosis — standard of care when symptoms appear | **Established** (when indicated) |
-| Anecdote / forum | Consistent tren sleep/sweats/irritability themes; partial relief from dose drop, sleep aids, taurine/GABA lore — confounded | **Speculative** ceiling only |
+| Controlled literature on *full* multi-pathway neuroprotection | No human RCT or rigorous prospective study shows that any portfolio abolishes trenbolone-related CNS harm | **Unknown** for full protection |
+| Trenbolone (and high-dose AAS) neuro harm signals | Cell culture: trenbolone among most damaging AAS for neurites/viability; animal: pro-apoptotic, BDNF↓, inflammation, GABA/NMDA modulation; human AAS: sleep pathology, structural MRI changes, cognition/psych signals, qualitative “mind mush” reports for tren | **Probable**–**Established** depending on endpoint (class > tren-specific human RCTs) |
+| Mechanistic plausibility of partial mitigation | Some B agents map onto sub-pathways (sleep debt, redox, neurotrophic support, GABAergic tone, clinical mood care) | **Speculative** for on-cycle neuroprotection; stronger for general harm reduction |
+| Anecdote / forum | Cerebrolysin discussed as concurrent AAS or post-cycle cognitive repair; sleep/GABA-taurine stacks for tren insomnia/night sweats; confounded and mixed | **Speculative** |
+| Practical protocol for *full* neuroprotection | Do **not** recommend as Established or Probable | **Unknown** (efficacy of “full” cover) |
 
-**Verdict structure:**
-
-1. **Established in literature:** AAS class effects on HPTA suppression, androgens’ capacity to alter mood/behavior in some users, sleep disturbance associations with AAS use, and trenbolone’s severe in-vitro neurotoxicity relative to some other AAS. Clinical psych management of psychiatric emergencies is standard care independent of AAS.
-2. **Mechanistically plausible:** Redox/mitochondrial stress, GABAergic modulation, sleep loss as secondary injury amplifier, neurotrophic support after neuronal stress — partial pathway overlap with candidate mitigators.
-3. **Anecdotal only:** “Stacks that fully cancel tren sides,” cerebrolysin or NAC as cycle cover, specific GABA/taurine recipes as reliable neuroprotection.
-4. **Unknown:** Whether any portfolio can prevent structural brain aging signals, eliminate aggression risk, or provide *full* neuroprotection at typical performance doses/durations.
-
-**Hard ceiling:** Full neuroprotection is **not Established** and **not Probable**. Presenting a multi-supplement/peptide stack as complete CNS insurance is **not evidence-aligned**.
+**Verdict sentence:** The hypothesis of *full* neuroprotection is **unsupported** as an evidence-graded claim. Partial attenuation of *selected* risks (especially via exposure control, sleep hygiene, and clinical psych care) is **mechanistically and clinically plausible** but remains **Speculative** for most pharmacologic B items; cerebrolysin-as-tren-cover is a real community practice with **literature-silent** combination evidence — report it, do not deny it, do not promote it as proven.
 
 ---
 
-## 2. Pathway map of Compound A — Trenbolone CNS harms
+## 2. Pathway map of Compound A (trenbolone — problem agent)
 
-Trenbolone (17β-hydroxyestra-4,9,11-trien-3-one; common esters acetate/enanthate) is a non-aromatizing, high-affinity androgen receptor (AR) agonist used illicitly for physique/performance. Human controlled CNS trials are sparse; evidence is a composite of AAS observational programs, case series, animal/in-vitro work, and consistent user reports.
+Trenbolone is a 19-nor AAS with high AR affinity, no aromatization to estrogen, no 5α-reduction to DHT-like product, and high lipophilicity allowing blood–brain barrier penetration (**Established** pharmacology; Borecki 2024 review synthesis).
 
-### 2.1 Primary mechanisms of harm or intended effect
+### 2.1 Primary mechanisms of harm (CNS-relevant)
 
-| Pathway / system | Description | Relevance to “neuroprotection” claim | Certainty |
-|------------------|-------------|--------------------------------------|-----------|
-| **Potent AR agonism** | Strong AR binding; high anabolic:androgenic reputation; no aromatization to estradiol (unlike testosterone) | Drives suppression cascade and CNS AR-mediated effects; non-aromatizing profile may alter mood/libido balance vs testosterone | **Established** (class AR pharmacology) |
-| **Neurite / viability toxicity (in vitro)** | Zelleroth et al. 2021: structurally different AAS reduce neurite outgrowth and neuronal viability in primary rat cortical cultures; **trenbolone among the most toxic** for viability and mitochondrial function | Suggests direct neuronal stress beyond pure “mood” framing; supports mechanistic interest in mitochondria/redox | **Probable** (robust in-vitro design; human translation incomplete) — PMID 33677017 |
-| **Mitochondrial / oxidative stress** | Linked to reduced viability in culture; AAS literature often implicates ROS and energy failure in neural models | Rationale for NAC/redox as candidate mitigators — still translational leap | **Speculative**–**Probable** in models; **Unknown** magnitude in human users |
-| **GABAergic modulation (animal AAS literature)** | Penatti / Morrison / related work: AAS alter GABAA subunit expression and allosteric modulation in limbic/hypothalamic circuits; aggression phenotypes in some models | Plausible substrate for irritability/aggression and for GABA-class supports | **Probable** in animals; **Speculative** for exact human mapping |
-| **Sleep architecture / night sweats** | Klonteig, Scarth, Bjørnebekk 2024: sleep pathology associated with AAS among male weightlifters (Norway); forums heavily report tren-specific night sweats and insomnia | Sleep loss amplifies mood, cognition, and metabolic stress — major practical harm surface | **Probable** (observational + highly consistent anecdote) — PMID 38254047 |
-| **Structural brain imaging (long-term AAS)** | Bjørnebekk et al. 2017 *Biol Psychiatry*: long-term AAS use associated with structural brain differences vs non-using weightlifters; related Oslo-program work on deviant brain aging | Argues against “sides are only temporary insomnia” framing for chronic use | **Probable** (observational; confounding possible) — PMID 27616036 |
-| **Mood, aggression, psychopathy-spectrum traits** | Nelson et al. 2022 *Sci Rep*: AAS use associated with psychopathy, risk-taking, anger; Chegeni meta: small aggression increase in RCTs of healthy males (Hedges g ≈ 0.17); Piacentino 2015 psychopathology review; Amaral 2022: psychiatric symptoms without clear simple dose–response | Real population signal; not universal; not purely dose-linear | **Probable** for association; effect sizes often modest in RCTs; severe cases case-based |
-| **Suicidality / acute psychiatric crisis** | Thiblin case series (AAS–suicide); case reports of violent suicide attempts with testosterone + trenbolone; Viegas et al. 2020 fluoxetine treatment after AAS-related suicide attempt | Demands clinical pathway when red flags appear — not “supplement cover” | **Probable** signal in high-risk subsets; rare absolute events hard to quantify |
-| **HPTA suppression / endocrine** | Profound LH/FSH/T suppression expected with tren-containing cycles | Indirect CNS effects via hypogonadism post-cycle; peptides do not fix this | **Established** (class) |
-| **CV / lipids / BP (context)** | Strong AAS adverse lipid and CV stress patterns | Not pure CNS, but systemic inflammation and sleep apnea/CV strain feed brain health | **Probable**–**Established** depending on endpoint |
+| Pathway / system | What is observed or inferred | Certainty | Notes |
+|------------------|------------------------------|-----------|-------|
+| Potent AR agonism + non-AR mechanisms | Anabolic/androgenic drive; HPTA suppression cascade | **Established** (class + tren pharmacology) | Not the only CNS story |
+| Neurite outgrowth / neuronal viability | In primary rat cortical cultures, testosterone, nandrolone, **and trenbolone** reduced neurite length; **trenbolone alone** among tested AAS reduced neuron number, impaired mitochondrial function, downregulated *Tubb3*; flutamide did **not** block neurite effects → AR-independent component | **Probable** (high-quality in vitro; dose supra-phys) | Zelleroth et al. 2021, PMID 33677017; J Steroid Biochem Mol Biol |
+| Pro-apoptotic signaling | Caspase-3/7 activation; chromatin condensation; LDH; dose/time dependence in models | **Speculative**–**Probable** (animal/cell) | Borecki 2024 synthesis of Zelleroth 2019, Ma & Liu 2015, etc. |
+| BDNF / neurotrophin ↓, inflammation ↑ | Class AAS (esp. nandrolone models): ↓BDNF, ↑TNF-α/IL-1β, oxidative stress in PFC/hippocampus | **Probable** (animal AAS; tren-specific human data thin) | Scarth & Bjørnebekk 2021 review |
+| Structural brain change (human AAS) | Long-term AAS use associated with lower brain volume / cortical thickness; higher “brain age gap”; dependence and duration matter | **Probable** | Bjørnebekk et al. 2017 PMID 27616036; Bjørnebekk 2021 brain-age work summarized in Scarth 2021 |
+| Sleep pathology | AAS users: 66% sleep problems as side effect; 38% used sleep meds; worse PSQI vs weightlifting controls; **worse sleep off-cycle** than on-cycle | **Probable**–**Established** (observational human) | Klonteig, Scarth, Bjørnebekk 2024 PMC10804719 |
+| GABA_A and NMDA receptor modulation | AAS/tren models: altered GABAergic transmission in forebrain aggression circuits; reduced NMDAR (GluN2-related) mRNA/receptor density in hippocampus/hypothalamus | **Speculative**–**Probable** (animal/mechanistic) | Borecki 2024; Scarth 2021 (valproate/GABA LAH aggression work) |
+| Amyloid / Ab-42 related processes | Rat model: trenbolone linked to Ab-42 accumulation, PS1 changes — neurodegeneration narrative | **Speculative** (animal; human clinical AD link unproven) | Ma & Liu 2015 via Borecki |
+| Neuropsychiatric / behavioral | Irritability, aggression, anxiety, insomnia, cognitive fog; qualitative tren-specific “mind went to mush”; AAS associated with anger/psychopathy traits (confounded) | **Probable** as class pattern; tren often rated subjectively worst | Piatkowski 2023 DAR; Nelson 2022 Sci Rep; Piacentino 2015; Amaral 2022 |
+| CV / cerebrovascular | Adverse lipids, BP, prothrombotic risk; stroke case with T + tren reported in literature | **Probable** (class + cases) | Indirect CNS ischemia risk |
+| Endocrine / sleep-mood loop | On-cycle supraphys androgens vs off-cycle ASIH both associate with poor sleep | **Probable** | Klonteig 2024 |
 
-### 2.2 Organ systems and time course
+### 2.2 Time course and dose dependence
 
-| Domain | Time course (practical) | Dose-dependence | Certainty |
-|--------|-------------------------|-----------------|-----------|
-| Night sweats / insomnia | Often days–weeks after starting / escalating | Frequently dose-sensitive in user reports | **Probable** (pattern) |
-| Irritability / “tren rage” lore | Variable; not universal | Partial dose link; individual vulnerability high | **Speculative**–**Probable** |
-| Cognitive fog / concentration | Often secondary to sleep | Unclear direct vs secondary | **Unknown** primary; **Probable** secondary to sleep loss |
-| Structural imaging differences | Associated with long-term / heavy use | Cumulative exposure hypothesized | **Probable** association; causality incomplete |
-| In-vitro cell death / neurites | Acute culture exposure | Concentration-dependent in Zelleroth-type designs | **Probable** in vitro |
+- **In vitro:** High micromolar exposures over days damage neurites; nanomolar AAS can amplify excitotoxic death in mixed cortical cultures (Orlando et al. cited in Borecki) — **Speculative** dose translation to human serum free fraction.  
+- **Human practice:** Trenbolone acetate often run weeks–months in stacks; cumulative duration and dependence track worse structural and executive outcomes in AAS cohorts (**Probable** for class duration–harm gradient).  
+- **Off-cycle:** Sleep and mood often *worse* during withdrawal/hypogonadism — critical for “neuroprotection” framing (**Probable**).
 
-### 2.3 Analyst synthesis (Compound A)
+### 2.3 What “full neuroprotection” would need to cover
 
-Trenbolone sits at the **high-severity end of AAS CNS concern**: (1) among the worst AAS in primary neuron viability assays, (2) classic sleep and autonomic side-effect burden, (3) embedded in a broader AAS literature of mood/aggression and long-term structural brain signals. Human RCT data isolating trenbolone CNS endpoints are essentially missing — that silence does **not** erase observational + mechanistic signals.
-
-**Scarth & Bjørnebekk 2021** (*Curr Opin Endocrinol Diabetes Obes*, PMID 34709215) synthesize androgen abuse and the brain — useful class framing for structural, cognitive, and psychiatric domains.
+To claim *full* multi-domain protection, a portfolio would need credible coverage of: (i) AR-independent cytotoxicity / mitochondrial stress, (ii) neurotrophin and inflammatory milieu, (iii) sleep architecture, (iv) GABA/NMDA network effects on mood/aggression, (v) long-term structural volume/aging signals, (vi) psychiatric crisis risk, (vii) cerebrovascular contribution. No B portfolio has been shown to do this.
 
 ---
 
-## 3. Pathway map of Compound B — Mitigator classes
+## 3. Pathway map of Compound B (portfolio — candidate mitigators)
 
-Each mitigator is mapped independently. None is validated as a full trenbolone neuroprotectant.
+### 3.1 B1 — Avoid / minimize exposure
 
-### 3.1 Exposure reduction / avoid
-
-| Pathway | Claimed protective role | Certainty |
+| Element | Mechanism of protection | Certainty |
 |---------|-------------------------|-----------|
-| Remove / lower AR agonist load | Reduces driver of all downstream CNS and systemic effects | **Established** (causal logic) |
-| Shorter duration | Limits cumulative exposure linked to structural/aging signals | **Probable** harm-reduction logic |
-| Avoid stacking multiple harsh AAS | Lowers polypharmacy confounders of mood/sleep | **Probable** practice logic |
+| Non-use | Removes agent entirely | **Established** harm reduction |
+| Lower dose, shorter cycles, fewer lifetime years | Reduces cumulative exposure linked to brain-age and dependence gradients | **Probable** |
+| Prefer less neuropsych-reactive compounds if AAS used at all | Risk ranking is partly anecdotal for tren vs others | **Speculative** ranking; **Probable** that less is better |
 
-Not a “pathway drug” — it is **source control**. Highest-leverage item in any honest hierarchy.
+### 3.2 B2 — Sleep defense
 
-### 3.2 Sleep defense
+| Element | Relevance | Certainty |
+|---------|-----------|-----------|
+| Sleep is a major recovery and psychiatric-risk pathway; AAS impair it on- and especially off-cycle | Direct interaction with A’s sleep pathology | **Probable** that poor sleep worsens cognition/mood under AAS |
+| Sleep hygiene, schedule stability, treat apnea, cautious use of sleep aids under medical care | Partial mitigation of *sleep domain* only | **Probable** for general sleep medicine; **Speculative** as “tren neuroprotectant” |
+| Does **not** reverse neurite/cytotoxic or structural MRI signals | Scope-limited | **Probable** |
 
-| Pathway | Claimed protective role | Certainty |
-|---------|-------------------------|-----------|
-| Restore sleep duration/quality | Reduces secondary injury from sleep deprivation (mood, cognition, metabolic, CV) | **Established** for sleep deprivation harm generally; **Probable** relevance under tren |
-| Treat night sweats / environment | Comfort and sleep continuity | **Probable** practical |
-| Pharmacologic sleep aids (various) | Symptom control only; agents have own risk profiles | Agent-specific; **not** neuroprotection of AR toxicity |
+### 3.3 B3 — Cerebrolysin / neurotrophic peptides
 
-Sleep defense **does not block** AR-mediated neuronal stress or structural change pathways; it mitigates a major *amplifying* domain.
+| Element | Claimed / labeled MoA | Certainty for *tren* indication |
+|---------|----------------------|--------------------------------|
+| Porcine brain-derived peptide mixture; multimodal neurotrophic / neuroprotective positioning (stroke, TBI, dementia contexts) | Industry + clinical literature: NTF-like and Shh pathway modulation; anti-excitotoxic; free-radical reduction; pro-plasticity claims | **Speculative** for AAS/tren; stronger (still contested) in other neuro indications |
+| Manufacturer MoA (cerebrolysin.com): mimics/modulates NTFs, BDNF-like PI3K/Akt narrative, reduces free radicals and pro-apoptotic enzymes | Plausible *overlap* with AAS BDNF↓ / redox / apoptosis narratives | **Speculative** translation |
+| Schauer et al. 2006 and TBI/stroke animal and clinical literature | Protection in injury models ≠ protection under ongoing AR agonist stress | **Unknown** for tren combination |
+| Direct AR antagonism | Not a primary mechanism | Unlikely main story (**Unknown**/implausible as AR block) |
+| **Community discovery (this run):** r/Cerebrolysin “Anabolic Steroids and Cerebrolysin”; r/steroids discussions of cerebrolysin among compounds affecting cognition / healing stacks; steroid-forum and Thinksteroids experience threads for subjective cognition/anxiety | Real practice pattern: concurrent with AAS stacks or post-cycle “repair” | Non-peer-reviewed; **Speculative** efficacy |
 
-### 3.3 NAC / redox
+**Independent conclusion (required):** Cerebrolysin **does appear** in gym, peptide, and nootropic communities as a candidate **neuroprotective or post-cycle cognitive repair agent** around AAS use, including contexts where trenbolone is used or feared for mental sides. Controlled combination trials for this indication were **not identified**. Literature silence on the combo is **not** proof of null effect; it also is **not** proof of efficacy.
 
-| Pathway | Claimed protective role | Certainty |
-|---------|-------------------------|-----------|
-| GSH precursor / thiol antioxidant | Counter oxidative/mitochondrial stress suggested by AAS culture data | **Established** NAC→GSH pharmacology; **Speculative** as tren neuroprotectant |
-| System xc⁻ / glutamate modulation | Psychiatric adjunct literature (SCZ negative symptoms **Probable** modest with duration; adult OCD fragile) | **Probable** for general CNS glutamate modulation; **Unknown** for AAS aggression/mood |
-| Anti-inflammatory / Nrf2 narratives | General redox biology | **Speculative** for AAS CNS outcomes |
+### 3.4 B4 — NAC / redox support
 
-**Prior workspace NAC findings (effort 5):** Oral NAC is a well-characterized GSH precursor and CNS glutamate modulator with established medical uses (APAP OD, mucolytic) and **Probable** modest SCZ-adjunct signal at ~1000–3600 mg/day longer courses. **No** literature establishes NAC as an AAS or trenbolone neuroprotective. Chronic high-dose antioxidants and training adaptation interference remain **Speculative**. See workspace `findings/NAC/`.
+| Element | Relevance | Certainty |
+|---------|-----------|-----------|
+| N-acetylcysteine → cysteine → GSH; system xc⁻ / redox buffering; used in psychiatry research and general antioxidant reviews (e.g. Tenório 2021-class antioxidant literature) | Maps to AAS-associated oxidative stress in animal brain | **Speculative** for tren CNS protection |
+| No identified RCT of NAC co-administered with trenbolone for neuro outcomes | Combination gap | **Unknown** for that endpoint |
+| General safety at common oral doses is relatively favorable vs peptides/AAS | Harm-reduction relative only | **Probable** (general NAC use; not tren-specific) |
 
-### 3.4 GABA / taurine / magnesium-class supports
+### 3.5 B5 — GABA / taurine / magnesium supports
 
-| Agent class | Pathway | Claimed role under tren | Certainty |
-|-------------|---------|--------------------------|-----------|
-| **Magnesium** | NMDA co-factor, sleep, muscle relaxation | Sleep/anxiety support | **Probable** for general sleep/deficiency correction; **Speculative** as tren cover |
-| **Taurine** | Inhibitory neuromodulation, osmolyte, cardiac lore in bodybuilding | “Calm” and night-sweat folklore | **Speculative** for tren CNS; general safety at common oral doses **Probable** |
-| **GABA oral** | Peripheral GABA; limited BBB penetration debate | Forum sleep stacks | **Speculative** CNS effect from oral GABA alone |
-| **GABAergic Rx** (e.g. certain hypnotics, gabapentinoids) | Synaptic inhibition / sleep | Symptom control; dependence/cognitive risks | Agent-specific; **not** structural neuroprotection |
+| Element | Relevance | Certainty |
+|---------|-----------|-----------|
+| AAS alter GABAergic transmission; tren insomnia, night sweats, anxiety are dominant forum themes | Mechanistic surface for *symptomatic* calm/sleep | **Speculative** for structural neuroprotection; **Speculative**–**Probable** for subjective sleep/anxiety *anecdote* |
+| Magnesium (repletion if deficient), taurine, non-prescription GABA-adjacent strategies | Common forum ancillaries | **Speculative**; Mg repletion if low is **Probable** general health |
+| Prescription GABA-ergics / hypnotics | Can worsen next-day function, dependence; medical supervision | Risk–benefit **case-by-case** (**Unknown** as protocol) |
 
-Overlap with animal AAS–GABAA literature makes this class **mechanistically interesting**, not clinically proven for tren.
+### 3.6 B6 — Clinical psychiatric care
 
-### 3.5 Neurotrophic peptides (cerebrolysin exemplar)
-
-| Pathway | Claimed relevance | Certainty |
-|---------|-------------------|-----------|
-| Multimodal NTF-mimetic signaling (BDNF/NGF-related narratives, anti-apoptotic themes) | Theoretical support for neuronal resilience after toxic or ischemic stress | **Probable** multimodal engagement in injury models/indications; **Speculative** for AAS use |
-| Stroke/TBI/dementia trial packages | Early NIHSS / recovery / short-term cognition signals in labeled indications | **Probable** for *those* indications with COI caveats; **Unknown** for tren |
-| Direct AR antagonism | Not a primary MoA | Unlikely / **Unknown** as main story |
-| HPTA restoration | Not protective | **Probable** that peptide does not reverse suppression |
-
-**Prior workspace cerebrolysin findings:** Parenteral porcine brain hydrolysate; registered in many non-US jurisdictions for stroke/TBI/AD/VaD; **not FDA-approved**. Early neurological improvement signals **Probable** in stroke MAs; mortality benefit not Established (Cochrane more skeptical). **No** AAS-protective trials. DIY nootropic self-injection for healthy users: **Unknown** benefit; **Established** procedural risks. See workspace `findings/cerebrolysin/` and calibration example `example-interaction-protective.md`.
-
-### 3.6 Clinical psychiatric care when indicated
-
-| Pathway | Role | Certainty |
-|---------|------|-----------|
-| Assessment of mood, psychosis, suicidality, substance use | Risk stratification and treatment | **Established** clinical standard |
-| Evidence-based psychotropics (e.g. SSRIs when appropriate — Viegas 2020 case context) | Treat psychiatric syndromes that emerge during/after AAS | **Established**–**Probable** by syndrome; AAS-specific RCTs sparse |
-| Crisis care / cessation counseling | Removes exposure + treats emergency | **Established** |
-
-This is **not** optional “biohacking” — it is the correct tier when red flags appear.
+| Element | Relevance | Certainty |
+|---------|-----------|-----------|
+| Screening and treatment for depression, anxiety, insomnia, aggression, suicidality; crisis planning; substance-use framework | Directly addresses highest-stakes neuropsychiatric outcomes | **Probable**–**Established** as standard of care when symptoms present |
+| Does not “neuroprotect” cells from tren in vitro | Different domain (functional/psychiatric vs molecular) | Scope-clear |
+| Case literature: AAS-related psychiatric crisis, rare suicide association reports, interaction complexity with antidepressants | Take seriously | **Probable** need for clinical access |
 
 ---
 
@@ -158,276 +133,253 @@ This is **not** optional “biohacking” — it is the correct tier when red fl
 
 | Point | System / pathway | Direction | Certainty |
 |-------|------------------|-----------|-----------|
-| Avoid / dose↓ / duration↓ trenbolone | AR load, all downstream | **Protect** (primary) | **Established** (logic) |
-| Sleep restoration vs sleep-loss cascade | Cognition, mood, autonomic, recovery | **Protect** (secondary amplifier only) | **Probable** |
-| NAC GSH/redox vs mitochondrial/ROS stress (Zelleroth-type) | Neuron viability / energy | **Protect?** | **Speculative** |
-| NAC glutamate modulation vs irritability/aggression | Limbic glutamate | **Protect?** / unclear | **Speculative**–**Unknown** |
-| Taurine/Mg/oral GABA vs insomnia/anxiety symptoms | Sleep / subjective calm | **Protect?** (symptom layer) | **Speculative** |
-| GABAergic Rx vs AAS–GABAA dysregulation | Inhibitory tone / aggression circuits | **Protect?** / **antagonize** (if sedation/cognitive blunt) | **Speculative** |
-| Cerebrolysin neurotrophic support vs neuronal stress | Plasticity / survival signaling | **Protect?** | **Speculative** |
-| Cerebrolysin vs lipids/BP/cardiac remodeling | CV | Unclear / **not substitute** for CV management | **Unknown** as cerebrolysin role |
-| Cerebrolysin / NAC vs HPTA suppression | Endocrine | **Not protective** | **Probable** non-effect on suppression |
-| Clinical psych care vs mood/suicidality/psychosis | Psychiatric syndromes | **Protect** (treatment) | **Established** when indicated |
-| Multi-agent “full stack” false reassurance | Behavior | **Antagonize** harm reduction (risk compensation) | **Probable** behavioral risk |
-| Concurrent high-dose antioxidants + heavy training | Adaptation signaling | Unclear interference | **Speculative** |
-| Polypharmacy sleep sedatives + tren insomnia | Cognition, dependence | **Antagonize** net function if overused | **Probable** agent-dependent |
+| Remove or reduce trenbolone exposure | All CNS domains | **Protect** (primary) | **Established** / **Probable** |
+| Sleep defense vs AAS/tren sleep pathology | Sleep → mood, cognition, recovery | **Protect** (domain-limited) | **Probable** for sleep quality management; does not equal full neuroprotection |
+| Cerebrolysin NTF/Shh / anti-excitotoxic / redox narrative vs AAS BDNF↓, inflammation, excitotoxicity, apoptosis | Plasticity / cell stress | **Protect?** (theoretical) | **Speculative** |
+| Cerebrolysin vs subjective “tren brain” / post-cycle fog | Cognition / well-being | **Protect?** | **Speculative** (anecdote-forward; literature-silent combo) |
+| NAC GSH support vs AAS oxidative stress | Redox | **Protect?** | **Speculative** |
+| GABA/taurine/Mg vs AAS GABA modulation, insomnia, anxiety | Inhibitory tone / sleep | **Protect?** (symptomatic) | **Speculative** |
+| Clinical psych care vs aggression, depression, suicide risk | Behavioral / psychiatric | **Protect** (functional risk) | **Probable** when indicated |
+| Any B agent vs HPTA suppression / ASIH | Endocrine | **Not protective** (peptides/NAC/Mg do not fix suppression) | **Probable** |
+| Any B agent vs lipids / HCT / BP / cardiac remodeling | CV → brain | **Not a substitute** for CV risk management | **Probable** |
+| Stack as “full cover” while continuing high-dose tren | Behavioral risk compensation | **Antagonize** harm-reduction goals (false security) | **Probable** behavioral concern |
 
 ---
 
 ## 5. What controlled literature actually says
 
-### 5.1 Combination literature (A + any B for tren neuroprotection)
+### 5.1 Trenbolone / AAS → brain (selected high-value sources, this run)
 
-| Combination | Controlled human evidence | Status |
-|-------------|---------------------------|--------|
-| Trenbolone + NAC | No RCTs / prospective trials identified for CNS protection | **Absent** → **Unknown** |
-| Trenbolone + cerebrolysin | No RCTs identified | **Absent** → **Unknown** |
-| Trenbolone + taurine/GABA/Mg | No RCTs for neuroprotection | **Absent** → **Unknown** |
-| Multi-pathway portfolio RCT | None | **Absent** → **Unknown** |
-| AAS + psychiatric treatment | Case reports (e.g. Viegas 2020 fluoxetine after AAS-related suicide attempt, DOI 10.1002/dta.2912); no large AAS-specific psych RCTs | Sparse; general psych evidence applies by syndrome |
+| Source | Design | Key finding | Tier |
+|--------|--------|-------------|------|
+| Zelleroth et al. 2021 PMID 33677017 | Primary rat cortical cultures; T, ND, stanozolol, trenbolone | Trenbolone worst on viability/mitochondria/*Tubb3*; neurite effects AR-antagonist resistant | In vitro |
+| Scarth & Bjørnebekk 2021 PMID 34709215 PMC8631164 | Narrative/systematic-style recent review | Supraphys androgens: neurodegeneration signals, ↓BDNF, inflammation, cognition/aggression circuits; human structural aging signals | Review |
+| Bjørnebekk et al. 2017 PMID 27616036 | Human structural MRI, long-term AAS vs non-using weightlifters | Negative associations AAS use vs brain volume / cortical thickness | Observational human |
+| Klonteig et al. 2024 PMID 38254047 PMC10804719 | Human AAS weightlifters vs controls; cycling sub-sample | 66% sleep problems; worse PSQI; **worse sleep off-cycle** | Observational + within-subject |
+| Borecki et al. 2024 DOI 10.5603/ep.99130 | Review: trenbolone organ systems | Nervous: pro-apoptotic, volume reduction (models), Ab-42, GABA/NMDA modulation | Review (animal-heavy) |
+| Nelson et al. 2022 DOI 10.1038/s41598-022-13048-w | Survey bodybuilders | AAS history: higher odds psychopathy traits, anger, risk-taking (confounded) | Observational |
+| Piacentino et al. 2015 PMC4462035 | Psychopathology review | AAS–psychiatric symptom associations | Review |
+| Amaral et al. 2022 PMID 35092181 | Psychiatric symptoms and dose | Dose-related psychiatric symptom signals | Observational |
+| Chegeni et al. 2021 | MA of testosterone RCTs | Aggression g≈0.17 — **not tren-specific** | Meta-analysis (limited external validity to illicit tren) |
+| Piatkowski et al. 2023 DOI 10.1111/dar.13656 | Qualitative PIED community | Trenbolone: severe subjective psychological impact (“mind… mush”) | Qualitative |
+| Thiblin et al. PMID 10596737; Viegas 2020 | Case series / case | Suicide and AAS contexts; rare severe events | Case-level |
 
-**Explicit statement:** No human RCTs of cerebrolysin + trenbolone, NAC + trenbolone, or multi-mitigator portfolios for prevention of sleep, aggression, cognition, or structural brain outcomes were identified in the intake search strategy.
+### 5.2 Candidate protectives (not as tren cover)
 
-### 5.2 Trenbolone / AAS neural harms (independent of B)
+| Agent | What literature supports | What it does **not** show |
+|-------|--------------------------|---------------------------|
+| Cerebrolysin | Multimodal peptide drug studied in stroke/TBI/dementia-related settings; preclinical anti-excitotoxic / free-radical / neurotrophic narratives (Schauer 2006 PMID 16362636; TBI recovery models e.g. Zhang line; manufacturer MoA) | **No** identified human RCTs of cerebrolysin for prevention or treatment of trenbolone- or AAS-induced neurotoxicity |
+| NAC | Broad redox / GSH literature; some CNS/psychiatric research use | **No** trenbolone combination neuroprotection trials identified |
+| Sleep interventions | General sleep medicine; AAS-sleep observational link is strong | No trial of sleep protocol as structural neuroprotectant under tren |
+| GABA/taurine/Mg | Nutritional/neurochemical rationales; Mg deficiency correction | No controlled proof as tren neuroprotectants |
+| Clinical psych care | Standard psychiatric evidence base for mood/anxiety/insomnia | Not a molecular shield against in vitro tren toxicity |
 
-| Source | Design | Finding | Tier |
-|--------|--------|---------|------|
-| Zelleroth et al. 2021 PMID 33677017 | Primary rat cortical cultures; multiple AAS | Reduced neurite outgrowth & viability; trenbolone among worst for viability/mitochondria | In-vitro |
-| Bjørnebekk et al. 2017 PMID 27616036 | Structural brain imaging, long-term AAS vs controls | Structural differences associated with long-term AAS | Observational human |
-| Scarth & Bjørnebekk 2021 PMID 34709215 PMC8631164 | Narrative review | Androgen abuse and brain — multi-domain synthesis | Review |
-| Klonteig et al. 2024 PMID 38254047 | Sleep pathology in male weightlifters ± AAS | Sleep pathology associated with AAS use | Observational |
-| Nelson et al. 2022 DOI 10.1038/s41598-022-13048-w | Association study | AAS use linked to psychopathy, risk-taking, anger | Observational |
-| Chegeni et al. meta | RCTs healthy males | Small aggression increase (g ≈ 0.17) | Meta of RCTs (class AAS, not tren-specific) |
-| Piacentino 2015 PMC4462035 | Review | AAS and psychopathology in athletes | Review |
-| Amaral et al. 2022 | Psychiatric symptoms in AAS users | Symptoms present; no clear simple dose association | Observational |
-| Chisari et al. 2025 MDPI forensicsci-05-00031 | Review | AAS and brain damage framing | Review |
-| Thiblin et al. PMID 10596737 | Case series | AAS and suicide | Case series |
-| Animal GABAA AAS literature (Penatti/Morrison lineage) | Animal | AAS alter GABAergic transmission / aggression models | Preclinical |
+### 5.3 Combination literature
 
-### 5.3 Mitigators studied outside AAS context
+**No human RCTs** of trenbolone + cerebrolysin, trenbolone + NAC, or multi-agent “neuroprotective stacks” for validated CNS endpoints were identified in this run. Absence is **literature silence**, not proof of null interaction.
 
-| Mitigator | Independent evidence relevant to “neuro” claims | Applies to tren cover? |
-|-----------|--------------------------------------------------|------------------------|
-| **NAC** | APAP OD **Established**; mucolytic **Probable**; SCZ adjunct modest **Probable** with duration; adult OCD **Speculative**/fragile; general antioxidant wellness **Unknown** as outcome claim (Tenório 2021; Fan 2020 hippocampal OxS context; Cherneva 2025 CNS modulatory framing; workspace NAC monograph) | Pathway plausibility only → **Speculative** |
-| **Cerebrolysin** | Stroke early NIHSS **Probable**; TBI multidimensional signals **Probable** (industry-linked); AD short-term cognition **Probable**; prevention in healthy adults **Unknown**; Cochrane skepticism on hard stroke outcomes | **Not transferable** without data → **Unknown**/ **Speculative** |
-| **Sleep interventions** | Large general literature that sleep loss harms cognition/mood | Secondary domain only |
-| **Mg / taurine** | Mixed sleep/anxiety literature; Mg deficiency correction **Probable** when deficient | Symptom layer **Speculative** for tren |
-| **Clinical psych care** | Guideline-level for depression, anxiety, psychosis, suicidality | **Established** when indicated |
+### 5.4 Funding / COI / design notes
 
-### 5.4 What literature does *not* show
-
-- Full prevention of AAS-related structural brain differences by any supplement stack.
-- Tren-specific neuroprotection endpoints for peptides or NAC.
-- That forum sleep stacks equal neuroprotection.
-- That absence of combo RCTs proves pathways cannot interact — silence ≠ disproof; certainty stays **Speculative**/**Unknown**.
+- Oslo AAS brain program (Bjørnebekk group): public health funding; observational designs limit causal certainty.  
+- Cerebrolysin manufacturer materials: industry positioning for stroke/TBI — **COI-relevant** for MoA claims.  
+- Forum sources: non-peer-reviewed, selection and expectancy bias, polydrug confounding.
 
 ---
 
 ## 6. What consistent anecdotal / forum patterns report
 
-**Source type:** Non-peer-reviewed (steroid.com, anabolicsteroidforums, and related bodybuilding communities per intake). Selection bias, polypharmacy, expectation, and dose confounds are universal.
+*All non-peer-reviewed unless noted. Pattern strength ≠ clinical proof.*
 
-| Theme | Consistency | Context | Concordance with literature |
-|-------|-------------|---------|------------------------------|
-| Tren → night sweats, insomnia, “wired” feeling | **High** multi-source | Often dose-related in logs | **Partial–strong** with observational sleep/AAS data |
-| Tren → irritability, anxiety, low patience | **High** | Not universal; some users “fine” | **Partial** with aggression/mood literature |
-| Dose reduction improves sleep/mood sides | **High** | First community fix | Aligns with exposure-reduction logic |
-| Taurine, GABA, magnesium, antihistamine sleep aids “take the edge off” | **Moderate** | Common lore; mixed individual response | **literature-silent** for tren-specific RCTs → **Speculative** |
-| “Neuro peptides / cerebrolysin smooth the cycle” | **Low–moderate** niche | Heavy confounding; peptide circles | **literature-silent** combo → **Speculative** |
-| NAC as liver/“detox”/brain cover on cycle | **Moderate** as general AAS lore | Rarely isolated; often stacked | **literature-silent** for tren CNS → **Speculative** |
-| Sides continue despite full ancillary stacks | **Also common** | Undercuts “full protection” claims | Supports **Unknown** for full neuroprotection |
-| Cessation improves sleep/mood over days–weeks | **High** | Residual endocrine crash separate issue | Mechanistically expected |
+| Theme | Consistency | Context | Label |
+|-------|-------------|---------|-------|
+| Trenbolone as subjectively worst AAS for sleep, night sweats, irritability, jealousy/paranoia, cognitive fog | **High** in PIED/bodybuilding communities; aligned with qualitative research (Piatkowski 2023) | Dose often “low” still symptomatic for some | Anecdote + qualitative lit |
+| Sleep worse or rebound anxiety/depression off-cycle | **High**; matches Klonteig observational off-cycle findings | ASIH narrative | Multi-source |
+| GABA, taurine, magnesium, antihistamine sleep aids, dark room, cooling for night sweats | **Moderate–high** ancillary lore | Symptomatic | Speculative practice |
+| **Cerebrolysin concurrent with AAS** (TRT/primo/HGH stacks discussed; general anabolics) | **Niche but real** — r/Cerebrolysin “Anabolic Steroids and Cerebrolysin”; users ask about stacking with anabolics | Peptide + AAS polydrug culture | Community pattern |
+| Cerebrolysin for **repair after** steroid use / PTSD + steroids | **Present** (e.g. r/Cerebrolysin repair threads) | Post-cycle cognitive recovery framing | Community pattern |
+| Cerebrolysin listed among “healing” / cognitive compounds on r/steroids-class discussions | **Present** | Confounded with other peptides | Community pattern |
+| Steroid-forum / Thinksteroids experience reports: subjective clearer head, less anxiety, or null | **Mixed** low–moderate N, heavy confounding | Source quality variable | Weak–moderate signal |
+| Belief that peptides “cover” tren so cycle can continue | **Present risk narrative** | False security concern | Behavioral |
 
-**Weighing sentence (anecdote rules):** Controlled literature does not validate multi-agent *full* neuroprotection. Consistent multi-source reports describe tren-related sleep/mood burden and partial symptomatic relief from dose cuts and sleep-support stacks (**Speculative**; concordance: **partial** for harm themes, **literature-silent** for specific protective stacks). These reports justify pathway analysis and harm-reduction prioritization — they do **not** authorize an Established/Probable full-protection protocol, nor do they prove that unstudied protective effects “do not exist.”
+**Weighing sentence (cerebrolysin):** Controlled literature is **silent** on cerebrolysin as a trenbolone or AAS neuroprotective. Consistent multi-source community discussion treats cerebrolysin as a concurrent or post-cycle cognitive support / repair agent around AAS use (**Speculative**; concordance: **literature-silent**). Reports are confounded by expectation, concurrent drugs, and selection. They justify pathway analysis and cautious note — **not** a dosing protocol and **not** a claim of full protection. It is incorrect to assert that community use “does not exist” or that effects “cannot exist” solely because combination RCTs are missing.
 
 ---
 
-## 7. Weighing (literature vs mechanism vs anecdote)
+## 7. Weighing
 
 | Domain | Summary | Concordance |
 |--------|---------|-------------|
-| **Controlled literature** | Clear *signals of harm* (in-vitro toxicity, sleep/AAS associations, structural imaging, modest aggression meta). **No** combo RCTs supporting full or even partial validated neuroprotection by NAC/cerebrolysin/GABA stacks against tren | Harm: **partial–strong** · Protection claim: **absent** |
-| **Mechanism** | Multi-hit model (AR, mitochondria/ROS, GABA, sleep loss, long-term structure) makes *partial* mitigation of *some* nodes plausible; complete coverage of all nodes by OTC/peptide stack is not mechanistically guaranteed | **Weak–partial** for partial protection; **weak** for “full” |
-| **Anecdote / forum** | Strong on tren sleep/mood sides; moderate on symptomatic sleep stacks; weak/niche on peptides as cover; repeated failures of “full cover” | **Partial** for symptoms; **literature-silent** for complete protection |
+| Controlled literature | Strong signals that high-dose AAS (and trenbolone in models) stress CNS structure/function/sleep/mood; **no** validated full-protection stack | Solid on harm; silent on full cover |
+| Mechanism | Multi-pathway harm (AR + non-AR cytotoxicity, BDNF/inflammation, GABA/NMDA, sleep–hormone loops). B agents map *partially* onto subsets | Partial mechanistic overlap for some B items |
+| Anecdote / forum | Strong for tren CNS sides; moderate niche for cerebrolysin-as-AAS-repair; common for sleep stacks | Partial with sleep literature; literature-silent for peptide cover efficacy |
 
-**Synthesis rules applied:**
+**Concordance rules applied:**
 
-- Literature silence on combos ≠ proof that NAC or cerebrolysin *cannot* modulate sub-pathways — label **Speculative**, analyze pathways (done in §2–4).
-- Consistent anecdotes support **Speculative** notes only — never elevate to Probable/Established protective protocols.
-- Mechanism + anecdote together still **do not** reach Established/Probable for full neuroprotection.
-- **Full neuroprotection hypothesis:** fails evidentiary bar → **Unknown** efficacy claim; practically treat as **unsupported as a complete strategy**.
+- Literature silence ≠ disproof of mechanistically plausible peptide or NAC effects.  
+- Consistent anecdotes → **Speculative** ceiling only.  
+- Mechanism + anecdote **never** elevated to Established/Probable protective protocols.  
+- **Full neuroprotection** fails as a claim: too many independent harm axes; no portfolio trial; AR-independent cell injury not shown to be abolished by any B agent.
 
-| Sub-hypothesis | Certainty |
-|----------------|-----------|
-| Avoiding trenbolone prevents tren-specific CNS exposure harms | **Established** (tautological / causal) |
-| Lower dose/shorter duration reduces average side-effect burden | **Probable** |
-| Sleep defense reduces secondary harm from insomnia | **Probable** (general) / **Unknown** as structural neuroprotection |
-| NAC reduces tren neuronal toxicity in humans | **Speculative** / **Unknown** clinical |
-| Cerebrolysin prevents tren neuropsychiatric or structural harm | **Speculative** / **Unknown** clinical |
-| GABA/taurine/Mg fully neutralize tren CNS effects | **Speculative** at best; “fully” → **Unknown** |
-| Clinical care treats emergent psychiatric disease | **Established** when indicated |
-| **Portfolio achieves FULL neuroprotection** | **Unknown** — **do not recommend as achievable claim** |
+**Adjudication:**
+
+| Claim | Adjudication | Certainty |
+|-------|--------------|-----------|
+| Full multi-domain neuroprotection is achievable with the stated portfolio | **Unsupported** as practical claim | **Unknown** (no positive evidence; strong biological reasons to doubt completeness) |
+| Exposure reduction reduces cumulative risk | Supported | **Probable**–**Established** |
+| Sleep defense improves one major domain | Supported as general principle under AAS | **Probable** (domain-limited) |
+| Cerebrolysin prevents tren neurotoxicity | Not demonstrated | **Speculative** / **Unknown** efficacy |
+| NAC prevents tren neurotoxicity | Not demonstrated | **Speculative** / **Unknown** efficacy |
+| GABA/taurine/Mg fully protect structure/cognition | Overclaim | **Speculative** symptomatic at best |
+| Clinical psych care reduces catastrophic psychiatric outcomes | Supported when indicated | **Probable** |
 
 ---
 
 ## 8. Practical implications + monitoring
 
-### 8.1 Hierarchy (harm reduction — not a full-protection protocol)
+### 8.1 What can be recommended (certainty-gated)
 
-| Priority | Action | Certainty | Role |
-|----------|--------|-----------|------|
-| **1** | **Do not use trenbolone** if goal is CNS/brain-risk minimization | **Established** risk-avoidance | Only complete removal of tren-specific driver |
-| **2** | If exposure already planned/ongoing despite risks: **minimize dose and duration**; avoid stacking additional harsh CNS-stressful compounds | **Probable** | Primary residual risk control |
-| **3** | **Sleep defense** as non-negotiable lifestyle layer (schedule, temperature, sweat management, caffeine discipline, treat apnea if present) | **Probable** | Secondary-amplifier control |
-| **4** | **Mental-health monitoring** with pre-defined stop rules; low threshold for clinical care | **Established**–**Probable** | Safety-critical |
-| **5** | Standard **AAS systemic monitoring** (BP, lipids, HCT/Hb, symptoms; ECG if CV risk) | **Probable** | Whole-body harm reduction (brain-relevant via CV/sleep) |
-| **6** | Optional **NAC** as general redox/GSH support — honest **Speculative** framing for tren CNS; not a cover story | **Speculative** for this use; oral tolerability **Probable** at common doses |
-| **7** | **Mg / taurine** as low-stakes sleep/calm supports if tolerated — symptom layer only | **Speculative** for tren-specific protection |
-| **8** | **Cerebrolysin / neurotrophic peptides** — **no evidence-graded protocol** as tren neuroprotectant | **Unknown** efficacy for this use → **no recommendation** |
-| **9** | **Clinical psychiatric care** immediately if red flags | **Established** | Not optional once criteria met |
+| Guidance | Certainty |
+|----------|-----------|
+| Do **not** present any stack as achieving **full** neuroprotection from trenbolone | **Unknown** for full cover → no such recommendation |
+| Prefer **non-use** of trenbolone if CNS/mood/sleep integrity is a priority | **Probable** harm reduction |
+| If AAS exposure occurs despite risks: **minimize dose, duration, and cumulative years**; avoid dependence patterns | **Probable** |
+| Prioritize **sleep** (hygiene, apnea screening if indicated, medical review of hypnotics) especially off-cycle | **Probable** domain management |
+| Seek **clinical psychiatric care** promptly for severe insomnia, rage, paranoia, depression, suicidal ideation — stop criteria for continued AAS | **Probable**–**Established** when symptoms present |
+| Standard AAS medical monitoring remains mandatory and is **not replaced** by nootropics/peptides: BP, lipids, HCT/hemoglobin, estradiol management as clinically indicated, liver as relevant, fertility/HPTA planning | **Probable** |
+| Mg repletion if deficient; general nutrition and alcohol minimization | **Probable** general health |
 
-**Explicit refusal:** No invented “full neuroprotection stack” (dose tables presenting peptides + NAC + GABA agents as complete insurance). **Unknown = no recommendation** for full protection.
+### 8.2 Speculative notes only (not protocols)
 
-### 8.2 What *not* to do
+| Note | Ceiling |
+|------|---------|
+| Some users report sleep/anxiety benefit from taurine/Mg/GABA-adjacent stacks during tren — treat as unverified symptomatic experiments | **Speculative** |
+| Community interest in cerebrolysin concurrent with AAS or post-cycle for cognition is real; any personal use is experimental, injectable, sourcing-sensitive, and **unproven** for tren cover | **Speculative** |
+| NAC as general redox support is a low-intensity speculative adjunct relative to peptides — still **not** proven tren neuroprotection | **Speculative** |
 
-| Anti-pattern | Why | Certainty |
-|--------------|-----|-----------|
-| “Cerebrolysin / NAC = full tren brain armor” | No combo evidence; risk compensation | **Unknown** efficacy; **Probable** false-security harm |
-| Escalate tren dose because ancillaries “have it covered” | Amplifies AR load | **Probable** net harm |
-| Ignore suicidal ideation / psychosis / severe aggression as “just tren sides” | Case-level severe outcomes exist | **Established** need for care when present |
-| DIY high-dose parenteral peptides without sterile technique / legal access | Infection, seizure CI (cerebrolysin), quality risk | **Established** procedural hazards |
-| Equate oral GABA supplements with pharmaceutical GABAergic neuroprotection | Mechanistic overclaim | **Speculative** efficacy |
+### 8.3 Explicit non-recommendations
 
-### 8.3 Monitoring priorities (if trenbolone exposure occurs despite risks)
+| Do not | Why |
+|--------|-----|
+| Run high-dose tren because a peptide/NAC/GABA stack is “on board” | False security; **Unknown** cover |
+| Claim cerebrolysin is Established/Probable tren neuroprotection | Evidence does not support |
+| Use unprescribed sedatives/alcohol to force sleep on tren | Additional CNS and dependence risk |
+| Ignore off-cycle psychiatric and sleep risk | Literature shows off-cycle sleep can be worse |
 
-| Domain | What to track | Stop / escalate-care criteria (examples) |
-|--------|---------------|------------------------------------------|
-| **Sleep** | Hours, night sweats, awakenings, next-day function | Progressive insomnia, functional collapse |
-| **Mood / behavior** | Irritability, anxiety, paranoia, risk-taking, partner/report collateral history | Aggression outbursts, suicidal ideation, psychosis → **urgent clinical care**; discontinue AAS |
-| **Cognition** | Focus, memory complaints | Marked decline with sleep not explaining it fully → medical evaluation |
-| **CV / labs** | BP, fasting lipids, CBC/HCT, resting HR | Chest pain, severe dyspnea, HCT above clinician threshold, hypertensive crisis |
-| **Endocrine / exit** | Plan for suppression; PCT community practices are variable evidence | Post-cycle depression / hypogonadal symptoms → clinician |
-| **Adjunct AEs** | NAC GI tolerance; sedative hangover; injection reactions if any peptide used | Rash/anaphylactoid, severe GI, seizure history + cerebrolysin = absolute avoid |
+### 8.4 Monitoring checklist (if A is used despite risks)
 
-### 8.4 Optional adjunct context (not protocols for full protection)
+| Domain | Monitor | Stop / escalate triggers (examples) |
+|--------|---------|-------------------------------------|
+| Sleep | PSQI-like self check; partner report night sweats/apnea | Persistent global PSQI-range poor sleep; stimulant/hypnotic escalation |
+| Mood / behavior | Irritability, jealousy, rage, anhedonia, anxiety | Aggression risk to self/others; depression; psychosis-spectrum symptoms |
+| Cognition | Work/school function, memory complaints | Functional decline |
+| CV | BP, lipids, HCT | Marked HCT rise, hypertension, chest pain, neuro deficit → emergency |
+| Endocrine | PCT/TRT plan, symptoms of ASIH | Severe hypogonadal crash off-cycle |
+| Injectables (if any peptide) | Sterility, allergy, injection site | Anaphylaxis signs, infection |
 
-| Adjunct | If already considered by user | Ceiling |
-|---------|------------------------------|---------|
-| **NAC oral** | Common researched oral bands for other indications often **600–2400+ mg/day** divided; psych trials higher. GI AEs common. Not AAS-neuroprotection dosing. | **Speculative** for tren CNS; **no** full-protection claim |
-| **Magnesium** | Prefer food-first; supplemental forms for sleep/deficiency common in general practice | **Probable** if deficient; **Speculative** as tren antidote |
-| **Taurine** | Community sleep lore; generally well tolerated orally at common supplemental doses | **Speculative** |
-| **Cerebrolysin** | Labeled regimens are IV injury/dementia contexts (e.g. tens of mL/day courses in trials) — **not** a gym-cycle cover protocol | **Unknown** for tren → **do not recommend** |
-| **Prescription sleep/psych meds** | Only under clinician; watch dependence and interaction with polypharmacy | Syndrome-guided **Probable**–**Established** |
+### 8.5 Dosing context
 
-### 8.5 Legal / medical caveats (mandatory for performance AAS)
-
-- Non-prescribed trenbolone is a controlled anabolic steroid in many jurisdictions (including the US) — legal risk is separate from biology.
-- This synthesis is **educational harm reduction**, not a recommendation to use AAS.
-- Source quality (veterinary tren, UGL) adds infection and dosing uncertainty — **Probable** practical risk.
-- Women, adolescents, and people with prior psychosis, uncontrolled CVD, or active mood disorders face elevated absolute risk — **recommend against** exposure (**Probable**–**Established** by population).
+**No evidence-graded dosing protocol** is provided for cerebrolysin, NAC, or GABA agents *as trenbolone neuroprotectants* (**Unknown** for that indication). Clinical cerebrolysin regimens in other countries for stroke/TBI are indication-specific and clinician-supervised — they do not transfer to illicit AAS cover by default.
 
 ---
 
 ## 9. Key risks and unknowns
 
-### 9.1 Risks of A (trenbolone / AAS context)
+### 9.1 Risks of A (trenbolone)
 
-| Risk | Notes | Certainty |
-|------|-------|-----------|
-| Sleep disruption / night sweats | High practical burden | **Probable** |
-| Mood instability, aggression, anxiety | Heterogeneous; serious in subsets | **Probable** association |
-| Suicidality / acute psychiatric events | Case-level; high severity | **Probable** signal in vulnerable users |
-| Structural brain / aging associations with long-term AAS | Observational | **Probable** association |
-| Direct neuronal stress (in vitro) | Tren severe in culture | **Probable** in vitro; human magnitude **Unknown** |
-| CV, lipids, erythrocytosis, HPTA suppression | Class AAS | **Probable**–**Established** |
-| Legal / product quality | Jurisdiction- and source-dependent | Context-specific |
+- Neuropsychiatric: aggression, anxiety, insomnia, cognitive fog, rare severe psychiatric events  
+- Structural/functional brain signals associated with long-term high-dose AAS  
+- Sleep pathology on- and off-cycle  
+- CV/lipid/HCT and potential cerebrovascular contribution  
+- Endocrine suppression, fertility impact, possible immune modulation  
+- Contamination, incorrect dosing, polydrug stacks  
+- Legal status (controlled / non-approved human use in many jurisdictions)
 
 ### 9.2 Risks of B agents
 
-| Agent | Risks | Certainty |
-|-------|-------|-----------|
-| NAC | GI AEs; nitroglycerin interaction; asthma caution (esp. IV/inhaled); not risk-free high-dose chronic | **Established**–**Probable** by item |
-| Sedating sleep aids / GABAergic Rx | Dependence, next-day impairment, respiratory depression risk in extremes | **Established** class risks |
-| Cerebrolysin | Allergy (porcine), seizure contraindication, renal severe impairment CI, injection infection, non-FDA status in US, industry-linked efficacy packages | **Probable**–**Established** by item |
-| False security from stacks | Continued high exposure | **Probable** behavioral |
+| Agent | Risks |
+|-------|-------|
+| Cerebrolysin | Injectable (IM/IV): infection, allergy, source/counterfeit risk; regulatory status not “supplement aisle” in many regions; unknown interactions with AAS |
+| NAC | Generally well tolerated orally; high doses GI; rare theoretical interactions — still not proven effective here |
+| GABA/taurine/Mg | Mg excess (especially renal impairment); sedative polypharmacy |
+| Sleep meds / alcohol | Dependence, impairment, respiratory risk |
+| Clinical care delay | Harm from avoiding psychiatry while self-stacking peptides |
 
-### 9.3 Combination / strategy unknowns
+### 9.3 Combination / portfolio risks
 
-- Magnitude of any human CNS protection from NAC or cerebrolysin during tren exposure: **Unknown**.
-- Whether sleep optimization alters long-term structural imaging trajectories: **Unknown**.
-- Interaction PK/PD of multi-agent stacks with AAS: largely **Unknown**.
-- Individual vulnerability genetics / prior TBI / psychiatric history as effect modifiers: **Unknown** in quantitative terms.
-- Threshold dose/duration below which structural risk becomes negligible: **Unknown** — no safe recreational threshold is Established.
+- **Unknown** PK/PD interactions peptide + AAS  
+- **False reassurance** enabling longer/harder tren exposure  
+- Attribution error: feeling better from sleep or placebo while structural risk accumulates  
+- Polydrug complexity confounds any self-experiment inference  
 
-### 9.4 Absolute / strong cautions
+### 9.4 Absolute practical red flags
 
-- Active psychosis, uncontrolled bipolar mania, or suicidal crisis → **stop AAS and seek emergency/psychiatric care** (**Established** priority).
-- Cerebrolysin: epilepsy / severe renal impairment / hypersensitivity — label contraindications (**Probable** enough to honor).
-- Pregnancy: exogenous androgens contraindicated (**Established**).
+- Active severe psychiatric illness without care  
+- Prior AAS-related psychosis/violence  
+- Uncontrolled hypertension / erythrocytosis  
+- Inability to secure sterile injectables if peptides considered for *any* reason  
+
+### 9.5 Long-term unknowns
+
+- Whether any B agent modifies human MRI brain-age trajectories under AAS  
+- Trenbolone-specific human RCT neuro endpoints (essentially absent)  
+- Reversibility of long-term AAS structural findings  
+- Whether post-cycle cerebrolysin changes recovery curves  
 
 ---
 
 ## 10. Open questions
 
-1. **Prospective human study** of trenbolone (or high-androgen AAS) users with validated sleep (PSG/actigraphy), mood (standardized scales), and cognitive batteries — with and without structured sleep intervention — to quantify secondary vs primary CNS harm.
-2. **In-vivo** replication of Zelleroth-type findings with dose–response and co-administration of NAC (or other GSH strategies) on neuronal viability and mitochondria — still preclinical, but closes a mechanism gap.
-3. **Neuroimaging** (longitudinal) in AAS users stratified by cumulative exposure and by sleep quality — tests whether sleep defense correlates with structural trajectories.
-4. **Any rigorous trial** (even small, well-controlled N-of-few or prospective cohort) of neurotrophic peptides during AAS exposure with pre-registered CNS endpoints — currently absent; until then efficacy remains **Unknown**.
-5. **Aggression/irritability** mechanistic human work linking AAS, GABAergic tone, and candidate modulators (Mg, taurine, prescribed agents) with objective behavioral measures — to move GABAergic support beyond forum lore.
+1. **Human prospective study:** Validated cognitive battery + sleep (PSG or high-quality actigraphy) + mood scales in trenbolone-exposed vs other AAS vs controls, with clear dose/duration capture.  
+2. **Mechanistic:** Does trenbolone’s AR-independent neurite toxicity in culture reverse with neurotrophic peptides, NAC, or anti-excitotoxic strategies at physiologically relevant free concentrations?  
+3. **Imaging:** Longitudinal MRI (volume, cortical thickness, brain-age gap) with documented trenbolone exposure intensity.  
+4. **Intervention:** Even small randomized or carefully controlled trials of sleep-focused interventions during AAS withdrawal for relapse and depression prevention (higher feasibility than peptide-on-tren RCTs).  
+5. **Pharmacovigilance:** Structured registries of peptide + AAS polypharmacy adverse events (allergy, infection, psychiatric).
 
 ---
 
 ## Guidance & Application Notice
 
-This document is an **evidence-graded educational synthesis** for contextualizing a high-risk multi-pathway question. Multi-compound protective strategies against AAS frequently sit at **Speculative** or **Unknown**.  
-
-**Unknown = no recommendation.** Full neuroprotection from trenbolone via a portfolio of sleep tactics, NAC, GABAergic supports, and neurotrophic peptides is **not** an Established or Probable outcome.  
-
-User assumes responsibility for decisions. Controlled substances (including non-prescribed AAS) and parenteral peptides carry legal, medical, and sourcing risks beyond this briefing. Individual medical decisions — especially psychiatric crises, cardiovascular risk, and any injectable therapy — require qualified professionals. This is not a cycle guide, not medical advice, and not encouragement to use trenbolone.
+This briefing is an evidence-graded interaction analysis for research and harm-reduction literacy. It does **not** authorize possession or use of trenbolone, cerebrolysin, or other controlled/unapproved agents. Multi-compound “full neuroprotection” strategies against trenbolone sit at **Speculative** / **Unknown**. **Unknown = no recommendation.** Established/Probable items here are primarily: reduce or avoid exposure, manage sleep, monitor medically, and use clinical psychiatric care when indicated. Speculative community practices (including cerebrolysin as AAS cognitive repair) are reported and weighed — not converted into proven protocols. Individual medical decisions require qualified professionals; legal status varies by jurisdiction.
 
 ---
 
 ## References
 
-### Peer-reviewed / clinical literature (intake core)
+### Peer-reviewed / primary literature (this run)
 
-1. Scarth M, Bjørnebekk A. Androgen abuse and the brain. *Curr Opin Endocrinol Diabetes Obes*. 2021. PMID: [34709215](https://pubmed.ncbi.nlm.nih.gov/34709215) · PMC: PMC8631164 · DOI: [10.1097/MED.0000000000000675](https://doi.org/10.1097/MED.0000000000000675)
-2. Zelleroth S, et al. Structurally different anabolic androgenic steroids reduce neurite outgrowth and neuronal viability in primary rat cortical cultures. *J Steroid Biochem Mol Biol*. 2021. PMID: [33677017](https://pubmed.ncbi.nlm.nih.gov/33677017)
-3. Klonteig S, Scarth M, Bjørnebekk A. Sleep pathology and use of anabolic-androgenic steroids among male weightlifters in Norway. *BMC Psychiatry*. 2024. PMID: [38254047](https://pubmed.ncbi.nlm.nih.gov/38254047) · PMC: PMC10804719
-4. Bjørnebekk A, et al. Structural brain imaging of long-term anabolic-androgenic steroid users and nonusing weightlifters. *Biol Psychiatry*. 2017. PMID: [27616036](https://pubmed.ncbi.nlm.nih.gov/27616036)
-5. Bjørnebekk A, et al. Related Oslo-program work on long-term AAS use and deviant brain aging (program literature; cite specific papers when used for endpoints).
-6. Nelson BS, et al. Anabolic-androgenic steroid use is associated with psychopathy, risk-taking, anger, and physical problems. *Sci Rep*. 2022. DOI: [10.1038/s41598-022-13048-w](https://doi.org/10.1038/s41598-022-13048-w)
-7. Piacentino D, et al. Anabolic-androgenic steroid use and psychopathology in athletes: a systematic review. 2015. PMC: [PMC4462035](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462035/)
-8. Chegeni R, et al. Meta-analysis: AAS and self-reported aggression in RCTs of healthy males (Hedges g ≈ 0.17) — cite full Chegeni publication details in matrix updates as locked.
-9. Amaral JX, et al. Psychiatric symptoms in AAS users; limited clear dose association. *Drug Test Anal*. 2022.
-10. Chisari MG, et al. AAS and brain damage — review. 2025. MDPI *Forensic Sci* forensicsci-05-00031.
-11. Thiblin I, et al. AAS and suicide — case series. PMID: [10596737](https://pubmed.ncbi.nlm.nih.gov/10596737)
-12. Case literature: violent suicide attempt associated with testosterone + trenbolone injection (intake case note; use primary case report citation when filing formal matrix).
-13. Viegas CM, et al. Fluoxetine treatment of AAS-related suicide attempt context. *Drug Test Anal*. 2020. DOI: [10.1002/dta.2912](https://doi.org/10.1002/dta.2912)
-14. Penatti / Morrison et al. — animal literature on AAS, GABAA receptors, and aggression (LAH GABAA line; classic preclinical corpus).
+1. Zelleroth S, et al. Structurally different anabolic androgenic steroids reduce neurite outgrowth and neuronal viability in primary rat cortical cell cultures. *J Steroid Biochem Mol Biol*. 2021;210:105863. PMID: [33677017](https://pubmed.ncbi.nlm.nih.gov/33677017/)  
+2. Scarth M, Bjørnebekk A. Androgen abuse and the brain. *Curr Opin Endocrinol Diabetes Obes*. 2021;28(6):604–614. PMID: [34709215](https://pubmed.ncbi.nlm.nih.gov/34709215/) PMC: [PMC8631164](https://pmc.ncbi.nlm.nih.gov/articles/PMC8631164/)  
+3. Klonteig S, Scarth M, Bjørnebekk A. Sleep pathology and use of anabolic androgen steroids among male weightlifters in Norway. *BMC Psychiatry*. 2024;24:62. PMID: [38254047](https://pubmed.ncbi.nlm.nih.gov/38254047/) PMC: [PMC10804719](https://pmc.ncbi.nlm.nih.gov/articles/PMC10804719/)  
+4. Bjørnebekk A, et al. Structural Brain Imaging of Long-Term Anabolic-Androgenic Steroid Users and Nonusing Weightlifters. *Biol Psychiatry*. 2017;82(4):294–302. PMID: [27616036](https://pubmed.ncbi.nlm.nih.gov/27616036/)  
+5. Borecki R, Byczkiewicz P, Słowikowska-Hilczer J. Impact of trenbolone on selected organs. *Endokrynol Pol*. 2024;75(3):267–278. DOI: [10.5603/ep.99130](https://doi.org/10.5603/ep.99130) PMID: [38887114](https://pubmed.ncbi.nlm.nih.gov/38887114/)  
+6. Nelson BS, Hildebrandt T, Wallisch P. Anabolic–androgenic steroid use is associated with psychopathy, risk-taking, anger, and physical problems. *Sci Rep*. 2022;12:9133. DOI: [10.1038/s41598-022-13048-w](https://doi.org/10.1038/s41598-022-13048-w)  
+7. Piacentino D, et al. Anabolic-androgenic steroid use and psychopathology in athletes. *Curr Neuropharmacol*. 2015. PMC: [PMC4462035](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462035/)  
+8. Amaral JMX, et al. Psychiatric symptoms associated with anabolic-androgenic steroids: dose and pattern. *Drug Test Anal*. 2022. PMID: [35092181](https://pubmed.ncbi.nlm.nih.gov/35092181/)  
+9. Chegeni R, et al. Meta-analysis of testosterone RCTs on aggression (effect size ~0.17; not tren-specific). 2021.  
+10. Piatkowski TM, Neumann DL, Dunn M. ‘My mind pretty much went to mush’: A qualitative exploration of trenbolone in the performance and image enhancing drug community. *Drug Alcohol Rev*. 2023;42(6):1566–1576. DOI: [10.1111/dar.13656](https://doi.org/10.1111/dar.13656) PMID: [36992616](https://pubmed.ncbi.nlm.nih.gov/36992616/)  
+11. Thiblin I, et al. AAS and suicide — case series. PMID: [10596737](https://pubmed.ncbi.nlm.nih.gov/10596737/)  
+12. Viegas S, et al. Fluoxetine, AAS, suicide attempt case context. *Drug Test Anal*. 2020. DOI: [10.1002/dta.2912](https://doi.org/10.1002/dta.2912)  
+13. Schauer E, et al. Cerebrolysin neuroprotection in tissue culture (ischemia/excitotoxicity context). PMID: [16362636](https://pubmed.ncbi.nlm.nih.gov/16362636/)  
+14. Jarosz K, et al. Cerebrolysin in TBI: systematic review context (neuroinflammation, free radicals, NTF-like activity). *Brain Sci*. 2023. PMC: [PMC10046100](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046100/)  
+15. Ma F, Liu D. 17β-trenbolone contributes to neurodegeneration (rat model; Ab-related processes). *Toxicol Appl Pharmacol*. 2015;282:68–76. PMID: [25461682](https://pubmed.ncbi.nlm.nih.gov/25461682/)  
+16. Orlando R, et al. Nanomolar AAS amplify excitotoxic neuronal death in mixed cortical cultures. *Brain Res*. 2007. PMID: [17662261](https://pubmed.ncbi.nlm.nih.gov/17662261/)  
+17. Garcia-Segura LM, et al. Steroids and neuroprotection (physiological/therapeutic androgen context — contrast with abuse doses). PMC: [PMC3522859](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3522859/)  
+18. Tenório MCDS, et al. N-acetylcysteine antioxidant / clinical review literature (redox class support). *Antioxidants* lineage ~2021.  
+19. Chisari et al. 2025 — AAS and brain damage review (forensic science MDPI series; secondary synthesis).  
 
-### NAC / redox (selected)
+### Industry / product MoA (COI-labeled)
 
-15. Tenório MCDS, et al. N-Acetylcysteine (NAC): impacts on human health. *Antioxidants*. 2021. DOI: [10.3390/antiox10060967](https://doi.org/10.3390/antiox10060967) · PMID: 34208683
-16. Fan C, et al. / related hippocampal oxidative stress NAC literature (2020 lineage per intake).
-17. Cherneva et al. 2025 — CNS modulatory NAC framing (intake).
-18. Workspace prior synthesis: `/workspaces/workspace/findings/NAC/` (compound.md, sources.md, evidence-matrix.json).
+20. Cerebrolysin manufacturer Mode of Action pages — NTF/Shh, anti-excitotoxic, free radical reduction (stroke/TBI positioning). https://www.cerebrolysin.com/cerebrolysin/mode-of-action  
 
-### Cerebrolysin (selected; not AAS trials)
+### Non-peer-reviewed / forum & community (this run; anecdotal)
 
-19. Workspace prior synthesis: `/workspaces/workspace/findings/cerebrolysin/` — stroke/TBI/dementia evidence package; **no** AAS-protective RCTs.
-20. Representative: Bornstein et al. 2018 stroke MA; Patel et al. 2025 stroke SR/MA; CAPTAIN II TBI (Muresanu 2020); Cochrane AIS 2023 (Ziganshina); Gauthier 2015 AD MA — see cerebrolysin compound profile for full DOI/PMID list.
-
-### Non-peer-reviewed / anecdotal (labeled)
-
-21. Anabolic steroid community forums (e.g. steroid.com, anabolicsteroidforums): trenbolone night sweats, insomnia, irritability threads; GABA/taurine/magnesium/antihistamine sleep-stack lore; dose-reduction as first fix. **Non-peer-reviewed**; selection-biased; Speculative ceiling only.
-
-### Calibration examples (method, not evidence)
-
-22. `/workspaces/workspace/.grok/skills/research-analyst/references/examples/example-interaction-protective.md`
-23. `/workspaces/workspace/.grok/skills/research-analyst/references/examples/example-performance-aas-harm-reduction.md`
-24. `/workspaces/workspace/.grok/skills/research-analyst/references/examples/example-literature-silent-anecdote.md`
+21. Reddit r/Cerebrolysin — “Anabolic Steroids and Cerebrolysin” (concurrent AAS + cerebrolysin discussion). https://www.reddit.com/r/Cerebrolysin/comments/1v1agtv/anabolic_steroids_and_cerebrolysin/  
+22. Reddit r/Cerebrolysin — cerebrolysin for repair after PTSD and steroid use. https://www.reddit.com/r/Cerebrolysin/comments/tlfqll/cerbrolysin_to_repair_damage_from_ptsd_and/  
+23. Reddit r/steroids — compounds affecting cognitive function (cerebrolysin mentioned among neuro agents). https://www.reddit.com/r/steroids/comments/p3dffn/discussion_compounds_that_affect_cognitive/  
+24. Reddit r/steroids — healing compounds thread (cerebrolysin safety/autoimmune caution notes). https://www.reddit.com/r/steroids/comments/r09d1b/compounds_healing_compounds/  
+25. Anabolic steroid forums / Thinksteroids-class cerebrolysin experience threads — subjective cognition/anxiety reports (non-peer-reviewed; variable quality).  
+26. Steroid forum class threads — tren sleep, night sweats, GABA/taurine/Mg ancillary stacks (non-peer-reviewed).
 
 ---
 
-*End of interaction profile — research 94cfd27c.*
+*End of interaction profile — research_id 843bdcda. Sources limited to this run’s intake + independent search. Package isolation respected.*

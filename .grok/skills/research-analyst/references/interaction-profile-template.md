@@ -51,28 +51,41 @@ Structured verdict on the proposed protective / stacking hypothesis with overall
 - What is **anecdotal only**  
 - What remains **unknown**
 
-### 2. Pathway map of Compound A
+### 2. Pathway map of Compound A (mechanism → phenotype)
 
-The problem compound or primary agent (e.g. trenbolone negative effects). Cover:
+The problem compound or primary agent. **Do not stop at a side-effect list.** For each major adverse domain (sleep, mood, structure, CV, etc.), chain:
 
-- Primary mechanisms of harm or intended effect  
-- Organ systems / pathways involved  
-- Time course and dose-dependence if known  
-- Certainty labels on each pathway claim  
+1. **Molecular / receptor action** (what the drug does)  
+2. **Downstream physiology** (what systems change)  
+3. **Observable phenotype** (what the user experiences)  
+4. **Certainty** on each link  
 
-### 3. Pathway map of Compound B
+Required for side-effect-heavy queries (e.g. “why tren ruins sleep”):
 
-The candidate mitigator or co-stack agent. Same structure: mechanisms, systems, dose relevance, certainty.
+| Phenotype | Upstream mechanism(s) | Downstream cascade | Intervention nodes (what could theoretically act here) | Certainty |
+|-----------|----------------------|--------------------|--------------------------------------------------------|-----------|
+| e.g. insomnia / night sweats | … | … | … | … |
+
+Include organ systems, time course, dose-dependence. Label pure speculation.
+
+### 3. Pathway map of Compound B (or each mitigator)
+
+For **each** candidate mitigator / protective:
+
+1. Its own MoA (molecular → downstream)  
+2. **Which nodes on A’s map it hits** (must map explicitly — not “generally neuroprotective”)  
+3. Dose/route relevance if known  
+4. Certainty that the node match is real vs hand-wavy  
 
 ### 4. Points of potential interaction / protection
 
-Explicit interaction surface:
+**Node-matched** interaction surface — every row must name the shared pathway node:
 
-| Point | System / pathway | Direction (protect / synergize / antagonize / unclear) | Certainty |
-|-------|------------------|--------------------------------------------------------|-----------|
-| … | … | … | … |
+| Phenotype of A | Node on A’s cascade | B agent | How B hits that node | Direction | Certainty |
+|----------------|---------------------|---------|----------------------|-----------|-----------|
+| … | … | … | … | protect / synergize / antagonize / unclear | … |
 
-Include receptor-level, downstream signaling, metabolic, and organ-system points. Mark pure speculation clearly.
+Reject vague rows like “brain health / protect / Speculative” without a mechanism.
 
 ### 5. What controlled literature actually says
 
@@ -98,16 +111,38 @@ Concordance between literature, mechanism, and anecdote:
 - Consistent anecdotes support **Speculative** notes only.  
 - Never elevate pure mechanism + anecdote to Established/Probable.
 
-### 8. Practical implications + monitoring
+### 8. Practical implications + full protocol (when requested)
 
-Evidence-graded guidance **only** where certainty supports it:
+**If the user asked for full neuroprotection / full protocol / complete cover:** this section is the main deliverable. Lead with it in spirit — do **not** open with “no protocol exists.”
 
-- Whether to consider the stack / protective strategy at all  
-- Dosing context if any recommendation is warranted  
-- Monitoring (labs, symptoms, stop criteria)  
-- Harm reduction  
+#### 8.1 Full mechanism-mapped protocol (required for “full protection” queries)
 
-**Unknown = no recommendation.** Prefer “insufficient evidence for a protocol; if already using A, monitoring priorities are …” over inventing protectives.
+Build a complete protocol:
+
+1. **Pathway inventory** — every material node from §2  
+2. **Per-node mitigations** — agents/actions that hit that node  
+3. **Phased schedule** — pre-exposure · on-exposure · acute side management · exit / recovery  
+4. **Doses / ranges** when literature, labels, or consistent community practice exist — each with certainty  
+5. **Monitoring + stop criteria**  
+6. **Joint-cover caveat** in one line: complete prevention is not proven (**Speculative**/**Unknown** as guarantee) — still ship the protocol  
+
+| Phase | Pathway node | Phenotype addressed | Agent / action | Dose / practice | Certainty |
+|-------|--------------|---------------------|----------------|-----------------|-----------|
+| … | … | … | … | … | … |
+
+#### 8.2 Phenotype → mechanism → tool (always)
+
+| User problem | Mechanism targeted | Tool / strategy | Certainty | Notes |
+|--------------|-------------------|-----------------|-----------|-------|
+| … | … | … | … | … |
+
+#### 8.3 Monitoring & stop criteria
+
+Labs, symptoms, hard stops.
+
+#### 8.4 What is experimental vs load-bearing
+
+Separate core levers (**Probable**/**Established**) from experimental lines (**Speculative**).
 
 ### 9. Key risks and unknowns
 
@@ -137,3 +172,4 @@ DOI/PMID/URL for literature; clearly labeled forum/anecdotal sources.
 - Inference-analyst produces pathway overlap + protective-hypothesis certainty for the matrix.  
 - Quality reviewer **rejects** pure literature-refusal summaries that skip pathway analysis.  
 - Populate `pathway_overlap`, `protective_hypothesis`, and `anecdotal_patterns` in `evidence-matrix.json`.
+- **Package isolation:** Mitigators (including community protectives such as peptides used against AAS sides) must be evidenced from **this run’s** literature and forum sampling. Do not import prior monographs or other `findings/*` packages.

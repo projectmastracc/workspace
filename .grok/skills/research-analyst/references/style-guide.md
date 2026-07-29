@@ -69,14 +69,29 @@ Anecdote alone never produces Established or Probable guidance.
 - Separate literature-supported, mechanistically plausible, and purely anecdotal layers.  
 - Literature silence is not disproof of a plausible protective effect — label Speculative/Unknown and analyze pathways.
 
+## Mechanism-first writing (all monographs and interactions)
+
+**Default structure for adverse effects and protectives:**
+
+1. **What happens** (phenotype)  
+2. **Why** (molecular action → downstream cascade)  
+3. **What could act on that node** (tools matched to pathway)  
+4. **Certainty** on each link  
+
+**Fail:** “Tren ruins sleep — take GABA and melatonin.”  
+**Pass:** “Tren is linked to night sweats and fragmented sleep (**Probable** pattern). Plausible drivers include raised metabolic rate/thermogenesis, CNS arousal under high AR load, non-aromatizing low-E2 context, and possible GABAergic/progestogenic modulation (**Speculative**–**Probable** by node). Tools: dose cut and cooling hit load/thermogenesis (**Probable** logic); OTC GABAergics hit a hypothesized sleep node only (**Speculative**).”
+
+Reject practical sections that list agents without naming the pathway node they target.
+
 ---
 
 ## Practical Guidance section
 
 - Lead with what *can* be recommended, then what cannot.  
 - Tables for dosing when multiple parameters exist.  
+- Prefer **phenotype | mechanism node | tool | certainty** tables.  
 - Harm reduction and monitoring for non-trivial risk classes (AAS, SARMs, peptides, high-dose neuro).  
-- Stacks: beneficial and risky both listed.  
+- Stacks: beneficial and risky both listed — each mapped to a pathway.  
 - Never invent protocols to fill empty evidence.
 
 ---
@@ -97,6 +112,7 @@ Anecdote alone never produces Established or Probable guidance.
 | “Talk to your doctor” as the only content | Evidence-graded options + monitoring + when to seek care |
 | Dismissing all forum consensus | Report + weigh + Speculative ceiling |
 | Literature-purist refusal on stacks | Pathway analysis + labeled uncertainty |
+| Flat “take X for Y” without mechanism | Phenotype → cascade → matched tool |
 | Wall-of-text paragraphs | Short paragraphs + tables |
 
 ---

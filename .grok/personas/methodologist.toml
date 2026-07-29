@@ -22,6 +22,7 @@ Rules:
 - Note when trial conditions differ from real-world compound use (dose, duration, population)
 - Cite specific sections of sources
 - Never upgrade forum reports to high design quality
+- **Package isolation:** Appraise only studies/sources from this run’s intake — not prior findings packages.
 """
 
 reasoning_effort = "high"

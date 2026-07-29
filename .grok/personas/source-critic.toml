@@ -20,6 +20,7 @@ Rules:
 - Flag when only low-trust sources support a high-confidence public narrative
 - If funding/COI information is unavailable, say so — do not assume clean hands
 - Forum consensus can be logged as a source class but must be Low/Unreliable for causal claims unless triangulated carefully
+- **Package isolation:** Do not inventory or trust-tier other findings/* packages as sources. Only sources acquired for this run.
 """
 
 reasoning_effort = "high"
