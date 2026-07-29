@@ -6,7 +6,7 @@
     "analysis_id": { "type": "string" },
     "question": { "type": "string" },
     "input_type": {
-      "enum": ["compound", "claim", "paper", "topic", "question"]
+      "enum": ["compound", "claim", "paper", "topic", "question", "interaction"]
     },
     "compound": {
       "type": "object",
@@ -21,8 +21,127 @@
         }
       }
     },
+    "interaction": {
+      "type": "object",
+      "properties": {
+        "compound_a": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "role": {
+              "enum": ["problem", "primary", "co_stack", "other"]
+            }
+          }
+        },
+        "compound_b": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "role": {
+              "enum": ["mitigator", "protective", "co_stack", "other"]
+            }
+          }
+        },
+        "hypothesis": { "type": "string" }
+      }
+    },
     "overall_certainty": {
       "enum": ["Established", "Probable", "Speculative", "Unknown"]
+    },
+    "executive_verdict": {
+      "type": "object",
+      "properties": {
+        "summary": { "type": "string" },
+        "certainty": {
+          "enum": ["Established", "Probable", "Speculative", "Unknown"]
+        },
+        "practical_note": { "type": "string" }
+      }
+    },
+    "subjective_concordance": {
+      "enum": ["strong", "partial", "weak", "contradictory", "literature-silent", "not_applicable"]
+    },
+    "anecdotal_patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["theme", "consistency", "concordance"],
+        "properties": {
+          "theme": { "type": "string" },
+          "consistency": {
+            "enum": ["high", "moderate", "low", "single_source"]
+          },
+          "sources_note": { "type": "string" },
+          "concordance": {
+            "enum": ["strong", "partial", "weak", "contradictory", "literature-silent"]
+          },
+          "certainty_ceiling": {
+            "enum": ["Speculative", "Unknown"]
+          }
+        }
+      }
+    },
+    "comparative_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "efficacy_note": { "type": "string" },
+          "safety_note": { "type": "string" },
+          "evidence_quality": { "type": "string" },
+          "practical_note": { "type": "string" }
+        }
+      }
+    },
+    "pathway_overlap": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "point": { "type": "string" },
+          "system": { "type": "string" },
+          "direction": {
+            "enum": ["protect", "synergize", "antagonize", "unclear"]
+          },
+          "certainty": {
+            "enum": ["Established", "Probable", "Speculative", "Unknown"]
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "protective_hypothesis": {
+      "type": "object",
+      "properties": {
+        "statement": { "type": "string" },
+        "certainty": {
+          "enum": ["Established", "Probable", "Speculative", "Unknown"]
+        },
+        "literature_summary": { "type": "string" },
+        "mechanism_summary": { "type": "string" },
+        "anecdote_summary": { "type": "string" }
+      }
+    },
+    "monitoring_protocol": {
+      "type": "object",
+      "properties": {
+        "labs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "symptoms": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "stop_criteria": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "certainty": {
+          "enum": ["Established", "Probable", "Speculative", "Unknown"]
+        }
+      }
     },
     "claims": {
       "type": "array",
@@ -62,7 +181,16 @@
             "enum": ["Established", "Probable", "Speculative", "Unknown"]
           },
           "category": {
-            "enum": ["dosing", "timing", "stack", "monitoring", "harm_reduction", "contraindication", "general"]
+            "enum": [
+              "dosing",
+              "timing",
+              "stack",
+              "monitoring",
+              "harm_reduction",
+              "contraindication",
+              "protective",
+              "general"
+            ]
           },
           "source_ids": {
             "type": "array",
@@ -74,6 +202,7 @@
     },
     "bro_science_claims": {
       "type": "array",
+      "description": "Legacy field; prefer anecdotal_patterns for new runs. Still populate when adjudicating marketing/forum claims.",
       "items": {
         "type": "object",
         "required": ["claim", "verdict"],
@@ -100,6 +229,19 @@
           "funding": { "type": "string" },
           "coi": { "type": "string" },
           "peer_reviewed": { "type": "boolean" },
+          "source_class": {
+            "enum": [
+              "systematic_review",
+              "rct",
+              "observational",
+              "preclinical",
+              "regulatory",
+              "preprint",
+              "forum_anecdotal",
+              "secondary",
+              "other"
+            ]
+          },
           "trust_tier": {
             "enum": ["High", "Moderate", "Low", "Unreliable"]
           }

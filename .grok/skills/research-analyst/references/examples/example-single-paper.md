@@ -1,5 +1,15 @@
 # Example: Single-paper scrutiny (calibration)
 
+## Executive Card
+
+| Field | Content |
+|-------|---------|
+| **Subject** | Single industry-funded Phase II RCT |
+| **Overall certainty** | **Probable** modest effect on primary endpoint in-sample; **Speculative** generalization |
+| **Verdict** | Authors overclaim “robust efficacy”; data support a modest, limited finding. |
+| **Key practical note** | Do not scale practice guidelines from one underpowered Phase II alone. |
+| **Top caveats** | Post-hoc endpoint change; pharma funding; modest d with wide CI. |
+
 ## Source Integrity
 
 | Source | Trust | Funding | COI | Peer review |

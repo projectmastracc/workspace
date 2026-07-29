@@ -41,9 +41,9 @@ Always note **year** and **jurisdiction** — guidelines differ by country and r
 ## Reporting template
 
 ```markdown
-| Guideline | Recommends | Literature | Alignment | Severity | Notes |
-|-----------|------------|------------|-----------|----------|-------|
-| APA 20XX | ... | Meta-analysis Y (**Probable**) | Partial | Material | Panel predates key RCTs |
+| Guideline | Recommends | Literature | Alignment | Severity | Evidence-graded action |
+|-----------|------------|------------|-----------|----------|------------------------|
+| APA 20XX | ... | Meta-analysis Y (**Probable**) | Partial | Material | Recommend for / against / with modifications |
 ```
 
 ## Worked example (pattern)

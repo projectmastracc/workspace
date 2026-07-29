@@ -2,3 +2,7 @@
 # (previously ignored all of findings/* except .gitkeep)
 !findings/
 !findings/**
+
+# Python
+__pycache__/
+*.py[cod]
