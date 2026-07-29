@@ -1,0 +1,12 @@
+{
+  "slug": "cdp-choline",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "Probable (modest cognition); Established (safety/PK)",
+  "input_type": "compound",
+  "open_questions": [
+    "Dementia prevention RCT",
+    "Uridine vs choline contribution head-to-head",
+    "Choline depression mechanism"
+  ]
+}

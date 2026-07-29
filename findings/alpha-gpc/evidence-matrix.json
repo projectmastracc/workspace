@@ -1,0 +1,251 @@
+{
+  "compound": "Alpha-GPC",
+  "synonyms": ["α-GPC", "L-α-glycerylphosphorylcholine", "choline alfoscerate", "GPC", "Gliatilin", "Delecit"],
+  "research_id": "f6549287",
+  "date": "2026-07-29",
+  "choline_mass_fraction": 0.40,
+  "label_note": "Many products are 50% Alpha-GPC with silica; dose elemental Alpha-GPC only",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Oral Alpha-GPC raises plasma free choline",
+      "certainty": "Established",
+      "clinical": "Peruca 1991; Min 2019; Gatti 1992 IM",
+      "forum": "n/a",
+      "concordance": "strong"
+    },
+    {
+      "id": "C2",
+      "claim": "1200 mg/day improves cognition in mild-moderate AD (monotherapy)",
+      "certainty": "Probable",
+      "clinical": "Moreno 2003 DB RCT; Parnetti 1993; Ban 1991 open",
+      "forum": "low relevance",
+      "concordance": "literature-dominant",
+      "transfer_to_healthy_young": "Speculative"
+    },
+    {
+      "id": "C3",
+      "claim": "Donepezil + Alpha-GPC better than donepezil alone in AD with cerebrovascular injury",
+      "certainty": "Probable",
+      "clinical": "ASCOMALVA program (Amenta 2012/2014, Carotenuto 2017, Traini 2020)",
+      "forum": "minimal",
+      "concordance": "clinical-only"
+    },
+    {
+      "id": "C4",
+      "claim": "~600 mg Alpha-GPC acute/subacute increases peak force/power",
+      "certainty": "Probable",
+      "clinical": "Bellar 2015 IMTP ~14%; Ziegenfuss 2008 abstract ~14% bench; Marcus 2017 mixed lower doses",
+      "forum": "moderate preworkout lore",
+      "concordance": "partial",
+      "notes": "Thin replication; jump NS in Bellar; abstract caution for Ziegenfuss"
+    },
+    {
+      "id": "C5",
+      "claim": "Acute GH elevation",
+      "certainty": "Probable lab short-term / Speculative training adaptation",
+      "clinical": "Ziegenfuss-class abstract; related acute literature",
+      "forum": "overclaimed as GH booster",
+      "concordance": "partial"
+    },
+    {
+      "id": "C6",
+      "claim": "Healthy young adult cognitive enhancement / focus",
+      "certainty": "Speculative-Probable mild subjective focus",
+      "clinical": "Weak/indirect; no large modern healthy RCTs",
+      "forum": "moderate-high 300-600 mg morning",
+      "concordance": "partial"
+    },
+    {
+      "id": "C7",
+      "claim": "Racetam headache prevention",
+      "certainty": "Speculative",
+      "clinical": "literature-silent RCT",
+      "forum": "high consistency 150-300 mg",
+      "concordance": "literature-silent"
+    },
+    {
+      "id": "C8",
+      "claim": "Long-term stroke/CVD risk",
+      "certainty": "Probable association older Rx / Speculative causation / Unknown-Speculative young intermittent",
+      "clinical": "Lee 2021 aHR total stroke 1.43 (1.41-1.46); confounding by indication residual; TMAO bridge general choline",
+      "forum": "rising awareness post-2021",
+      "concordance": "clinical signal dominant"
+    },
+    {
+      "id": "C9",
+      "claim": "Depression/anhedonia/emotional blunting continuous high dose",
+      "certainty": "Speculative",
+      "clinical": "not captured well in healthy RCTs",
+      "forum": "low-moderate frequency vivid multi-year threads",
+      "concordance": "literature-silent",
+      "mechanism": "P7 DA-ACh imbalance hypothesized"
+    },
+    {
+      "id": "C10",
+      "claim": "Short-medium term oral tolerability at 300-1200 mg/day generally good",
+      "certainty": "Established-Probable",
+      "clinical": "Ban open; Moreno; Canal; Min BE; AE few% to ~8%",
+      "forum": "most tolerate 150-600 mg",
+      "concordance": "strong",
+      "notes": "Does not clear chronic stroke signal"
+    }
+  ],
+  "pathways": [
+    {"id": "P1", "name": "Free choline donation after deacylation", "type": "known", "certainty": "Established"},
+    {"id": "P1b", "name": "Intact AGPC not main circulating species oral", "type": "known", "certainty": "Established"},
+    {"id": "P2", "name": "CHT1/CTL1 → ChAT → ACh", "type": "known preclinical", "certainty": "Probable disease / Speculative large healthy effect"},
+    {"id": "P2b", "name": "Demand-state choline rate-limiting for ACh", "type": "known principle", "certainty": "Probable demand / Speculative idle healthy"},
+    {"id": "P3", "name": "Glycerophosphate membrane salvage PC/PE", "type": "known biochem", "certainty": "Probable preclinical / Speculative disease mod"},
+    {"id": "P4", "name": "ACh → nAChR α4β2/α7", "type": "known cascade", "certainty": "Probable"},
+    {"id": "P5", "name": "ACh → mAChR M1-M5", "type": "known cascade", "certainty": "Probable"},
+    {"id": "P6", "name": "Autoreceptor/desensitization bell-shape", "type": "hypothesized", "certainty": "Speculative-Probable"},
+    {"id": "P6b", "name": "Chronic compensatory receptor trafficking/tolerance", "type": "hypothesized", "certainty": "Speculative"},
+    {"id": "P7", "name": "DA-ACh balance striatum/NAc → anhedonia", "type": "hypothesized", "certainty": "Speculative"},
+    {"id": "P7b", "name": "Biphasic nAChR-DA mood polarity", "type": "hypothesized", "certainty": "Speculative"},
+    {"id": "P8", "name": "Acute GH axis cholinergic facilitation", "type": "probable acute", "certainty": "Probable lab / Speculative adaptation"},
+    {"id": "P9", "name": "NMJ/central drive force", "type": "hypothesized mechanism", "certainty": "Speculative mech / Probable small force phenotype"},
+    {"id": "P10", "name": "Gut TMA → FMO3 → TMAO", "type": "known choline class", "certainty": "Established pathway"},
+    {"id": "P10b", "name": "AGPC higher TMAO vs bound PC", "type": "hypothesized form", "certainty": "Speculative form ranking"},
+    {"id": "P10d", "name": "Lee 2021 stroke association", "type": "known association", "certainty": "Probable association Rx≥50 / Speculative causal / Unknown young intermittent"},
+    {"id": "P11", "name": "Betaine one-carbon methyl donation", "type": "known", "certainty": "Probable nutritional"},
+    {"id": "P12", "name": "PKC translocation plasticity", "type": "preclinical", "certainty": "Speculative human"},
+    {"id": "P13", "name": "BDNF upregulation", "type": "hypothesized", "certainty": "Speculative"},
+    {"id": "P14", "name": "Peripheral mAChR hypoTN/GI", "type": "known high-dose", "certainty": "Probable"},
+    {"id": "P15", "name": "Sleep-wake cholinergic arousal", "type": "hypothesized", "certainty": "Speculative-Probable anecdotal"},
+    {"id": "P16", "name": "Additive ACh with AChE-I", "type": "known clinical", "certainty": "Established direction"},
+    {"id": "P17", "name": "Racetam choline demand → headache", "type": "hypothesized", "certainty": "Speculative mech / Probable practice"},
+    {"id": "P18", "name": "Fishy odor TMA overflow", "type": "known UL", "certainty": "Probable high total choline"},
+    {"id": "P23", "name": "Microbiome TMA-lyase gates TMAO", "type": "known class", "certainty": "Probable interindividual"}
+  ],
+  "sides": [
+    {
+      "id": "S1",
+      "name": "Headache / head pressure",
+      "pathways": ["P2", "P4", "P5", "P6", "P14", "P16", "P17"],
+      "certainty_mechanism": "Probable cholinergic link",
+      "primary_counters": [
+        {"counter": "Dose reduction", "certainty": "Probable"},
+        {"counter": "Split dosing", "certainty": "Probable"},
+        {"counter": "Racetam deficit vs excess branch", "certainty": "Speculative efficacy / Probable practice"},
+        {"counter": "Unstack cholinergics", "certainty": "Probable"},
+        {"counter": "Switch CDP-choline", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "GI / nausea / heartburn",
+      "pathways": ["P1", "P14"],
+      "certainty_mechanism": "Probable peripheral cholinergic + local GI",
+      "primary_counters": [
+        {"counter": "Take with food", "certainty": "Probable"},
+        {"counter": "Dose cut/split", "certainty": "Probable"},
+        {"counter": "Form switch", "certainty": "Speculative-Probable"}
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Insomnia / overstimulation",
+      "pathways": ["P4", "P5", "P15"],
+      "certainty_mechanism": "Speculative-Probable anecdotal",
+      "primary_counters": [
+        {"counter": "Morning/early afternoon only", "certainty": "Probable"},
+        {"counter": "Dose reduction", "certainty": "Probable"},
+        {"counter": "Stop late caffeine", "certainty": "Probable"}
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Depression / anhedonia / blunting",
+      "pathways": ["P7", "P7b", "P6", "P6b", "P15"],
+      "certainty_mechanism": "Speculative",
+      "primary_counters": [
+        {"counter": "Stop or large dose cut immediately", "certainty": "Probable practice / Speculative controlled"},
+        {"counter": "Strip multi-cholinergics", "certainty": "Probable"},
+        {"counter": "Avoid more choline when blunted", "certainty": "Probable"},
+        {"counter": "Sleep/training/sun; optional tyrosine", "certainty": "Speculative DA support"},
+        {"counter": "Switch CDP or food choline", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Irritability / agitation",
+      "pathways": ["P4", "P5", "P7c", "P15", "P16"],
+      "certainty_mechanism": "Probable as AE class",
+      "primary_counters": [
+        {"counter": "Dose reduction", "certainty": "Probable"},
+        {"counter": "AM only; cut caffeine", "certainty": "Probable"}
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "Hypotension / lightheadedness",
+      "pathways": ["P14", "P14b"],
+      "certainty_mechanism": "Probable high dose / vulnerable",
+      "primary_counters": [
+        {"counter": "Dose reduction", "certainty": "Probable"},
+        {"counter": "Hydration; slow stand; review antihypertensives", "certainty": "Probable"}
+      ]
+    },
+    {
+      "id": "S7",
+      "name": "Stroke / CVD / TMAO chronic signal",
+      "pathways": ["P10", "P10b", "P10c", "P10d", "P10e", "P11", "P21", "P23"],
+      "certainty_mechanism": "Probable association older Rx; Speculative causal; Unknown young intermittent",
+      "lee_2021": {
+        "aHR_total_stroke": 1.43,
+        "ci": "1.41-1.46",
+        "ischemic": 1.34,
+        "hemorrhagic": 1.37,
+        "population": "Korean NHIS ≥50 prescribed α-GPC n≈108877",
+        "key_limit": "confounding by indication residual"
+      },
+      "primary_counters": [
+        {"counter": "Minimize cumulative dose / intermittent use", "certainty": "Speculative risk cut / Probable exposure logic"},
+        {"counter": "CV risk factor control (BP, LDL, A1c, smoking, exercise)", "certainty": "Established general stroke prevention"},
+        {"counter": "Fiber/polyphenol diet pattern", "certainty": "Speculative for AGPC"},
+        {"counter": "Avoid casual antibiotics for TMA producers", "certainty": "Established avoid"},
+        {"counter": "Methyl donors if deficient only", "certainty": "Speculative stroke offset / Probable if deficient"},
+        {"counter": "Physician discussion if ≥50 or high ASCVD on chronic AGPC", "certainty": "Probable prudence"}
+      ]
+    },
+    {
+      "id": "S8",
+      "name": "Fishy body odor",
+      "pathways": ["P10", "P18"],
+      "certainty_mechanism": "Probable high total choline",
+      "primary_counters": [
+        {"counter": "Dose reduction / total choline audit", "certainty": "Probable"}
+      ]
+    },
+    {
+      "id": "S9",
+      "name": "Brain fog high dose",
+      "pathways": ["P6", "P6b", "P4", "P5", "P15"],
+      "certainty_mechanism": "Speculative-Probable",
+      "primary_counters": [
+        {"counter": "Dose reduction (do not escalate)", "certainty": "Probable practice"},
+        {"counter": "Washout / cycle", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "id": "S10",
+      "name": "Excess cholinergic with AChE-I stacks",
+      "pathways": ["P16", "P2", "P14", "P5"],
+      "certainty_mechanism": "Established direction ASCOMALVA",
+      "primary_counters": [
+        {"counter": "Clinician-supervised only", "certainty": "Probable-Established"},
+        {"counter": "Avoid DIY huperzine+GPC+racetam stacks", "certainty": "Probable"}
+      ]
+    }
+  ],
+  "dose_bands": [
+    {"use": "racetam_support", "elemental_mg": "150-300", "timing": "with racetam", "certainty": "Speculative efficacy / Probable practice"},
+    {"use": "acute_focus", "elemental_mg": "300-600", "timing": "morning", "certainty": "Speculative-Probable"},
+    {"use": "preworkout_force", "elemental_mg": "300-600 (favor 600)", "timing": "30-60 min pre", "certainty": "Probable small force at 600"},
+    {"use": "clinical_dementia", "elemental_mg": "1200/day split", "timing": "morning+midday avoid late", "certainty": "Established trial dose"},
+    {"use": "upper_self_experiment", "elemental_mg": "≤1200/day", "timing": "split", "certainty": "Probable short-medium AE profile"}
+  ],
+  "comparators": ["CDP-choline/citicoline", "choline bitartrate/citrate", "phosphatidylcholine/lecithin", "dietary eggs/liver", "AChE-Is donepezil class"],
+  "isolation": "No other findings/* packages used as evidence"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "alpha-gpc",
+  "updated": "2026-07-29",
+  "research_id": "f6549287",
+  "input_type": "compound",
+  "overall_certainty": "Probable disease cognition at 1200 mg; Probable small acute force at ~600 mg; Speculative healthy focus; Probable stroke association older Rx",
+  "lenses": ["neuropharmacology", "performance", "nutrition"],
+  "open_questions": [
+    "Stroke risk of intermittent supplemental Alpha-GPC in young healthy users",
+    "Form-specific TMAO AUC vs PC and free choline with microbiome control",
+    "RCT mood endpoints for depression/anhedonia signal in healthy adults",
+    "Adequately powered multi-site sports force/power meta",
+    "Optimal cycling vs continuous for receptor homeostasis"
+  ]
+}
