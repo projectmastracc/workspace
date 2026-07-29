@@ -1,0 +1,188 @@
+{
+  "research_id": "0683d823",
+  "compound": "Testosterone injectable esters",
+  "dose_band_mg_per_week": "250-500",
+  "isolation": "no findings/* imports",
+  "certainty_schema": ["Established", "Probable", "Speculative", "Unknown"],
+  "anchors": [
+    {
+      "id": "garevik_2014",
+      "claim": "Single IM TE 250 and 500 mg lower ApoA1 and HDL; 125 mg does not",
+      "certainty": "Established",
+      "scope_limit": "Single-dose PD; not chronic weekly cruise magnitude",
+      "pmid": "25525405",
+      "pmc": "PMC4266340"
+    },
+    {
+      "id": "bhasin_2001",
+      "claim": "Weekly TE dose-response including 300 mg: FFM up, Hb up, HDL down",
+      "certainty": "Established",
+      "scope_limit": "~20 weeks GnRH-clamped young men",
+      "pmid": "11701431"
+    },
+    {
+      "id": "traverse_2023",
+      "claim": "Gel TRT MACE noninferiority in older high-risk hypogonadal men at physiologic T",
+      "certainty": "Established",
+      "external_validity_to_250_500_im": "TX_wrong_band",
+      "pmid": "37326322"
+    },
+    {
+      "id": "im_vs_gel_hct",
+      "claim": "IM esters associate with higher erythrocytosis rates than gel",
+      "certainty": "Established",
+      "scope_limit": "Comparative observational / TRT cohorts"
+    },
+    {
+      "id": "bond_2024_phlebotomy",
+      "claim": "Guideline phlebotomy for T-induced erythrocytosis outruns outcome RCTs; iron/HIF caveats",
+      "certainty": "Probable",
+      "stack_implication": "Phlebotomy lowers HCT number; event prevention Speculative"
+    }
+  ],
+  "sides": [
+    {
+      "side": "dyslipidemia_hdl_apoa1",
+      "pathways": ["P6", "P7", "P13", "P20"],
+      "primary_counters": [
+        {"agent": "dose_duration_control", "certainty": "Established"},
+        {"agent": "zone2_cardio_diet", "certainty": "Established"},
+        {"agent": "fish_oil_epa_dha", "certainty": "Probable"},
+        {"agent": "bergamot", "certainty": "Speculative"},
+        {"agent": "avoid_e2_crash", "certainty": "Probable"},
+        {"agent": "statin_if_apob_indicated", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "erythrocytosis_hct",
+      "pathways": ["P8", "P11", "P18"],
+      "primary_counters": [
+        {"agent": "dose_reduction", "certainty": "Established"},
+        {"agent": "split_injection_frequency", "certainty": "Probable"},
+        {"agent": "osa_treatment_quit_smoking", "certainty": "Established"},
+        {"agent": "therapeutic_phlebotomy", "certainty": "Established_lab_effect_Speculative_event_prevention"},
+        {"agent": "avoid_iron_if_not_deficient", "certainty": "Probable"},
+        {"agent": "chronic_donation_as_dose_enabler", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "side": "blood_pressure_edema",
+      "pathways": ["P9", "P3", "P8", "P10"],
+      "primary_counters": [
+        {"agent": "lifestyle_na_weight_cardio", "certainty": "Established"},
+        {"agent": "telmisartan", "certainty": "Probable_as_HTN_Rx_Speculative_as_AAS_specific"},
+        {"agent": "nebivolol", "certainty": "Established_BP"},
+        {"agent": "tadalafil_low_dose", "certainty": "Probable_adjunct_Speculative_cardio_protect"},
+        {"agent": "e2_moderation_if_estrogenic", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "high_e2_gyno",
+      "pathways": ["P3", "P18"],
+      "primary_counters": [
+        {"agent": "split_pins_bodyfat", "certainty": "Probable"},
+        {"agent": "anastrozole_bloods_driven", "certainty": "Probable"},
+        {"agent": "exemestane_bloods_driven", "certainty": "Speculative_Probable"},
+        {"agent": "tamoxifen_early_glandular", "certainty": "Probable"},
+        {"agent": "prophylactic_blind_ai", "certainty": "Speculative_often_harmful"},
+        {"agent": "never_raise_T_because_AI_on", "certainty": "Probable_rule"}
+      ]
+    },
+    {
+      "side": "crashed_e2_ai_toxicity",
+      "pathways": ["P3", "P16"],
+      "primary_counters": [
+        {"agent": "stop_reduce_ai", "certainty": "Probable"},
+        {"agent": "symptom_guided_e2_target", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "hpta_fertility_atrophy",
+      "pathways": ["P5"],
+      "primary_counters": [
+        {"agent": "hcg_low_dose_on_cycle", "certainty": "Probable_ITT"},
+        {"agent": "sperm_bank", "certainty": "Established"},
+        {"agent": "stop_T_if_conceiving", "certainty": "Established"},
+        {"agent": "serm_pct_post_cycle", "certainty": "Speculative_Probable"}
+      ]
+    },
+    {
+      "side": "acne",
+      "pathways": ["P1", "P4"],
+      "primary_counters": [
+        {"agent": "bpo_retinoid", "certainty": "Established"},
+        {"agent": "clascoterone", "certainty": "Probable"},
+        {"agent": "isotretinoin_derm", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "androgenetic_alopecia",
+      "pathways": ["P4", "P1"],
+      "primary_counters": [
+        {"agent": "minoxidil", "certainty": "Established"},
+        {"agent": "finasteride", "certainty": "Established"},
+        {"agent": "ru58841", "certainty": "Speculative"}
+      ]
+    },
+    {
+      "side": "osa_sleep",
+      "pathways": ["P11", "P9"],
+      "primary_counters": [
+        {"agent": "cpap_if_osa", "certainty": "Established"},
+        {"agent": "weight_fluid_control", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "mood_libido",
+      "pathways": ["P12", "P3", "P18", "P11"],
+      "primary_counters": [
+        {"agent": "split_dosing", "certainty": "Probable"},
+        {"agent": "e2_window_management", "certainty": "Probable"},
+        {"agent": "pde5_for_ed", "certainty": "Established"},
+        {"agent": "psychiatric_care_hard_stop", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "prostate_psa",
+      "pathways": ["P15", "P4"],
+      "primary_counters": [
+        {"agent": "baseline_and_monitor_psa", "certainty": "Established_monitoring"}
+      ]
+    },
+    {
+      "side": "exit_crash",
+      "pathways": ["P5"],
+      "primary_counters": [
+        {"agent": "planned_serm_pct", "certainty": "Speculative_Probable"},
+        {"agent": "hcg_bridge_optional", "certainty": "Speculative_Probable"}
+      ]
+    }
+  ],
+  "protocol_rules": [
+    {
+      "rule": "bloodwork_driven_ai_only",
+      "certainty": "Probable"
+    },
+    {
+      "rule": "never_raise_testosterone_because_ai_is_on",
+      "certainty": "Probable"
+    },
+    {
+      "rule": "split_before_ai",
+      "certainty": "Probable"
+    },
+    {
+      "rule": "phlebotomy_bridge_not_lifestyle_enabler",
+      "certainty": "Probable"
+    },
+    {
+      "rule": "traverse_not_safety_proof_for_this_band",
+      "certainty": "Established_mismatch"
+    },
+    {
+      "rule": "garevik_acute_lipid_threshold_not_chronic_table",
+      "certainty": "Established_method"
+    }
+  ],
+  "stack_as_system_hard_outcome_proof": "Unknown"
+}
