@@ -1,0 +1,196 @@
+{
+  "research_id": "ecd74116",
+  "compound": "trenbolone",
+  "date": "2026-07-29",
+  "certainty_lexicon": ["Established", "Probable", "Speculative", "Unknown"],
+  "claims": [
+    {"id": "C1", "claim": "High AR affinity; potent anabolic 19-nor", "certainty": "Established", "human_performance": "Probable"},
+    {"id": "C2", "claim": "Not aromatase or 5α-reductase substrate", "certainty": "Established"},
+    {"id": "C3", "claim": "Full HPTA suppression at effective doses", "certainty": "Established"},
+    {"id": "C4", "claim": "Superior recomp / nutrient partitioning vs many injectables", "certainty": "Probable"},
+    {"id": "C5", "claim": "Trensomnia common, dose-related", "certainty": "Established_phenotype", "mechanism": "Speculative-Probable"},
+    {"id": "C6", "claim": "Night sweats common", "certainty": "Established_phenotype", "mechanism": "Probable"},
+    {"id": "C7", "claim": "Mood irritability/anxiety/paranoia elevated risk", "certainty": "Probable"},
+    {"id": "C8", "claim": "Cognitive fog / mush", "certainty": "Probable_subjective", "organic_long_term": "Speculative"},
+    {"id": "C9", "claim": "PR/prolactin-related sexual and breast issues", "certainty": "Probable_multi_hit", "tren_alone_PRL": "Unknown"},
+    {"id": "C10", "claim": "Gyno despite non-aromatizing chemistry", "certainty": "Probable"},
+    {"id": "C11", "claim": "Acute post-injection cough (POME/oil)", "certainty": "Established"},
+    {"id": "C12", "claim": "Class AAS adverse lipids and BP on cycle", "certainty": "Established", "tren_specific_delta": "Unknown"},
+    {"id": "C13", "claim": "Class AAS LV remodeling association", "certainty": "Established", "HAARLEM_reversible": true},
+    {"id": "C14", "claim": "Elevated relative MI/thrombotic risk in AAS users", "certainty": "Probable", "incidence": "Unknown"},
+    {"id": "C15", "claim": "HCT elevation class AAS", "certainty": "Established"},
+    {"id": "C16", "claim": "Appetite suppression", "certainty": "Probable"},
+    {"id": "C17", "claim": "Immune softening", "certainty": "Speculative-Probable"},
+    {"id": "C18", "claim": "Low-dose side-light for genetic responders generalizable", "certainty": "Speculative"},
+    {"id": "C19", "claim": "Preclinical neurodegeneration signals", "certainty": "Established_preclinical", "human": "Unknown"},
+    {"id": "C20", "claim": "Fertility impairment often reversible over months", "certainty": "Probable", "guaranteed": false},
+    {"id": "C21", "claim": "Safe recreational dose exists", "certainty": "Unknown", "not_established": true}
+  ],
+  "haarlem_class_effect_sizes": {
+    "note": "Mixed AAS; not tren-only",
+    "SBP_mmHg": 6.87,
+    "DBP_mmHg": 3.17,
+    "LDL_mmol_L": 0.45,
+    "ApoB_mg_dL": 18.2,
+    "HDL_mmol_L": -0.40,
+    "HCT_L_L": 0.03,
+    "LVEF_pct": -4.9,
+    "LV_mass_g": 28.3,
+    "EA_ratio": -0.45,
+    "LA_volume_mL": 9.2
+  },
+  "pathways": [
+    {"id": "P1", "name": "AR genomic muscle", "status": "known", "certainty": "Established"},
+    {"id": "P2", "name": "AR non-genomic Ca2+", "status": "hypothesized", "certainty": "Speculative"},
+    {"id": "P3", "name": "Wnt/beta-catenin", "status": "known_preclinical", "certainty": "Probable"},
+    {"id": "P4", "name": "Notch/Numb satellite", "status": "known_preclinical", "certainty": "Probable"},
+    {"id": "P5", "name": "Satellite IGF-1/FGF", "status": "known_preclinical", "certainty": "Probable"},
+    {"id": "P6", "name": "GR/atrogin-MuRF1", "status": "known_probable", "certainty": "Probable"},
+    {"id": "P7", "name": "No aromatization", "status": "known", "certainty": "Established"},
+    {"id": "P8", "name": "No 5a-reduction", "status": "known", "certainty": "Established"},
+    {"id": "P9", "name": "PR agonism", "status": "known_binding", "certainty": "Established_binding_Probable_phenotype"},
+    {"id": "P10", "name": "HPTA suppression", "status": "known", "certainty": "Established"},
+    {"id": "P11", "name": "Lipolysis/adipose AR", "status": "known_animal", "certainty": "Probable_human"},
+    {"id": "P12", "name": "Erythropoiesis/HCT", "status": "known_class", "certainty": "Established_class"},
+    {"id": "P13", "name": "CV lipids BP LV athero", "status": "known_class", "certainty": "Established_class"},
+    {"id": "P14", "name": "CNS multi-node sleep mood", "status": "mixed", "certainty": "Probable_behavior_Speculative_molecular"},
+    {"id": "P15", "name": "Prolactin multi-node", "status": "contested", "certainty": "Speculative-Probable"},
+    {"id": "P16", "name": "Breast non-aromatizing", "status": "composite", "certainty": "Probable"},
+    {"id": "P17", "name": "Immune Th/DCH", "status": "preclinical", "certainty": "Speculative-Probable"},
+    {"id": "P18", "name": "Hepatic/renal stress", "status": "mixed", "certainty": "Probable_low_severe_liver"},
+    {"id": "P19", "name": "POME cough", "status": "known", "certainty": "Established_event"},
+    {"id": "P20", "name": "Neurotoxicity Abeta caspases", "status": "preclinical", "certainty": "Speculative_human"},
+    {"id": "P21", "name": "Sexual multi-axis", "status": "composite", "certainty": "Established_common"},
+    {"id": "P22", "name": "Appetite suppression", "status": "hypothesized", "certainty": "Probable_phenotype"},
+    {"id": "P23", "name": "Androgenic derm", "status": "known_class", "certainty": "Established"},
+    {"id": "P24", "name": "Injection tissue injury", "status": "known", "certainty": "Established"}
+  ],
+  "sides_and_primary_counters": [
+    {
+      "side": "trensomnia",
+      "pathways": ["P14"],
+      "counters": [
+        {"agent": "dose_reduction", "certainty": "Established"},
+        {"agent": "cool_sleep_environment", "certainty": "Established"},
+        {"agent": "melatonin", "certainty": "Probable"},
+        {"agent": "trazodone_low_dose", "certainty": "Probable"},
+        {"agent": "magnesium", "certainty": "Speculative-Probable"},
+        {"agent": "orexin_antagonist", "certainty": "Speculative"},
+        {"agent": "stop_tren", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "night_sweats",
+      "pathways": ["P14", "P11"],
+      "counters": [
+        {"agent": "dose_reduction", "certainty": "Probable"},
+        {"agent": "bedroom_cooling", "certainty": "Established"},
+        {"agent": "electrolyte_hydration", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "mood_psych",
+      "pathways": ["P14", "P20"],
+      "counters": [
+        {"agent": "dose_cut_or_stop", "certainty": "Established"},
+        {"agent": "sleep_repair", "certainty": "Established"},
+        {"agent": "avoid_stimulants_alcohol", "certainty": "Probable"},
+        {"agent": "clinical_anxiolytics_if_indicated", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "BP",
+      "pathways": ["P13", "P12"],
+      "counters": [
+        {"agent": "home_BP_monitor", "certainty": "Established"},
+        {"agent": "dose_reduction", "certainty": "Established"},
+        {"agent": "ACEI_ARB_CCB", "certainty": "Established"},
+        {"agent": "zone2_cardio_lifestyle", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "lipids",
+      "pathways": ["P13"],
+      "counters": [
+        {"agent": "cycle_limit_avoid_orals", "certainty": "Probable"},
+        {"agent": "omega3", "certainty": "Probable"},
+        {"agent": "statin_ezetimibe_PCSK9", "certainty": "Established"},
+        {"agent": "citrus_bergamot", "certainty": "Speculative-Probable"}
+      ]
+    },
+    {
+      "side": "LV_remodeling_thrombosis",
+      "pathways": ["P13", "P12"],
+      "counters": [
+        {"agent": "minimize_dose_duration", "certainty": "Probable"},
+        {"agent": "BP_lipid_control", "certainty": "Established"},
+        {"agent": "echo_if_indicated", "certainty": "Probable"},
+        {"agent": "emergency_ACS_care", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "HCT",
+      "pathways": ["P12"],
+      "counters": [
+        {"agent": "CBC_monitor", "certainty": "Established"},
+        {"agent": "dose_stop", "certainty": "Established"},
+        {"agent": "phlebotomy", "certainty": "Probable"},
+        {"agent": "treat_OSA_stop_smoking", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "HPTA",
+      "pathways": ["P10"],
+      "counters": [
+        {"agent": "test_base", "certainty": "Probable"},
+        {"agent": "hCG_on_cycle", "certainty": "Probable"},
+        {"agent": "SERM_PCT", "certainty": "Probable"},
+        {"agent": "sperm_bank", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "gyno_PRL_libido",
+      "pathways": ["P9", "P15", "P16", "P21"],
+      "counters": [
+        {"agent": "labs_before_treat", "certainty": "Established"},
+        {"agent": "cabergoline_if_high_PRL", "certainty": "Established_if_high_PRL"},
+        {"agent": "blind_caber", "certainty": "Speculative"},
+        {"agent": "SERM_gyno", "certainty": "Probable"},
+        {"agent": "manage_test_E2", "certainty": "Probable"},
+        {"agent": "dose_cut_drop_19nor", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "tren_cough",
+      "pathways": ["P19"],
+      "counters": [
+        {"agent": "slow_injection_technique", "certainty": "Probable"},
+        {"agent": "smaller_volumes", "certainty": "Speculative-Probable"},
+        {"agent": "emergency_if_severe", "certainty": "Established"}
+      ]
+    },
+    {
+      "side": "appetite",
+      "pathways": ["P22"],
+      "counters": [
+        {"agent": "scheduled_liquid_calories", "certainty": "Established"},
+        {"agent": "dose_reduction", "certainty": "Probable"}
+      ]
+    },
+    {
+      "side": "acne_hair",
+      "pathways": ["P23", "P8"],
+      "counters": [
+        {"agent": "derm_standard_care", "certainty": "Established"},
+        {"agent": "finasteride_for_tren_AR", "certainty": "Speculative_limited"}
+      ]
+    }
+  ],
+  "protocol_lines": [
+    {"line": "Community acetate 100-400 mg/wk; ACC context 150-300", "certainty": "Speculative"},
+    {"line": "Community enanthate 200-350 mg/wk; ACC 200-300", "certainty": "Speculative"},
+    {"line": "Test base nearly universal for welfare", "certainty": "Probable"},
+    {"line": "No safe recreational dose as Established claim", "certainty": "Unknown_not_established"},
+    {"line": "HAARLEM class numbers as CV anchors with polypharmacy caveat", "certainty": "Established_class"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "trenbolone",
+  "updated": "2026-07-29",
+  "effort": 3,
+  "overall_certainty": "mixed: Established receptor/class CV; Speculative recreational protocol",
+  "input_type": "compound",
+  "open_questions": [
+    "Tren-only human CV sleep PRL isolation RCTs",
+    "Human PSG on trenbolone"
+  ],
+  "lenses": [
+    "AAS",
+    "performance",
+    "CV",
+    "CNS",
+    "endocrine"
+  ]
+}

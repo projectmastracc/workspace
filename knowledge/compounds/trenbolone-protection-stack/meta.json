@@ -1,0 +1,16 @@
+{
+  "slug": "trenbolone-protection-stack",
+  "updated": "2026-07-29",
+  "input_type": "protection_stack",
+  "overall_certainty": "mixed: Established class CV/sleep; Speculative joint full protection; Probable ARB BP ladder",
+  "problem_compound": "trenbolone",
+  "assumptions": {
+    "tren_max_mg_wk": 400,
+    "test_base_mg_wk": 200
+  },
+  "open_questions": [
+    "Tren-only human PSG",
+    "PRL on tren measured series",
+    "RCT telmisartan in AAS users"
+  ]
+}
