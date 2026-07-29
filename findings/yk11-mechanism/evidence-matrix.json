@@ -1,0 +1,534 @@
+{
+  "analysis_id": "e62f5f0a",
+  "question": "What does the literature say about YK11’s mechanism of action, androgen-receptor selectivity, and myostatin inhibition?",
+  "input_type": "compound",
+  "compound": {
+    "name": "YK11 (YK-11 / myostine)",
+    "class": "steroidal AR partial agonist / gene-selective SARM candidate; marketed as myostatin inhibitor",
+    "lenses": ["performance", "neuropharmacology"]
+  },
+  "overall_certainty": "Unknown",
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "YK11 is a partial agonist of the androgen receptor (ARE-luciferase; nuclear translocation).",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S1",
+          "strength": "moderate",
+          "notes": "Kanno 2011: ARE-luciferase max ~10–20% of DHT; nuclear translocation of AR."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Academic Japanese lab (Toho/Kanno); single-lab discovery package."
+    },
+    {
+      "id": "C2",
+      "statement": "YK11 does not induce AR N/C interaction and can prevent DHT-mediated N/C interaction.",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S1",
+          "strength": "moderate",
+          "notes": "Mammalian two-hybrid: YK11 null like hydroxyflutamide; co-treatment reduces DHT N/C signal."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Same lab; limited independent multi-lab replication of N/C package in acquisition set."
+    },
+    {
+      "id": "C3",
+      "statement": "YK11 is a gene-selective AR agonist (differential gene program vs DHT in AR-positive cells).",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S1",
+          "strength": "moderate",
+          "notes": "MDA-MB-453 endogenous genes: FKBP51/FGF18 ≈ DHT; SARG DHT-only; HSD11B2 weaker with YK11."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Gene selectivity ≠ tissue selectivity; cancer cell line context."
+    },
+    {
+      "id": "C4",
+      "statement": "YK11 is a clinically meaningful tissue-selective SARM (muscle/bone ≫ prostate/androgenic tissues).",
+      "certainty": "Unknown",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S1",
+          "strength": "indirect",
+          "notes": "Authors proposed SARM from gene selectivity + partial agonism; no Hershberger A/A package in set."
+        },
+        {
+          "source_id": "S2",
+          "strength": "indirect",
+          "notes": "C2C12 myogenic markers support anabolic-leaning cell activity only."
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S5",
+          "strength": "weak",
+          "notes": "Park 2022 notes mechanisms incompletely understood and no human trials."
+        }
+      ],
+      "funding_notes": "Tissue selectivity Speculative/Unknown; steroidal scaffold; marketing overclaims."
+    },
+    {
+      "id": "C5",
+      "statement": "YK11 induces myogenic differentiation markers in C2C12 (MyHC, MyoD, Myf5, myogenin) in an AR-dependent manner.",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S2",
+          "strength": "moderate",
+          "notes": "Kanno 2013 full text: MyHC and MRFs; FLU attenuates; n=3; Student's t-test."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "MEXT / Open Research Center; mouse cell line only."
+    },
+    {
+      "id": "C6",
+      "statement": "YK11 induces follistatin (Fst) mRNA in C2C12 via AR; DHT does not under the same conditions; Fst is required for YK11-driven Myf5 upregulation.",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S2",
+          "strength": "moderate",
+          "notes": "Fst mRNA Day 2/4; FLU and AR siRNA blunt Fst; neutralizing anti-Fst Ab abolishes Myf5 induction."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Core of indirect myostatin-pathway narrative; single-lab C2C12."
+    },
+    {
+      "id": "C7",
+      "statement": "YK11 is a direct myostatin (MSTN) ligand antagonist or ActRIIB receptor antagonist.",
+      "certainty": "Unknown",
+      "grade": "Very Low",
+      "supporting": [],
+      "contradicting": [
+        {
+          "source_id": "S2",
+          "strength": "strong",
+          "notes": "Primary pathway is AR → Fst; no MSTN binding or ActRIIB competition assay in pivotal paper."
+        }
+      ],
+      "funding_notes": "Literature does not support direct MSTN pharmacology; claim effectively unsupported."
+    },
+    {
+      "id": "C8",
+      "statement": "YK11 functions as a 'myostatin inhibitor' via indirect Fst-mediated antagonism of TGF-β family ligands including myostatin (cells).",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S2",
+          "strength": "moderate",
+          "notes": "Fst induction + Ab rescue supports functional Fst arm for Myf5; Fst is known MSTN/activin antagonist."
+        },
+        {
+          "source_id": "S5",
+          "strength": "indirect",
+          "notes": "Park 2022 secondary: blocks myostatin by upregulating follistatin via AR."
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S4",
+          "strength": "weak",
+          "notes": "Lee 2021 title hardens soft mechanism into categorical inhibitor; abstract-level sepsis model; not human pathway proof."
+        }
+      ],
+      "funding_notes": "Human systemic myostatin blockade: Speculative/Unknown. Marketing primary-identity label exceeds data."
+    },
+    {
+      "id": "C9",
+      "statement": "YK11 has proven anabolic efficacy and safe oral doses in humans (e.g., community 5–15 mg/day).",
+      "certainty": "Unknown",
+      "grade": "Very Low",
+      "supporting": [],
+      "contradicting": [
+        {
+          "source_id": "S9",
+          "strength": "moderate",
+          "notes": "Regulators: unauthorized; not reviewed for safety/efficacy/quality."
+        }
+      ],
+      "funding_notes": "No RCTs, PK/PD, or dose-finding. Community doses not evidence."
+    },
+    {
+      "id": "C10",
+      "statement": "YK11 upregulates osteoblastic proliferation/differentiation markers via AR (MC3T3-E1).",
+      "certainty": "Speculative",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S3",
+          "strength": "moderate",
+          "notes": "Yatsu 2018: proliferation, mineralization, OPG/OCN; AR antagonist attenuates; p-Akt."
+        },
+        {
+          "source_id": "S8",
+          "strength": "weak",
+          "notes": "Wang 2025 BMSC + rat cranial defect abstract-level extension."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Same-lab osteoblast paper + later independent phenotype; clinical bone benefit Unknown."
+    },
+    {
+      "id": "C11",
+      "statement": "YK11 attenuates sepsis-related muscle wasting/mortality in mice via myostatin-pathway effects.",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S4",
+          "strength": "weak",
+          "notes": "Lee 2021 abstract: pathway markers, cytokines, organ injury, mortality; full methods not retrieved."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "NRF Korea; no COI declared. Disease model ≠ bodybuilding anabolism."
+    },
+    {
+      "id": "C12",
+      "statement": "YK11 shows organ toxicity / adverse organ and CNS signals in rodents at experimental exposures.",
+      "certainty": "Speculative",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S6",
+          "strength": "moderate",
+          "notes": "Dahleh line: hippocampus oxidative stress, mitochondrial dysfunction, memory; organ-focused work ± exercise."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Declared no COI on 2024 CBI paper; human organ safety Unknown."
+    },
+    {
+      "id": "C13",
+      "statement": "YK11-containing products are unauthorized SARMs with serious class health-risk warnings; WADA-prohibited.",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S9",
+          "strength": "strong",
+          "notes": "Health Canada unauthorized SARM advisories naming myostine/YK-11 class products."
+        },
+        {
+          "source_id": "S10",
+          "strength": "strong",
+          "notes": "WADA Prohibited List — SARMs including YK-11."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Regulatory fact; specific pure-YK11 human event rates remain Unknown."
+    },
+    {
+      "id": "C14",
+      "statement": "Stacking YK11 with full AR agonists may impair full-agonist N/C-dependent signaling.",
+      "certainty": "Speculative",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S1",
+          "strength": "moderate",
+          "notes": "Kanno 2011: prevents DHT N/C; can repress DHT-driven ARE-luciferase at high concentration."
+        },
+        {
+          "source_id": "S5",
+          "strength": "indirect",
+          "notes": "Park 2022 flags stacking risk from N/C interference."
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Mechanistically grounded in vitro; clinical stack antagonism Speculative."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "statement": "Describe YK11 as a steroidal gene-selective AR partial agonist with AR-dependent follistatin induction in C2C12 — not as a primary direct myostatin inhibitor.",
+      "certainty": "Probable",
+      "category": "general",
+      "source_ids": ["S1", "S2"],
+      "inference_note": "Correct MoA language per Kanno 2011/2013; marketing direct-MSTN framing exceeds data."
+    },
+    {
+      "id": "R2",
+      "statement": "Recommend against marketing/community claims that YK11 is a proven or direct myostatin inhibitor / clinical myostatin pathway drug.",
+      "certainty": "Established",
+      "category": "general",
+      "source_ids": ["S2", "S4", "S5"],
+      "inference_note": "Established that literature does not support direct MSTN blockade or human pathway proof; overclaim relative to data."
+    },
+    {
+      "id": "R3",
+      "statement": "Recommend against claims that gene-selective partial agonism proves safer, prostate-sparing tissue-selective SARM status in humans.",
+      "certainty": "Probable",
+      "category": "general",
+      "source_ids": ["S1", "S5", "S9"],
+      "inference_note": "Gene selectivity Probable in vitro; tissue selectivity Speculative/Unknown; no Hershberger package."
+    },
+    {
+      "id": "R4",
+      "statement": "Do not recommend any human dose, cycle length, or stacking protocol for muscle gain — community 5–15 mg/day is Unknown PK and outcome evidence.",
+      "certainty": "Unknown",
+      "category": "dosing",
+      "source_ids": [],
+      "inference_note": "Unknown = no dose recommendation (DR rule). Zero human PK/efficacy trials."
+    },
+    {
+      "id": "R5",
+      "statement": "Do not initiate YK11 for performance or medical anabolism on current evidence; prefer agents with human data when medical anabolism is indicated.",
+      "certainty": "Probable",
+      "category": "contraindication",
+      "source_ids": ["S9", "S10"],
+      "inference_note": "Human benefit Unknown; regulatory/class safety concerns Probable–Established; unauthorized product."
+    },
+    {
+      "id": "R6",
+      "statement": "Athletes subject to WADA: do not use YK11 (prohibited SARM).",
+      "certainty": "Established",
+      "category": "contraindication",
+      "source_ids": ["S10"],
+      "inference_note": "Regulatory sport ban."
+    },
+    {
+      "id": "R7",
+      "statement": "If research-chemical exposure occurs despite lack of efficacy evidence: baseline and on-drug bloodwork (CMP/LFTs, lipids, CBC, T/LH/FSH, estradiol; PSA by age/risk) and BP; stop for jaundice, severe lipid collapse, hypertension crisis, mood crisis, or hypogonadal crisis.",
+      "certainty": "Probable",
+      "category": "monitoring",
+      "source_ids": ["S9", "S6"],
+      "inference_note": "Class SARM/AAS harm-reduction prudence; not evidence YK11 is manageable-safe."
+    },
+    {
+      "id": "R8",
+      "statement": "Expect possible HPG suppression as with other AR agonists; do not assume 'SARM = no PCT needed'; no evidence-based YK11-specific PCT protocol exists — do not invent PCT doses; seek medical evaluation for persistent hypogonadism.",
+      "certainty": "Probable",
+      "category": "harm_reduction",
+      "source_ids": ["S5"],
+      "inference_note": "Class-level suppression Probable; YK11-specific magnitude Unknown; PCT efficacy after YK11 Unknown."
+    },
+    {
+      "id": "R9",
+      "statement": "Against complex stacks with other SARMs/AAS for optimization: additive class risks plus theoretical N/C interference blunting full agonists.",
+      "certainty": "Speculative",
+      "category": "stack",
+      "source_ids": ["S1", "S5"],
+      "inference_note": "Mechanistic N/C interference Probable in vitro; clinical stack antagonism Speculative."
+    },
+    {
+      "id": "R10",
+      "statement": "Treat grey-market products as high risk for mislabeling, adulteration, and wrong dose; not pharmaceutical-grade.",
+      "certainty": "Established",
+      "category": "harm_reduction",
+      "source_ids": ["S11"],
+      "inference_note": "JAMA and regulatory product-testing patterns for 'SARM' market."
+    },
+    {
+      "id": "R11",
+      "statement": "Recommend against use in pregnancy, adolescence, tested sport, active liver disease, uncontrolled CVD, prostate cancer history, or near-term fertility goals without medical supervision.",
+      "certainty": "Probable",
+      "category": "contraindication",
+      "source_ids": ["S9", "S10"],
+      "inference_note": "Class harm inference; sport ban Established for athletes."
+    },
+    {
+      "id": "R12",
+      "statement": "No timing recommendation relative to training, meals, or circadian rhythm.",
+      "certainty": "Unknown",
+      "category": "timing",
+      "source_ids": [],
+      "inference_note": "No human PK or timing trials."
+    }
+  ],
+  "bro_science_claims": [
+    {
+      "claim": "YK11 is a direct / proven myostatin inhibitor (MSTN ligand or receptor blocker).",
+      "verdict": "contradicted",
+      "literature_note": "Kanno 2013 pathway is AR-dependent Fst induction; no direct MSTN binding data. Lee 2021 title language is framing compression, not ligand proof."
+    },
+    {
+      "claim": "Gene-selective SARM = safer than steroids / no sides / prostate-safe.",
+      "verdict": "contradicted",
+      "literature_note": "Gene selectivity is in vitro only; tissue selectivity unproven. Health Canada class CV/liver warnings and rodent CNS/organ signals contradict 'no sides'."
+    },
+    {
+      "claim": "Anabolic in humans at 5–15 mg/day oral (standard gym dose).",
+      "verdict": "unknown",
+      "literature_note": "No peer-reviewed human dose-finding, PK, or body-composition RCTs. Community tradition only."
+    },
+    {
+      "claim": "4–8 week cycles with no liver toxicity under ~30 mg.",
+      "verdict": "unknown",
+      "literature_note": "Absolute safety thresholds invented; no human LFT RCT for YK11."
+    },
+    {
+      "claim": "Stacks well with other SARMs/AAS for synergy.",
+      "verdict": "speculative",
+      "literature_note": "Clinical stack benefit Speculative. Mechanistic N/C interference may impair full-agonist signaling (Kanno 2011; Park 2022) — Probable in vitro; additive class toxicity risks unquantified."
+    },
+    {
+      "claim": "YK11 is a partial AR agonist / gene-selective SARM candidate with unique Fst arm vs DHT in C2C12.",
+      "verdict": "supported",
+      "literature_note": "Supported by Kanno 2011/2013 in vitro; human translation and clinical SARM tissue package remain open."
+    },
+    {
+      "claim": "Clinical myostatin-blocker / cachexia drug equivalent to biologics.",
+      "verdict": "unknown",
+      "literature_note": "No approval, no pivotal human trials; different mechanism class from mAbs/ActRII traps."
+    },
+    {
+      "claim": "SARM = no PCT needed after YK11.",
+      "verdict": "contradicted",
+      "literature_note": "AR agonists suppress HPG by class; no YK11 endocrine recovery trials. 'No PCT' is unsupported."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Kanno Y, et al. Biol Pharm Bull. 2011;34(3):318–323. Partial AR agonist; no N/C; gene-selective.",
+      "doi": "10.1248/bpb.34.318",
+      "pmid": "21372378",
+      "design": "In vitro mechanistic (ARE-luciferase, N/C two-hybrid, nuclear translocation, MDA-MB-453 gene RT-PCR)",
+      "funding": "Academic (JSPS/Open Research Center ecosystem); full grant line incomplete on abstract-only pass",
+      "coi": "Not fully declared in retrieved abstract material",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S2",
+      "citation": "Kanno Y, et al. Biol Pharm Bull. 2013;36(9):1460–1465. C2C12 myogenesis via follistatin.",
+      "doi": "10.1248/bpb.b13-00231",
+      "pmid": "23995658",
+      "design": "In vitro C2C12 differentiation; qRT-PCR; immunoblot; FLU; AR siRNA; anti-Fst Ab",
+      "funding": "MEXT Grant-in-Aid for Young Scientists (B); Open Research Center Project",
+      "coi": "No formal COI statement; public academic funding",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S3",
+      "citation": "Yatsu T, et al. Biol Pharm Bull. 2018;41(3):394–398. Osteoblast MC3T3-E1.",
+      "doi": "10.1248/bpb.b17-00748",
+      "pmid": "29491216",
+      "design": "In vitro osteoblast proliferation/mineralization/OPG/OCN/p-Akt",
+      "funding": "Toho University line; grant line not numbered in reviewed text",
+      "coi": "Authors declare no conflict of interest",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S4",
+      "citation": "Lee SJ, et al. Biochem Biophys Res Commun. 2021;543:1–7. Mouse sepsis; 'myostatin inhibitor' framing.",
+      "doi": "10.1016/j.bbrc.2021.01.030",
+      "pmid": "33588136",
+      "design": "Mouse gram-negative sepsis model (abstract-level appraisal; full methods not retrieved)",
+      "funding": "National Research Foundation of Korea (NRF) Basic Science Research Program 2016R1A5A2012284",
+      "coi": "Authors declare no conflicts of interest",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S5",
+      "citation": "Park J, et al. Korean J Sports Med. 2022;40(2):67–85. Narrative review AAS/SARMs/myostatin inhibitors.",
+      "doi": "10.5763/kjsm.2022.40.2.67",
+      "pmid": "",
+      "design": "Narrative review (not systematic)",
+      "funding": "Incomplete — full PDF not retrieved this pass; departmental sports-medicine pattern only",
+      "coi": "Incomplete — not confirmed for this exact article; do not assume clean",
+      "peer_reviewed": true,
+      "trust_tier": "Low"
+    },
+    {
+      "id": "S6",
+      "citation": "Dahleh MMM, et al. Chem Biol Interact. 2024;394:110971. YK11 hippocampal function/safety.",
+      "doi": "10.1016/j.cbi.2024.110971",
+      "pmid": "38521455",
+      "design": "Rodent preclinical CNS/safety",
+      "funding": "Specific grant line incomplete this pass",
+      "coi": "Authors declare no known competing financial interests",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S7",
+      "citation": "Dahleh MMM, et al. J Steroid Biochem Mol Biol. 2023;233:106364. Hippocampal oxidative stress/mitochondrial dysfunction.",
+      "doi": "10.1016/j.jsbmb.2023.106364",
+      "pmid": "37468001",
+      "design": "Rodent preclinical neurotoxicity",
+      "funding": "Incomplete — full funding line not retrieved this pass",
+      "coi": "Incomplete — full COI block not retrieved this pass",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S8",
+      "citation": "Wang et al. J Mol Endocrinol. 2025;74(2). YK11 BMSC osteogenesis and rat bone defect.",
+      "doi": "10.1530/JME-24-0073",
+      "pmid": "39660819",
+      "design": "In vitro BMSC + in vivo rat cranial defect (abstract-level)",
+      "funding": "Unavailable — not on open abstract; do not invent cleanliness",
+      "coi": "Unavailable — not on open abstract; do not invent cleanliness",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S9",
+      "citation": "Health Canada unauthorized products advisories — SARMs including myostine (YK-11); class MI/stroke/liver risk language.",
+      "doi": "",
+      "pmid": "",
+      "design": "Regulatory safety alert / class risk communication",
+      "funding": "Government of Canada",
+      "coi": "Public health mandate",
+      "peer_reviewed": false,
+      "trust_tier": "High"
+    },
+    {
+      "id": "S10",
+      "citation": "World Anti-Doping Agency Prohibited List — Selective androgen receptor modulators (SARMs), including YK-11.",
+      "doi": "",
+      "pmid": "",
+      "design": "Sport regulatory list",
+      "funding": "WADA",
+      "coi": "N/A",
+      "peer_reviewed": false,
+      "trust_tier": "High"
+    },
+    {
+      "id": "S11",
+      "citation": "Van Wagoner RM, et al. JAMA. 2017;318(20):2004–2010. Chemical composition and labeling of substances marketed as SARMs.",
+      "doi": "10.1001/jama.2017.17069",
+      "pmid": "29183075",
+      "design": "Market product composition analysis",
+      "funding": "As stated in JAMA article (institutional/anti-doping product-surveillance context); not re-audited line-by-line this pass",
+      "coi": "Disclosures as published in JAMA 2017",
+      "peer_reviewed": true,
+      "trust_tier": "High"
+    },
+    {
+      "id": "S12",
+      "citation": "Piper T, et al. Drug Test Anal. 2018;10(11–12):1646–1656. YK11 metabolism for doping controls (not therapeutic PK).",
+      "doi": "10.1002/dta.2480",
+      "pmid": "",
+      "design": "Anti-doping metabolite characterization",
+      "funding": "Anti-doping research context (as published)",
+      "coi": "As published",
+      "peer_reviewed": true,
+      "trust_tier": "Moderate"
+    }
+  ]
+}

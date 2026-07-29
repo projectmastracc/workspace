@@ -1,2 +1,4 @@
-findings/*
-!findings/.gitkeep
+# Track research findings; keep directory structure
+# (previously ignored all of findings/* except .gitkeep)
+!findings/
+!findings/**
