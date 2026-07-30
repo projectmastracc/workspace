@@ -1,0 +1,163 @@
+{
+  "research_id": "a8f3c2e1",
+  "compound": "Androsterone",
+  "iupac": "5α-androstan-3α-ol-17-one",
+  "cas": "53-41-8",
+  "date": "2026-07-30",
+  "disambiguation_excludes": [
+    "1-Androsterone (1-Andro)",
+    "androstenedione",
+    "androstenone",
+    "androstenol",
+    "epiandrosterone",
+    "etiocholanolone"
+  ],
+  "certainty_scale": ["Established", "Probable", "Speculative", "Unknown"],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Chemical identity: 5α-androstan-3α-ol-17-one, CAS 53-41-8",
+      "certainty": "Established",
+      "design_class": "structural/analytical",
+      "key_sources": ["PubChem", "CAS registry"]
+    },
+    {
+      "id": "C2",
+      "claim": "GABA_A PAM requires 3α-OH + 5α-reduced A-ring; 3β inactive; glucuronide inactive",
+      "certainty": "Established",
+      "design_class": "preclinical SAR (mouse IP + slice)",
+      "key_sources": ["Kaminski 2005 Epilepsia"]
+    },
+    {
+      "id": "C3",
+      "claim": "Mouse anticonvulsant at high IP mg/kg (ED50 6Hz 29.1; PTZ 43.5; etc.)",
+      "certainty": "Established",
+      "design_class": "preclinical multi-model seizure",
+      "key_sources": ["Kaminski 2005"],
+      "translation_limit": "Not dose-guidance for 1–5 mg human topical"
+    },
+    {
+      "id": "C4",
+      "claim": "ent-Androsterone more potent anticonvulsant than natural",
+      "certainty": "Established",
+      "design_class": "preclinical enantiomer comparison",
+      "key_sources": ["Zolkowska 2014 Psychopharmacology"]
+    },
+    {
+      "id": "C5",
+      "claim": "Weak AR agonist ~1/7 testosterone",
+      "certainty": "Probable",
+      "design_class": "historical androgen bioassay / secondary tables",
+      "key_sources": ["Scott encyclopedia", "Kaminski secondary citations"]
+    },
+    {
+      "id": "C6",
+      "claim": "CSF androsterone correlates with sexual interest in induced hypogonadism",
+      "certainty": "Probable",
+      "design_class": "human experimental physiology (correlational)",
+      "key_sources": ["Bloch 2006 Arch Gen Psychiatry"],
+      "translation_limit": "Not exogenous ADT administration trial"
+    },
+    {
+      "id": "C7",
+      "claim": "Principal circulating backdoor androgen in human male fetus",
+      "certainty": "Established",
+      "design_class": "human fetal MS steroidomics",
+      "key_sources": ["O'Shaughnessy 2019 PLoS Biol"],
+      "translation_limit": "Fetal ≠ adult supplementation"
+    },
+    {
+      "id": "C8",
+      "claim": "UGT2B7/15/17 conjugate ADT → ADT-G; conjugates dominate pool",
+      "certainty": "Established",
+      "design_class": "enzyme biochemistry + clinical chemistry",
+      "key_sources": ["UGT literature", "Labrie ADT-G series", "Kaminski excretion cites"]
+    },
+    {
+      "id": "C9",
+      "claim": "ADT-G is useful marker of total androgen pool / intracrine DHT metabolism",
+      "certainty": "Probable",
+      "design_class": "observational/analytical",
+      "key_sources": ["Labrie JCEM/JSBMB", "Adaway 2010"],
+      "note": "Marker ≠ intervention efficacy; Labrie product COI on clinical extensions"
+    },
+    {
+      "id": "C10",
+      "claim": "Tissue enzymes exist for ADT reverse toward DHT (HSD17B6 etc.)",
+      "certainty": "Established",
+      "design_class": "prostate/intracrine enzymology",
+      "key_sources": ["Mohler line / HSD17B6 literature"]
+    },
+    {
+      "id": "C11",
+      "claim": "Adult exogenous 1–5 mg topical raises free ADT into GABA-relevant range",
+      "certainty": "Unknown",
+      "design_class": "no human topical PK published",
+      "key_sources": []
+    },
+    {
+      "id": "C12",
+      "claim": "Adult exogenous ADT meaningfully increases systemic or tissue DHT",
+      "certainty": "Unknown",
+      "design_class": "no adult conversion dose-response",
+      "key_sources": []
+    },
+    {
+      "id": "C13",
+      "claim": "1–5 mg topical improves libido/mood/warmth/sleep in community users",
+      "certainty": "Speculative",
+      "design_class": "uncontrolled forum self-report",
+      "key_sources": ["r/raypeat", "r/NooTopics", "Idealabs product community", "X Peat circles"]
+    },
+    {
+      "id": "C14",
+      "claim": "ADT builds muscle/strength at community doses",
+      "certainty": "Not supported",
+      "design_class": "no RCTs; weak AR + microdose prior null",
+      "key_sources": ["WebMD mono-1631 negative", "methods allometry"]
+    },
+    {
+      "id": "C15",
+      "claim": "HPTA suppression at 1–5 mg topical",
+      "certainty": "Unknown",
+      "design_class": "no data; theoretical weak AR load low",
+      "key_sources": []
+    },
+    {
+      "id": "C16",
+      "claim": "ADT does not aromatize (5α-saturated)",
+      "certainty": "Established",
+      "design_class": "structural biochemistry",
+      "key_sources": ["steroid chemistry"]
+    },
+    {
+      "id": "C17",
+      "claim": "Reliable human pheromone intervention",
+      "certainty": "Speculative",
+      "design_class": "small psychophysics",
+      "key_sources": ["Maiworm & Langthaler 1992"]
+    },
+    {
+      "id": "C18",
+      "claim": "Idealabs product is true androsterone 1 mg/drop",
+      "certainty": "Established",
+      "design_class": "vendor labeling (independent CoA not peer-reviewed)",
+      "key_sources": ["Idealabs product page"]
+    }
+  ],
+  "pd_modes": [
+    {"mode": "GABA_A_PAM", "requires": "free unconjugated 3α,5α-ADT", "evidence_ceiling": "Established preclinical; Speculative at community dose"},
+    {"mode": "weak_AR", "requires": "AR occupancy", "evidence_ceiling": "Probable weak agonist; Speculative phenotype at 1–5 mg"},
+    {"mode": "backdoor_to_DHT", "requires": "oxidative 3α-HSD + 17β-HSD tissue flux", "evidence_ceiling": "Established enzymes/fetal; Unknown adult exogenous magnitude"}
+  ],
+  "evidence_gaps": [
+    "No RCT exogenous ADT any performance/mood/libido endpoint",
+    "No published human PK Idealabs-style topical 1–5 mg",
+    "No adult dose-response for exogenous re-androgenization via backdoor",
+    "No long-term safety series topical microdose",
+    "No blinded base-rate of responders vs nulls"
+  ],
+  "certainty_ceiling_exogenous_desired_endpoints": "Speculative",
+  "external_validity_to_1_5mg_topical_gym_nootropic": "Poor (route, dose, gonadal state, co-interventions, endpoints)",
+  "deliverable": "/tmp/grok-research-a8f3c2e1/briefing.md"
+}

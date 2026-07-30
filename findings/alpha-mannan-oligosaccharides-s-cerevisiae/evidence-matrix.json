@@ -1,0 +1,174 @@
+{
+  "research_id": "af4d800f",
+  "compound": "α-mannan oligosaccharides (S. cerevisiae)",
+  "slug": "alpha-mannan-oligosaccharides-s-cerevisiae",
+  "date": "2026-07-30",
+  "certainty_scale": ["Established", "Probable", "Speculative", "Unknown"],
+  "product_classes": {
+    "purified_YM_Asahi": {
+      "description": "Purified yeast mannan oral preparation",
+      "dose_anchor": "1.1 g/day YM (~0.62 g mannan) Tanihiro 2023",
+      "evidence_home": "Human DB-PC RCTs microbiome/skin/bowel/sleep",
+      "coi": "Asahi industry"
+    },
+    "Actigen_MRF_Alltech": {
+      "description": "Mannan-rich soluble fraction",
+      "dose_anchor": "Lower feed inclusion; mice 1% diet Hoving 2018",
+      "evidence_home": "Livestock; mouse immune/metabolic",
+      "coi": "Alltech product material"
+    },
+    "BioMos_YCW": {
+      "description": "Yeast cell wall MOS ~15-30% α-mannan (~17% often cited)",
+      "dose_anchor": "0.5-2 kg/ton feed",
+      "evidence_home": "Spring 2015 733-trial farm corpus",
+      "coi": "Alltech/industry-dense"
+    },
+    "SuperMannan_autolyzed": {
+      "description": "Autolyzed yeast complex MOS UTI positioning",
+      "dose_anchor": "Multi-gram label",
+      "evidence_home": "Case series + in vitro FimH class",
+      "coi": "Katz patent commercial extreme"
+    },
+    "free_D_mannose": {
+      "description": "Free monosaccharide comparator — NOT α-MOS",
+      "dose_anchor": "1.5-2 g 1-3×/day literature rUTI",
+      "evidence_home": "Lenger-class meta",
+      "coi": "Variable by trial; wrong molecule for MOS claims"
+    },
+    "plant_beta_MOS": {
+      "description": "β-(1→4) plant mannan — NOT yeast α-MOS",
+      "evidence_home": "Contrast only (Asbury, coffee models)",
+      "transfer_to_alpha": false
+    }
+  },
+  "pathways": [
+    {"id": "P1", "name": "FimH type-1 fimbriae decoy", "molecular": "Established", "animal_GI": "Probable", "human_clinical": "Speculative→Probable"},
+    {"id": "P2", "name": "Bacteroides mannan PUL prebiotic", "human": "Probable"},
+    {"id": "P3", "name": "Dectin-2 CLR", "receptor": "Established", "oral_phenotype": "Speculative–Probable"},
+    {"id": "P4", "name": "Multi-CLR (Dectin-3/MR/DC-SIGN/Mincle)", "receptor": "Established", "oral_phenotype": "Speculative–Probable"},
+    {"id": "P5", "name": "MBL lectin complement", "biochemistry": "Established", "oral_clinical": "Speculative"},
+    {"id": "P6", "name": "Barrier morphology", "animal": "Probable", "human_biopsy": "Speculative"},
+    {"id": "P7", "name": "SCFA/GABA gut–sleep", "phenotype": "Probable", "mechanism": "Speculative"},
+    {"id": "P8", "name": "Gut–skin axis", "subjective_dryness": "Probable"},
+    {"id": "P9", "name": "sIgA/AMP", "animal": "Probable", "human": "Speculative"},
+    {"id": "P10", "name": "Macrophage polarization", "modulation": "Probable", "direction": "context-dependent"},
+    {"id": "P11", "name": "Antioxidant/chelation", "in_vitro": "Established", "clinical": "Unknown"},
+    {"id": "P12", "name": "Lipid/metabolic", "Sc_MOS_obesity": "null Probable", "structure_specific_animal": "Speculative–Probable"},
+    {"id": "P13", "name": "Mycotoxin adsorption", "animal_feed": "Probable", "human_body_burden": "Speculative"},
+    {"id": "P14", "name": "Low-dose carbon feed risk", "clinical": "Speculative"},
+    {"id": "P15", "name": "Yeast protein allergy", "risk_class": "Established"},
+    {"id": "P16", "name": "β-glucan co-wall crosstalk", "composition": "Established", "dual_stack_synergy": "Speculative"}
+  ],
+  "claims": [
+    {"id": "C1", "claim": "Selective ↑ B. thetaiotaomicron/ovatus", "certainty": "Probable", "pathways": ["P2"], "coi": "Asahi"},
+    {"id": "C2", "claim": "↓ fecal putrefactives", "certainty": "Probable", "pathways": ["P2"], "coi": "Asahi"},
+    {"id": "C3", "claim": "↑ urinary equol", "certainty": "Probable", "pathways": ["P2", "P8"], "coi": "Asahi"},
+    {"id": "C4", "claim": "Subjective skin dryness improvement", "certainty": "Probable", "pathways": ["P8", "P2"], "coi": "Asahi", "population": "women"},
+    {"id": "C5", "claim": "↑ defecation frequency/volume at 1.1 g YM", "certainty": "Probable", "pathways": ["P2", "P6"], "coi": "Asahi"},
+    {"id": "C6", "claim": "↑ N3 / ↓ N3 latency / ↑ TIB", "certainty_phenotype": "Probable", "certainty_mechanism": "Speculative", "pathways": ["P7", "P2"], "coi": "Asahi"},
+    {"id": "C7", "claim": "Oral α-MOS prevents/treats UTI", "certainty": "Speculative", "pathways": ["P1", "P5"], "note": "D-mannose meta is different molecule"},
+    {"id": "C8", "claim": "Human GI pathogen exclusion", "certainty": "Speculative", "animal": "Probable", "pathways": ["P1", "P3", "P6"]},
+    {"id": "C9", "claim": "Human barrier integrity", "certainty": "Speculative", "pathways": ["P6"]},
+    {"id": "C10", "claim": "Human mycotoxin binder", "certainty": "Speculative", "pathways": ["P13"]},
+    {"id": "C11", "claim": "Beneficial oral innate immune modulation", "certainty": "Speculative", "animal": "Probable", "pathways": ["P3", "P4", "P5", "P9", "P10"]},
+    {"id": "C12", "claim": "Sc MOS metabolic/obesity rescue", "certainty": "Unknown/null-leaning", "pathways": ["P12"]},
+    {"id": "C13", "claim": "Clinical antioxidant at 1.1 g", "certainty": "Unknown", "pathways": ["P11"]},
+    {"id": "C14", "claim": "Well tolerated ~1 g/d YM", "certainty": "Probable"},
+    {"id": "C15", "claim": "Replaces antibiotics", "certainty": "False/Established-negative", "pathways": ["P1"]},
+    {"id": "C16", "claim": "CNS-direct nootropic", "certainty": "Unknown"},
+    {"id": "C17", "claim": "MOS+β-glucan immune synergy", "certainty": "Speculative", "pathways": ["P3", "P16"]},
+    {"id": "C18", "claim": "Worsens candidiasis via carbon feed", "certainty": "Speculative", "pathways": ["P14"]},
+    {"id": "C19", "claim": "Interchangeable with β-MOS or D-mannose", "certainty": "Established-false", "pathways": ["P1", "P2"]},
+    {"id": "C20", "claim": "15 g/d necessary for benefit", "certainty": "Unknown", "pathways": ["P2"]}
+  ],
+  "key_studies": [
+    {
+      "id": "Tanihiro2020",
+      "design": "RCT DB-PC n=110 women 8 wk",
+      "agent": "Asahi YM industrial tablets",
+      "endpoints": ["skin dryness primary", "B. thetaiotaomicron", "B. ovatus", "putrefactives", "equol"],
+      "certainty_ceiling": "Probable",
+      "coi": "Asahi",
+      "cannot_support": ["UTI", "infection prevention", "men", "barrier biopsy"]
+    },
+    {
+      "id": "Tanihiro2023",
+      "design": "RCT DB-PC n=40 bowel-discomfort adults 4 wk",
+      "agent": "YM 1.1 g/d (~0.62 g mannan)",
+      "endpoints": ["defecation frequency/volume", "device EEG N3", "N3 latency", "TIB", "fecal metabolomics"],
+      "certainty_ceiling_bowel": "Probable",
+      "certainty_ceiling_sleep_phenotype": "Probable",
+      "certainty_ceiling_SCFA_GABA_mediation": "Speculative",
+      "coi": "Asahi",
+      "limits": ["small n", "device EEG not PSG", "stepwise regression exploratory", "enriched for bowel discomfort"]
+    },
+    {
+      "id": "Faustino2023",
+      "design": "In vitro UPEC-HTB-9 adhesion",
+      "certainty": "Established cellular adhesion block",
+      "cannot_support": ["clinical UTI outcomes", "oral→urine PK"]
+    },
+    {
+      "id": "Spring2015",
+      "design": "733-trial Bio-Mos/Actigen survey (not Cochrane SR)",
+      "certainty_animal": "Probable after bias discount",
+      "coi": "Industry-dense Alltech ecosystem",
+      "cannot_support": ["human infection prevention"]
+    },
+    {
+      "id": "Hoving2018",
+      "design": "Mice Actigen 1% diet 17 wk LFD/HFD factorial",
+      "result": "Immune cell shifts; null HFD metabolic rescue",
+      "certainty_null_metabolic": "Established for that model context",
+      "product": "Actigen Alltech gift"
+    },
+    {
+      "id": "SuperMannan_series",
+      "design": "Uncontrolled case series ~n=9 + patent narrative",
+      "certainty": "Speculative",
+      "coi": "Critical commercial (Katz patent)"
+    },
+    {
+      "id": "Lenger2020_Dmannose",
+      "design": "Meta rUTI free D-mannose",
+      "result": "RR recurrence ~0.23 vs placebo (fragile base)",
+      "certainty_for_mannose": "Probable",
+      "transfer_to_alpha_MOS": false
+    }
+  ],
+  "sides": [
+    {"id": "S1", "side": "Gas/bloating", "certainty": "Probable class", "pathways": ["P2"], "first_counters": ["titrate", "split dose", "with food", "cut concurrent FODMAPs"]},
+    {"id": "S2", "side": "Loose stool/urgency", "certainty": "Probable mild", "pathways": ["P2", "P6"], "first_counters": ["reduce dose 30-50%", "psyllium", "electrolytes"]},
+    {"id": "S3", "side": "Cramping", "certainty": "Probable mild", "pathways": ["P2", "P3"], "first_counters": ["peppermint EC", "ginger", "dose down"]},
+    {"id": "S5", "side": "Yeast allergy", "certainty": "Established risk class", "pathways": ["P15"], "first_counters": ["avoid if severe", "purified YM", "switch D-mannose if FimH-only"]},
+    {"id": "S7", "side": "CLR immune flare", "certainty": "Speculative", "pathways": ["P3", "P4", "P5", "P16"], "first_counters": ["pause", "prefer purified vs YCW", "avoid dual β-glucan mega-stack"]},
+    {"id": "S9", "side": "Candida/pathogen carbon feed", "certainty": "Speculative", "pathways": ["P14", "P2"], "first_counters": ["adequate decoy dose", "add D-mannose for UTI", "hold if active candidiasis"]},
+    {"id": "S11", "side": "Mineral interference (binder protocols)", "certainty": "Speculative at 1 g YM; Probable multi-binder", "pathways": ["P11", "P13"], "first_counters": ["space 2-4 h", "mineral repletion"]},
+    {"id": "S14", "side": "Sleep undermined by nocturnal GI", "certainty": "Speculative individual", "pathways": ["P2", "P7"], "first_counters": ["AM dosing", "fix S1-S2", "sleep hygiene"]},
+    {"id": "S16", "side": "False security delay care", "certainty": "Probable behavioral hazard", "first_counters": ["MOS≠antibiotic rule", "red-flag urgent care criteria"]}
+  ],
+  "dose_anchors": {
+    "human_YM_RCT": "1.1 g/day purified YM (~0.62 g mannan)",
+    "human_start": "0.5 g/day titrate",
+    "human_purified_range": "0.5–2 g/day",
+    "human_high_listed": "up to ~15 g/day yeast MOS (tolerability Unknown)",
+    "D_mannose_rUTI_literature": "1.5–2 g 1–3×/day",
+    "BioMos_feed": "0.5–2 kg/ton (~0.05–0.2%)",
+    "Actigen_feed": "lower inclusion higher mannan purity",
+    "Actigen_mice_Hoving": "1% diet 17 weeks"
+  },
+  "coi_flags": {
+    "Tanihiro_Asahi": "Material COI on only serious human YM RCTs — flag every clinical claim; product-lock to purified YM; caps at Probable without independent replication",
+    "Spring_Alltech": "Industry-dense 733-trial corpus — Probable animal utility after bias discount; not human proof",
+    "Hoving_Actigen_gift": "Product gift; null metabolic result more trustworthy under COI",
+    "SuperMannan_Katz": "Patent/commercial extreme — Speculative only"
+  },
+  "hard_distinctions": [
+    "α-MOS (yeast α-1,6/1,2/1,3) ≠ β-MOS (plant β-1,4)",
+    "α-MOS polymer/oligomer ≠ free D-mannose (shared FimH pocket, different PK and ecology)",
+    "Mannan/mannoprotein ≠ MOS DP2-10 ≠ YCW multi-component (mannan+β-glucan+protein)",
+    "Never pool Lenger D-mannose RR onto α-MOS products",
+    "Tanihiro endpoints attach to Asahi purified YM not Bio-Mos/SuperMannan by default"
+  ],
+  "briefing_path": "/tmp/grok-research-af4d800f/briefing.md"
+}
