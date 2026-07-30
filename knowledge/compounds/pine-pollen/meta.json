@@ -1,0 +1,16 @@
+{
+  "slug": "pine-pollen",
+  "updated": "2026-07-30",
+  "effort": "max",
+  "overall_certainty": "mixed-sparse-androgen-stronger-nutrition-topical",
+  "input_type": "compound",
+  "names": ["pine pollen", "Pinus pollen", "Songhuafen", "Songhuang", "Pinus massoniana pollen"],
+  "primary_claims": ["phytoandrogen", "libido", "nutrition", "topical skin", "metabolic adjunct"],
+  "hard_stops": ["pollen allergy"],
+  "open_questions": [
+    "double-blind RCT free+total T SHBG E2 LH/FSH",
+    "human PK of pollen sterols",
+    "standardized extract lot variance",
+    "net phytosterol androgen vs antiandrogen phenotype at supplement doses"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "compound": "Pine pollen (Pinus spp.)",
+  "research_id": "54b301d5",
+  "date": "2026-07-30",
+  "certainty_scale": ["Established", "Probable", "Speculative", "Unknown"],
+  "trust_tiers": {
+    "A": "Independent peer-reviewed primary or high-tier composition",
+    "B": "Peer-reviewed secondary/solid preclinical/limited primary",
+    "C": "High bias: open-label, sponsor, tiny n, bibliometric without RoB, unpub COI",
+    "D": "Forums, marketing, affiliates"
+  },
+  "plant_t_dose_math": {
+    "reference": "Saden-Krehula 1971 Experientia P. sylvestris",
+    "T_ng_per_g": 80,
+    "epitestosterone_ng_per_g": 110,
+    "androstenedione_ng_per_g": 590,
+    "doses": [
+      {"powder_g": 1, "T_mg": 0.00008},
+      {"powder_g": 5, "T_mg": 0.0004},
+      {"powder_g": 10, "T_mg": 0.0008}
+    ],
+    "endogenous_male_mg_per_day": "5-7",
+    "ratio_10g_vs_6mg_endogenous": "~1/7500",
+    "conclusion": "Established trivial vs TRT; not oral plant T replacement",
+    "certainty": "Established"
+  },
+  "pathways": [
+    {"id": "P1", "name": "Trace C19 steroids AR ligation", "certainty_content": "Established", "certainty_clinical_mass": "Established trivial"},
+    {"id": "P2", "name": "Brassinosteroids", "certainty_human": "Speculative"},
+    {"id": "P3", "name": "Phytosterols cholesterol absorption", "certainty": "Speculative at pollen dose; class Established"},
+    {"id": "P4", "name": "Phytosterols prostate/LUTS", "certainty": "Speculative-Probable pollen-specific"},
+    {"id": "P5", "name": "5AR/DHT dualism claims", "certainty": "Speculative"},
+    {"id": "P6", "name": "Polysaccharides immune", "certainty_human": "Speculative"},
+    {"id": "P7", "name": "Flavonoid antioxidant/Nrf2", "certainty_systemic": "Speculative-Probable"},
+    {"id": "P8", "name": "Flavonoid anti-inflammatory", "certainty_topical": "Probable", "certainty_oral": "Speculative"},
+    {"id": "P9", "name": "Nutrition AA/vit/min", "certainty": "Probable at multi-gram"},
+    {"id": "P10", "name": "HPA/adaptogen-like energy", "certainty_mechanism": "Speculative", "certainty_phenotype": "Probable mild subjective"},
+    {"id": "P11", "name": "Dual estrogenic sterols", "certainty": "Speculative-Unknown"},
+    {"id": "P12", "name": "IgE allergy", "certainty": "Established"},
+    {"id": "P13", "name": "GI fiber/fermentable", "certainty": "Probable"},
+    {"id": "P14", "name": "Hepatocyte ROS/liver protection", "certainty_human": "Speculative"},
+    {"id": "P15", "name": "SHBG/free T fraction", "certainty": "Speculative"},
+    {"id": "P16", "name": "LH/FSH feedback", "certainty": "Speculative unlikely from T mass"},
+    {"id": "P17", "name": "Placebo/expectancy", "certainty": "Probable contributor"},
+    {"id": "P18", "name": "Sublingual sterol absorption", "certainty": "Speculative"},
+    {"id": "P19", "name": "Species/lot/shelf variance", "certainty": "Probable"},
+    {"id": "P20", "name": "Topical skin barrier", "certainty": "Probable"},
+    {"id": "P21", "name": "Aquaculture androgen-like (fish)", "certainty_fish": "Established", "certainty_human_transfer": "Speculative"}
+  ],
+  "key_claims": [
+    {"id": "C1", "claim": "Contains measurable mammalian androgens", "certainty": "Established chemistry; TRT-like false"},
+    {"id": "C2", "claim": "Raises total serum T in men", "certainty": "Speculative", "anchor": "Wolkodoff p=0.0584 NS"},
+    {"id": "C3", "claim": "Improves libido/sexual function", "certainty": "Speculative-Probable open-label; blinded Unknown"},
+    {"id": "C4", "claim": "Andropause endocrine therapy", "certainty": "Speculative"},
+    {"id": "C6", "claim": "Nutrient-dense food powder", "certainty": "Probable at grams"},
+    {"id": "C12", "claim": "Topical skin adjunct", "certainty": "Probable Chinese context"},
+    {"id": "C15", "claim": "5/2 cycle required", "certainty": "Speculative necessity"},
+    {"id": "C16", "claim": "HPTA suppression from plant T", "certainty": "Speculative unlikely"},
+    {"id": "C18", "claim": "Short-term non-allergic tolerability", "certainty": "Probable"},
+    {"id": "C19", "claim": "Safe pregnancy/adolescents", "certainty": "Unknown; avoid practice"}
+  ],
+  "clinical_anchors": [
+    {
+      "source": "Wolkodoff 2024/2025 Ann Clin Med Case Rep",
+      "trust": "C",
+      "design": "open-label n=10 no placebo",
+      "product": "P. massoniana hydroethanolic tincture ~300 mg/mL Lost Empire",
+      "dose": "0.5 mL AM + 0.5 mL PM, 5 on/2 off x 8 wk",
+      "TT": {"baseline": 362.5, "followup": 448.4, "delta": 85.9, "p": 0.0584, "sig": false},
+      "qADAM": {"baseline": 23.9, "followup": 31.7, "p": 0.0035, "sig": true},
+      "missing": ["free T", "SHBG", "LH", "FSH", "E2"],
+      "coi": "Sponsor product + study support; COI disclosure incomplete; predatory-adjacent venue; outlier-leveraged mean",
+      "certainty_TT": "Speculative",
+      "certainty_symptoms": "Speculative-Unknown drug-specific"
+    },
+    {
+      "source": "Liang 2020 WJ TCM PMC8318335",
+      "trust": "B map / C efficacy",
+      "n_pubs": 239,
+      "n_clinical": 37,
+      "n_rct": 15,
+      "top_clinical": ["bedsores", "diaper dermatitis", "hyperlipidemia", "oral mucositis", "eczema", "BPH", "HTN", "prostatitis", "T2DM", "radiodermatitis"],
+      "route_skin": "topical > oral",
+      "safety": "8 trials no AE; 1 mild GI resolving"
+    }
+  ],
+  "sides": [
+    {
+      "id": "S1",
+      "name": "Allergy/anaphylaxis",
+      "pathway": "P12",
+      "certainty": "Established",
+      "hard_stop": true,
+      "primary_counter": "Avoid antigen; emergency epinephrine for anaphylaxis"
+    },
+    {
+      "id": "S2",
+      "name": "GI upset",
+      "pathway": "P13",
+      "certainty": "Probable mild",
+      "primary_counter": "Titrate dose; with food; prefer tincture if bulk fiber problem"
+    },
+    {
+      "id": "S3",
+      "name": "Hormonal imbalance concerns",
+      "pathways": ["P1", "P11", "P16", "P4", "P5"],
+      "certainty": "Speculative clinically meaningful",
+      "primary_counter": "Dose math education; labs if hormone claim; lifestyle first"
+    },
+    {
+      "id": "S4",
+      "name": "Post-discontinuation libido crash",
+      "pathways": ["P17", "P16"],
+      "certainty": "Probable confounded multi-stack; Speculative mono suppression",
+      "primary_counter": "Monotherapy trials; maintain lifestyle; de-stack"
+    },
+    {
+      "id": "S5",
+      "name": "Quality/contaminants",
+      "pathway": "P19",
+      "certainty": "Probable without COA",
+      "primary_counter": "Third-party COA; labeled species; avoid untested wild bulk"
+    },
+    {
+      "id": "S6",
+      "name": "Hormone-sensitive cancer context",
+      "pathways": ["P1", "P11"],
+      "certainty": "Unknown risk; Established caution",
+      "primary_counter": "Oncology clearance; non-sterol vitality stack first"
+    }
+  ],
+  "dose_forms": [
+    {"form": "micro-challenge", "dose": "1-2 drops or few grains", "certainty": "Probable wise first exposure"},
+    {"form": "pilot tincture", "dose": "1 mL/day split BID", "schedule": "5/2 x 8 wk", "certainty_efficacy": "Speculative"},
+    {"form": "NDNR powder", "dose": "0.5 tsp 2-3x/day", "certainty_food_safe": "Probable non-allergic"},
+    {"form": "NDNR tincture", "dose": "~2 mL 2-3x/day", "certainty_efficacy": "Speculative"},
+    {"form": "food powder", "dose": "1-5+ g/day cracked", "certainty_nutrition": "Probable", "certainty_T": "Speculative"}
+  ],
+  "stacks": {
+    "A_nutrition": {"certainty_nutrition": "Probable", "certainty_T": "Speculative"},
+    "B_andropause_trial": {"certainty_symptoms_open_label": "Probable", "certainty_TT": "Speculative"},
+    "C_protection_aware": {"maps_sides": ["S1", "S2", "S3", "S4", "S5", "S6"]}
+  },
+  "comparators_rank_gym": [
+    "sleep/training/creatine/protein (first)",
+    "TRT if medical hypogonadism",
+    "tongkat (better male-hormone trial conversation than pollen)",
+    "maca (libido food cousin)",
+    "pine pollen (optional low-certainty vitality)",
+    "fadogia (thinner human package)",
+    "not sitosterol/saw palmetto for gym androgen goals"
+  ],
+  "hard_stops": [
+    "Known pine/pollen allergy or prior anaphylaxis",
+    "Replace prescribed TRT with pollen",
+    "Push through systemic allergic symptoms",
+    "Unsupervised pregnancy/nursing/adolescent T-boost marketing use"
+  ]
+}
