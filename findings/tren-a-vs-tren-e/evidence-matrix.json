@@ -1,0 +1,66 @@
+{
+  "slug": "tren-a-vs-tren-e",
+  "query": "Tren A vs Tren E + Hex excerpt",
+  "type": "compound_comparison",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Esters release free trenbolone; receptor pharmacology identical once free",
+      "certainty": "Established"
+    },
+    {
+      "id": "C2",
+      "claim": "AR affinity ~3x testosterone / DHT-range in binding assays",
+      "certainty": "Established",
+      "pmid": "11252818"
+    },
+    {
+      "id": "C3",
+      "claim": "Not aromatized; PR agonist",
+      "certainty": "Established"
+    },
+    {
+      "id": "C4",
+      "claim": "Acetate short depot (~1-3d cited), enanthate long (~7-11d cited), hex intermediate-long (~5-10d, often ~8d)",
+      "certainty": "Probable",
+      "note": "Human PK sparse; secondary citations"
+    },
+    {
+      "id": "C5",
+      "claim": "Active fractions ~87% Ace, ~71% En, ~66% Hex",
+      "certainty": "Established"
+    },
+    {
+      "id": "C6",
+      "claim": "Matched free-hormone AUC similar systemic effect A vs E",
+      "certainty": "Probable"
+    },
+    {
+      "id": "C7",
+      "claim": "Acetate intrinsically harsher beyond peak-trough",
+      "certainty": "Speculative"
+    },
+    {
+      "id": "C8",
+      "claim": "Trensomnia/sweats/psych/CV phenotypes common across esters",
+      "certainty": "Probable"
+    },
+    {
+      "id": "C9",
+      "claim": "Hex milder due to ester magic",
+      "certainty": "Speculative"
+    },
+    {
+      "id": "C10",
+      "claim": "Parabolan 76mg\u224850mg base q10d France 1980-1997",
+      "certainty": "Established"
+    },
+    {
+      "id": "C11",
+      "claim": "Yarrow TREN-E tissue selective anabolic in ORX rats",
+      "certainty": "Established",
+      "pmid": "21266670",
+      "note": "preclinical model"
+    }
+  ]
+}
