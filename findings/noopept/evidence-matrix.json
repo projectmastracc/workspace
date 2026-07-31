@@ -1,0 +1,195 @@
+{
+  "research_id": "323d22e0",
+  "compound": "Noopept / Omberacetam / GVS-111",
+  "cas": "157115-85-0",
+  "date": "2026-07-31",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Chemical identity: N-phenylacetyl-L-prolylglycine ethyl ester; dipeptide piracetam analog",
+      "tier": "Established",
+      "evidence_class": "analytical/registry"
+    },
+    {
+      "id": "C2",
+      "claim": "Rodent major active metabolite is cycloprolylglycine (cPG)",
+      "tier": "Established",
+      "evidence_class": "preclinical_PK",
+      "anchor_pmid": "9358206"
+    },
+    {
+      "id": "C3",
+      "claim": "Rodent parent t1/2 very short (minutes); oral BA low ~9-10%",
+      "tier": "Established",
+      "notes": "Human PK Unknown"
+    },
+    {
+      "id": "C4",
+      "claim": "cPG modulates AMPA and supports TrkB-dependent neuroprotection",
+      "tier": "Probable",
+      "evidence_class": "preclinical_mech",
+      "coi": "developer_lab"
+    },
+    {
+      "id": "C5",
+      "claim": "Increases hippocampal NGF and BDNF expression (rat)",
+      "tier": "Established",
+      "evidence_class": "preclinical",
+      "anchor_pmid": "19240853",
+      "human_translation": "Unknown"
+    },
+    {
+      "id": "C6",
+      "claim": "Multi-arm antioxidant/anti-excitotoxic/HIF/rheology neuroprotection",
+      "tier": "Probable",
+      "evidence_class": "preclinical_synthesis"
+    },
+    {
+      "id": "C7",
+      "claim": "HIF-1 activation",
+      "tier": "Probable",
+      "evidence_class": "lab_molecular",
+      "anchor_pmids": ["27099787", "33119829"]
+    },
+    {
+      "id": "C8",
+      "claim": "Anti-Abeta / anti-tau hyperphosphorylation in cellular models",
+      "tier": "Probable",
+      "evidence_class": "cellular",
+      "anchor_pmid": "25096780",
+      "human_DM": "Unknown"
+    },
+    {
+      "id": "C9",
+      "claim": "Improves cognition in mild vascular/posttraumatic cognitive disorders at 10 mg BID x 56 days",
+      "tier": "Probable",
+      "evidence_class": "open_active_controlled_clinical",
+      "anchor_pmids": ["19234797", "18697252"],
+      "design_limits": ["open_label", "no_placebo", "institute_affiliated", "modest_n"],
+      "notes": "thin Western-standard evidence; ceiling Probable not Established"
+    },
+    {
+      "id": "C10",
+      "claim": "Faster onset / better tolerability vs piracetam",
+      "tier": "Speculative-Probable",
+      "evidence_class": "same_trial_narrative"
+    },
+    {
+      "id": "C11",
+      "claim": "Reliable cognitive enhancer in healthy young adults",
+      "tier": "Speculative",
+      "evidence_class": "forum_only",
+      "notes": "No high-quality Western RCTs"
+    },
+    {
+      "id": "C12",
+      "claim": "Practical effective range 10-30 mg/day; clinical 20 mg/day split",
+      "tier": "Probable",
+      "evidence_class": "clinical_plus_community_convention"
+    },
+    {
+      "id": "C13",
+      "claim": "Inverted-U / more is less",
+      "tier": "Probable",
+      "evidence_class": "community_pattern_plus_rodent_dose_curves",
+      "human_formal_curve": "Speculative"
+    },
+    {
+      "id": "C14",
+      "claim": "Sublingual superior to oral (human BA)",
+      "tier": "Speculative",
+      "evidence_class": "forum_preference"
+    },
+    {
+      "id": "C15",
+      "claim": "Headaches common and often choline-responsive",
+      "tier": "phenotype_Established_user; mechanism_Speculative",
+      "evidence_class": "forum_plus_clinical_rare"
+    },
+    {
+      "id": "C16",
+      "claim": "Sleep disturbance and irritability are real AEs",
+      "tier": "Established",
+      "evidence_class": "clinical_AE",
+      "rates_neznamov_approx": {"sleep": "5/31", "irritability": "3/31", "BP": "7/31"}
+    },
+    {
+      "id": "C17",
+      "claim": "High dose causes brain fog, amotivation, anxiety rebound",
+      "tier": "Probable",
+      "evidence_class": "forum_high_dose_syndrome"
+    },
+    {
+      "id": "C18",
+      "claim": "Requires choline co-administration always",
+      "tier": "Speculative",
+      "notes": "conditional n-of-1; not mandatory default"
+    },
+    {
+      "id": "C19",
+      "claim": "Tolerance develops; must cycle",
+      "tier": "Speculative",
+      "notes": "cycling prudence Probable"
+    },
+    {
+      "id": "C20",
+      "claim": "200-50000x more potent than piracetam",
+      "tier": "Speculative_inflated",
+      "notes": "use mg-range comparison only"
+    },
+    {
+      "id": "C21",
+      "claim": "Anxiolytic/social benefit at moderate dose",
+      "tier": "Probable_subset",
+      "mechanism": "Speculative"
+    },
+    {
+      "id": "C22",
+      "claim": "Long-term safety established",
+      "tier": "Unknown"
+    },
+    {
+      "id": "C23",
+      "claim": "Short-term tolerability at 10-30 mg in studied MCI patients",
+      "tier": "Probable"
+    },
+    {
+      "id": "C24",
+      "claim": "Product quality is major practical variable outside Russia",
+      "tier": "Probable",
+      "evidence_class": "regulatory_and_product_testing"
+    },
+    {
+      "id": "C25",
+      "claim": "Human PK fully characterized",
+      "tier": "Unknown"
+    }
+  ],
+  "pathways": [
+    {"id": "P1", "name": "prodrug_to_cPG", "tier": "Established_rodent"},
+    {"id": "P2", "name": "cPG_AMPA", "tier": "Probable"},
+    {"id": "P3", "name": "cPG_TrkB", "tier": "Probable"},
+    {"id": "P4", "name": "NGF_BDNF_hippocampus", "tier": "Established_preclinical"},
+    {"id": "P5", "name": "cholinergic_facilitation_functional", "tier": "Probable"},
+    {"id": "P19", "name": "choline_depletion_headache", "tier": "Speculative"},
+    {"id": "P20", "name": "arousal_sleep_encroachment", "tier": "Probable_phenotype"},
+    {"id": "P21", "name": "BP_pressor", "tier": "Probable_AE_mechanism_Unknown"},
+    {"id": "P22", "name": "inverted_U", "tier": "Probable_community_Speculative_human_formal"}
+  ],
+  "clinical_anchor": {
+    "citation": "Neznamov & Teleshova 2009",
+    "pmids": ["19234797", "18697252"],
+    "dose": "10 mg BID",
+    "duration_days": 56,
+    "population": "mild cognitive disorders vascular/traumatic origin",
+    "design": "open-label active-controlled vs piracetam",
+    "not": ["placebo-controlled", "double-blind Western multi-site RCT"],
+    "efficacy_ceiling": "Probable thin for indicated pop; Speculative for healthy"
+  },
+  "hard_ceilings": [
+    "No Established healthy-user efficacy",
+    "No Established human PK",
+    "Russian clinical max Probable for indicated populations",
+    "Forum patterns do not raise efficacy to Probable"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "noopept",
+  "updated": "2026-07-31",
+  "effort": 3,
+  "overall_certainty": "Probable thin for MCI vascular/post-trauma; Speculative healthy-user enhancement; Established rodent cPG and NGF/BDNF",
+  "input_type": "compound",
+  "open_questions": [
+    "Human PK of parent and cPG",
+    "Healthy-user placebo-controlled RCTs"
+  ],
+  "lenses": [
+    "nootropic",
+    "neuroprotection"
+  ]
+}
