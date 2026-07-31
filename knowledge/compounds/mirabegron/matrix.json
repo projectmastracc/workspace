@@ -1,0 +1,139 @@
+{
+  "research_id": "28f1a406",
+  "compound": "mirabegron",
+  "brands": ["Myrbetriq", "Betmiga"],
+  "class": "selective β3-adrenergic receptor (ADRB3) agonist",
+  "date": "2026-07-31",
+  "domains": {
+    "A_OAB": {
+      "doses_mg": [25, 50],
+      "status": "approved",
+      "efficacy_certainty": "Established",
+      "key_trials": ["SCORPIO", "ARIES", "CAPRICORN", "TAURUS"],
+      "sponsor": "Astellas"
+    },
+    "B_metabolic": {
+      "research_doses_mg": [50, 100, 150, 200],
+      "status": "off-label / research",
+      "fat_loss_short_term_50_100mg": "Established_null",
+      "bat_ree_high_dose": "Established_to_Probable",
+      "glucose_beiging_50mg": "Established_short_term_open_label"
+    }
+  },
+  "dose_endpoint_matrix": [
+    {
+      "dose_mg": 25,
+      "oab": "Established",
+      "bat_ree": "Unknown_sparse",
+      "beiging_glucose": "Unknown_sparse",
+      "cv_load": "Established_mild",
+      "fat_loss": "Unknown"
+    },
+    {
+      "dose_mg": 50,
+      "oab": "Established",
+      "bat_ree_chronic_obese": "Established_null_Finlin",
+      "beiging_glucose": "Established_Finlin",
+      "cv_load": "Established_mild",
+      "fat_loss_le_12wk": "Established_null_Finlin"
+    },
+    {
+      "dose_mg": 100,
+      "oab": "studied_not_US_label_max",
+      "bat_ree": "Established_OMara_short",
+      "adiponectin_hdl_is": "Established_to_Probable_OMara",
+      "cv_load": "Probable_intermediate",
+      "fat_loss_4wk": "Established_null_OMara"
+    },
+    {
+      "dose_mg": 200,
+      "oab": "not_indicated",
+      "bat_ree_acute": "Established_Cypess",
+      "cv_load": "Established_highest",
+      "fat_loss_chronic": "Unknown"
+    }
+  ],
+  "key_studies": [
+    {
+      "id": "cypess_2015",
+      "pmid": "25565203",
+      "dose_mg": 200,
+      "duration": "acute",
+      "n": 12,
+      "population": "lean young men",
+      "positives": ["BAT_FDG_all", "REE_+203kcal_d_+13pct"],
+      "nulls": [],
+      "funding": "NIH",
+      "design": "placebo-controlled acute"
+    },
+    {
+      "id": "loh_2019",
+      "pmid": "30203462",
+      "doses_mg": [50, 100, 150, 200],
+      "duration": "acute",
+      "n": 17,
+      "positives": ["EE_at_100_and_200", "Tsc_50_to_150", "100mg_best_EE_CV_trade"],
+      "nulls": [],
+      "funding": "academic",
+      "design": "acute dose-response"
+    },
+    {
+      "id": "omara_2020",
+      "pmid": "31961826",
+      "dose_mg": 100,
+      "duration": "4_weeks",
+      "n": 14,
+      "population": "young women",
+      "positives": ["BAT_activity_volume", "REE", "adiponectin_+35pct", "HDL", "ApoA1", "bile_acids", "IS_secretion"],
+      "nulls": ["weight", "body_composition"],
+      "funding": "NIH NIDDK",
+      "design": "open-label chronic"
+    },
+    {
+      "id": "finlin_2020",
+      "pmid": "31961829",
+      "dose_mg": 50,
+      "duration": "12_weeks",
+      "n": 13,
+      "population": "obese insulin-resistant",
+      "positives": ["SC_WAT_beiging_UCP1_TMEM26_CIDEA", "OGTT", "HbA1c", "clamp_IS_+12pct_GIR", "beta_cell", "muscle_PGC1A", "type_I_fibers", "muscle_TG_down"],
+      "nulls": ["BAT", "REE", "weight", "fat_mass"],
+      "funding": "NIH",
+      "design": "open-label chronic",
+      "nct": "NCT02919176"
+    }
+  ],
+  "hard_locks": [
+    "Human trials show BAT/REE/glucose gains WITHOUT consistent weight/fat loss (OMara, Finlin)",
+    "Do not oversell fat loss",
+    "25-50 mg OAB Established",
+    "100-200 mg metabolic research doses with CV tradeoffs",
+    "Animal fat loss is Speculative for human translation"
+  ],
+  "major_pathways": [
+    {"id": "P1", "name": "detrusor_beta3_Gs_cAMP_PKA_relax", "certainty": "Established"},
+    {"id": "P2", "name": "BAT_UCP1_thermogenesis", "certainty": "Established_high_dose"},
+    {"id": "P3", "name": "WAT_beiging", "certainty": "Established_markers"},
+    {"id": "P5", "name": "indirect_muscle_PGC1A_typeI", "certainty": "Established_association"},
+    {"id": "P6", "name": "glucose_IS_adiponectin", "certainty": "Established_short_open_label"},
+    {"id": "P8", "name": "residual_beta1_CV", "certainty": "Established_dose_related"},
+    {"id": "P9", "name": "NET_NA_facilitation", "certainty": "Probable"},
+    {"id": "P10", "name": "CYP2D6_moderate_TDI", "certainty": "Established"},
+    {"id": "P11", "name": "digoxin_Pgp", "certainty": "Established"},
+    {"id": "P12", "name": "alpha1_weak", "certainty": "Speculative_clinical"},
+    {"id": "P14", "name": "intake_compensation", "certainty": "Speculative"}
+  ],
+  "major_sides_with_counters": [
+    "hypertension_HR",
+    "headache",
+    "UTI_nasopharyngitis",
+    "urinary_retention",
+    "angioedema",
+    "CYP2D6_DDI",
+    "digoxin",
+    "fat_loss_nonresponse",
+    "GI",
+    "neuropsychiatric_postmarketing"
+  ],
+  "isolation": "no findings/* imports"
+}

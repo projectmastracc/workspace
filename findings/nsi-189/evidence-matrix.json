@@ -1,0 +1,149 @@
+{
+  "compound": "NSI-189 / amdiglurax / ALTO-100",
+  "research_id": "bd09ad89",
+  "date": "2026-07-31",
+  "trust_tiers": {
+    "T1": "Primary RCT endpoints",
+    "T2": "Early/secondary clinical",
+    "T3": "Post-hoc/opinion",
+    "T4": "Company/patent",
+    "T5": "Preclinical",
+    "T6": "Forums"
+  },
+  "claims": [
+    {
+      "claim": "Antidepressant efficacy MADRS monotherapy MDD",
+      "verdict": "Failed dual Phase 2 primaries",
+      "certainty": "Established failure",
+      "tier": "T1",
+      "sources": ["PMID 30626911", "Alto Oct 2024 press NCT05712187"]
+    },
+    {
+      "claim": "Biomarker-stratified MDD MADRS efficacy",
+      "verdict": "Failed Alto Ph2b n=301",
+      "certainty": "Established failure",
+      "tier": "T1",
+      "sources": ["Alto Oct 2024 press"]
+    },
+    {
+      "claim": "Short-term tolerability good (≤12 wk)",
+      "verdict": "No drug SAEs; AEs near placebo (headache, nausea, abnormal dreams)",
+      "certainty": "Established",
+      "tier": "T1-T2",
+      "sources": ["PMID 26643541", "PMID 30626911", "Alto 2024"]
+    },
+    {
+      "claim": "PK t½ 17.4–20.5 h; Tmax 1–2 h; SS 4–5 d",
+      "verdict": "Documented Ph1b",
+      "certainty": "Established",
+      "tier": "T2",
+      "sources": ["PMID 26643541"]
+    },
+    {
+      "claim": "Pro-cognitive CogScreen at 40 mg in MDD",
+      "verdict": "Secondary positives (memory d≈1.12); Cogstate null",
+      "certainty": "Probable within-trial; Speculative replication",
+      "tier": "T2",
+      "sources": ["PMID 30626911"]
+    },
+    {
+      "claim": "Patient-rated SDQ/CPFQ benefit at 40 mg",
+      "verdict": "Secondary positives; not primary",
+      "certainty": "Probable signal in MDD trials",
+      "tier": "T2",
+      "sources": ["PMID 30626911", "PMID 26643541"]
+    },
+    {
+      "claim": "Human hippocampal volume increase at clinical doses",
+      "verdict": "MRI NS Ph1b",
+      "certainty": "Established null (underpowered)",
+      "tier": "T2",
+      "sources": ["PMID 26643541"]
+    },
+    {
+      "claim": "Moderate-severity subgroup efficacy",
+      "verdict": "Post-hoc Johe 2020 only",
+      "certainty": "Speculative",
+      "tier": "T3",
+      "sources": ["PMID 32722729"]
+    },
+    {
+      "claim": "Adjunctive biomarker+ residual signal Alto",
+      "verdict": "d≈0.47 p≈0.09 exploratory",
+      "certainty": "Speculative",
+      "tier": "T4",
+      "sources": ["Alto IR residual spin"]
+    },
+    {
+      "claim": "TLX/NR2E1 agonism EC50 ~36 pM",
+      "verdict": "Patent disclosure",
+      "certainty": "Probable",
+      "tier": "T4",
+      "sources": ["WO2022140643"]
+    },
+    {
+      "claim": "Preclinical neurogenesis / LTP / multi-model benefits",
+      "verdict": "Multi-lab supportive",
+      "certainty": "Established preclinical; Speculative human transfer",
+      "tier": "T5",
+      "sources": ["PMID 30408487", "PMID 28181668", "Jolivalt 2019"]
+    },
+    {
+      "claim": "Healthy-user nootropic efficacy",
+      "verdict": "Not tested adequately",
+      "certainty": "Unknown",
+      "tier": "—",
+      "sources": []
+    },
+    {
+      "claim": "Long-term safety >12 weeks",
+      "verdict": "No controlled database",
+      "certainty": "Unknown",
+      "tier": "—",
+      "sources": []
+    },
+    {
+      "claim": "Gray-market purity matches clinical phosphate",
+      "verdict": "Unverifiable per bottle",
+      "certainty": "Unknown",
+      "tier": "T6",
+      "sources": ["Longecity", "Reddit r/Nootropics"]
+    },
+    {
+      "claim": "Forum AE cluster (headache, insomnia, anxiety, paresthesia)",
+      "verdict": "Multi-platform recurrence; aligns with trial AEs for headache/dreams",
+      "certainty": "Speculative–Possible catalog",
+      "tier": "T6",
+      "sources": ["Longecity mega-thread", "Reddit r/Nootropics", "r/Biohackers"]
+    }
+  ],
+  "pathways": [
+    {"id": "P1", "name": "HI neurogenesis DG/SVZ", "certainty_preclinical": "Established", "certainty_human": "Unknown"},
+    {"id": "P2", "name": "BDNF→TrkB→Akt", "certainty_preclinical": "Probable", "certainty_human": "Speculative"},
+    {"id": "P3", "name": "SCF/VEGF/GDNF", "certainty_preclinical": "Established in vitro", "certainty_human": "Unknown"},
+    {"id": "P4", "name": "TLX/NR2E1 agonism", "certainty": "Probable (patent)"},
+    {"id": "P5", "name": "LTP/synaptogenesis", "certainty_preclinical": "Established", "certainty_human": "Speculative"},
+    {"id": "P6", "name": "HI volume", "mouse": "Established bell-shaped", "human": "Established NS"},
+    {"id": "P7", "name": "Monoamine independence", "certainty": "Established positioning; weak NET Speculative"},
+    {"id": "P8", "name": "5-HT1A/D2-D3 in silico", "certainty": "Speculative"},
+    {"id": "P9", "name": "JAK-STAT", "certainty": "Speculative"},
+    {"id": "P10", "name": "Microglial tone", "certainty": "Speculative for NSI-TLX chain"},
+    {"id": "P11", "name": "Mesolimbic via HI", "certainty": "Speculative NSI engagement"},
+    {"id": "P12", "name": "Peripheral neuropathy models", "certainty": "Established preclinical; Speculative human"},
+    {"id": "P13", "name": "Sleep-wake disruption", "phenotype": "Probable", "moa": "Unknown"}
+  ],
+  "sides_priority_counters": {
+    "headache": ["hydration", "Mg", "lower dose", "AM dosing", "purity check"],
+    "insomnia_dreams": ["AM only", "hygiene", "Mg", "melatonin", "lower dose"],
+    "anxiety": ["lower dose", "drop stims", "stop if severe"],
+    "paresthesia": ["lower dose", "purity check", "medical if progressive"],
+    "distractibility_high_dose": ["return to 20-40 mg"],
+    "long_term_remodeling": ["finite use", "≤40 mg", "no multi-neurogenic stacks"]
+  },
+  "dose_alignment": {
+    "best_clinical_secondary_signal": "40 mg/day",
+    "weaker_or_null_at": "80 mg/day (self-report)",
+    "preclinical_volume": "bell-shaped; peak ~30 mg/kg mouse",
+    "community_high_dose_chase": "misaligned Speculative higher risk"
+  }
+}

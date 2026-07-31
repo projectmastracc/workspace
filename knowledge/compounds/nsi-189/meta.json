@@ -1,0 +1,12 @@
+{
+  "slug": "nsi-189",
+  "updated": "2026-07-31",
+  "effort": 3,
+  "overall_certainty": "Probable null antidepressant monotherapy (dual Ph2 MADRS fail); Probable short-term tolerability; Speculative healthy nootropic efficacy",
+  "input_type": "compound",
+  "open_questions": [
+    "Does pre-specified cognitive primary replicate at 40 mg in MDD?",
+    "Is TLX agonism the clinical MoA in humans?",
+    "Long-term safety of gray-market multi-month use?"
+  ]
+}

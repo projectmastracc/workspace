@@ -1,0 +1,16 @@
+{
+  "slug": "mirabegron",
+  "updated": "2026-07-31",
+  "effort": 3,
+  "overall_certainty": "Established for OAB and short-term null body-comp; Established-Probable for BAT/REE/glucose endpoints; Speculative human fat loss long-term",
+  "input_type": "compound",
+  "open_questions": [
+    "Long-duration body composition RCTs at 50-100 mg with calorie control",
+    "Chronic CV safety of 100 mg metabolic dosing"
+  ],
+  "lenses": [
+    "performance",
+    "bodybuilding-pharmacology",
+    "nutrition"
+  ]
+}

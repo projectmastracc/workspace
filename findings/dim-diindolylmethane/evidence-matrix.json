@@ -1,0 +1,299 @@
+{
+  "research_id": "2e6baadd",
+  "compound": "DIM (3,3'-diindolylmethane)",
+  "certainty_scale": ["Established", "Probable", "Speculative", "Unknown", "Not supported"],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Oral BR-DIM increases urinary/serum 2/16α-OHE1 ratio",
+      "certainty": "Established",
+      "clinical_anchors": ["Dalessandri 2004", "Thomson 2017 PMID 28560655", "Gee 2016"],
+      "forum": "Widely assumed",
+      "notes": "Strongest human PD signal; not universal (BRCA1 heterogeneous)"
+    },
+    {
+      "id": "C2",
+      "claim": "DIM increases 2-hydroxylated estrogen metabolites",
+      "certainty": "Established",
+      "clinical_anchors": ["Dalessandri 2004", "Thomson 2017", "Newman 2024 PMID 39578798"],
+      "forum": "High concordance",
+      "notes": "AhR→CYP1A1 class mechanism"
+    },
+    {
+      "id": "C3",
+      "claim": "DIM lowers parent/total urinary estrogens",
+      "certainty": "Probable",
+      "clinical_anchors": ["Newman 2024"],
+      "forum": "Estrogen dominance relief narrative",
+      "notes": "Observational COI risk; not AI-class serum crash"
+    },
+    {
+      "id": "C4",
+      "claim": "Absolute 4-OHE1 may rise while 2/4 ratio improves",
+      "certainty": "Probable",
+      "clinical_anchors": ["Newman 2024"],
+      "forum": "Rarely discussed",
+      "notes": "Fuels catechol-load Speculative concern"
+    },
+    {
+      "id": "C5",
+      "claim": "DIM is a practical pharmaceutical-class aromatase inhibitor",
+      "certainty": "Not supported",
+      "clinical_anchors": ["Cell CYP19 only; no AI-class E2 trial"],
+      "forum": "Heavy BB marketing",
+      "notes": "Category error; dominant paths are 2-OH shunt + SHBG ± AR"
+    },
+    {
+      "id": "C6",
+      "claim": "DIM raises SHBG",
+      "certainty": "Established",
+      "population": "Women on tamoxifen (Thomson)",
+      "generalization": "Probable women; Speculative men magnitude",
+      "clinical_anchors": ["Thomson 2017 +25 vs +1.1 nmol/L"]
+    },
+    {
+      "id": "C7",
+      "claim": "DIM helps estrogen-dominance symptoms (tenderness, bloating)",
+      "certainty": "Probable",
+      "clinical_anchors": ["Indirect via C1–C3"],
+      "forum": "Common positive peri/meno",
+      "notes": "Heterogeneous; low baseline E → harm"
+    },
+    {
+      "id": "C8",
+      "claim": "DIM improves hormonal acne",
+      "certainty": "Speculative",
+      "forum": "Mixed–positive 50–200 mg",
+      "notes": "Ceiling Speculative→Probable N-of-1"
+    },
+    {
+      "id": "C10",
+      "claim": "DIM is a competitive AR antagonist (mechanistic)",
+      "certainty": "Established",
+      "clinical_anchors": ["Le HT 2003 JBC μM assays"],
+      "notes": "Underappreciated in consumer marketing"
+    },
+    {
+      "id": "C11",
+      "claim": "Clinical-dose BR-DIM causes AR nuclear exclusion in prostate",
+      "certainty": "Probable",
+      "clinical_anchors": ["Hwang 2016 ~96% short-term at 225 mg BID"],
+      "notes": "High BID vs typical 100 mg OTC"
+    },
+    {
+      "id": "C13",
+      "claim": "DIM raises free testosterone in men",
+      "certainty": "Speculative",
+      "notes": "Often false direction; SHBG↑ + AR antagonism oppose"
+    },
+    {
+      "id": "C14",
+      "claim": "DIM blunts androgen signaling/libido in some men",
+      "certainty": "Speculative",
+      "ceiling": "Speculative→Probable at high dose",
+      "clinical_anchors": ["Le 2003", "Hwang 2016", "Thomson SHBG women"]
+    },
+    {
+      "id": "C16",
+      "claim": "DIM is proven cancer treatment",
+      "certainty": "Not supported",
+      "clinical_anchors": ["Amare 2020 DOI 10.2147/NDS.S261577"]
+    },
+    {
+      "id": "C20",
+      "claim": "DIM clears HPV / normalizes cytology at scale",
+      "certainty": "Not supported",
+      "clinical_anchors": ["n=551 BR-DIM 150 mg ×6 mo null"]
+    },
+    {
+      "id": "C21",
+      "claim": "Tamoxifen + DIM unsupervised is safe/supportive",
+      "certainty": "Not supported",
+      "interaction_certainty": "Established harmful PK (↓ endoxifen)",
+      "clinical_anchors": ["Thomson 2017 p<0.001 metabolite drop; density null"]
+    },
+    {
+      "id": "C22",
+      "claim": "Well tolerated ≤~200–300 mg/d BR-DIM short–medium term",
+      "certainty": "Established",
+      "clinical_anchors": ["Reed 2008", "Heath 2010", "Thomson 2017", "Amare 2020"]
+    },
+    {
+      "id": "C23",
+      "claim": "Dark urine is common and benign",
+      "certainty": "Established",
+      "clinical_anchors": ["Thomson ~40% discoloration", "trial AE tables"],
+      "forum": "Near-universal"
+    },
+    {
+      "id": "C24",
+      "claim": "Headache is common dose-related AE",
+      "certainty": "Established",
+      "clinical_anchors": ["Reed high single dose", "Amare"],
+      "forum": "Common ≥100–200 mg"
+    },
+    {
+      "id": "C27",
+      "claim": "BR-DIM better absorbed than crystalline",
+      "certainty": "Probable",
+      "clinical_anchors": ["Anderton 2004 ~50% mouse F; clinical programs use BR-DIM"]
+    },
+    {
+      "id": "C28",
+      "claim": "Single-dose Cmax plateaus ~200 mg BR-DIM",
+      "certainty": "Established",
+      "clinical_anchors": ["Reed 2008"]
+    },
+    {
+      "id": "C29",
+      "claim": "Active metabolites contribute to AhR PD",
+      "certainty": "Probable",
+      "clinical_anchors": ["Maier 2021 ox-DIM more potent AhR agonist"]
+    },
+    {
+      "id": "C32",
+      "claim": "DIM is a nootropic / cognitive enhancer",
+      "certainty": "Unknown",
+      "notes": "No adequate human cognitive design"
+    }
+  ],
+  "sides": [
+    {
+      "id": "S1",
+      "side": "Headache",
+      "certainty_side_real": "Established",
+      "pathway_nodes": ["P27", "P5", "P8", "P1", "P30", "P28", "P32"],
+      "counters": [
+        {"counter": "Dose reduction / split dose / start 50–100 mg", "node": "P32", "certainty": "Established"},
+        {"counter": "Slow titration", "node": "P5-P8", "certainty": "Probable"},
+        {"counter": "With food", "node": "GI co-path", "certainty": "Probable"},
+        {"counter": "Hydration + electrolytes", "node": "nonspecific", "certainty": "Probable"},
+        {"counter": "Magnesium evening", "node": "vascular/HA general", "certainty": "Speculative"},
+        {"counter": "Avoid AI + DIM dual crash", "node": "P8", "certainty": "Probable"},
+        {"counter": "Methyl nutrients if COMT narrative", "node": "P28", "certainty": "Speculative"},
+        {"counter": "Discontinue if severe progressive", "node": "all", "certainty": "Established"}
+      ]
+    },
+    {
+      "id": "S2",
+      "side": "GI / nausea",
+      "certainty_side_real": "Established",
+      "pathway_nodes": ["P32", "local GI"],
+      "counters": [
+        {"counter": "Lower dose / split BID / with meal", "certainty": "Established"},
+        {"counter": "Switch formulation", "certainty": "Speculative"},
+        {"counter": "Stop if recurrent vomiting", "certainty": "Established"}
+      ]
+    },
+    {
+      "id": "S3",
+      "side": "Dark/orange urine",
+      "certainty_side_real": "Established",
+      "pathway_nodes": ["P16", "P30", "P34"],
+      "counters": [
+        {"counter": "Reassurance (primary)", "certainty": "Established"},
+        {"counter": "Hydration cosmetic only", "certainty": "Probable"},
+        {"counter": "Avoid useless liver flush/chelation", "certainty": "Established"},
+        {"counter": "Workup if jaundice/true blood/systemic illness", "certainty": "Established"}
+      ]
+    },
+    {
+      "id": "S4",
+      "side": "Low-estrogen phenotype",
+      "certainty_side_real": "Probable",
+      "pathway_nodes": ["P5", "P6", "P7", "P8", "P9", "P15"],
+      "counters": [
+        {"counter": "Dose cut or hold", "certainty": "Established"},
+        {"counter": "Avoid concurrent pharma AI", "certainty": "Probable"},
+        {"counter": "Cycle / time-box exposure", "certainty": "Probable"},
+        {"counter": "Labs E2 + SHBG context", "certainty": "Probable"},
+        {"counter": "Reduce stacked clearance agents (excess CDG etc.)", "certainty": "Speculative"},
+        {"counter": "Do not DIY tamoxifen/SERM fix", "certainty": "Established"}
+      ]
+    },
+    {
+      "id": "S5_men",
+      "side": "Free androgen blunting / libido↓ (men)",
+      "certainty_side_real": "Speculative",
+      "ceiling": "Speculative→Probable high dose / AI stack",
+      "pathway_nodes": ["P9", "P10", "P11", "P12", "P33"],
+      "counters": [
+        {"counter": "Avoid if goal is max androgen signaling", "certainty": "Probable"},
+        {"counter": "Cap dose ≤100–150 mg/d wellness", "certainty": "Probable"},
+        {"counter": "No AI co-stack", "certainty": "Probable"},
+        {"counter": "Monitor TT freeT SHBG E2", "certainty": "Probable"},
+        {"counter": "Reject free-T booster marketing", "certainty": "Established"},
+        {"counter": "Stop 2–4 wk dechallenge if libido collapses", "certainty": "Probable"}
+      ]
+    },
+    {
+      "id": "S9",
+      "side": "Tamoxifen interaction (↓ endoxifen)",
+      "certainty_side_real": "Established",
+      "pathway_nodes": ["P29", "P2", "P3", "P1"],
+      "counters": [
+        {"counter": "Do not combine without oncology approval", "certainty": "Established"},
+        {"counter": "If combined: inform oncology; metabolite levels", "certainty": "Probable"},
+        {"counter": "Reject density/detox rationale for adding DIM on tamoxifen", "certainty": "Established"}
+      ]
+    },
+    {
+      "id": "S10",
+      "side": "Catechol / 4-OH load concern",
+      "certainty_side_real": "Speculative",
+      "pathway_nodes": ["P5", "P7", "P16", "P28", "P21"],
+      "counters": [
+        {"counter": "Moderate dose", "certainty": "Probable"},
+        {"counter": "Calcium-D-glucarate", "certainty": "Speculative"},
+        {"counter": "Sulforaphane / Nrf2 support", "certainty": "Speculative"},
+        {"counter": "Methyl donors if indicated", "certainty": "Speculative"},
+        {"counter": "Magnesium", "certainty": "Speculative"},
+        {"counter": "Do not invert 2-OH PD into pure toxicity", "certainty": "Probable"}
+      ]
+    }
+  ],
+  "protocol_defaults": {
+    "start_dose_mg": "50-100",
+    "common_dose_mg": "100-200",
+    "clinical_high": "BR-DIM 150 mg BID (Thomson); up to 200-300 mg BID short oncology windows",
+    "form_preference": "BR-DIM when matching trial exposure; crystalline not mg-for-mg equivalent",
+    "cmax_plateau_mg": 200,
+    "key_avoids": ["unsupervised tamoxifen", "default AI co-stack", "mega single boluses past plateau for exposure"]
+  },
+  "pathway_index": {
+    "P1": "AhR SAhRM",
+    "P2": "CYP1A1",
+    "P3": "CYP1A2",
+    "P4": "CYP1B1",
+    "P5": "2-hydroxylation ↑",
+    "P6": "16α-path relative ↓ (ratio)",
+    "P7": "4-OH path nuance",
+    "P8": "Parent E reduction/clearance",
+    "P9": "SHBG ↑",
+    "P10": "AR competitive antagonism",
+    "P11": "AR nuclear translocation block",
+    "P12": "Prostate tissue AR PD",
+    "P13": "Aromatase cell-level",
+    "P14": "ER low-dose agonism biphasic",
+    "P15": "Net antiestrogenic / AhR–ER",
+    "P16": "Phase 2 conjugation",
+    "P17": "NF-κB",
+    "P18": "Akt/mTOR",
+    "P19": "Apoptosis",
+    "P20": "HDAC-related",
+    "P21": "Nrf2",
+    "P22": "let-7 miRNA",
+    "P23": "CB1/CB2",
+    "P24": "BRCA1 mRNA",
+    "P25": "Immune/HPV/CIN",
+    "P26": "Bone/osteoclast preclinical",
+    "P27": "CNS/headache hypothesized",
+    "P28": "Catechol→quinone→COMT load",
+    "P29": "Tamoxifen endoxifen ↓",
+    "P30": "Ox-DIM AhR potency",
+    "P31": "BR-DIM vs crystalline F",
+    "P32": "Cmax plateau ~200 mg",
+    "P33": "PSA/AR clinical biomarkers",
+    "P34": "Urinary pigment dark urine"
+  }
+}

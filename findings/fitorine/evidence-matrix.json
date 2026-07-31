@@ -1,0 +1,652 @@
+{
+  "analysis_id": "4133877a",
+  "question": "Full research and review of Fitorine (GW0742 / GW610742)",
+  "input_type": "compound",
+  "compound": {
+    "name": "Fitorine / GW0742 / GW610742",
+    "class": "Selective PPARδ/β (NR1C2) agonist — not a SARM",
+    "lenses": ["performance", "nutrition", "neuropharmacology"]
+  },
+  "overall_certainty": "Probable",
+  "executive_verdict": {
+    "summary": "GW0742 is a potent selective PPARδ agonist (EC50 ~1 nM) that Establishedly drives FAO gene programs in human myotubes and rapid calcineurin-linked cardiac growth plus tumor angiogenesis in rodents (Wagner 2009/2019). No human athletic RCTs; human PK Unknown. Forum Super Cardarine culture (5–20 mg, modal 10 mg) reports acute endurance — Probable soft signal. Not a SARM; not proven safer than Cardarine.",
+    "certainty": "Probable",
+    "practical_note": "Community dose band 5–20 mg oral, 8–12 wk cycles; prioritize host selection and exposure control for tumor/cardiac nodes; peri-workout carbs for hypo; carnitine Speculative; verify product; Wagner signals are Established rodent, human incidence Unknown."
+  },
+  "subjective_concordance": "strong",
+  "anecdotal_patterns": [
+    {
+      "theme": "Acute endurance / work capacity at ~10 mg",
+      "consistency": "high",
+      "sources_note": "AnabolicMinds Super Cardarine threads 2022+ multi-user; independent X biohacker logs",
+      "concordance": "strong",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Stronger per mg than GW501516",
+      "consistency": "moderate",
+      "sources_note": "AM users who ran both; no blinded crossover",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Lipid / fasting glucose improvement on bloodwork",
+      "consistency": "moderate",
+      "sources_note": "AM self-reported labs; selection bias; product quality unknown",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "GI sides and liquid solvent burn",
+      "consistency": "high",
+      "sources_note": "AM + Reddit; liquids worse than caps",
+      "concordance": "partial",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Heart enlargement concern (discussion more than documented cases)",
+      "consistency": "high",
+      "sources_note": "AM literature-echo of Wagner 2009; few confirmed user events",
+      "concordance": "strong",
+      "certainty_ceiling": "Unknown"
+    },
+    {
+      "theme": "Cancer / not a safe Cardarine alternative",
+      "consistency": "high",
+      "sources_note": "Reddit angiogenesis posts; AM debate; tracks Wagner 2019",
+      "concordance": "strong",
+      "certainty_ceiling": "Unknown"
+    },
+    {
+      "theme": "Dose band 5–20 mg (modal 10 mg)",
+      "consistency": "high",
+      "sources_note": "AM + Reddit + vendors + X — cultural consensus not clinical",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    },
+    {
+      "theme": "Multi-mimetic stacks (ATX-304, SR9011, SLU-PP)",
+      "consistency": "moderate",
+      "sources_note": "X 2025–2026; confounded n=1",
+      "concordance": "literature-silent",
+      "certainty_ceiling": "Speculative"
+    }
+  ],
+  "comparative_alternatives": [
+    {
+      "name": "GW501516 (Cardarine)",
+      "efficacy_note": "Same receptor family; more forum volume for endurance; 0742 often claimed stronger per mg",
+      "safety_note": "Shared class cancer narrative; 0742 has direct Wagner tumor-angio data; neither proven safer in humans",
+      "evidence_quality": "Preclinical + forum; abandoned clinical path for 501516",
+      "practical_note": "Sister compound; stacking both is redundant/risky class exposure"
+    },
+    {
+      "name": "Seladelpar (Livdelzi)",
+      "efficacy_note": "Approved PPARδ agonist for PBC; lipid shifts in PBC cohorts",
+      "safety_note": "Characterized GI AEs, label package; different molecule/population",
+      "evidence_quality": "Phase 3 / approved for PBC only",
+      "practical_note": "Proves human PPARδ can be chronic-dosed clinically; not athletic substitute"
+    },
+    {
+      "name": "Exercise alone",
+      "efficacy_note": "Gold-standard endurance and metabolic remodeling",
+      "safety_note": "Beneficial cardiac remodeling when programmed; no drug tumor-angio signal",
+      "evidence_quality": "Established",
+      "practical_note": "GW0742 is partial pharmacologic echo, not replacement"
+    },
+    {
+      "name": "SLU-PP-332 / SLU-PP-915 (ERR agonists)",
+      "efficacy_note": "Mouse endurance/FAO gains; orthogonal NR axis",
+      "safety_note": "Human Unknown; different risk surface than PPARδ angio package",
+      "evidence_quality": "Recent mouse papers; zero human RCTs",
+      "practical_note": "Alternative lane; stacking both is multi-mimetic experiment"
+    }
+  ],
+  "pathway_overlap": [
+    {
+      "point": "PPARδ → FAO genes (CPT1, PDK4, UCP3) → endurance/fat oxidation",
+      "system": "skeletal muscle / cardiomyocyte",
+      "direction": "synergize",
+      "certainty": "Established",
+      "notes": "Debard 2006 human myotubes 10 nM; wanted performance pathway"
+    },
+    {
+      "point": "PPARδ → calcineurin–NFAT → cardiac growth + angiogenesis",
+      "system": "heart / vessels",
+      "direction": "unclear",
+      "certainty": "Established",
+      "notes": "Wagner 2009: angio ~5 h, HW/BW ↑ 24 h; physio-like magnitude but pharmacologic growth risk"
+    },
+    {
+      "point": "Endothelial PPARδ → tumor angiogenesis / progression",
+      "system": "tumor stroma / endothelium",
+      "direction": "unclear",
+      "certainty": "Established",
+      "notes": "Wagner 2019 LLC1: in vivo pro-tumor despite in vitro anti-proliferation"
+    },
+    {
+      "point": "PPARδ anti-inflam / DIO vascular protection",
+      "system": "endothelium / immune",
+      "direction": "protect",
+      "certainty": "Probable",
+      "notes": "Toral 2015; does not negate tumor-angio signal"
+    },
+    {
+      "point": "High-μM pan-NR antagonism (VDR, AR)",
+      "system": "nuclear receptors",
+      "direction": "antagonize",
+      "certainty": "Established",
+      "notes": "Nandhikonda 2013 lab map; gym free-drug relevance Unknown"
+    }
+  ],
+  "protective_hypothesis": {
+    "statement": "Host selection + dose/duration control reduce probability mass on tumor-angio and cardiac-growth nodes; peri-workout carbs counter PDK4-biased hypo; carnitine and VitD repletion are pathway-matched Speculative supports for FAO demand and theoretical VDR off-target — none nullify Wagner biology.",
+    "certainty": "Speculative",
+    "literature_summary": "No RCTs of protection stacks with GW0742. Wagner 2009/2019 define primary harm pathways from system biology. Seladelpar GI AE profile supports class gut tolerability patterns only loosely.",
+    "mechanism_summary": "Exposure control hits cumulative PPARδ ligand-time on ECs and myocardium; carbs bypass PDH restraint; carnitine supports CPT1 shuttle; VitD repletion supports VDR axis if μM antagonism ever relevant.",
+    "anecdote_summary": "AM advises intra carbs on Super Cardarine; cycle 8–12 wk common; cancer/heart discussion tracks literature more than documented cases; seller-adjacent continuous-use safety claims are low-trust."
+  },
+  "monitoring_protocol": {
+    "labs": [
+      "BP and resting HR (baseline + weekly home on-cycle)",
+      "Fasting lipids and glucose (baseline + mid-cycle ~4–6 wk)",
+      "Optional CMP (ALT/AST, eGFR), CBC",
+      "25-OH vitamin D if untested",
+      "Echo if high CV risk, symptoms, or prolonged use decision",
+      "Age-appropriate cancer screening before long cycles"
+    ],
+    "symptoms": [
+      "Chest pain, syncope, progressive dyspnea, new edema",
+      "GI bleeding / melena / iron deficiency",
+      "New mass, night sweats, unexplained weight loss",
+      "Recurrent severe hypoglycemia",
+      "Persistent severe GI, thunderclap headache"
+    ],
+    "stop_criteria": [
+      "Hard: chest pain/syncope/DOE/edema; GI bleed; new mass/B-symptoms; severe recurring hypo; marked LFT spike; pregnancy",
+      "Soft: persistent GI despite form change; no benefit at 10 mg × 2–3 wk verified product; rising BP without other cause"
+    ],
+    "certainty": "Probable"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "GW0742 is a potent selective hPPARδ agonist (EC50 ~1 nM; ~1000-fold over α/γ)",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S1",
+          "strength": "strong",
+          "notes": "Sznaidman 2003 SAR foundational"
+        },
+        {
+          "source_id": "S2",
+          "strength": "moderate",
+          "notes": "Catalog EC50 widely reproduced"
+        },
+        {
+          "source_id": "S8",
+          "strength": "strong",
+          "notes": "Nandhikonda confirms low-nM δ agonism"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "GSK industrial chemistry origin for early SAR"
+    },
+    {
+      "id": "C2",
+      "statement": "GW0742 increases fatty-acid oxidation and oxidative gene expression in human skeletal myotubes at 10 nM",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S3",
+          "strength": "strong",
+          "notes": "Debard 2006 healthy + T2D donors"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Academic metabolic lab"
+    },
+    {
+      "id": "C3",
+      "statement": "Oral GW0742 at grey-market doses improves endurance / work capacity in gym users",
+      "certainty": "Probable",
+      "grade": "Low",
+      "supporting": [
+        {
+          "source_id": "S3",
+          "strength": "indirect",
+          "notes": "Human-cell FAO mechanism"
+        },
+        {
+          "source_id": "F1",
+          "strength": "moderate",
+          "notes": "Multi-source Super Cardarine endurance consistency"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "M1",
+          "strength": "strong",
+          "notes": "No human athletic RCT; confounded stacks common"
+        }
+      ],
+      "funding_notes": "Forum COI (discount codes) contaminates strength of safety-adjacent claims"
+    },
+    {
+      "id": "C4",
+      "statement": "GW0742 induces rapid cardiac growth and myocardial angiogenesis via calcineurin–NFAT in mice",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S5",
+          "strength": "strong",
+          "notes": "Wagner 2009: angio ~5 h, HW/BW ↑ 24 h, ≈5 wk exercise magnitude"
+        },
+        {
+          "source_id": "S7",
+          "strength": "moderate",
+          "notes": "Faulkner 2020 EC metabolism / hypertrophy context"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S9",
+          "strength": "moderate",
+          "notes": "Toral 2015 protective CV phenotype in DIO — context-dependent valence, not direct negation"
+        }
+      ],
+      "funding_notes": "Academic CV group"
+    },
+    {
+      "id": "C5",
+      "statement": "Systemic GW0742 promotes tumor growth, angiogenesis, and metastases in vivo (LLC1) despite in vitro anti-proliferation",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S6",
+          "strength": "strong",
+          "notes": "Wagner 2019 LLC1; vascular dominance; EC OE arms"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "S6",
+          "strength": "weak",
+          "notes": "Same paper: in vitro anti-proliferation — must not be used as net safety proof"
+        }
+      ],
+      "funding_notes": "Academic; MDPI Cells OA"
+    },
+    {
+      "id": "C6",
+      "statement": "Human cancer incidence at 5–20 mg intermittent oral GW0742 is elevated",
+      "certainty": "Unknown",
+      "grade": "Very Low",
+      "supporting": [
+        {
+          "source_id": "S6",
+          "strength": "indirect",
+          "notes": "Model pathway concern Probable; incidence unmeasured"
+        }
+      ],
+      "contradicting": [
+        {
+          "source_id": "M1",
+          "strength": "strong",
+          "notes": "No registry/epidemiology; forums cannot adjudicate long-latency cancer"
+        }
+      ],
+      "funding_notes": null
+    },
+    {
+      "id": "C7",
+      "statement": "Human oral PK half-life of GW0742 is 4–6 h or ~24 h as vendors claim",
+      "certainty": "Unknown",
+      "grade": "Very Low",
+      "supporting": [],
+      "contradicting": [
+        {
+          "source_id": "F7",
+          "strength": "weak",
+          "notes": "Conflicting vendor numbers without primary citation"
+        }
+      ],
+      "funding_notes": "Commercial marketing COI severe"
+    },
+    {
+      "id": "C8",
+      "statement": "GW0742 is a safer alternative to GW501516 (Cardarine)",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [],
+      "contradicting": [
+        {
+          "source_id": "S6",
+          "strength": "strong",
+          "notes": "Direct GW0742 tumor-angio in vivo data"
+        },
+        {
+          "source_id": "S5",
+          "strength": "strong",
+          "notes": "Direct GW0742 cardiac growth data"
+        },
+        {
+          "source_id": "M1",
+          "strength": "strong",
+          "notes": "No head-to-head human safety; tool-compound status ≠ cleaner"
+        }
+      ],
+      "funding_notes": "Vendor differentiation marketing"
+    },
+    {
+      "id": "C9",
+      "statement": "At >~12 μM GW0742 is a pan-NR antagonist strongest at VDR and AR",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S8",
+          "strength": "strong",
+          "notes": "Nandhikonda 2013 multi-NR panel + cellular readouts"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "NIH NCGC / academic — independent of GSK product push"
+    },
+    {
+      "id": "C10",
+      "statement": "Fitorine brand product equals GW0742 / GW610742",
+      "certainty": "Established",
+      "grade": "High",
+      "supporting": [
+        {
+          "source_id": "S11",
+          "strength": "strong",
+          "notes": "Zubareva 2024 explicit synonymy + sports-nutrition note"
+        }
+      ],
+      "contradicting": [],
+      "funding_notes": "Ligand from Clearsynth research chemical vendor"
+    },
+    {
+      "id": "C11",
+      "statement": "GW0742 is a SARM (selective androgen receptor modulator)",
+      "certainty": "Speculative",
+      "grade": "Very Low",
+      "supporting": [],
+      "contradicting": [
+        {
+          "source_id": "S1",
+          "strength": "strong",
+          "notes": "PPARδ agonist chemistry; not AR modulator at nM"
+        },
+        {
+          "source_id": "S8",
+          "strength": "moderate",
+          "notes": "AR antagonism only at high μM — opposite of SARM agonism"
+        }
+      ],
+      "funding_notes": "Eastern Europe retail mislabeling"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "statement": "Treat community dose band 5–20 mg/day (modal 10 mg) as empirical practice only; titrate 5→10 mg",
+      "certainty": "Speculative",
+      "category": "dosing",
+      "source_ids": ["F1", "F7"],
+      "inference_note": "No MTD/PD titration; nM EC50 means oral mg can saturate target if bioavailable"
+    },
+    {
+      "id": "R2",
+      "statement": "Limit continuous exposure (e.g. 8–12 weeks on with off periods) given Wagner cardiac and tumor-angio signals",
+      "certainty": "Speculative",
+      "category": "harm_reduction",
+      "source_ids": ["S5", "S6"],
+      "inference_note": "Exposure shaping Probable as risk reduction logic; not proven detox"
+    },
+    {
+      "id": "R3",
+      "statement": "Do not use if active malignancy, undiagnosed suspicious mass, or high pretest cancer risk without medical clearance",
+      "certainty": "Probable",
+      "category": "contraindication",
+      "source_ids": ["S6"],
+      "inference_note": "Host selection is primary counter to P6"
+    },
+    {
+      "id": "R4",
+      "statement": "Control BP; consider echo if family HCM, valve disease, prior mega-AAS, or cardiac symptoms before/during use",
+      "certainty": "Probable",
+      "category": "monitoring",
+      "source_ids": ["S5"],
+      "inference_note": "Wagner 2009 mechanism Established rodent; human incidence Unknown"
+    },
+    {
+      "id": "R5",
+      "statement": "Match peri-workout carbohydrates on long/hard sessions to counter PDK4/FAO-biased bonk risk",
+      "certainty": "Probable",
+      "category": "protective",
+      "source_ids": ["S3", "F1"],
+      "inference_note": "Mechanism Established gene program; athletic practice Probable"
+    },
+    {
+      "id": "R6",
+      "statement": "Consider L-carnitine 1–2 g/d or ALCAR 0.5–1.5 g as pathway-matched support for CPT1 shuttle demand",
+      "certainty": "Speculative",
+      "category": "stack",
+      "source_ids": [],
+      "inference_note": "No GW0742 carnitine RCT; common cardarine-class habit"
+    },
+    {
+      "id": "R7",
+      "statement": "Prefer capsules over research liquids; verify COA/HPLC when possible; start low on new bottles",
+      "certainty": "Probable",
+      "category": "harm_reduction",
+      "source_ids": ["F1"],
+      "inference_note": "Grey-market identity and vehicle irritation"
+    },
+    {
+      "id": "R8",
+      "statement": "Do not stack with GW501516 or other pro-angiogenic PED piles for 'more effect'",
+      "certainty": "Speculative",
+      "category": "stack",
+      "source_ids": ["S5", "S6"],
+      "inference_note": "Redundant δ receptor / multi-hit angio logic"
+    },
+    {
+      "id": "R9",
+      "statement": "Tested athletes: assume detectable/prohibited PPARδ agonist class",
+      "certainty": "Established",
+      "category": "contraindication",
+      "source_ids": ["S12"],
+      "inference_note": "Published urine metabolite methods for class"
+    },
+    {
+      "id": "R10",
+      "statement": "Do not treat as SARM; no AR-suppression PCT expected from mechanism alone; still bloodwork multi-compound cycles",
+      "certainty": "Probable",
+      "category": "general",
+      "source_ids": ["S1", "S8", "S11"],
+      "inference_note": "Identity lock Fitorine = GW0742; mislabel market"
+    }
+  ],
+  "bro_science_claims": [
+    {
+      "claim": "Safer than Cardarine / Super Cardarine has no cancer risk",
+      "verdict": "contradicted",
+      "literature_note": "Wagner 2019 direct GW0742 tumor-angio in vivo; shared PPARδ class concern; absence of human cases ≠ safety"
+    },
+    {
+      "claim": "In vitro anti-proliferation means protective against cancer",
+      "verdict": "contradicted",
+      "literature_note": "Wagner 2019 shows in vivo vascular dominance flips the sign"
+    },
+    {
+      "claim": "Half-life is 4–6 h (or 24 h) so once-daily is PK-optimized",
+      "verdict": "unknown",
+      "literature_note": "No primary human PK; vendor conflict"
+    },
+    {
+      "claim": "Fitorine is a SARM",
+      "verdict": "contradicted",
+      "literature_note": "PPARδ agonist not AR modulator at nM; Eastern Europe mislabel"
+    },
+    {
+      "claim": "Instant endurance at 10 mg",
+      "verdict": "speculative",
+      "literature_note": "Multi-source forum Probable soft signal; no RCT; mechanism coherent"
+    },
+    {
+      "claim": "Exercise-like heart growth is automatically healthy",
+      "verdict": "speculative",
+      "literature_note": "Wagner 2009 magnitude ≈ exercise hypertrophy but pharmacologic; OE models can impair function in disease contexts"
+    },
+    {
+      "claim": "6+ months continuous use with fine lipids proves safety",
+      "verdict": "unknown",
+      "literature_note": "Wrong endpoints for cancer/cardiac remodeling; survivor bias; seller contamination"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Sznaidman et al. 2003 Bioorg Med Chem Lett 13:1517",
+      "pmid": "12699745",
+      "design": "Chemistry / SAR",
+      "funding": "GSK",
+      "coi": "Industrial chemistry origin",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S2",
+      "citation": "Tocris / NCATS Inxight / BindingDB secondary monographs",
+      "design": "Secondary EC50 compilation",
+      "peer_reviewed": false,
+      "source_class": "secondary",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S3",
+      "citation": "Debard et al. 2006",
+      "pmid": "16897074",
+      "design": "Human myotubes healthy + T2D; GW0742 10 nM",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S4",
+      "citation": "Cheng et al. 2004 BBRC",
+      "pmid": "14684157",
+      "design": "Cardiomyocyte FAO genes",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S5",
+      "citation": "Wagner et al. 2009 Cardiovasc Res 83:61",
+      "pmid": "19351742",
+      "design": "Mouse in vivo acute cardiac growth + angiogenesis via calcineurin",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S6",
+      "citation": "Wagner et al. 2019 Cells 8:1623",
+      "doi": "PMC6952835",
+      "design": "LLC1 syngeneic tumor mice; GW0742 SC; in vivo vs in vitro dissociation",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S7",
+      "citation": "Faulkner et al. 2020 Sci Rep",
+      "design": "HUVEC / endothelial PPARδ metabolic reprogramming",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S8",
+      "citation": "Nandhikonda et al. 2013 Biochemistry 52:4193",
+      "pmid": "23713684",
+      "doi": "PMC3724348",
+      "design": "HTS + multi-NR panel; pan-NR antagonist >~12 μM",
+      "funding": "NIH NCGC / academic",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "High"
+    },
+    {
+      "id": "S9",
+      "citation": "Toral et al. 2015 J Hypertens",
+      "pmid": "26147382",
+      "design": "DIO mice chronic GW0742; vascular protection",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S10",
+      "citation": "Niu et al. 2015 Drug Des Devel Ther",
+      "doi": "PMC4610778",
+      "design": "Diabetic animal glucose homeostasis",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S11",
+      "citation": "Zubareva et al. 2024 Int J Mol Sci 25:10015",
+      "pmid": "39337503",
+      "doi": "PMC11432388",
+      "design": "Rat TLE; Fitorine 5 mg/kg/d × 7 d; identity lock",
+      "peer_reviewed": true,
+      "source_class": "preclinical",
+      "trust_tier": "Moderate"
+    },
+    {
+      "id": "S12",
+      "citation": "Anti-doping literature on GW1516/GW0742 urine metabolites",
+      "design": "Analytical methods",
+      "peer_reviewed": true,
+      "source_class": "regulatory",
+      "trust_tier": "High"
+    },
+    {
+      "id": "F1",
+      "citation": "AnabolicMinds Super Cardarine / GW-0742 threads (331036, 329327, 2022+)",
+      "design": "Multi-user forum",
+      "peer_reviewed": false,
+      "source_class": "forum_anecdotal",
+      "trust_tier": "Low"
+    },
+    {
+      "id": "F7",
+      "citation": "Vendor guides (HQ SARMs, iSARMs, Elevate-class half-life/dose tables)",
+      "design": "Marketing / SEO",
+      "peer_reviewed": false,
+      "source_class": "other",
+      "trust_tier": "Unreliable"
+    },
+    {
+      "id": "M1",
+      "citation": "Methods appraisal this run: zero human athletic RCTs; human PK Unknown; forum endpoint mismatch for cancer/cardiac",
+      "design": "Methodological synthesis",
+      "peer_reviewed": false,
+      "source_class": "other",
+      "trust_tier": "High"
+    }
+  ]
+}

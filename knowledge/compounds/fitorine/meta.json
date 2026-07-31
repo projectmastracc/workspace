@@ -1,0 +1,17 @@
+{
+  "slug": "fitorine",
+  "updated": "2026-07-31",
+  "effort": 3,
+  "overall_certainty": "Probable for acute endurance soft signal; Established for PPAR\u03b4 pharmacology and Wagner rodent CV/tumor-angio signals; Unknown for human PK and long-term safety",
+  "input_type": "compound",
+  "open_questions": [
+    "Human oral PK at 5-20 mg",
+    "Cardiac MRI/echo series at 10 mg x 8-12 wk",
+    "Long-term carcinogenicity package specific to GW0742"
+  ],
+  "lenses": [
+    "performance",
+    "bodybuilding-pharmacology",
+    "nutrition"
+  ]
+}

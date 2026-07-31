@@ -1,0 +1,56 @@
+{
+  "slug": "ace-031",
+  "query": "full research evaluation ACE-031 ramatercept",
+  "type": "compound",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "ACE-031 is ActRIIB-Fc multi-ligand trap not selective myostatin Ab",
+      "certainty": "Established"
+    },
+    {
+      "id": "C2",
+      "claim": "Single 3 mg/kg SC: LBM +3.3%, thigh volume +5.1% at day 29 in postmenopausal women",
+      "certainty": "Established",
+      "pmid": "23169607"
+    },
+    {
+      "id": "C3",
+      "claim": "Mean t1/2 10-15 days",
+      "certainty": "Established",
+      "pmid": "23169607"
+    },
+    {
+      "id": "C4",
+      "claim": "DMD multi-dose trial stopped for epistaxis and telangiectasias",
+      "certainty": "Established",
+      "pmid": "27462804"
+    },
+    {
+      "id": "C5",
+      "claim": "Program discontinued",
+      "certainty": "Established"
+    },
+    {
+      "id": "C6",
+      "claim": "Vascular AEs linked to BMP9 sequestration",
+      "certainty": "Probable"
+    },
+    {
+      "id": "C7",
+      "claim": "Athletic performance benefit of UGL ACE-031",
+      "certainty": "Speculative"
+    },
+    {
+      "id": "C8",
+      "claim": "Black-market product identity",
+      "certainty": "Unknown"
+    },
+    {
+      "id": "C9",
+      "claim": "Mass without reliable function improvement in DMD",
+      "certainty": "Probable",
+      "pmid": "27462804"
+    }
+  ]
+}
