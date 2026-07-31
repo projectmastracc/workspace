@@ -1,0 +1,121 @@
+{
+  "compound": "(-)-BPAP HCl",
+  "slug": "bpap-hcl",
+  "research_id": "4b0a2bc4",
+  "query_type": "compound_profile",
+  "human_trials": false,
+  "pathways": [
+    {
+      "id": "P1",
+      "name": "Impulse-evoked vesicular DA/NE/5-HT release",
+      "certainty": "Established",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P2",
+      "name": "TAAR1 agonism (enhancer mode)",
+      "certainty": "Probable",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P3",
+      "name": "DAT-dependent neuronal entry",
+      "certainty": "Established",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P7",
+      "name": "Bimodal concentration-response",
+      "certainty": "Established",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P8",
+      "name": "High-dose DAT/NET reuptake inhibition",
+      "certainty": "Established",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P9",
+      "name": "Weak MAO-A at high conc",
+      "certainty": "Established",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P19",
+      "name": "Rat longevity extension",
+      "certainty": "Probable",
+      "domain": "preclinical"
+    },
+    {
+      "id": "P13",
+      "name": "Astrocyte NGF/BDNF/GDNF high \u00b5M",
+      "certainty": "Established",
+      "domain": "in_vitro"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Enhances impulse-mediated monoamine release without basal dump",
+      "clinical": "none",
+      "preclinical": "strong",
+      "forum": "aligned narrative",
+      "certainty": "Established"
+    },
+    {
+      "claim": "~130x selegiline potency shuttle box",
+      "clinical": "none",
+      "preclinical": "single-lab",
+      "forum": "cited",
+      "certainty": "Probable"
+    },
+    {
+      "claim": "Human cognition/mood benefit",
+      "clinical": "none",
+      "preclinical": "models only",
+      "forum": "thin",
+      "certainty": "Unknown"
+    },
+    {
+      "claim": "0.1 mg/day human study dose",
+      "clinical": "proposal only",
+      "preclinical": "n/a",
+      "forum": "echoed",
+      "certainty": "Speculative"
+    },
+    {
+      "claim": "Extends lifespan (humans)",
+      "clinical": "none",
+      "preclinical": "rats yes",
+      "forum": "hype",
+      "certainty": "Speculative"
+    }
+  ],
+  "sides": [
+    {
+      "side": "insomnia/arousal",
+      "mechanism": "LC-NE + DA",
+      "certainty": "Probable"
+    },
+    {
+      "side": "anxiety/jitter",
+      "mechanism": "NE \u00b1 high-dose NET",
+      "certainty": "Probable"
+    },
+    {
+      "side": "visual oddities",
+      "mechanism": "hypothesized SAE/5-HT",
+      "certainty": "Speculative"
+    },
+    {
+      "side": "serotonin toxicity with serotonergics",
+      "mechanism": "SAE + weak MAO-A high dose",
+      "certainty": "Probable"
+    },
+    {
+      "side": "biphasic non-response",
+      "mechanism": "bimodal curve",
+      "certainty": "Probable"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "an317",
+  "updated": "2026-07-31",
+  "effort": 3,
+  "overall_certainty": "Established preclinical tool \u03b16\u03b22 partial agonist; Unknown human PK efficacy safety",
+  "input_type": "compound",
+  "open_questions": [
+    "Human FIH PK and safety",
+    "Independent multi-lab replication of functional selectivity in vivo"
+  ],
+  "lenses": [
+    "nootropic",
+    "neuroprotection",
+    "performance"
+  ]
+}

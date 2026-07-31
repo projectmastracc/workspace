@@ -1,0 +1,108 @@
+{
+  "research_id": "6d487b5d",
+  "compound": "elunetirom",
+  "codes": ["ABX-002", "MA-JD21", "LL-340001"],
+  "date": "2026-07-31",
+  "claims": [
+    {
+      "claim": "Chemical identity: prodrug of LL-340001, TRβ thyromimetic, CAS 2156649-32-8",
+      "certainty": "Established",
+      "source_class": "multi-registry",
+      "coi": "low"
+    },
+    {
+      "claim": "Ph1 n=48 R/DB/PC: no SAEs, dose-proportional PK, MAD 0.0028–0.0056 mg × 14 d, SAD 0.0075–0.15 mg",
+      "certainty": "Probable",
+      "source_class": "sponsor_press",
+      "coi": "high"
+    },
+    {
+      "claim": "Transient TSH reduction only at ~54× planned Ph2 top dose",
+      "certainty": "Probable",
+      "source_class": "sponsor_press",
+      "coi": "high",
+      "limit": "14-day HV only; chronic Unknown"
+    },
+    {
+      "claim": "Mood alteration 2 subjects at 0.0056 mg MAD = validated CNS target engagement",
+      "certainty": "Speculative",
+      "source_class": "sponsor_interpretation",
+      "coi": "high"
+    },
+    {
+      "claim": "AMPLIFY-BD: HAMD-17 −16.8, 75% response, 50% remission at W6 reflects true drug effect",
+      "certainty": "Speculative",
+      "source_class": "sponsor_open_label_topline",
+      "coi": "maximum",
+      "n": 21,
+      "design": "open-label single-arm adjunctive 6 weeks"
+    },
+    {
+      "claim": "AMPLIFY-BD short-term mild–moderate TRAEs only; no severe/serious TRAEs",
+      "certainty": "Probable",
+      "source_class": "sponsor_press",
+      "coi": "high",
+      "limit": "small n; rare events Unknown"
+    },
+    {
+      "claim": "AMPLIFY MDD adjunctive antidepressant efficacy",
+      "certainty": "Unknown",
+      "source_class": "ongoing_PC_trial",
+      "coi": "n/a"
+    },
+    {
+      "claim": "FDA Fast Track for adjunctive bipolar depression (May 2026)",
+      "certainty": "Established",
+      "source_class": "regulatory_designation",
+      "note": "process status ≠ efficacy"
+    },
+    {
+      "claim": "T3 augments/accelerates AD response in unipolar depression (parent pathway)",
+      "certainty": "Probable",
+      "source_class": "multi_trial_meta",
+      "transfer_to_elunetirom": "Speculative"
+    },
+    {
+      "claim": "T3 helps bipolar depression",
+      "certainty": "Speculative",
+      "source_class": "thin_review_level",
+      "transfer_to_elunetirom": "invalid as confirmatory prior"
+    },
+    {
+      "claim": "CNS-biased prodrug + TRβ preference reduces peripheral liability vs therapeutic T3",
+      "certainty": "Probable",
+      "note": "design thesis / short-term Ph1 axis signal; chronic residual risk Unknown–Speculative"
+    },
+    {
+      "claim": "Human brain mito biogenesis / BDNF psychoplastogen MoA for elunetirom",
+      "certainty": "Speculative",
+      "source_class": "preclinical_company_abstracts"
+    },
+    {
+      "claim": "Class HPT / cardiac / bone / mania-switch monitoring nodes apply",
+      "certainty": "Probable",
+      "source_class": "thyromimetic_class_and_T3",
+      "elunetirom_incidence": "Unknown"
+    },
+    {
+      "claim": "Eprotirome cartilage toxicity transfers to elunetirom",
+      "certainty": "Speculative",
+      "source_class": "class_precedent_different_molecule"
+    },
+    {
+      "claim": "Nootropic / self-experiment efficacy and safety",
+      "certainty": "Unknown",
+      "note": "not studied; investigational only; external validity NONE"
+    }
+  ],
+  "certainty_ceilings": {
+    "identity": "Established",
+    "ph1_short_term_safety": "Probable",
+    "ph1_mood_ae_as_TE": "Speculative",
+    "ph2_bd_efficacy": "Speculative",
+    "mdd_pc_efficacy": "Unknown",
+    "chronic_peripheral_sparing": "Unknown",
+    "t3_unipolar_augmentation_parent": "Probable",
+    "diy_use": "N/A"
+  }
+}

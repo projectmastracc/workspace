@@ -1,0 +1,12 @@
+{
+  "slug": "art27-13",
+  "updated": "2026-07-31",
+  "effort": 3,
+  "overall_certainty": "Pain analgesia null Established; orthostatic AEs Established at 800ug; CACS weight/LBM interim Probable (tiny n); not approved",
+  "input_type": "compound",
+  "open_questions": [
+    "Full peer-reviewed CAReS Phase 2 primary readout?",
+    "Human brain exposure fraction at cachexia doses?",
+    "Long-term CV/tumor CB receptor effects?"
+  ]
+}
