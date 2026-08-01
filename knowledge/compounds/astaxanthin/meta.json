@@ -1,0 +1,17 @@
+{
+  "slug": "astaxanthin",
+  "updated": "2026-08-01",
+  "effort": 3,
+  "overall_certainty": "Probable for skin/eyes/recovery markers; Speculative fertility/libido/CYP clinical",
+  "input_type": "compound",
+  "open_questions": [
+    "Clinical DDI warfarin/CYP3A4 at 12mg steady state; powered fertility pregnancy RCTs; 5-AR/DHT formal study"
+  ],
+  "lenses": [
+    "antioxidant",
+    "mito",
+    "skin",
+    "ocular",
+    "exercise"
+  ]
+}
